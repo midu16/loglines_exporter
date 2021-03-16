@@ -1,0 +1,5 @@
+argparse
+prometheus_client
+prometheus_client.core
+os
+pyinstaller
