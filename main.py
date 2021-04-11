@@ -5,22 +5,12 @@ The ephemeral is determed by the dynamic of the creation of the files over time.
 """
 __author__ = 'Mihai IDU'
 import argparse
-import time
+from os import stat
 import os
 import requests
-from prometheus_client.core import REGISTRY, GaugeMetricFamily
-from custom_classes import LogfileLister, CountLogfileLines
+from custom_classes import CountLogfileLines
+from pwd import getpwuid
 
-class CustomCollector(object):
-    def __init__(self):
-        pass
-    def collect(self):
-        g = GaugeMetricFamily("NumberofLinesinFile", 'Help text', labels=['filename'])
-        for index in range(0, len(no_files)):
-            file_name = str(logfile_path) + str(''.join(files[index]))
-            no_lines_logfile = CountLogfileLines.LogFileLinesLister(str(file_name)).no_of_lines
-            g.add_metric([file_name], no_lines_logfile)
-        yield g
 def logfile_data_payload(dirname):
     """
         This function is building the payload of the post method to the pushgateway-server.
@@ -30,10 +20,12 @@ def logfile_data_payload(dirname):
     files = os.listdir(dirname)
     temp = map(lambda name: os.path.join(dirname, name), files)
     list_temp = list(temp)
-    loglines_dict = {"NumberofLinesinFile" + "{" + "filename=" + '"' + str(
-        ''.join(list_temp[index])) + '"' + "}": CountLogfileLines.LogFileLinesLister(
-        str(''.join(list_temp[index]))).no_of_lines
-                     for index in range(0, len(list_temp))}
+    loglines_dict = {
+        "NumberofLinesinFile" + "{" + "filename=" + '"' + str(''.join(list_temp[index])) + '"' + " , " + "owner=" +
+        '"' + str(getpwuid(
+            stat(str(''.join(list_temp[index]))).st_uid).pw_name) + '"' + "}": CountLogfileLines.LogFileLinesLister(
+            str(''.join(list_temp[index]))).no_of_lines
+        for index in range(0, len(list_temp))}
 
     key = []
     for index in loglines_dict.keys():
