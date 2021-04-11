@@ -1,9 +1,12 @@
-
 """
 This is the loglines_exporter ephemeral exporter of number of lines into a logfile.
 The ephemeral is determed by the dynamic of the creation of the files over time.
 """
 __author__ = 'Mihai IDU'
+
+"""
+Importing the libraries.
+"""
 import argparse
 from os import stat
 import os
@@ -21,7 +24,7 @@ def logfile_data_payload(dirname):
     temp = map(lambda name: os.path.join(dirname, name), files)
     list_temp = list(temp)
     loglines_dict = {
-        "NumberofLinesinFile" + "{" + "filename=" + '"' + str(''.join(list_temp[index])) + '"' + " , " + "owner=" +
+        "NumberofLinesinFile" + "{" + "filename=" + '"' + str(''.join(list_temp[index])) + '"' + " , " + "username=" +
         '"' + str(getpwuid(
             stat(str(''.join(list_temp[index]))).st_uid).pw_name) + '"' + "}": CountLogfileLines.LogFileLinesLister(
             str(''.join(list_temp[index]))).no_of_lines
@@ -84,6 +87,6 @@ if __name__ == '__main__':
             pushgateway_post(endpoint_pushgateway, logfile_data_payload(logfile_path))
     else:
         if not_server:
-            print()
+            print(logfile_data_payload(logfile_path))
         else:
             print("Please, check the $loglines_exporter -h!")
