@@ -65,7 +65,7 @@ def logfilesize_data_payload(dirname):
 
     value = []
     for index in loglines_dict.values():
-        value.append(str(round(index, 2)))
+        value.append(str(index))
 
     data = []
     for index in range(0, len(loglines_dict.keys())):
