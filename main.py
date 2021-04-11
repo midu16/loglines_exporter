@@ -55,7 +55,8 @@ def logfilesize_data_payload(dirname):
     list_temp = list(temp)
     loglines_dict = {
         "SizeOfLogFile" + "{" + "filename=" + '"' + str(''.join(list_temp[index])) + '"' + " , " + "username=" +
-        '"' + str(os.stat(str(''.join(list_temp[index]))).st_size)
+        '"' + str(getpwuid(
+            stat(str(''.join(list_temp[index]))).st_uid).pw_name) + '"' + "}": str(os.stat(str(''.join(list_temp[index]))).st_size)
         for index in range(0, len(list_temp))}
 
     key = []
