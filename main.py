@@ -34,7 +34,19 @@ def logfile_data_payload(dirname):
         ''.join(list_temp[index])) + '"' + "}": CountLogfileLines.LogFileLinesLister(
         str(''.join(list_temp[index]))).no_of_lines
                      for index in range(0, len(list_temp))}
-    return loglines_dict
+
+    key = []
+    for index in loglines_dict.keys():
+        key.append(str(index))
+
+    value = []
+    for index in loglines_dict.values():
+        value.append(str(round(index, 2)))
+
+    data = []
+    for index in range(0, len(loglines_dict.keys())):
+        data.append(str(key[index]) + ' ' + str(value[index]) + '\n')
+    return data
 
 # building the pushgateway_post function
 def pushgateway_post(endpoint, data):
