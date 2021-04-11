@@ -10,11 +10,12 @@ Importing the libraries.
 import argparse
 from os import stat
 import os
+import time
 import requests
 from custom_classes import CountLogfileLines
 from pwd import getpwuid
 
-def logfile_data_payload(dirname):
+def logfilenoline_data_payload(dirname):
     """
         This function is building the payload of the post method to the pushgateway-server.
     :param dirname:            The dirname of the directory under which the current are persistent store.
@@ -42,6 +43,36 @@ def logfile_data_payload(dirname):
     for index in range(0, len(loglines_dict.keys())):
         data.append(str(key[index]) + ' ' + str(value[index]) + '\n')
     return data
+
+def logfilesize_data_payload(dirname):
+    """
+        This function is building the payload of the post method to the pushgateway-server.
+    :param dirname:            The dirname of the directory under which the current are persistent store.
+    :return:                    The retun is a REST-API POST call to the Prometheus-pushgateway endpoint.
+    """
+    files = os.listdir(dirname)
+    temp = map(lambda name: os.path.join(dirname, name), files)
+    list_temp = list(temp)
+    loglines_dict = {
+        "NumberofLinesinFile" + "{" + "filename=" + '"' + str(''.join(list_temp[index])) + '"' + " , " + "username=" +
+        '"' + str(os.stat(str(''.join(list_temp[index]))).st_size)
+        for index in range(0, len(list_temp))}
+
+    key = []
+    for index in loglines_dict.keys():
+        key.append(str(index))
+
+    value = []
+    for index in loglines_dict.values():
+        value.append(str(round(index, 2)))
+
+    data = []
+    for index in range(0, len(loglines_dict.keys())):
+        data.append(str(key[index]) + ' ' + str(value[index]) + '\n')
+    return data
+
+
+
 
 # building the pushgateway_post function
 def pushgateway_post(endpoint, data):
@@ -89,9 +120,12 @@ if __name__ == '__main__':
     if prometheus_pushgateway:
         while prometheus_pushgateway:
             endpoint_pushgateway = str(pushgateway_server_ip_addr) + ":" + str(pushgateway_server_port)
-            pushgateway_post(endpoint_pushgateway, fun(logfile_data_payload(logfile_path)))
+            pushgateway_post(endpoint_pushgateway, fun(logfilenoline_data_payload(logfile_path)))
+            time.sleep(1)
+            pushgateway_post(endpoint_pushgateway, fun(logfilesize_data_payload(logfile_path)))
     else:
         if not_server:
-            print(fun(logfile_data_payload(logfile_path)))
+            print(fun(logfilenoline_data_payload(logfile_path)))
+            print(fun(logfilesize_data_payload(logfile_path)))
         else:
             print("Please, check the $loglines_exporter -h!")
