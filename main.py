@@ -58,6 +58,11 @@ def pushgateway_post(endpoint, data):
     return requests.post(url, data='%s' % data, headers=headers)
 
 
+#list to plain text function conversion for better
+def fun(data):
+    return "".join([str(item) for var in data for item in var])
+
+
 if __name__ == '__main__':
     # building the one-line-protocol for prometheus
     parser = argparse.ArgumentParser(
@@ -84,7 +89,7 @@ if __name__ == '__main__':
     if prometheus_pushgateway:
         while prometheus_pushgateway:
             endpoint_pushgateway = str(pushgateway_server_ip_addr) + ":" + str(pushgateway_server_port)
-            pushgateway_post(endpoint_pushgateway, logfile_data_payload(logfile_path))
+            pushgateway_post(endpoint_pushgateway, fun(logfile_data_payload(logfile_path)))
     else:
         if not_server:
             print(logfile_data_payload(logfile_path))
