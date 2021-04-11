@@ -92,6 +92,6 @@ if __name__ == '__main__':
             pushgateway_post(endpoint_pushgateway, fun(logfile_data_payload(logfile_path)))
     else:
         if not_server:
-            print(logfile_data_payload(logfile_path))
+            print(fun(logfile_data_payload(logfile_path)))
         else:
             print("Please, check the $loglines_exporter -h!")
