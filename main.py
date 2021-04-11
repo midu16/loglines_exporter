@@ -54,7 +54,7 @@ def logfilesize_data_payload(dirname):
     temp = map(lambda name: os.path.join(dirname, name), files)
     list_temp = list(temp)
     loglines_dict = {
-        "NumberofLinesinFile" + "{" + "filename=" + '"' + str(''.join(list_temp[index])) + '"' + " , " + "username=" +
+        "SizeOfLogFile" + "{" + "filename=" + '"' + str(''.join(list_temp[index])) + '"' + " , " + "username=" +
         '"' + str(os.stat(str(''.join(list_temp[index]))).st_size)
         for index in range(0, len(list_temp))}
 
