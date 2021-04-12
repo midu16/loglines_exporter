@@ -25,26 +25,27 @@ def logfilenoline_data_payload(dirname,extension):
     files = os.listdir(dirname)
     temp = map(lambda name: os.path.join(dirname, name), files)
     list_temp = list(temp)
+    list_final = []
     for index in list_temp:
         if os.path.isdir(index):
-            list_temp.remove(index)
             files_sub_dir = fnmatch.filter(os.listdir(index), extension)
-            #print(os.listdir(index))
+            # print(fnmatch.filter(os.listdir(index), extension))
             temp_sub_dir = map(lambda name: os.path.join(index, name), files_sub_dir)
-            list_temp = list_temp + list(temp_sub_dir)
+            # print(list(temp_sub_dir))
+            list_final += list(temp_sub_dir)
+            # print(list_final)
         elif os.path.isfile(index):
-            list_temp.remove(index)
             index = index.replace(dirname, "")
             files_sub_maindir = fnmatch.filter(os.listdir(dirname), extension)
-            #print(index)
+            # print(index)
             temp_sub_maindir = map(lambda name: os.path.join(dirname, name), files_sub_maindir)
-            list_temp = list_temp + list(temp_sub_maindir)
+            list_final += list(temp_sub_maindir)
     loglines_dict = {
-        "NumberofLinesinFile" + "{" + "filename=" + '"' + str(''.join(list_temp[index])) + '"' + " , " + "username=" +
+        "NumberofLinesinFile" + "{" + "filename=" + '"' + str(''.join(list_final[index])) + '"' + " , " + "username=" +
         '"' + str(getpwuid(
-            stat(str(''.join(list_temp[index]))).st_uid).pw_name) + '"' + "}": CountLogfileLines.LogFileLinesLister(
-            str(''.join(list_temp[index]))).no_of_lines
-        for index in range(0, len(list_temp))}
+            stat(str(''.join(list_final[index]))).st_uid).pw_name) + '"' + "}": CountLogfileLines.LogFileLinesLister(
+            str(''.join(list_final[index]))).no_of_lines
+        for index in range(0, len(list_final))}
 
     key = []
     for index in loglines_dict.keys():
@@ -68,25 +69,26 @@ def logfilesize_data_payload(dirname,extension):
     files = os.listdir(dirname)
     temp = map(lambda name: os.path.join(dirname, name), files)
     list_temp = list(temp)
+    list_final = []
     for index in list_temp:
         if os.path.isdir(index):
-            list_temp.remove(index)
             files_sub_dir = fnmatch.filter(os.listdir(index), extension)
-            #print(os.listdir(index))
+            # print(fnmatch.filter(os.listdir(index), extension))
             temp_sub_dir = map(lambda name: os.path.join(index, name), files_sub_dir)
-            list_temp = list_temp + list(temp_sub_dir)
+            # print(list(temp_sub_dir))
+            list_final += list(temp_sub_dir)
+            # print(list_final)
         elif os.path.isfile(index):
-            list_temp.remove(index)
             index = index.replace(dirname, "")
             files_sub_maindir = fnmatch.filter(os.listdir(dirname), extension)
-            #print(index)
+            # print(index)
             temp_sub_maindir = map(lambda name: os.path.join(dirname, name), files_sub_maindir)
-            list_temp = list_temp + list(temp_sub_maindir)
+            list_final += list(temp_sub_maindir)
     loglines_dict = {
-        "SizeOfLogFile" + "{" + "filename=" + '"' + str(''.join(list_temp[index])) + '"' + " , " + "username=" +
+        "SizeOfLogFile" + "{" + "filename=" + '"' + str(''.join(list_final[index])) + '"' + " , " + "username=" +
         '"' + str(getpwuid(
-            stat(str(''.join(list_temp[index]))).st_uid).pw_name) + '"' + "}": str(os.stat(str(''.join(list_temp[index]))).st_size)
-        for index in range(0, len(list_temp))}
+            stat(str(''.join(list_final[index]))).st_uid).pw_name) + '"' + "}": str(os.stat(str(''.join(list_final[index]))).st_size)
+        for index in range(0, len(list_final))}
 
     key = []
     for index in loglines_dict.keys():
