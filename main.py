@@ -10,6 +10,7 @@ Importing the libraries.
 import argparse
 from os import stat
 import os
+import fnmatch
 import time
 import requests
 from custom_classes import CountLogfileLines
