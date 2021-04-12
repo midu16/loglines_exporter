@@ -1,0 +1,554 @@
+2021-02-14T02:54:35Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T02:54:35Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T08:23:45Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T08:23:45Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T08:23:46Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T08:23:46Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T08:23:46Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T08:23:46Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-14T08:23:46Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T08:23:47Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T08:23:48Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T08:23:49Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/repomd.xml
+2021-02-14T08:23:49Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/6b37e8b722a6fe947f87e3eb1e9e7f485b3578f77fd3a3de81b79cde50346efd-primary.xml.gz
+2021-02-14T08:23:49Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/5d2cdafe7398f4e824f281be1eb9a5730259dc7628dd78bf12ea8627699da7b7-filelists.xml.gz
+2021-02-14T08:23:49Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/659d41b76ee391aeb102d78593907e35bcb65ca8c0f795e182845d6c8afc29b5-comps-Everything.x86_64.xml
+2021-02-14T08:23:49Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/ca86721c9b932349e8bad111ed0c85164b41ba689d1c6a4938ec7f57fa5bd7e1-prestodelta.xml.xz
+2021-02-14T08:23:49Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/29e92f84d2ffde8c5a6e368b9ba0994fbd05062a33905f175f5086fcb59ccf64-updateinfo.xml.bz2
+2021-02-14T08:23:54Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-14T08:23:54Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-14T08:23:54Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-14T08:23:54Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-14T08:23:55Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-14T08:23:55Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-14T08:23:55Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T08:23:55Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T08:23:55Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T08:23:55Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-14T08:23:55Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-14T08:23:55Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-14T09:23:59Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T09:24:00Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T10:24:01Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T10:24:01Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T11:24:01Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T11:24:01Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T11:24:02Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T11:24:02Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T11:24:02Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T11:24:02Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-14T11:24:02Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T11:24:03Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T11:24:04Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-14T11:24:04Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-14T11:24:04Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-14T11:24:04Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-14T11:24:05Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-14T11:24:05Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-14T11:24:05Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T11:24:05Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T11:24:05Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T11:24:05Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-14T11:24:05Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-14T11:24:05Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-14T12:24:09Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T12:24:09Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T13:24:10Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T13:24:10Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T14:24:11Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T14:24:11Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T14:24:11Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T14:24:11Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T14:24:11Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T14:24:11Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-14T14:24:11Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T14:24:11Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T14:24:12Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-14T14:24:12Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-14T14:24:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-14T14:24:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-14T14:24:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-14T14:24:13Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-14T14:24:13Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T14:24:13Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T14:24:13Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T14:24:13Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-14T14:24:13Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-14T14:24:13Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-14T15:24:16Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T15:24:16Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T16:24:17Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T16:24:17Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T17:24:18Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T17:24:18Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T17:24:19Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T17:24:19Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T17:24:19Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T17:24:19Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-14T17:24:19Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T17:24:19Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T17:24:20Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-14T17:24:20Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-14T17:24:20Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-14T17:24:20Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-14T17:24:20Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-14T17:24:21Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-14T17:24:21Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T17:24:21Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T17:24:21Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T17:24:21Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-14T17:24:21Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-14T17:24:21Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-14T18:24:24Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T18:24:24Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T19:24:25Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T19:24:25Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T20:24:27Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T20:24:27Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T20:24:27Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T20:24:27Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T20:24:27Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T20:24:27Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-14T20:24:27Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T20:24:28Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T20:24:29Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-14T20:24:29Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-14T20:24:29Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-14T20:24:29Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-14T20:24:29Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-14T20:24:30Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-14T20:24:30Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T20:24:30Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T20:24:30Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T20:24:30Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-14T20:24:30Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-14T20:24:30Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-14T21:24:34Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T21:24:34Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T22:24:35Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T22:24:35Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-15T19:12:30Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-15T19:12:30Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-15T19:12:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T19:12:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T19:12:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T19:12:31Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-15T19:12:31Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-15T19:12:32Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-15T19:12:33Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-15T19:12:34Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/repomd.xml
+2021-02-15T19:12:34Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/1def7b116498f8c8b6aa0f5319cc4b0bc63f40e5a52f7c3f9b1c7b0600e04157-primary.xml.gz
+2021-02-15T19:12:34Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/5c99489c59c07a64a9a49187c6c956b3b778038cf2d7cefa4aab3b00f5df1da8-filelists.xml.gz
+2021-02-15T19:12:34Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/659d41b76ee391aeb102d78593907e35bcb65ca8c0f795e182845d6c8afc29b5-comps-Everything.x86_64.xml
+2021-02-15T19:12:35Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/f44010fac572568a04470988654745a925a813a373bbf9d37d2718f313c7f905-prestodelta.xml.xz
+2021-02-15T19:12:35Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/288bc7178ef55ed106ef3c79f6f87c6a0585ea728e4ceaefd78200810cab4d18-updateinfo.xml.bz2
+2021-02-15T19:12:39Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-15T19:12:40Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-15T19:12:40Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-15T19:12:40Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-15T19:12:40Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-15T19:12:41Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-15T19:12:41Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T19:12:41Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T19:12:41Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T19:12:41Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-15T19:12:41Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-15T19:12:41Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-15T20:12:45Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-15T20:12:45Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-15T21:12:46Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-15T21:12:46Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-15T22:12:47Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-15T22:12:47Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-15T22:12:47Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T22:12:47Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T22:12:47Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T22:12:47Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-15T22:12:47Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-15T22:12:48Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir&countme=2
+2021-02-15T22:12:49Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-15T22:12:49Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-15T22:12:49Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-15T22:12:49Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-15T22:12:49Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-15T22:12:50Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-15T22:12:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T22:12:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T22:12:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-15T22:12:50Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-15T22:12:50Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-15T22:12:50Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-15T23:12:53Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-15T23:12:53Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-16T00:12:54Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-16T00:12:54Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:18:36Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:18:36Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:18:37Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-04-10T20:18:37Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-04-10T20:18:37Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/82ea5cdd562e0d7d646c6ca19e25f1d7c7034b2068dffdc5f75247701453f598-primary.xml.gz
+2021-04-10T20:18:37Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/2e7ff76a72d14859a3af4f3ce392836a4b3e57eb3a55a250fe80fae1e9f6cad7-filelists.xml.gz
+2021-04-10T20:18:37Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080-updateinfo.xml.gz
+2021-04-10T20:18:37Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-04-10T20:18:38Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir&countme=3
+2021-04-10T20:18:39Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Modular/x86_64/repodata/repomd.xml
+2021-04-10T20:18:39Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Modular/x86_64/repodata/5c2a08eaf8772cf379afcd41312fa8a60a9db674417c749b1ffc4956f5604b87-primary.xml.gz
+2021-04-10T20:18:39Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Modular/x86_64/repodata/3db6690eb9e425523cd4ab9f55eb636875be782f99ff84e87e3b1db0d4606497-filelists.xml.gz
+2021-04-10T20:18:39Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Modular/x86_64/repodata/b30ecd0dfe4bc1a39b33fc593e266959f33923477d8428a54795cb2b93be0a21-modules.yaml.gz
+2021-04-10T20:18:39Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Modular/x86_64/repodata/39edc6a934c246341e35fc0a3439bb9c6432a8ffacf3f7ce13ce8e18e5731880-updateinfo.xml.xz
+2021-04-10T20:18:39Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir&countme=3
+2021-04-10T20:18:40Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-04-10T20:18:41Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/repomd.xml
+2021-04-10T20:18:41Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/d7c155f5653e8a111780092bc8643b8e4d50e453eead0074c2557179934c1daa-primary.xml.gz
+2021-04-10T20:18:41Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/9827a9ccd1fa44292c5294716a539438af7bbf1ee5ea4ea207c9ce8db580ff6a-filelists.xml.gz
+2021-04-10T20:18:41Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/8866de39aac688cf621aacbf7bc24a0686731947ac6c287aa1b9f160b6ba31b3-comps-Everything.x86_64.xml
+2021-04-10T20:18:41Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/9aedfcb53817147f89ebfe60b158c1e6ef62986ea8158d8120730e18f47eb24a-prestodelta.xml.xz
+2021-04-10T20:18:41Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/559ea797006044054292bc341645d7fc5693c79eaa83b62c1e6488af92f4a4ee-updateinfo.xml.bz2
+2021-04-10T20:18:47Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-04-10T20:18:47Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-04-10T20:18:47Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-04-10T20:18:47Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-04-10T20:18:47Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/4921619b771a766093b55de94258e65fd67f8044757ccacf6d4479fe8418b1cd-primary.xml.gz
+2021-04-10T20:18:47Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/9abfc853df9443f7d19d4c863d9a90e05d785b19f2fd872c89012fac82ae6874-filelists.xml.gz
+2021-04-10T20:18:51Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-04-10T20:18:51Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-04-10T20:18:51Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/6f054cd675b85fe6c05049b838fdeece03aa7733-filelists.xml.gz
+2021-04-10T20:18:51Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/450d598639b32efa69336cf383553083cdb80b9e-primary.xml.gz
+2021-04-10T20:18:51Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/66968baebf3ed1173266e96fae4a381e3dc00758-updateinfo.xml.gz
+2021-04-10T20:18:58Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-04-10T20:18:58Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-04-10T20:18:58Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/af6bb6c99fca84c8f97741faadb2338fac2f792b-filelists.xml.gz
+2021-04-10T20:18:58Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/11635876e1c32e4ba9fb40e3551d92116fde0999-primary.xml.gz
+2021-04-10T20:18:58Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/5c0ed6d400d36ac3da66519cd88591fd5186be19-comps.xml
+2021-04-10T20:18:58Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/21e2a89a7e985f37a6f31efabace7db211a1b482-updateinfo.xml.gz
+2021-04-10T20:19:10Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-04-10T20:19:10Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-04-10T20:19:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/43bdca880c689af41e2a6ae027cbdc7210cfb3b3-comps.xml
+2021-04-10T20:19:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/220b7806450abcb9ee259cca33599578c8f6b3f8-filelists.xml.gz
+2021-04-10T20:19:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/3f5380df7a6770a69a4016e3b3694f2e36a59ffb-updateinfo.xml.gz
+2021-04-10T20:19:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/bb8a1ea9c9c33d919f52406eeab4f0bfe1060a18f823f6c4c2ca8b445bfbaf5b-modules.yaml.gz
+2021-04-10T20:19:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/15965785805e982926c66bb93593af3997883c9d-primary.xml.gz
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/688f321bacb1f7902a3a11fd1056fb6a28b8b030-filelists.xml.gz
+2021-04-10T20:19:23Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/5082742a849d0852bd0f29bacb8e3d76d674216e-primary.xml.gz
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:23Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:19:24Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-04-10T20:19:24Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-04-10T20:19:24Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/9424fa68b3758f0d36348b11487c434ae34cb4d8-filelists.xml.gz
+2021-04-10T20:19:24Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/bb0f2d8fe6b83eadd5ed3b27713c131e0ff73a20-primary.xml.gz
+2021-04-10T20:19:24Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/deac1ccef661696f0550d9fe123ee6f60068f34d-updateinfo.xml.gz
+2021-04-10T20:19:34Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-04-10T20:19:34Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-04-10T20:20:12Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:20:12Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:20:14Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:20:14Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:20:14Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:20:22Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/fuse3-3.2.1-12.0.3.el8.x86_64.rpm
+2021-04-10T20:20:22Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/grub2-tools-efi-2.02-90.0.4.el8_3.1.x86_64.rpm
+2021-04-10T20:20:22Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/kernel-devel-4.18.0-240.22.1.el8_3.x86_64.rpm
+2021-04-10T20:20:22Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/kernel-modules-4.18.0-240.22.1.el8_3.x86_64.rpm
+2021-04-10T20:20:23Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/kernel-core-4.18.0-240.22.1.el8_3.x86_64.rpm
+2021-04-10T20:20:26Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/kernel-4.18.0-240.22.1.el8_3.x86_64.rpm
+2021-04-10T20:20:26Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/container-selinux-2.155.0-1.module%2bel8.3.1%2b9659%2bc1901784.noarch.rpm
+2021-04-10T20:20:26Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/getPackage/kernel-uek-5.4.17-2102.200.13.el8uek.x86_64.rpm
+2021-04-10T20:20:30Z INFO Downloading: https://packages.grafana.com/oss/rpm/grafana-7.5.3-1.x86_64.rpm
+2021-04-10T20:20:33Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/getPackage/libuv-1.40.0-1.el8.x86_64.rpm
+2021-04-10T20:20:34Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/libsmbclient-4.12.3-14.el8_3.x86_64.rpm
+2021-04-10T20:20:34Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/dbus-tools-1.12.8-12.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:34Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/lvm2-libs-2.03.09-5.el8_3.2.x86_64.rpm
+2021-04-10T20:20:34Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/device-mapper-event-1.02.171-5.el8_3.2.x86_64.rpm
+2021-04-10T20:20:34Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/dbus-1.12.8-12.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:34Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/device-mapper-event-libs-1.02.171-5.el8_3.2.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/device-mapper-libs-1.02.171-5.el8_3.2.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/samba-common-libs-4.12.3-14.el8_3.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/samba-client-4.12.3-14.el8_3.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/dbus-common-1.12.8-12.0.1.el8_3.noarch.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/dbus-daemon-1.12.8-12.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/samba-client-libs-4.12.3-14.el8_3.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/libwbclient-4.12.3-14.el8_3.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/device-mapper-1.02.171-5.el8_3.2.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/lvm2-2.03.09-5.el8_3.2.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/kmod-libs-25-16.0.1.el8_3.1.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/dbus-libs-1.12.8-12.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/kmod-25-16.0.1.el8_3.1.x86_64.rpm
+2021-04-10T20:20:35Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/samba-common-4.12.3-14.el8_3.noarch.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/kexec-tools-2.0.20-34.0.5.el8_3.2.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/glibc-devel-2.28-127.0.3.el8_3.2.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/perl-Errno-1.28-417.el8_3.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/perl-Math-Complex-1.59-417.el8_3.noarch.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/perl-macros-5.26.3-417.el8_3.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/perl-IO-1.38-417.el8_3.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/perl-libs-5.26.3-417.el8_3.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/glibc-langpack-en-2.28-127.0.3.el8_3.2.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/glibc-headers-2.28-127.0.3.el8_3.2.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/perl-interpreter-5.26.3-417.el8_3.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/glibc-common-2.28-127.0.3.el8_3.2.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/dbxtool-8-5.0.1.el8_3.2.x86_64.rpm
+2021-04-10T20:20:36Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/glibc-2.28-127.0.3.el8_3.2.x86_64.rpm
+2021-04-10T20:20:37Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/microcode_ctl-20200609-2.20210216.1.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:37Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/dracut-config-rescue-049-95.git20200804.0.4.el8_3.4.x86_64.rpm
+2021-04-10T20:20:37Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/dracut-network-049-95.git20200804.0.4.el8_3.4.x86_64.rpm
+2021-04-10T20:20:37Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/dracut-squash-049-95.git20200804.0.4.el8_3.4.x86_64.rpm
+2021-04-10T20:20:38Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/dracut-049-95.git20200804.0.4.el8_3.4.x86_64.rpm
+2021-04-10T20:20:38Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/fuse-common-3.2.1-12.0.3.el8.x86_64.rpm
+2021-04-10T20:20:38Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/fuse-libs-2.9.7-12.0.3.el8.x86_64.rpm
+2021-04-10T20:20:38Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/fuse-2.9.7-12.0.3.el8.x86_64.rpm
+2021-04-10T20:20:38Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/fuse3-libs-3.2.1-12.0.3.el8.x86_64.rpm
+2021-04-10T20:20:38Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/bind-export-libs-9.11.20-5.el8_3.1.x86_64.rpm
+2021-04-10T20:20:38Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/platform-python-3.6.8-31.0.3.el8.x86_64.rpm
+2021-04-10T20:20:38Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/python3-libs-3.6.8-31.0.3.el8.x86_64.rpm
+2021-04-10T20:20:38Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/wpa_supplicant-2.9-2.el8_3.1.x86_64.rpm
+2021-04-10T20:20:38Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/tuned-2.14.0-3.0.2.el8_3.2.noarch.rpm
+2021-04-10T20:20:39Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/hwdata-0.314-8.6.0.1.el8.noarch.rpm
+2021-04-10T20:20:39Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/mokutil-0.3.0-10.0.1.el8.x86_64.rpm
+2021-04-10T20:20:39Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/oraclelinux-release-el8-1.0-16.0.1.el8.x86_64.rpm
+2021-04-10T20:20:39Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/libstdc%2b%2b-8.3.1-5.1.0.2.el8.x86_64.rpm
+2021-04-10T20:20:39Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/libgomp-8.3.1-5.1.0.2.el8.x86_64.rpm
+2021-04-10T20:20:39Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/libgcc-8.3.1-5.1.0.2.el8.x86_64.rpm
+2021-04-10T20:20:39Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/openssl-libs-1.1.1g-15.el8_3.x86_64.rpm
+2021-04-10T20:20:39Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/openssl-1.1.1g-15.el8_3.x86_64.rpm
+2021-04-10T20:20:40Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/openssl-devel-1.1.1g-15.el8_3.x86_64.rpm
+2021-04-10T20:20:40Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl6000g2b-firmware-18.168.6.1-999.7.el8.noarch.rpm
+2021-04-10T20:20:40Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl7260-firmware-25.30.13.0-999.7.el8.noarch.rpm
+2021-04-10T20:20:40Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl3945-firmware-15.32.2.9-999.7.el8.noarch.rpm
+2021-04-10T20:20:40Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl1000-firmware-39.31.5.1-999.7.el8.noarch.rpm
+2021-04-10T20:20:40Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl135-firmware-18.168.6.1-999.7.el8.noarch.rpm
+2021-04-10T20:20:40Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl3160-firmware-25.30.13.0-999.7.el8.noarch.rpm
+2021-04-10T20:20:41Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl6000g2a-firmware-18.168.6.1-999.7.el8.noarch.rpm
+2021-04-10T20:20:41Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl5150-firmware-8.24.2.2-999.7.el8.noarch.rpm
+2021-04-10T20:20:41Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl5000-firmware-8.83.5.1_1-999.7.el8.noarch.rpm
+2021-04-10T20:20:41Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/linux-firmware-20201217-999.7.git7455a360.el8.noarch.rpm
+2021-04-10T20:20:41Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl2000-firmware-18.168.6.1-999.7.el8.noarch.rpm
+2021-04-10T20:20:41Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl6050-firmware-41.28.5.1-999.7.el8.noarch.rpm
+2021-04-10T20:20:42Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl4965-firmware-228.61.2.24-999.7.el8.noarch.rpm
+2021-04-10T20:20:42Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/libertas-usb8388-firmware-20201217-999.7.git7455a360.el8.noarch.rpm
+2021-04-10T20:20:42Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl6000-firmware-9.221.4.1-999.7.el8.noarch.rpm
+2021-04-10T20:20:42Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl2030-firmware-18.168.6.1-999.7.el8.noarch.rpm
+2021-04-10T20:20:42Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl105-firmware-18.168.6.1-999.7.el8.noarch.rpm
+2021-04-10T20:20:42Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl100-firmware-39.31.5.1-999.7.el8.noarch.rpm
+2021-04-10T20:20:42Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/grub2-tools-2.02-90.0.4.el8_3.1.x86_64.rpm
+2021-04-10T20:20:43Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/grub2-common-2.02-90.0.4.el8_3.1.noarch.rpm
+2021-04-10T20:20:43Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/shim-x64-15.3-1.0.2.x86_64.rpm
+2021-04-10T20:20:43Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/grub2-tools-extra-2.02-90.0.4.el8_3.1.x86_64.rpm
+2021-04-10T20:20:43Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/grub2-efi-x64-2.02-90.0.4.el8_3.1.x86_64.rpm
+2021-04-10T20:20:44Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/grub2-tools-minimal-2.02-90.0.4.el8_3.1.x86_64.rpm
+2021-04-10T20:20:44Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/NetworkManager-libnm-1.26.0-14.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:44Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/NetworkManager-team-1.26.0-14.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:44Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/systemd-libs-239-41.0.1.el8_3.2.x86_64.rpm
+2021-04-10T20:20:44Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/kernel-tools-4.18.0-240.22.1.el8_3.x86_64.rpm
+2021-04-10T20:20:45Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/NetworkManager-tui-1.26.0-14.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:45Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/systemd-pam-239-41.0.1.el8_3.2.x86_64.rpm
+2021-04-10T20:20:46Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/NetworkManager-config-server-1.26.0-14.0.1.el8_3.noarch.rpm
+2021-04-10T20:20:46Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/sos-3.9.1-7.0.1.el8_3.noarch.rpm
+2021-04-10T20:20:46Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/NetworkManager-adsl-1.26.0-14.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:46Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/kernel-tools-libs-4.18.0-240.22.1.el8_3.x86_64.rpm
+2021-04-10T20:20:47Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/file-libs-5.33-16.el8_3.1.x86_64.rpm
+2021-04-10T20:20:48Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/file-5.33-16.el8_3.1.x86_64.rpm
+2021-04-10T20:20:48Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/python3-perf-4.18.0-240.22.1.el8_3.x86_64.rpm
+2021-04-10T20:20:50Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/NetworkManager-bluetooth-1.26.0-14.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:51Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/systemd-container-239-41.0.1.el8_3.2.x86_64.rpm
+2021-04-10T20:20:51Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/zlib-devel-1.2.11-16.2.el8_3.x86_64.rpm
+2021-04-10T20:20:51Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/zlib-1.2.11-16.2.el8_3.x86_64.rpm
+2021-04-10T20:20:52Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/NetworkManager-wifi-1.26.0-14.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:52Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/NetworkManager-1.26.0-14.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:52Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/systemd-udev-239-41.0.1.el8_3.2.x86_64.rpm
+2021-04-10T20:20:53Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/NetworkManager-wwan-1.26.0-14.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:53Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/kernel-headers-4.18.0-240.22.1.el8_3.x86_64.rpm
+2021-04-10T20:20:53Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/systemd-239-41.0.1.el8_3.2.x86_64.rpm
+2021-04-10T20:20:56Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/bpftool-4.18.0-240.22.1.el8_3.x86_64.rpm
+2021-04-10T20:20:57Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/selinux-policy-devel-3.14.3-54.0.9.el8_3.3.noarch.rpm
+2021-04-10T20:20:57Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/selinux-policy-3.14.3-54.0.9.el8_3.3.noarch.rpm
+2021-04-10T20:20:57Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/selinux-policy-targeted-3.14.3-54.0.9.el8_3.3.noarch.rpm
+2021-04-10T20:20:57Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/crypto-policies-scripts-20210209-1.gitbfb6bed.el8_3.noarch.rpm
+2021-04-10T20:20:57Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/crypto-policies-20210209-1.gitbfb6bed.el8_3.noarch.rpm
+2021-04-10T20:20:57Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/ostree-2020.7-1.el8_3.x86_64.rpm
+2021-04-10T20:20:57Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/dbus-x11-1.12.8-12.0.1.el8_3.x86_64.rpm
+2021-04-10T20:20:57Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/rpm-ostree-libs-2020.7-1.el8_3.x86_64.rpm
+2021-04-10T20:20:58Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/ostree-libs-2020.7-1.el8_3.x86_64.rpm
+2021-04-10T20:20:58Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/nss-softokn-freebl-3.53.1-17.el8_3.x86_64.rpm
+2021-04-10T20:20:58Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/rpm-ostree-2020.7-1.el8_3.x86_64.rpm
+2021-04-10T20:20:58Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/nss-util-3.53.1-17.el8_3.x86_64.rpm
+2021-04-10T20:20:59Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/nss-sysinit-3.53.1-17.el8_3.x86_64.rpm
+2021-04-10T20:20:59Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/nss-3.53.1-17.el8_3.x86_64.rpm
+2021-04-10T20:20:59Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/nss-softokn-3.53.1-17.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/nss-tools-3.53.1-17.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-mdraid-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-utils-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-btrfs-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-lvm-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-swap-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-kbd-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-loop-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-mpath-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-part-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-dm-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/python3-blockdev-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-nvdimm-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-crypto-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-fs-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libblockdev-2.24-2.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libslirp-4.3.1-1.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/fuse-overlayfs-1.3.0-2.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/skopeo-1.2.0-9.0.1.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:00Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/buildah-1.16.7-4.0.1.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:04Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/conmon-2.0.22-3.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:04Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/criu-3.15-1.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:05Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/slirp4netns-1.1.8-1.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:05Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/podman-2.2.1-7.0.1.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:07Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/podman-catatonit-2.2.1-7.0.1.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:07Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/containernetworking-plugins-0.9.0-1.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:10Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/containers-common-1.2.0-9.0.1.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:10Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/runc-1.0.0-70.rc92.module%2bel8.3.1%2b9659%2bc1901784.x86_64.rpm
+2021-04-10T20:21:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/python3-bind-9.11.20-5.el8_3.1.noarch.rpm
+2021-04-10T20:21:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/bind-libs-lite-9.11.20-5.el8_3.1.x86_64.rpm
+2021-04-10T20:21:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/bind-libs-9.11.20-5.el8_3.1.x86_64.rpm
+2021-04-10T20:21:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/bind-utils-9.11.20-5.el8_3.1.x86_64.rpm
+2021-04-10T20:21:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/bind-license-9.11.20-5.el8_3.1.noarch.rpm
+2021-04-10T20:21:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/python36-3.6.8-2.0.1.module%2bel8.3.0%2bel8%2b9688%2bbb1990d3.x86_64.rpm
+2021-04-10T20:21:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/firefox-78.9.0-1.0.1.el8_3.x86_64.rpm
+2021-04-10T20:21:16Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/gcc-c%2b%2b-8.3.1-5.1.0.2.el8.x86_64.rpm
+2021-04-10T20:21:20Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/gcc-gdb-plugin-8.3.1-5.1.0.2.el8.x86_64.rpm
+2021-04-10T20:21:21Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/gcc-8.3.1-5.1.0.2.el8.x86_64.rpm
+2021-04-10T20:21:28Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libstdc%2b%2b-devel-8.3.1-5.1.0.2.el8.x86_64.rpm
+2021-04-10T20:21:28Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/cpp-8.3.1-5.1.0.2.el8.x86_64.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/flatpak-selinux-1.6.2-6.el8_3.noarch.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/flatpak-1.6.2-6.el8_3.x86_64.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/flatpak-libs-1.6.2-6.el8_3.x86_64.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/flatpak-session-helper-1.6.2-6.el8_3.x86_64.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-storage-disk-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/qemu-kvm-block-gluster-4.2.0-34.module%2bel8.3.0%2b20008%2b729ca284.5.x86_64.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/qemu-kvm-block-curl-4.2.0-34.module%2bel8.3.0%2b20008%2b729ca284.5.x86_64.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-storage-iscsi-direct-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-storage-gluster-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/qemu-kvm-common-4.2.0-34.module%2bel8.3.0%2b20008%2b729ca284.5.x86_64.rpm
+2021-04-10T20:21:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-bash-completion-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/qemu-guest-agent-4.2.0-34.module%2bel8.3.0%2b20008%2b729ca284.5.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-config-nwfilter-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/qemu-kvm-block-rbd-4.2.0-34.module%2bel8.3.0%2b20008%2b729ca284.5.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-storage-rbd-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-nwfilter-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-storage-logical-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/qemu-img-4.2.0-34.module%2bel8.3.0%2b20008%2b729ca284.5.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-interface-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-storage-core-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/qemu-kvm-block-ssh-4.2.0-34.module%2bel8.3.0%2b20008%2b729ca284.5.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-kvm-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-config-network-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-secret-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-storage-mpath-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-storage-iscsi-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-client-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-nodedev-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/qemu-kvm-4.2.0-34.module%2bel8.3.0%2b20008%2b729ca284.5.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/qemu-kvm-core-4.2.0-34.module%2bel8.3.0%2b20008%2b729ca284.5.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-storage-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:32Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-storage-scsi-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:33Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-qemu-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:33Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/qemu-kvm-block-iscsi-4.2.0-34.module%2bel8.3.0%2b20008%2b729ca284.5.x86_64.rpm
+2021-04-10T20:21:33Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-daemon-driver-network-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:33Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-devel-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:33Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-libs-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:33Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libvirt-6.0.0-28.1.0.1.module%2bel8.3.0%2b20008%2b729ca284.x86_64.rpm
+2021-04-10T20:21:33Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/plexmediaserver-1.22.2.4282-a97b03fad.x86_64.rpm
+2021-04-10T20:21:33Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/getPackage/mcelog-175-0.0.1.el8.x86_64.rpm
+2021-04-10T20:25:51Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:25:51Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:25:51Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:25:51Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:25:51Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:25:51Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-04-10T20:25:52Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-04-10T20:25:52Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-04-10T20:25:52Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-04-10T20:25:53Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-04-10T20:25:53Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-04-10T20:25:53Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-04-10T20:25:53Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-04-10T20:25:54Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-04-10T20:25:54Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:25:54Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:25:54Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:25:54Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-04-10T20:25:54Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-04-10T20:25:54Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-04-10T20:39:29Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:39:29Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:39:43Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:39:44Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:39:45Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:39:45Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:39:45Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:40:01Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:40:01Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:40:03Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:40:03Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:40:03Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:40:11Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-04-10T20:40:12Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/Packages/a/ansible-2.9.18-2.el8.noarch.rpm
+2021-04-10T20:40:12Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/Packages/a/ansible-doc-2.9.18-2.el8.noarch.rpm
+2021-04-10T20:40:12Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/Packages/l/libsodium-1.0.18-2.el8.x86_64.rpm
+2021-04-10T20:40:12Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/Packages/p/python3-bcrypt-3.1.6-2.el8.1.x86_64.rpm
+2021-04-10T20:40:12Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/Packages/p/python3-paramiko-2.4.3-1.el8.noarch.rpm
+2021-04-10T20:40:12Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/Packages/p/python3-pynacl-1.3.0-5.el8.x86_64.rpm
+2021-04-10T20:40:12Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/Packages/s/sshpass-1.06-9.el8.x86_64.rpm
+2021-04-10T20:40:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/python3-babel-2.5.1-5.el8.noarch.rpm
+2021-04-10T20:40:13Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/python3-jinja2-2.10.1-2.el8_0.noarch.rpm
+2021-04-10T20:40:13Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/python3-jmespath-0.9.0-11.el8.noarch.rpm
+2021-04-10T20:40:13Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/python3-markupsafe-0.23-19.el8.x86_64.rpm
+2021-04-10T20:40:13Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/python3-pyasn1-0.3.7-6.el8.noarch.rpm
+2021-04-10T20:54:13Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:54:13Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:54:15Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:54:15Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:54:15Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:54:20Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/rsyslog-doc-8.1911.0-6.el8.noarch.rpm
+2021-04-10T20:54:33Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:54:33Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T20:54:34Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:54:34Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T20:54:34Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-10T21:26:22Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-10T21:26:22Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-11T05:36:00Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-11T05:36:01Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-11T05:36:01Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-11T05:36:01Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-11T05:36:01Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-11T05:36:01Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-04-11T05:36:01Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-04-11T05:36:02Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-04-11T05:36:03Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-04-11T05:36:03Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/repomd.xml
+2021-04-11T05:36:03Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/c67d40669f0e54f6c4a44dfaa55d5d39fa91acdcfc92f0358366173754837640-primary.xml.gz
+2021-04-11T05:36:03Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/2be6e14b337755647a6dc3fc90a74a2231ee818e03e2d8dd92dd1fa086a57f28-filelists.xml.gz
+2021-04-11T05:36:03Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/8866de39aac688cf621aacbf7bc24a0686731947ac6c287aa1b9f160b6ba31b3-comps-Everything.x86_64.xml
+2021-04-11T05:36:04Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/3699f67a08eef27f738d0a33804797c63b9e5f6c9e210a12574f1d633c88093a-prestodelta.xml.xz
+2021-04-11T05:36:04Z INFO Downloading: http://mirror.karneval.cz/pub/linux/fedora/epel/8/Everything/x86_64/repodata/d1f33db86767f1d039cc80338f5f475fe1bf7a3307626eecf566128c9f24de13-updateinfo.xml.bz2
+2021-04-11T05:36:08Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-04-11T05:36:08Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-04-11T05:36:09Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-04-11T05:36:09Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-04-11T05:36:09Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-04-11T05:36:10Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-04-11T05:36:10Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-11T05:36:10Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-11T05:36:10Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-04-11T05:36:10Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-04-11T05:36:10Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-04-11T05:36:10Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-04-11T06:37:00Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-04-11T06:37:00Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)

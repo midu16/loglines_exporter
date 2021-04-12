@@ -1,0 +1,788 @@
+2021-01-21 10:27:41,407 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-21 10:27:41,429 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-21 10:27:41,431 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-21 10:27:42,738 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-21 10:27:42,740 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-21 10:27:42,753 INFO     tuned.daemon.controller: starting controller
+2021-01-21 10:27:42,753 INFO     tuned.daemon.daemon: starting tuning
+2021-01-21 10:27:42,780 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu2, cpu1, cpu3
+2021-01-21 10:27:42,830 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-21 10:27:42,863 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-21 10:27:42,864 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-21 10:27:42,879 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, sdb, sda, dm-0, dm-3, sdc, dm-2
+2021-01-21 10:27:42,898 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 10:27:42,899 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 10:27:42,900 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 10:27:42,900 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 10:27:42,905 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-21 10:27:42,906 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-21 10:52:26,424 INFO     tuned.daemon.controller: terminating controller
+2021-01-21 10:52:26,424 INFO     tuned.daemon.daemon: stopping tuning
+2021-01-21 10:52:26,462 INFO     tuned.daemon.daemon: terminating Tuned, rolling back all changes
+2021-01-21 10:52:26,466 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 10:52:26,467 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 10:52:26,467 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 10:52:26,468 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 16:52:26,742 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-21 16:52:26,752 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-21 16:52:26,753 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-21 16:52:26,932 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-21 16:52:26,933 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-21 16:52:26,942 INFO     tuned.daemon.controller: starting controller
+2021-01-21 16:52:26,942 INFO     tuned.daemon.daemon: starting tuning
+2021-01-21 16:52:26,952 INFO     tuned.plugins.base: instance cpu: assigning devices cpu2, cpu1, cpu3, cpu0
+2021-01-21 16:52:26,961 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-21 16:52:26,968 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-21 16:52:26,969 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-21 16:52:26,980 INFO     tuned.plugins.base: instance disk: assigning devices sdc, dm-2, sdb, dm-0, dm-3, dm-1, sda
+2021-01-21 16:52:26,984 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 16:52:26,984 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 16:52:26,985 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 16:52:26,985 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 16:52:26,990 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-21 16:52:26,991 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-21 16:57:38,871 INFO     tuned.daemon.controller: terminating controller
+2021-01-21 16:57:38,871 INFO     tuned.daemon.daemon: stopping tuning
+2021-01-21 16:57:39,361 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-01-21 16:57:39,372 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 16:57:39,373 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 16:57:39,376 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 16:57:39,378 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 16:59:57,121 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-21 16:59:57,137 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-21 16:59:57,143 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-21 16:59:58,305 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-21 16:59:58,307 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-21 16:59:58,324 INFO     tuned.daemon.controller: starting controller
+2021-01-21 16:59:58,325 INFO     tuned.daemon.daemon: starting tuning
+2021-01-21 16:59:58,354 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu0, cpu3, cpu2
+2021-01-21 16:59:58,392 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-21 16:59:58,426 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-21 16:59:58,426 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-21 16:59:58,441 INFO     tuned.plugins.base: instance disk: assigning devices sdb, dm-2, dm-3, sdc, sda, dm-0, dm-1
+2021-01-21 16:59:58,454 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 16:59:58,455 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 16:59:58,455 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 16:59:58,456 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 16:59:58,461 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-21 16:59:58,462 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-21 18:26:46,109 INFO     tuned.daemon.controller: terminating controller
+2021-01-21 18:26:46,109 INFO     tuned.daemon.daemon: stopping tuning
+2021-01-21 18:26:46,573 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-01-21 18:26:46,578 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 18:26:46,579 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 18:26:46,580 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 18:26:46,580 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 18:27:33,920 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-21 18:27:33,941 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-21 18:27:33,943 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-21 18:27:35,190 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-21 18:27:35,192 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-21 18:27:35,209 INFO     tuned.daemon.controller: starting controller
+2021-01-21 18:27:35,209 INFO     tuned.daemon.daemon: starting tuning
+2021-01-21 18:27:35,239 INFO     tuned.plugins.base: instance cpu: assigning devices cpu3, cpu1, cpu0, cpu2
+2021-01-21 18:27:35,277 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-21 18:27:35,314 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-21 18:27:35,314 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-21 18:27:35,325 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, sda, sdc, dm-2, dm-0, sdb, dm-3
+2021-01-21 18:27:35,343 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 18:27:35,344 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 18:27:35,344 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 18:27:35,345 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 18:27:35,350 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-21 18:27:35,351 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-21 18:49:07,439 INFO     tuned.daemon.controller: terminating controller
+2021-01-21 18:49:07,439 INFO     tuned.daemon.daemon: stopping tuning
+2021-01-21 18:49:07,867 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-01-21 18:49:07,874 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 18:49:07,874 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 18:49:07,877 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 18:49:07,878 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 18:53:52,866 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-21 18:53:52,891 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-21 18:53:52,896 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-21 18:53:54,228 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-21 18:53:54,230 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-21 18:53:54,247 INFO     tuned.daemon.controller: starting controller
+2021-01-21 18:53:54,248 INFO     tuned.daemon.daemon: starting tuning
+2021-01-21 18:53:54,274 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu1, cpu3, cpu2
+2021-01-21 18:53:54,326 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-21 18:53:54,361 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-21 18:53:54,361 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-21 18:53:54,376 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-3, sdb, dm-2, sda, sdc, dm-1
+2021-01-21 18:53:54,399 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 18:53:54,400 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 18:53:54,400 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 18:53:54,401 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 18:53:54,406 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-21 18:53:54,407 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-21 20:09:06,844 INFO     tuned.daemon.controller: terminating controller
+2021-01-21 20:09:06,845 INFO     tuned.daemon.daemon: stopping tuning
+2021-01-21 20:09:07,419 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-01-21 20:09:07,423 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 20:09:07,423 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 20:09:07,424 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 20:09:07,424 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 20:09:53,042 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-21 20:09:53,065 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-21 20:09:53,075 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-21 20:09:54,350 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-21 20:09:54,352 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-21 20:09:54,371 INFO     tuned.daemon.controller: starting controller
+2021-01-21 20:09:54,371 INFO     tuned.daemon.daemon: starting tuning
+2021-01-21 20:09:54,400 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu3, cpu2, cpu1
+2021-01-21 20:09:54,436 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-21 20:09:54,471 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-21 20:09:54,471 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-21 20:09:54,492 INFO     tuned.plugins.base: instance disk: assigning devices sdc, dm-0, sda, dm-2, dm-1, dm-3, sdb
+2021-01-21 20:09:54,503 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-21 20:09:54,504 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-21 20:09:54,505 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-21 20:09:54,505 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-21 20:09:54,510 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-21 20:09:54,511 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-22 07:27:42,107 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-22 07:27:42,119 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-22 07:27:42,127 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-22 07:27:43,411 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-22 07:27:43,413 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-22 07:27:43,431 INFO     tuned.daemon.controller: starting controller
+2021-01-22 07:27:43,432 INFO     tuned.daemon.daemon: starting tuning
+2021-01-22 07:27:43,458 INFO     tuned.plugins.base: instance cpu: assigning devices cpu3, cpu1, cpu2, cpu0
+2021-01-22 07:27:43,513 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-22 07:27:43,555 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-22 07:27:43,555 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-22 07:27:43,569 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, sdc, sda, dm-2, dm-1, sdb, dm-3
+2021-01-22 07:27:43,583 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-22 07:27:43,584 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-22 07:27:43,584 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-22 07:27:43,585 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-22 07:27:43,590 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-22 07:27:43,591 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-23 13:39:52,393 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-23 13:39:52,413 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-23 13:39:52,415 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-23 13:39:53,747 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-23 13:39:53,749 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-23 13:39:53,766 INFO     tuned.daemon.controller: starting controller
+2021-01-23 13:39:53,766 INFO     tuned.daemon.daemon: starting tuning
+2021-01-23 13:39:53,793 INFO     tuned.plugins.base: instance cpu: assigning devices cpu2, cpu3, cpu1, cpu0
+2021-01-23 13:39:53,834 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-23 13:39:53,875 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-23 13:39:53,875 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-23 13:39:53,887 INFO     tuned.plugins.base: instance disk: assigning devices sdc, dm-1, dm-0, dm-3, dm-2, sdb, sda
+2021-01-23 13:39:53,909 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-23 13:39:53,910 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-23 13:39:53,910 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-23 13:39:53,911 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-23 13:39:53,916 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-23 13:39:53,917 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-24 12:55:42,291 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-24 12:55:42,318 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-24 12:55:42,323 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-24 12:55:43,632 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-24 12:55:43,634 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-24 12:55:43,652 INFO     tuned.daemon.controller: starting controller
+2021-01-24 12:55:43,652 INFO     tuned.daemon.daemon: starting tuning
+2021-01-24 12:55:43,679 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu1, cpu3, cpu2
+2021-01-24 12:55:43,722 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-24 12:55:43,757 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-24 12:55:43,758 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-24 12:55:43,777 INFO     tuned.plugins.base: instance disk: assigning devices dm-2, dm-1, sda, dm-3, dm-0, sdb, sdc
+2021-01-24 12:55:43,787 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-24 12:55:43,788 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-24 12:55:43,789 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-24 12:55:43,789 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-24 12:55:43,794 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-24 12:55:43,795 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-25 00:36:38,178 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-25 00:36:38,194 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-25 00:36:38,205 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-25 00:36:39,338 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-25 00:36:39,340 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-25 00:36:39,357 INFO     tuned.daemon.controller: starting controller
+2021-01-25 00:36:39,357 INFO     tuned.daemon.daemon: starting tuning
+2021-01-25 00:36:39,384 INFO     tuned.plugins.base: instance cpu: assigning devices cpu3, cpu2, cpu0, cpu1
+2021-01-25 00:36:39,423 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-25 00:36:39,459 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-25 00:36:39,459 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-25 00:36:39,471 INFO     tuned.plugins.base: instance disk: assigning devices sda, dm-1, dm-2, sdc, dm-0, sdb, dm-3
+2021-01-25 00:36:39,489 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-25 00:36:39,490 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-25 00:36:39,490 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-25 00:36:39,491 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-25 00:36:39,496 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-25 00:36:39,497 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-25 09:04:57,277 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-25 09:04:57,294 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-25 09:04:57,296 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-25 09:04:58,706 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-25 09:04:58,708 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-25 09:04:58,726 INFO     tuned.daemon.controller: starting controller
+2021-01-25 09:04:58,726 INFO     tuned.daemon.daemon: starting tuning
+2021-01-25 09:04:58,752 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu0, cpu2, cpu3
+2021-01-25 09:04:58,798 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-25 09:04:58,843 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-25 09:04:58,844 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-25 09:04:58,855 INFO     tuned.plugins.base: instance disk: assigning devices sdb, dm-0, dm-2, sda, dm-3, sdc, dm-1
+2021-01-25 09:04:58,878 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-25 09:04:58,879 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-25 09:04:58,880 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-25 09:04:58,880 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-25 09:04:58,885 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-25 09:04:58,886 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-25 21:56:30,463 INFO     tuned.daemon.controller: terminating controller
+2021-01-25 21:56:30,463 INFO     tuned.daemon.daemon: stopping tuning
+2021-01-25 21:56:30,722 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-01-25 21:56:30,728 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-25 21:56:30,729 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-25 21:56:30,729 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-25 21:56:30,730 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-25 21:57:16,926 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-25 21:57:16,943 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-25 21:57:16,947 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-25 21:57:18,034 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-25 21:57:18,036 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-25 21:57:18,054 INFO     tuned.daemon.controller: starting controller
+2021-01-25 21:57:18,054 INFO     tuned.daemon.daemon: starting tuning
+2021-01-25 21:57:18,081 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu2, cpu0, cpu3
+2021-01-25 21:57:18,132 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-25 21:57:18,165 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-25 21:57:18,165 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-25 21:57:18,178 INFO     tuned.plugins.base: instance disk: assigning devices dm-2, dm-0, sda, sdb, dm-3, dm-1, sdc
+2021-01-25 21:57:18,195 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-25 21:57:18,196 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-25 21:57:18,196 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-25 21:57:18,197 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-25 21:57:18,202 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-25 21:57:18,203 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-26 12:41:45,912 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-26 12:41:45,933 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-26 12:41:45,935 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-26 12:41:47,277 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-26 12:41:47,279 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-26 12:41:47,291 INFO     tuned.daemon.controller: starting controller
+2021-01-26 12:41:47,291 INFO     tuned.daemon.daemon: starting tuning
+2021-01-26 12:41:47,325 INFO     tuned.plugins.base: instance cpu: assigning devices cpu3, cpu1, cpu2, cpu0
+2021-01-26 12:41:47,374 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-26 12:41:47,409 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-26 12:41:47,409 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-26 12:41:47,425 INFO     tuned.plugins.base: instance disk: assigning devices sdb, dm-2, dm-3, sdc, dm-0, dm-1, sda
+2021-01-26 12:41:47,443 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-26 12:41:47,444 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-26 12:41:47,444 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-26 12:41:47,445 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-26 12:41:47,450 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-26 12:41:47,451 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-27 18:51:26,008 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-27 18:51:26,029 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-27 18:51:26,032 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-27 18:51:27,297 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-27 18:51:27,299 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-27 18:51:27,317 INFO     tuned.daemon.controller: starting controller
+2021-01-27 18:51:27,318 INFO     tuned.daemon.daemon: starting tuning
+2021-01-27 18:51:27,345 INFO     tuned.plugins.base: instance cpu: assigning devices cpu2, cpu0, cpu1, cpu3
+2021-01-27 18:51:27,391 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-27 18:51:27,423 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-27 18:51:27,423 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-27 18:51:27,438 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-2, dm-3, sda, dm-1, sdc, sdb
+2021-01-27 18:51:27,458 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-27 18:51:27,459 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-27 18:51:27,460 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-27 18:51:27,460 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-27 18:51:27,465 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-27 18:51:27,466 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-27 22:15:46,449 INFO     tuned.daemon.controller: terminating controller
+2021-01-27 22:15:46,449 INFO     tuned.daemon.daemon: stopping tuning
+2021-01-27 22:15:46,800 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-01-27 22:15:46,819 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-27 22:15:46,819 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-27 22:15:46,820 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-27 22:15:46,820 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-27 22:16:40,361 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-27 22:16:40,381 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-27 22:16:40,383 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-27 22:16:41,783 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-27 22:16:41,785 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-27 22:16:41,798 INFO     tuned.daemon.controller: starting controller
+2021-01-27 22:16:41,798 INFO     tuned.daemon.daemon: starting tuning
+2021-01-27 22:16:41,826 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu0, cpu3, cpu2
+2021-01-27 22:16:41,879 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-27 22:16:41,925 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-27 22:16:41,926 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-27 22:16:41,940 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, sdc, dm-1, dm-3, dm-2, sda, sdb
+2021-01-27 22:16:41,967 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-27 22:16:41,968 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-27 22:16:41,968 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-27 22:16:41,969 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-27 22:16:41,974 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-27 22:16:41,975 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-27 22:26:04,303 INFO     tuned.daemon.controller: terminating controller
+2021-01-27 22:26:04,303 INFO     tuned.daemon.daemon: stopping tuning
+2021-01-27 22:26:04,570 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-01-27 22:26:04,576 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-27 22:26:04,577 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-27 22:26:04,577 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-27 22:26:04,578 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-27 22:27:57,174 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-27 22:27:57,206 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-27 22:27:57,214 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-27 22:27:58,587 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-27 22:27:58,589 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-27 22:27:58,601 INFO     tuned.daemon.controller: starting controller
+2021-01-27 22:27:58,602 INFO     tuned.daemon.daemon: starting tuning
+2021-01-27 22:27:58,633 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu3, cpu2, cpu1
+2021-01-27 22:27:58,674 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-27 22:27:58,707 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-27 22:27:58,707 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-27 22:27:58,721 INFO     tuned.plugins.base: instance disk: assigning devices sdb, dm-0, dm-1, sdc, dm-2, sda, dm-3
+2021-01-27 22:27:58,741 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-27 22:27:58,741 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-27 22:27:58,742 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-27 22:27:58,743 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-27 22:27:58,748 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-27 22:27:58,749 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-27 22:32:43,398 INFO     tuned.daemon.controller: terminating controller
+2021-01-27 22:32:43,399 INFO     tuned.daemon.daemon: stopping tuning
+2021-01-27 22:32:43,731 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-01-27 22:32:43,735 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-27 22:32:43,736 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-27 22:32:43,741 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-27 22:32:43,742 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-27 22:33:27,480 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-27 22:33:27,513 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-27 22:33:27,519 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-27 22:33:28,656 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-27 22:33:28,658 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-27 22:33:28,678 INFO     tuned.daemon.controller: starting controller
+2021-01-27 22:33:28,678 INFO     tuned.daemon.daemon: starting tuning
+2021-01-27 22:33:28,707 INFO     tuned.plugins.base: instance cpu: assigning devices cpu2, cpu3, cpu0, cpu1
+2021-01-27 22:33:28,753 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-27 22:33:28,788 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-27 22:33:28,788 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-27 22:33:28,799 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-1, dm-2, sdb, sda, dm-3, sdc
+2021-01-27 22:33:28,818 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-27 22:33:28,818 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-27 22:33:28,819 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-27 22:33:28,820 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-27 22:33:28,824 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-27 22:33:28,826 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-27 22:39:25,150 INFO     tuned.daemon.controller: terminating controller
+2021-01-27 22:39:25,151 INFO     tuned.daemon.daemon: stopping tuning
+2021-01-27 22:39:25,429 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-01-27 22:39:25,439 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-27 22:39:25,440 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-27 22:39:25,440 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-27 22:39:25,441 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-27 22:41:59,403 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-27 22:41:59,422 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-27 22:41:59,424 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-27 22:42:00,567 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-27 22:42:00,569 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-27 22:42:00,587 INFO     tuned.daemon.controller: starting controller
+2021-01-27 22:42:00,588 INFO     tuned.daemon.daemon: starting tuning
+2021-01-27 22:42:00,617 INFO     tuned.plugins.base: instance cpu: assigning devices cpu3, cpu2, cpu1, cpu0
+2021-01-27 22:42:00,650 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-27 22:42:00,689 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-27 22:42:00,689 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-27 22:42:00,702 INFO     tuned.plugins.base: instance disk: assigning devices sdb, dm-1, dm-2, dm-0, sdc, sda, dm-3
+2021-01-27 22:42:00,720 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-27 22:42:00,721 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-27 22:42:00,722 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-27 22:42:00,722 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-27 22:42:00,727 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-27 22:42:00,728 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-28 18:56:24,357 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-28 18:56:24,392 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-28 18:56:24,394 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-28 18:56:25,763 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-28 18:56:25,765 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-28 18:56:25,783 INFO     tuned.daemon.controller: starting controller
+2021-01-28 18:56:25,784 INFO     tuned.daemon.daemon: starting tuning
+2021-01-28 18:56:25,811 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu3, cpu0, cpu2
+2021-01-28 18:56:25,857 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-28 18:56:25,892 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-28 18:56:25,892 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-28 18:56:25,908 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-3, dm-1, dm-2, sdc, dm-0
+2021-01-28 18:56:25,929 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-28 18:56:25,930 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-28 18:56:25,930 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-28 18:56:25,931 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-28 18:56:25,936 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-28 18:56:25,937 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-29 18:33:51,067 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-29 18:33:51,087 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-29 18:33:51,091 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-29 18:33:52,377 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-29 18:33:52,379 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-29 18:33:52,395 INFO     tuned.daemon.controller: starting controller
+2021-01-29 18:33:52,395 INFO     tuned.daemon.daemon: starting tuning
+2021-01-29 18:33:52,424 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu3, cpu2, cpu1
+2021-01-29 18:33:52,459 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-29 18:33:52,490 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-29 18:33:52,491 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-29 18:33:52,505 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sda, dm-3, dm-2, dm-0, sdc, dm-1
+2021-01-29 18:33:52,531 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-29 18:33:52,532 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-29 18:33:52,532 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-29 18:33:52,533 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-29 18:33:52,538 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-29 18:33:52,539 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-30 14:45:05,486 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-30 14:45:05,513 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-30 14:45:05,519 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-30 14:45:06,897 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-30 14:45:06,899 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-30 14:45:06,911 INFO     tuned.daemon.controller: starting controller
+2021-01-30 14:45:06,911 INFO     tuned.daemon.daemon: starting tuning
+2021-01-30 14:45:06,939 INFO     tuned.plugins.base: instance cpu: assigning devices cpu2, cpu1, cpu3, cpu0
+2021-01-30 14:45:06,987 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-30 14:45:07,024 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-30 14:45:07,025 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-30 14:45:07,035 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-2, dm-1, dm-3, sda, sdc, sdb
+2021-01-30 14:45:07,061 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-30 14:45:07,062 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-30 14:45:07,062 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-30 14:45:07,063 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-30 14:45:07,068 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-30 14:45:07,069 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-30 20:18:37,676 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-30 20:18:37,711 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-30 20:18:37,714 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-30 20:18:39,034 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-30 20:18:39,036 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-30 20:18:39,055 INFO     tuned.daemon.controller: starting controller
+2021-01-30 20:18:39,055 INFO     tuned.daemon.daemon: starting tuning
+2021-01-30 20:18:39,080 INFO     tuned.plugins.base: instance cpu: assigning devices cpu3, cpu1, cpu2, cpu0
+2021-01-30 20:18:39,126 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-30 20:18:39,161 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-30 20:18:39,162 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-30 20:18:39,177 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, dm-2, sdc, sda, sdb, dm-0, dm-3
+2021-01-30 20:18:39,195 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-30 20:18:39,196 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-30 20:18:39,197 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-30 20:18:39,197 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-30 20:18:39,202 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-30 20:18:39,203 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-01-31 12:59:12,831 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-01-31 12:59:12,852 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-01-31 12:59:12,858 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-01-31 12:59:14,166 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-01-31 12:59:14,168 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-01-31 12:59:14,186 INFO     tuned.daemon.controller: starting controller
+2021-01-31 12:59:14,186 INFO     tuned.daemon.daemon: starting tuning
+2021-01-31 12:59:14,215 INFO     tuned.plugins.base: instance cpu: assigning devices cpu2, cpu0, cpu1, cpu3
+2021-01-31 12:59:14,253 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-01-31 12:59:14,291 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-01-31 12:59:14,291 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-01-31 12:59:14,305 INFO     tuned.plugins.base: instance disk: assigning devices sdc, sdb, dm-0, dm-1, dm-3, sda, dm-2
+2021-01-31 12:59:14,322 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-01-31 12:59:14,322 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-01-31 12:59:14,323 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-01-31 12:59:14,324 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-01-31 12:59:14,328 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-01-31 12:59:14,330 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-02-01 21:05:37,665 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-02-01 21:05:37,684 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-02-01 21:05:37,692 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-02-01 21:05:38,903 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-02-01 21:05:38,905 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-02-01 21:05:38,923 INFO     tuned.daemon.controller: starting controller
+2021-02-01 21:05:38,923 INFO     tuned.daemon.daemon: starting tuning
+2021-02-01 21:05:38,950 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu2, cpu3, cpu0
+2021-02-01 21:05:38,999 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-02-01 21:05:39,032 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-02-01 21:05:39,032 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-02-01 21:05:39,043 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-1, dm-2, sda, sdb, dm-3, sdc
+2021-02-01 21:05:39,061 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-01 21:05:39,062 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-01 21:05:39,062 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-01 21:05:39,063 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-01 21:05:39,068 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-02-01 21:05:39,069 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-02-05 17:40:14,516 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-02-05 17:40:14,543 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-02-05 17:40:14,552 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-02-05 17:40:15,892 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-02-05 17:40:15,894 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-02-05 17:40:15,912 INFO     tuned.daemon.controller: starting controller
+2021-02-05 17:40:15,912 INFO     tuned.daemon.daemon: starting tuning
+2021-02-05 17:40:15,939 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu3, cpu0, cpu2
+2021-02-05 17:40:15,985 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-02-05 17:40:16,030 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-02-05 17:40:16,031 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-02-05 17:40:16,045 INFO     tuned.plugins.base: instance disk: assigning devices sdb, dm-0, sda, dm-1, sdc, dm-2, dm-3
+2021-02-05 17:40:16,067 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-05 17:40:16,068 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-05 17:40:16,068 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-05 17:40:16,069 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-05 17:40:16,074 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-02-05 17:40:16,075 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-02-12 19:27:02,809 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-02-12 19:27:02,836 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-02-12 19:27:02,844 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-02-12 19:27:04,119 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-02-12 19:27:04,121 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-02-12 19:27:04,137 INFO     tuned.daemon.controller: starting controller
+2021-02-12 19:27:04,137 INFO     tuned.daemon.daemon: starting tuning
+2021-02-12 19:27:04,167 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu2, cpu1, cpu3
+2021-02-12 19:27:04,202 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-02-12 19:27:04,237 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-02-12 19:27:04,238 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-02-12 19:27:04,253 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, dm-2, sdb, dm-0, sda, dm-3, sdc
+2021-02-12 19:27:04,269 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-12 19:27:04,270 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-12 19:27:04,270 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-12 19:27:04,271 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-12 19:27:04,276 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-02-12 19:27:04,288 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-02-12 19:45:00,987 INFO     tuned.daemon.controller: terminating controller
+2021-02-12 19:45:00,988 INFO     tuned.daemon.daemon: stopping tuning
+2021-02-12 19:45:01,390 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-02-12 19:45:01,414 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-12 19:45:01,416 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-12 19:45:01,417 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-12 19:45:01,417 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-12 19:46:14,361 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-02-12 19:46:14,387 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-02-12 19:46:14,396 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-02-12 19:46:15,715 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-02-12 19:46:15,717 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-02-12 19:46:15,729 INFO     tuned.daemon.controller: starting controller
+2021-02-12 19:46:15,729 INFO     tuned.daemon.daemon: starting tuning
+2021-02-12 19:46:15,757 INFO     tuned.plugins.base: instance cpu: assigning devices cpu3, cpu0, cpu1, cpu2
+2021-02-12 19:46:15,797 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-02-12 19:46:15,843 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-02-12 19:46:15,843 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-02-12 19:46:15,854 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-2, sdb, dm-1, dm-3, sdc, sda
+2021-02-12 19:46:15,871 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-12 19:46:15,872 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-12 19:46:15,872 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-12 19:46:15,873 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-12 19:46:15,878 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-02-12 19:46:15,879 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-02-12 19:52:30,379 INFO     tuned.daemon.controller: terminating controller
+2021-02-12 19:52:30,379 INFO     tuned.daemon.daemon: stopping tuning
+2021-02-12 19:52:30,820 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-02-12 19:52:30,828 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-12 19:52:30,829 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-12 19:52:30,829 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-12 19:52:30,830 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-12 19:53:20,780 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-02-12 19:53:20,807 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-02-12 19:53:20,809 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-02-12 19:53:22,119 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-02-12 19:53:22,121 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-02-12 19:53:22,140 INFO     tuned.daemon.controller: starting controller
+2021-02-12 19:53:22,141 INFO     tuned.daemon.daemon: starting tuning
+2021-02-12 19:53:22,169 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu0, cpu3, cpu2
+2021-02-12 19:53:22,233 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-02-12 19:53:22,268 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-02-12 19:53:22,268 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-02-12 19:53:22,285 INFO     tuned.plugins.base: instance disk: assigning devices sdb, sdc, sda, dm-0, dm-2, dm-1, dm-3
+2021-02-12 19:53:22,301 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-12 19:53:22,302 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-12 19:53:22,302 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-12 19:53:22,303 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-12 19:53:22,308 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-02-12 19:53:22,309 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-02-13 13:25:39,501 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-02-13 13:25:39,534 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-02-13 13:25:39,540 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-02-13 13:25:40,770 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-02-13 13:25:40,772 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-02-13 13:25:40,784 INFO     tuned.daemon.controller: starting controller
+2021-02-13 13:25:40,784 INFO     tuned.daemon.daemon: starting tuning
+2021-02-13 13:25:40,812 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu0, cpu3, cpu2
+2021-02-13 13:25:40,857 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-02-13 13:25:40,894 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-02-13 13:25:40,894 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-02-13 13:25:40,907 INFO     tuned.plugins.base: instance disk: assigning devices dm-2, sda, dm-3, dm-1, dm-0, sdb, sdc
+2021-02-13 13:25:40,921 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-13 13:25:40,921 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-13 13:25:40,922 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-13 13:25:40,923 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-13 13:25:40,928 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-02-13 13:25:40,929 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-02-13 14:43:24,835 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-02-13 14:43:24,868 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-02-13 14:43:24,874 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-02-13 14:43:26,119 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-02-13 14:43:26,121 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-02-13 14:43:26,134 INFO     tuned.daemon.controller: starting controller
+2021-02-13 14:43:26,134 INFO     tuned.daemon.daemon: starting tuning
+2021-02-13 14:43:26,162 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu2, cpu1, cpu3
+2021-02-13 14:43:26,208 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-02-13 14:43:26,250 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-02-13 14:43:26,251 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-02-13 14:43:26,268 INFO     tuned.plugins.base: instance disk: assigning devices sdc, sdb, dm-2, dm-0, dm-1, sda, dm-3
+2021-02-13 14:43:26,279 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-13 14:43:26,280 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-13 14:43:26,280 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-13 14:43:26,281 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-13 14:43:26,286 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-02-13 14:43:26,287 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-02-14 09:14:03,849 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-02-14 09:14:03,887 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-02-14 09:14:03,889 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-02-14 09:14:05,261 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-02-14 09:14:05,263 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-02-14 09:14:05,275 INFO     tuned.daemon.controller: starting controller
+2021-02-14 09:14:05,275 INFO     tuned.daemon.daemon: starting tuning
+2021-02-14 09:14:05,304 INFO     tuned.plugins.base: instance cpu: assigning devices cpu3, cpu1, cpu2, cpu0
+2021-02-14 09:14:05,357 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-02-14 09:14:05,406 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-02-14 09:14:05,406 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-02-14 09:14:05,424 INFO     tuned.plugins.base: instance disk: assigning devices sdc, dm-1, sda, dm-2, dm-0, sdb, dm-3
+2021-02-14 09:14:05,435 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-14 09:14:05,436 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-14 09:14:05,437 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-14 09:14:05,437 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-14 09:14:05,442 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-02-14 09:14:05,443 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-02-15 20:02:48,734 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-02-15 20:02:48,778 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-02-15 20:02:48,782 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-02-15 20:02:50,037 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-02-15 20:02:50,039 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-02-15 20:02:50,052 INFO     tuned.daemon.controller: starting controller
+2021-02-15 20:02:50,052 INFO     tuned.daemon.daemon: starting tuning
+2021-02-15 20:02:50,081 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu2, cpu0, cpu3
+2021-02-15 20:02:50,126 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-02-15 20:02:50,168 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-02-15 20:02:50,168 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-02-15 20:02:50,181 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, sda, dm-1, dm-3, dm-2, sdb, sdc
+2021-02-15 20:02:50,195 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-02-15 20:02:50,196 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-02-15 20:02:50,196 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-02-15 20:02:50,197 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-02-15 20:02:50,207 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-02-15 20:02:50,208 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-04-10 22:16:36,631 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-04-10 22:16:36,654 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-04-10 22:16:36,656 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-04-10 22:16:38,001 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-04-10 22:16:38,003 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-04-10 22:16:38,021 INFO     tuned.daemon.controller: starting controller
+2021-04-10 22:16:38,021 INFO     tuned.daemon.daemon: starting tuning
+2021-04-10 22:16:38,050 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu0, cpu2, cpu3
+2021-04-10 22:16:38,086 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-04-10 22:16:38,120 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-04-10 22:16:38,121 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-04-10 22:16:38,130 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-3, dm-1, sdb, sda, dm-2
+2021-04-10 22:16:38,143 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-04-10 22:16:38,144 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-04-10 22:16:38,145 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-04-10 22:16:38,145 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-04-10 22:16:38,150 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-04-10 22:16:38,151 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-04-10 22:30:01,633 INFO     tuned.daemon.controller: terminating controller
+2021-04-10 22:30:01,634 INFO     tuned.daemon.daemon: stopping tuning
+2021-04-10 22:30:01,674 INFO     tuned.daemon.daemon: terminating Tuned, rolling back all changes
+2021-04-10 22:30:01,679 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-04-10 22:30:01,679 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-04-10 22:30:01,680 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-04-10 22:30:01,680 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-04-10 22:30:02,065 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-04-10 22:30:02,080 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-04-10 22:30:02,081 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-04-10 22:30:02,365 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-04-10 22:30:02,367 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-04-10 22:30:02,379 INFO     tuned.daemon.controller: starting controller
+2021-04-10 22:30:02,380 INFO     tuned.daemon.daemon: starting tuning
+2021-04-10 22:30:02,391 INFO     tuned.plugins.base: instance cpu: assigning devices cpu1, cpu3, cpu0, cpu2
+2021-04-10 22:30:02,406 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-04-10 22:30:02,436 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-04-10 22:30:02,437 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-04-10 22:30:02,447 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, sdb, dm-3, sda, dm-0, dm-2
+2021-04-10 22:30:02,451 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-04-10 22:30:02,453 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-04-10 22:30:02,454 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-04-10 22:30:02,455 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-04-10 22:30:02,460 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-04-10 22:30:02,462 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-04-10 22:55:16,851 INFO     tuned.daemon.daemon: verifying profile(s): throughput-performance
+2021-04-10 22:55:16,854 INFO     tuned.plugins.base: verify: passed: device cpu1: 'governor' = 'performance'
+2021-04-10 22:55:16,854 INFO     tuned.plugins.base: verify: passed: device cpu3: 'governor' = 'performance'
+2021-04-10 22:55:16,855 INFO     tuned.plugins.base: verify: passed: device cpu0: 'governor' = 'performance'
+2021-04-10 22:55:16,855 INFO     tuned.plugins.base: verify: passed: device cpu2: 'governor' = 'performance'
+2021-04-10 22:55:16,858 INFO     tuned.plugins.base: verify: passed: 'kernel.sched_min_granularity_ns' = '10000000'
+2021-04-10 22:55:16,858 INFO     tuned.plugins.base: verify: passed: 'kernel.sched_wakeup_granularity_ns' = '15000000'
+2021-04-10 22:55:16,858 INFO     tuned.plugins.base: verify: passed: 'vm.dirty_ratio' = '40'
+2021-04-10 22:55:16,859 INFO     tuned.plugins.base: verify: passed: 'vm.dirty_background_ratio' = '10'
+2021-04-10 22:55:16,859 INFO     tuned.plugins.base: verify: passed: 'vm.swappiness' = '10'
+2021-04-10 23:30:56,335 INFO     tuned.daemon.controller: terminating controller
+2021-04-10 23:30:56,335 INFO     tuned.daemon.daemon: stopping tuning
+2021-04-10 23:30:56,896 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-04-10 23:30:56,908 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-04-10 23:30:56,918 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-04-10 23:30:56,919 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-04-10 23:30:56,920 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-04-11 07:26:20,212 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-04-11 07:26:20,232 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-04-11 07:26:20,234 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-04-11 07:26:21,451 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-04-11 07:26:21,453 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-04-11 07:26:21,472 INFO     tuned.daemon.controller: starting controller
+2021-04-11 07:26:21,472 INFO     tuned.daemon.daemon: starting tuning
+2021-04-11 07:26:21,501 INFO     tuned.plugins.base: instance cpu: assigning devices cpu3, cpu2, cpu1, cpu0
+2021-04-11 07:26:21,539 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-04-11 07:26:21,572 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-04-11 07:26:21,573 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-04-11 07:26:21,583 INFO     tuned.plugins.base: instance disk: assigning devices dm-0, dm-1, dm-3, sdb, sda, dm-2
+2021-04-11 07:26:21,596 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-04-11 07:26:21,597 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-04-11 07:26:21,597 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-04-11 07:26:21,598 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-04-11 07:26:21,602 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-04-11 07:26:21,604 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-04-11 09:21:21,135 INFO     tuned.daemon.controller: terminating controller
+2021-04-11 09:21:21,136 INFO     tuned.daemon.daemon: stopping tuning
+2021-04-11 09:21:21,521 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-04-11 09:21:21,525 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-04-11 09:21:21,526 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-04-11 09:21:21,526 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-04-11 09:21:21,527 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-04-11 13:27:18,004 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-04-11 13:27:18,034 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-04-11 13:27:18,035 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-04-11 13:27:19,314 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-04-11 13:27:19,316 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-04-11 13:27:19,333 INFO     tuned.daemon.controller: starting controller
+2021-04-11 13:27:19,333 INFO     tuned.daemon.daemon: starting tuning
+2021-04-11 13:27:19,366 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu3, cpu2, cpu1
+2021-04-11 13:27:19,402 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-04-11 13:27:19,440 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-04-11 13:27:19,441 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-04-11 13:27:19,450 INFO     tuned.plugins.base: instance disk: assigning devices sdb, dm-1, dm-2, sda, dm-3, dm-0
+2021-04-11 13:27:19,473 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-04-11 13:27:19,474 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-04-11 13:27:19,474 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-04-11 13:27:19,475 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-04-11 13:27:19,479 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-04-11 13:27:19,481 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied
+2021-04-12 00:15:27,882 INFO     tuned.daemon.controller: terminating controller
+2021-04-12 00:15:27,902 INFO     tuned.daemon.daemon: stopping tuning
+2021-04-12 00:15:28,453 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2021-04-12 00:15:28,458 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-04-12 00:15:28,459 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-04-12 00:15:28,459 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-04-12 00:15:28,460 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-04-12 17:53:08,558 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-04-12 17:53:08,583 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-04-12 17:53:08,588 INFO     tuned.daemon.daemon: Running in automatic mode, checking what profile is recommended for your configuration.
+2021-04-12 17:53:09,917 INFO     tuned.daemon.daemon: Using 'throughput-performance' profile
+2021-04-12 17:53:09,919 INFO     tuned.profiles.loader: loading profile: throughput-performance
+2021-04-12 17:53:09,938 INFO     tuned.daemon.controller: starting controller
+2021-04-12 17:53:09,938 INFO     tuned.daemon.daemon: starting tuning
+2021-04-12 17:53:09,966 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu2, cpu3, cpu1
+2021-04-12 17:53:10,012 INFO     tuned.plugins.plugin_cpu: We are running on an x86 GenuineIntel platform
+2021-04-12 17:53:10,047 WARNING  tuned.plugins.plugin_cpu: your CPU doesn't support MSR_IA32_ENERGY_PERF_BIAS, ignoring CPU energy performance bias
+2021-04-12 17:53:10,048 INFO     tuned.plugins.plugin_cpu: intel_pstate detected
+2021-04-12 17:53:10,059 INFO     tuned.plugins.base: instance disk: assigning devices dm-1, dm-3, dm-2, sdb, sda, dm-0
+2021-04-12 17:53:10,071 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu0'
+2021-04-12 17:53:10,072 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu2'
+2021-04-12 17:53:10,073 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu3'
+2021-04-12 17:53:10,073 INFO     tuned.plugins.plugin_cpu: setting governor 'performance' on cpu 'cpu1'
+2021-04-12 17:53:10,078 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-04-12 17:53:10,079 INFO     tuned.daemon.daemon: static tuning from profile 'throughput-performance' applied

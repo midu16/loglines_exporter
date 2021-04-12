@@ -1,0 +1,447 @@
+------------ Sat Apr 10 22:16:33 CEST 2021 ------------
+[[0;32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[0;32m  OK  [0m] Found device /dev/mapper/ol-root.
+[[0;32m  OK  [0m] Reached target Initrd Root Device.
+[[0;32m  OK  [0m] Found device /dev/mapper/ol-swap.
+         Starting Resume from hibernation using device /dev/mapper/ol-swap...
+[[0;32m  OK  [0m] Started Resume from hibernation using device /dev/mapper/ol-swap.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started dracut initqueue hook.
+         Starting File System Check on /dev/mapper/ol-root...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+[[0;32m  OK  [0m] Started File System Check on /dev/mapper/ol-root.
+         Mounting /sysroot...
+[[0;32m  OK  [0m] Mounted /sysroot.
+[[0;32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[0;32m  OK  [0m] Started Reload Configuration from the Real Root.
+[[0;32m  OK  [0m] Reached target Initrd File Systems.
+[[0;32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[0;32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+[[0;32m  OK  [0m] Stopped target Timers.
+         Starting Setup Virtual Console...
+         Starting Plymouth switch root service...
+[[0;32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[0;32m  OK  [0m] Stopped target Remote File Systems.
+[[0;32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Stopped target Initrd Default Target.
+[[0;32m  OK  [0m] Stopped target Initrd Root Device.
+[[0;32m  OK  [0m] Stopped dracut initqueue hook.
+[[0;32m  OK  [0m] Stopped target Basic System.
+[[0;32m  OK  [0m] Stopped target Slices.
+[[0;32m  OK  [0m] Stopped target System Initialization.
+         Stopping udev Kernel Device Manager...
+[[0;32m  OK  [0m] Stopped Apply Kernel Variables.
+[[0;32m  OK  [0m] Stopped Load Kernel Modules.
+[[0;32m  OK  [0m] Stopped Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Stopped target Local File Systems.
+[[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
+[[0;32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[0;32m  OK  [0m] Stopped target Swap.
+[[0;32m  OK  [0m] Stopped target Sockets.
+[[0;32m  OK  [0m] Stopped target Paths.
+[[0;32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[0;32m  OK  [0m] Stopped dracut pre-udev hook.
+[[0;32m  OK  [0m] Stopped dracut cmdline hook.
+         Stopping Hardware RNG Entropy Gatherer Daemon...
+[[0;32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[0;32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+[[0;32m  OK  [0m] Closed udev Kernel Socket.
+[[0;32m  OK  [0m] Closed udev Control Socket.
+         Starting Cleanup udevd DB...
+[[0;32m  OK  [0m] Stopped Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Cleaning Up and Shutting Down Daemons.
+[[0;32m  OK  [0m] Started Cleanup udevd DB.
+[[0;32m  OK  [0m] Started Plymouth switch root service.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Mounted /plex.
+[[0;32m  OK  [0m] Started Import network configuration from initramfs.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Mounting RPC Pipe File System...
+         Starting Security Auditing Service...
+         Starting RPC Bind...
+[[0;32m  OK  [0m] Mounted RPC Pipe File System.
+[[0;32m  OK  [0m] Reached target rpc_pipefs.target.
+[[0;32m  OK  [0m] Started RPC Bind.
+[[0;32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Listening on Virtual machine log manager socket.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsiuio Socket.
+         Starting OSBuild Composer API sockets.
+[[0;32m  OK  [0m] Listening on SSSD Kerberos Cache Manager responder socket.
+[[0;32m  OK  [0m] Started dnf makecache --timer.
+[[0;32m  OK  [0m] Listening on Virtual machine lock manager socket.
+         Starting Cockpit Web Service Socket.
+[[0;32m  OK  [0m] Listening on Libvirt local socket.
+[[0;32m  OK  [0m] Listening on Libvirt local read-only socket.
+[[0;32m  OK  [0m] Listening on CUPS Scheduler.
+[[0;32m  OK  [0m] Started CUPS Scheduler.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[0;32m  OK  [0m] Listening on Podman Remote API Socket.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsid Socket.
+[[0;32m  OK  [0m] Started daily update of the root trust anchor for DNSSEC.
+[[0;32m  OK  [0m] Reached target Timers.
+[[0;32m  OK  [0m] Listening on Libvirt admin socket.
+[[0;32m  OK  [0m] Listening on OSBuild Composer API sockets.
+[[0;32m  OK  [0m] Listening on Cockpit Web Service Socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+         Starting RealtimeKit Scheduling Policy Service...
+         Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+         Starting vboxautostart-service.service...
+         Starting Bluetooth service...
+[[0;32m  OK  [0m] Started Machine Check Exception Logging Daemon.
+         Starting vboxballoonctrl-service.service...
+[[0;32m  OK  [0m] Started irqbalance daemon.
+         Starting NTP client/server...
+         Starting System Security Services Daemon...
+[[0;32m  OK  [0m] Started Node Exporter.
+         Starting Load CPU microcode update...
+         Starting update of the root trust anchor for DNSSEC validation in unbound...
+         Starting ABRT Automated Bug Reporting Tool...
+[[0;32m  OK  [0m] Started Manage Sound Card State (restore and store).
+         Starting Modem Manager...
+         Starting Authorization Manager...
+[[0;32m  OK  [0m] Reached target sshd-keygen.target.
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting Hardware RNG Entropy Gatherer Wake threshold service...
+[[0;32m  OK  [0m] Reached target Sound Card.
+         Starting VDO volume services...
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+[[0;32m  OK  [0m] Started libstoragemgmt plug-in server daemon.
+         Starting Virtual Machine and Container Registration Service...
+         Starting Kernel Samepage Merging...
+         Starting Disk Manager...
+[[0;32m  OK  [0m] Started vboxautostart-service.service.
+[[0;32m  OK  [0m] Started vboxballoonctrl-service.service.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Wake threshold service.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Kernel Samepage Merging.
+         Starting Kernel Samepage Merging (KSM) Tuning Daemon...
+[[0;32m  OK  [0m] Started Load CPU microcode update.
+[[0;32m  OK  [0m] Started Kernel Samepage Merging (KSM) Tuning Daemon.
+[[0;32m  OK  [0m] Started RealtimeKit Scheduling Policy Service.
+[[0;32m  OK  [0m] Started Bluetooth service.
+[[0;32m  OK  [0m] Reached target Bluetooth.
+[[0;32m  OK  [0m] Started ABRT Automated Bug Reporting Tool.
+[[0;32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+[[0;32m  OK  [0m] Started ABRT kernel log watcher.
+[[0;32m  OK  [0m] Started Creates ABRT problems from coredumpctl messages.
+[[0;32m  OK  [0m] Started ABRT Xorg log watcher.
+[[0;32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+[[0;32m  OK  [0m] Started NTP client/server.
+         Starting Hostname Service...
+[[0;32m  OK  [0m] Started Modem Manager.
+[[0;32m  OK  [0m] Started update of the root trust anchor for DNSSEC validation in unbound.
+[[0;32m  OK  [0m] Started Authorization Manager.
+         Starting firewalld - dynamic firewall daemon...
+[[0;32m  OK  [0m] Started Virtual Machine and Container Registration Service.
+[[0;32m  OK  [0m] Started VDO volume services.
+[[0;32m  OK  [0m] Started System Security Services Daemon.
+[[0;32m  OK  [0m] Reached target User and Group Name Lookups.
+         Starting Accounts Service...
+         Starting Login Service...
+[[0;32m  OK  [0m] Started Accounts Service.
+[[0;32m  OK  [0m] Started Disk Manager.
+[[0;32m  OK  [0m] Started Hostname Service.
+[[0;32m  OK  [0m] Started firewalld - dynamic firewall daemon.
+[[0;32m  OK  [0m] Reached target Network (Pre).
+         Starting Network Manager...
+[[0;32m  OK  [0m] Started Network Manager.
+[[0;32m  OK  [0m] Reached target Network.
+         Starting Open-iSCSI...
+         Starting Dynamic System Tuning Daemon...
+         Starting GSSAPI Proxy Daemon...
+         Starting OpenSSH server daemon...
+         Starting Remote desktop service (VNC)...
+         Starting CUPS Scheduler...
+         Starting Network Manager Wait Online...
+         Starting Network Manager Script Dispatcher Service...
+[[0;32m  OK  [0m] Started OpenSSH server daemon.
+[[0;32m  OK  [0m] Started GSSAPI Proxy Daemon.
+[[0;32m  OK  [0m] Reached target NFS client services.
+[[0;32m  OK  [0m] Started Open-iSCSI.
+         Starting Logout off all iSCSI sessions on shutdown...
+[[0;32m  OK  [0m] Started CUPS Scheduler.
+[[0;32m  OK  [0m] Started Logout off all iSCSI sessions on shutdown.
+[[0;32m  OK  [0m] Started Network Manager Script Dispatcher Service.
+         Starting WPA supplicant...
+[[0;32m  OK  [0m] Started WPA supplicant.
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Created slice system-user\x2druntime\x2ddir.slice.
+[[0;32m  OK  [0m] Started /run/user/1000 mount wrapper.
+[[0;32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[0;32m  OK  [0m] Started Network Manager Wait Online.
+[[0;32m  OK  [0m] Reached target Network is Online.
+         Starting vboxweb-service.service...
+         Starting System Logging Service...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+         Starting Grafana instance...
+[[0;32m  OK  [0m] Started Prometheus.
+         Starting Cockpit motd updater service...
+         Starting Notify NFS peers of a restart...
+         Starting Plex Media Server...
+[[0;32m  OK  [0m] Started vboxweb-service.service.
+[[0;32m  OK  [0m] Started Notify NFS peers of a restart.
+[[0;32m  OK  [0m] Started Plex Media Server.
+[[0;32m  OK  [0m] Started Cockpit motd updater service.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started Grafana instance.
+[[0m[0;31m*     [0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (19s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (20s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (20s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for Remote desktop service (VNC) (21s / 1min 36s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for Remote desktop service (VNC) (22s / 1min 36s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for Remote desktop service (VNC) (22s / 1min 36s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (23s / 1min 30s)[K[     [0;31m*[0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (23s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (24s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for Remote desktop service (VNC) (24s / 1min 36s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for Remote desktop service (VNC) (25s / 1min 36s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for Remote desktop service (VNC) (26s / 1min 36s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (26s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (27s / 1min 30s)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (27s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for Remote desktop service (VNC) (28s / 1min 36s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for Remote desktop service (VNC) (28s / 1min 36s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for Remote desktop service (VNC) (29s / 1min 36s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (30s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (30s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (31s / 1min 30s)[K[     [0;31m*[0m] (2 of 2) A start job is running for Remote desktop service (VNC) (31s / 1min 36s)[K[[0;32m  OK  [0m] Started Remote desktop service (VNC).
+[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (37s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (37s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (38s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (39s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (39s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (40s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (40s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (41s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (41s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (42s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (42s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (43s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (43s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (44s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (44s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (45s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (45s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (46s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (46s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (47s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (47s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (48s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (48s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (49s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (49s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (50s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (50s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (51s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (51s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (52s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (52s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (53s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (53s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (54s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (54s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (55s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (55s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (56s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (56s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (57s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (57s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (58s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (58s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (59s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (59s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 1s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 1s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 2s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 2s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 3s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 3s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 4s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 4s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 5s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 5s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 6s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 6s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 7s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 7s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 8s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 8s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 9s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 9s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 10s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 10s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 11s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 11s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 12s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 12s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 13s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 13s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 14s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 14s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 15s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 15s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 16s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 16s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 17s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 17s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 18s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 18s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 19s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 19s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 20s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 20s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 21s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 21s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 22s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 22s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 23s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 23s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 24s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 24s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 25s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 25s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 26s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 26s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 27s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 27s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 28s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 28s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 29s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 29s / 1min 30s)[K[[0;1;31m TIME [0m] Timed out waiting for device dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device.
+[[0;1;33mDEPEND[0m] Dependency failed for /plex/series_sdc.
+[[0;1;33mDEPEND[0m] Dependency failed for Remote File Systems.
+         Starting Crash recovery kernel arming...
+         Starting Permit User Sessions...
+         Starting Virtualization daemon...
+[[0;32m  OK  [0m] Started Permit User Sessions.
+         Starting GNOME Display Manager...
+[[0;32m  OK  [0m] Created slice User Slice of UID 1000.
+         Starting Hold until boot process finishes up...
+[[0;32m  OK  [0m] Started Job spooling tools.
+[[0;32m  OK  [0m] Started Session 1 of user midu.
+[[0;32m  OK  [0m] Started Command Scheduler.
+         Starting User Manager for UID 1000...
+[[0;32m  OK  [0m] Started GNOME Display Manager.
+------------ Sun Apr 11 07:26:16 CEST 2021 ------------
+[[0;32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[0;32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Found device /dev/mapper/ol-root.
+[[0;32m  OK  [0m] Reached target Initrd Root Device.
+[[0;32m  OK  [0m] Found device /dev/mapper/ol-swap.
+         Starting Resume from hibernation using device /dev/mapper/ol-swap...
+[[0;32m  OK  [0m] Started Resume from hibernation using device /dev/mapper/ol-swap.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started dracut initqueue hook.
+         Starting File System Check on /dev/mapper/ol-root...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+[[0;32m  OK  [0m] Started File System Check on /dev/mapper/ol-root.
+         Mounting /sysroot...
+[[0;32m  OK  [0m] Mounted /sysroot.
+[[0;32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[0;32m  OK  [0m] Started Reload Configuration from the Real Root.
+[[0;32m  OK  [0m] Reached target Initrd File Systems.
+[[0;32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[0;32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+         Starting Plymouth switch root service...
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[0;32m  OK  [0m] Stopped target Remote File Systems.
+[[0;32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Stopped dracut initqueue hook.
+[[0;32m  OK  [0m] Stopped target Initrd Default Target.
+[[0;32m  OK  [0m] Stopped target Basic System.
+[[0;32m  OK  [0m] Stopped target System Initialization.
+[[0;32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[0;32m  OK  [0m] Stopped target Swap.
+[[0;32m  OK  [0m] Stopped Apply Kernel Variables.
+         Stopping udev Kernel Device Manager...
+[[0;32m  OK  [0m] Stopped Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Stopped target Local File Systems.
+[[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
+[[0;32m  OK  [0m] Stopped target Sockets.
+[[0;32m  OK  [0m] Stopped target Slices.
+[[0;32m  OK  [0m] Stopped target Initrd Root Device.
+[[0;32m  OK  [0m] Stopped Load Kernel Modules.
+[[0;32m  OK  [0m] Stopped target Timers.
+[[0;32m  OK  [0m] Stopped target Paths.
+[[0;32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[0;32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[0;32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+         Stopping Hardware RNG Entropy Gatherer Daemon...
+[[0;32m  OK  [0m] Stopped dracut pre-udev hook.
+[[0;32m  OK  [0m] Stopped dracut cmdline hook.
+[[0;32m  OK  [0m] Closed udev Control Socket.
+[[0;32m  OK  [0m] Closed udev Kernel Socket.
+         Starting Cleanup udevd DB...
+[[0;32m  OK  [0m] Stopped Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Cleaning Up and Shutting Down Daemons.
+[[0;32m  OK  [0m] Started Plymouth switch root service.
+[[0;32m  OK  [0m] Started Cleanup udevd DB.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Started Import network configuration from initramfs.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+         Mounting RPC Pipe File System...
+         Starting RPC Bind...
+[[0;32m  OK  [0m] Started RPC Bind.
+[[0;32m  OK  [0m] Mounted RPC Pipe File System.
+[[0;32m  OK  [0m] Reached target rpc_pipefs.target.
+[[0;32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Reached target System Initialization.
+         Starting Cockpit Web Service Socket.
+[[0;32m  OK  [0m] Started daily update of the root trust anchor for DNSSEC.
+[[0;32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsiuio Socket.
+         Starting OSBuild Composer API sockets.
+[[0;32m  OK  [0m] Listening on Libvirt local socket.
+[[0;32m  OK  [0m] Listening on Libvirt admin socket.
+[[0;32m  OK  [0m] Listening on Virtual machine lock manager socket.
+[[0;32m  OK  [0m] Started dnf makecache --timer.
+[[0;32m  OK  [0m] Listening on Libvirt local read-only socket.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Reached target Timers.
+[[0;32m  OK  [0m] Listening on CUPS Scheduler.
+[[0;32m  OK  [0m] Listening on SSSD Kerberos Cache Manager responder socket.
+[[0;32m  OK  [0m] Listening on Podman Remote API Socket.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsid Socket.
+[[0;32m  OK  [0m] Started CUPS Scheduler.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Listening on Virtual machine log manager socket.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Listening on OSBuild Composer API sockets.
+[[0;32m  OK  [0m] Listening on Cockpit Web Service Socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+         Starting update of the root trust anchor for DNSSEC validation in unbound...
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+         Starting System Security Services Daemon...
+         Starting Modem Manager...
+         Starting vboxautostart-service.service...
+         Starting Virtual Machine and Container Registration Service...
+         Starting RealtimeKit Scheduling Policy Service...
+[[0;32m  OK  [0m] Started libstoragemgmt plug-in server daemon.
+         Starting Hardware RNG Entropy Gatherer Wake threshold service...
+         Starting Bluetooth service...
+[[0;32m  OK  [0m] Started Machine Check Exception Logging Daemon.
+[[0;32m  OK  [0m] Started irqbalance daemon.
+         Starting NTP client/server...
+         Starting vboxballoonctrl-service.service...
+         Starting VDO volume services...
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting Authorization Manager...
+[[0;32m  OK  [0m] Reached target sshd-keygen.target.
+         Starting ABRT Automated Bug Reporting Tool...
+         Starting Load CPU microcode update...
+         Starting Disk Manager...
+[[0;32m  OK  [0m] Started Node Exporter.
+         Starting Kernel Samepage Merging...
+[[0;32m  OK  [0m] Started Manage Sound Card State (restore and store).
+[[0;32m  OK  [0m] Reached target Sound Card.
+[[0;32m  OK  [0m] Started vboxautostart-service.service.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Wake threshold service.
+[[0;32m  OK  [0m] Started vboxballoonctrl-service.service.
+[[0;32m  OK  [0m] Started Kernel Samepage Merging.
+         Starting Kernel Samepage Merging (KSM) Tuning Daemon...
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Load CPU microcode update.
+[[0;32m  OK  [0m] Started Kernel Samepage Merging (KSM) Tuning Daemon.
+[[0;32m  OK  [0m] Started RealtimeKit Scheduling Policy Service.
+[[0;32m  OK  [0m] Started Bluetooth service.
+[[0;32m  OK  [0m] Reached target Bluetooth.
+[[0;32m  OK  [0m] Started ABRT Automated Bug Reporting Tool.
+[[0;32m  OK  [0m] Started ABRT kernel log watcher.
+[[0;32m  OK  [0m] Started Creates ABRT problems from coredumpctl messages.
+[[0;32m  OK  [0m] Started ABRT Xorg log watcher.
+[[0;32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+[[0;32m  OK  [0m] Started NTP client/server.
+[[0;32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+         Starting Hostname Service...
+[[0;32m  OK  [0m] Started Modem Manager.
+[[0;32m  OK  [0m] Started update of the root trust anchor for DNSSEC validation in unbound.
+[[0;32m  OK  [0m] Started Virtual Machine and Container Registration Service.
+[[0;32m  OK  [0m] Started Authorization Manager.
+         Starting firewalld - dynamic firewall daemon...
+[[0;32m  OK  [0m] Started VDO volume services.
+[[0;32m  OK  [0m] Started System Security Services Daemon.
+[[0;32m  OK  [0m] Reached target User and Group Name Lookups.
+         Starting Accounts Service...
+         Starting Login Service...
+[[0;32m  OK  [0m] Started Accounts Service.
+[[0;32m  OK  [0m] Started Disk Manager.
+[[0;32m  OK  [0m] Started Hostname Service.
+[[0;32m  OK  [0m] Started firewalld - dynamic firewall daemon.
+[[0;32m  OK  [0m] Reached target Network (Pre).
+         Starting Network Manager...
+[[0;32m  OK  [0m] Started Network Manager.
+         Starting Network Manager Wait Online...
+[[0;32m  OK  [0m] Reached target Network.
+         Starting CUPS Scheduler...
+         Starting Remote desktop service (VNC)...
+         Starting Open-iSCSI...
+         Starting OpenSSH server daemon...
+         Starting Dynamic System Tuning Daemon...
+         Starting GSSAPI Proxy Daemon...
+         Starting Network Manager Script Dispatcher Service...
+[[0;32m  OK  [0m] Started OpenSSH server daemon.
+[[0;32m  OK  [0m] Started Open-iSCSI.
+[[0;32m  OK  [0m] Started CUPS Scheduler.
+         Starting Logout off all iSCSI sessions on shutdown...
+[[0;32m  OK  [0m] Started GSSAPI Proxy Daemon.
+[[0;32m  OK  [0m] Started Network Manager Script Dispatcher Service.
+[[0;32m  OK  [0m] Reached target NFS client services.
+[[0;32m  OK  [0m] Started Logout off all iSCSI sessions on shutdown.
+         Starting WPA supplicant...
+[[0;32m  OK  [0m] Started WPA supplicant.
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Created slice system-user\x2druntime\x2ddir.slice.
+[[0;32m  OK  [0m] Started /run/user/1000 mount wrapper.
+[[0;32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[0;32m  OK  [0m] Started Network Manager Wait Online.
+[[0;32m  OK  [0m] Reached target Network is Online.
+         Starting Cockpit motd updater service...
+         Starting vboxweb-service.service...
+         Starting System Logging Service...
+         Starting Notify NFS peers of a restart...
+[[0;32m  OK  [0m] Started Prometheus.
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+         Starting Plex Media Server...
+         Starting Grafana instance...
+[[0;32m  OK  [0m] Started Notify NFS peers of a restart.
+[[0;32m  OK  [0m] Started vboxweb-service.service.
+[[0;32m  OK  [0m] Started Plex Media Server.
+[[0;32m  OK  [0m] Started Cockpit motd updater service.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started Grafana instance.
+[[0m[0;31m*     [0m] (1 of 2) A start job is running for Remote desktop service (VNC) (20s / 1min 37s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for Remote desktop service (VNC) (20s / 1min 37s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for Remote desktop service (VNC) (21s / 1min 37s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (22s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (22s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (23s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for Remote desktop service (VNC) (23s / 1min 37s)[K[     [0;31m*[0m] (1 of 2) A start job is running for Remote desktop service (VNC) (24s / 1min 37s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for Remote desktop service (VNC) (24s / 1min 37s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (25s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (26s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (26s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for Remote desktop service (VNC) (27s / 1min 37s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for Remote desktop service (VNC) (27s / 1min 37s)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for Remote desktop service (VNC) (28s / 1min 37s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (29s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (29s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (29s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for Remote desktop service (VNC) (30s / 1min 37s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for Remote desktop service (VNC) (30s / 1min 37s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for Remote desktop service (VNC) (31s / 1min 37s)[K[     [0;31m*[0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (31s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (32s / 1min 30s)[K[[0;32m  OK  [0m] Started Remote desktop service (VNC).
+[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (37s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (38s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (38s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (39s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (39s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (40s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (40s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (41s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (41s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (42s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (42s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (43s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (43s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (44s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (44s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (45s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (45s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (46s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (46s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (47s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (47s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (48s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (48s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (49s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (49s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (50s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (50s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (51s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (51s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (52s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (52s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (53s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (53s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (54s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (54s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (55s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (55s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (56s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (56s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (57s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (57s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (58s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (58s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (59s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (59s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 1s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 1s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 2s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 2s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 3s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 3s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 4s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 4s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 5s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 5s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 6s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 6s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 7s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 7s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 8s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 8s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 9s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 9s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 10s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 10s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 11s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 11s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 12s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 12s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 13s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 13s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 14s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 14s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 15s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 15s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 16s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 16s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 17s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 17s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 18s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 18s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 19s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 19s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 20s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 20s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 21s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 21s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 22s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 22s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 23s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 23s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 24s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 24s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 25s / 1min 30s)[K[     [0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 25s / 1min 30s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 26s / 1min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 26s / 1min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 27s / 1min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 27s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 28s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 28s / 1min 30s)[K[[0m[0;31m*     [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 29s / 1min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 29s / 1min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device (1min 30s / 1min 30s)[K[[0;1;31m TIME [0m] Timed out waiting for device dev-disk-by\x2duuid-95432b7c\x2d304a\x2d4353\x2d8123\x2db00668669189.device.
+[[0;1;33mDEPEND[0m] Dependency failed for /plex/series_sdc.
+[[0;1;33mDEPEND[0m] Dependency failed for Remote File Systems.
+         Starting Permit User Sessions...
+         Starting Virtualization daemon...
+         Starting Crash recovery kernel arming...
+[[0;32m  OK  [0m] Started Permit User Sessions.
+[[0;32m  OK  [0m] Started Command Scheduler.
+         Starting Hold until boot process finishes up...
+         Starting GNOME Display Manager...
+[[0;32m  OK  [0m] Started Job spooling tools.
+[[0;32m  OK  [0m] Created slice User Slice of UID 1000.
+[[0;32m  OK  [0m] Started Session 1 of user midu.
+         Starting User Manager for UID 1000...
+[[0;32m  OK  [0m] Started GNOME Display Manager.

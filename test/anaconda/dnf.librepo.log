@@ -1,0 +1,12 @@
+2021-01-21T14:59:34Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-01-21T14:59:34Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-01-21T14:59:53Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-01-21T14:59:53Z INFO Downloading: file:///run/install/sources/mount-0000-cdrom/AppStream/repodata/repomd.xml
+2021-01-21T14:59:53Z INFO Downloading: file:///run/install/sources/mount-0000-cdrom/AppStream/repodata/c8c332dd774897303b98b4b6ecbc9f07c6285eee307c02071b51389f4489a569-primary.xml.gz
+2021-01-21T14:59:53Z INFO Downloading: file:///run/install/sources/mount-0000-cdrom/AppStream/repodata/8c1de89916dec37ce52b085499d9b2724a34e15aadf307b3b43de5a87851f083-filelists.xml.gz
+2021-01-21T14:59:53Z INFO Downloading: file:///run/install/sources/mount-0000-cdrom/AppStream/repodata/483319befd67e2159bbae82a34ee47ef4bb00fd9d5ee90d0a96dda7adc33a6ab-comps-AppStream.x86_64.xml.gz
+2021-01-21T14:59:53Z INFO Downloading: file:///run/install/sources/mount-0000-cdrom/AppStream/repodata/441a6908ca23a179b56a63a22d58752035b98eb2e3b905737d61faaeb694c6b6-modules.yaml.gz
+2021-01-21T14:59:53Z INFO Downloading: file:///run/install/sources/mount-0000-cdrom/BaseOS/repodata/repomd.xml
+2021-01-21T14:59:53Z INFO Downloading: file:///run/install/sources/mount-0000-cdrom/BaseOS/repodata/e2f7fefa0a26d21b1f0a2bfa632b6f14f49eece833583261dcfa269f5bf3c65f-primary.xml.gz
+2021-01-21T14:59:53Z INFO Downloading: file:///run/install/sources/mount-0000-cdrom/BaseOS/repodata/75df0fcf320ca75438968d668ab7809e89175075daeda4f6c89f35ad54535dad-filelists.xml.gz
+2021-01-21T14:59:53Z INFO Downloading: file:///run/install/sources/mount-0000-cdrom/BaseOS/repodata/9f2ae5c0f2f27c7a5c10e5a990c5515f322131e3c2a0f1bf0c52fd0c54c32fd9-comps-BaseOS.x86_64.xml.gz

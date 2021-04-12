@@ -1,0 +1,208 @@
+2021-02-12T19:45:00Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:45:00Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:45:02Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:45:02Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:45:02Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:47:20Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:47:20Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:48:22Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:48:22Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:49:48Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:49:48Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:49:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:49:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:49:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:50:14Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:50:14Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:50:15Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:50:15Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:50:15Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:50:33Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl3945-firmware-15.32.2.9-999.5.el8.noarch.rpm
+2021-02-12T19:50:33Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/getPackage/iwl4965-firmware-228.61.2.24-999.5.el8.noarch.rpm
+2021-02-12T19:51:23Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:51:23Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:51:24Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:51:24Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:51:24Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:51:38Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:51:38Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:57:04Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:57:04Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T19:57:05Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:57:05Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:57:05Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T19:57:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/virt-viewer-9.0-4.el8.x86_64.rpm
+2021-02-12T19:57:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libgovirt-0.3.7-3.el8.x86_64.rpm
+2021-02-12T20:02:55Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T20:02:55Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T20:37:36Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T20:37:36Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T20:37:48Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T20:37:48Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T20:37:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T20:37:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T20:37:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T20:37:56Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/virt-install-2.2.1-3.0.1.el8.noarch.rpm
+2021-02-12T20:39:45Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T20:39:45Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T20:39:47Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T20:39:47Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T20:39:47Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-12T21:02:56Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-12T21:02:56Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T13:53:06Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T13:53:06Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T13:53:07Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T13:53:07Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T13:53:07Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T13:53:07Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-13T13:53:07Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir&countme=2
+2021-02-13T13:53:07Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-13T13:53:08Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-13T13:53:09Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/repomd.xml
+2021-02-13T13:53:09Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/32693951ca21ad7bff44a0df3521c6383bfbb0e69b25e7549c0bb85df7954a96-primary.xml.gz
+2021-02-13T13:53:09Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/066dd01052cb685d82fb06fc78473a31d6f73d0d3a3d8c44482108e2f4fa02b9-filelists.xml.gz
+2021-02-13T13:53:09Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/659d41b76ee391aeb102d78593907e35bcb65ca8c0f795e182845d6c8afc29b5-comps-Everything.x86_64.xml
+2021-02-13T13:53:09Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/6665bf5d42310ccb85c6013d9e2c1cff25782a6f242f9031b07b1f496a3f9361-prestodelta.xml.xz
+2021-02-13T13:53:09Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/repodata/e05099a1a6c0e7cc01904673d282888fb0e0e7b47dbf47c2d0007a6f794ac2a6-updateinfo.xml.bz2
+2021-02-13T13:53:16Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-13T13:53:16Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-13T13:53:16Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-13T13:53:17Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-13T13:53:17Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/de0c7983a1c02cc615f5544d2dbc8dfa3330ab84-filelists.xml.gz
+2021-02-13T13:53:17Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/ef2e65c55dc03796c18946e710f4475473cc4e8a-primary.xml.gz
+2021-02-13T13:53:17Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/decd890545c0616da1d2c889013876aa5e19a316-updateinfo.xml.gz
+2021-02-13T13:53:20Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-13T13:53:20Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-13T13:53:20Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-13T13:53:20Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T13:53:20Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T13:53:20Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T13:53:20Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-13T13:53:21Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-13T13:53:21Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-13T14:49:30Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T14:49:30Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T14:49:33Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T14:49:33Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T14:49:33Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T14:49:48Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T14:49:48Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T14:49:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T14:49:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T14:49:50Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T14:50:10Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-13T14:50:10Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/Packages/l/libnatpmp-20150609-11.el8.x86_64.rpm
+2021-02-13T14:50:10Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/Packages/t/transmission-3.00-1.el8.x86_64.rpm
+2021-02-13T14:50:10Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/Packages/t/transmission-common-3.00-1.el8.x86_64.rpm
+2021-02-13T14:50:10Z INFO Downloading: http://mirror.inode.at/epel/8/Everything/x86_64/Packages/t/transmission-gtk-3.00-1.el8.x86_64.rpm
+2021-02-13T14:50:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libappindicator-gtk3-12.10.0-19.el8.x86_64.rpm
+2021-02-13T14:50:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libdbusmenu-16.04.0-12.el8.x86_64.rpm
+2021-02-13T14:50:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libdbusmenu-gtk3-16.04.0-12.el8.x86_64.rpm
+2021-02-13T14:50:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/libindicator-gtk3-12.10.1-14.el8.x86_64.rpm
+2021-02-13T14:53:27Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T14:53:27Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T15:53:29Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T15:53:29Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T16:53:30Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T16:53:30Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T16:53:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T16:53:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T16:53:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T16:53:31Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-13T16:53:31Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-13T16:54:00Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-13T16:54:00Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-13T16:54:01Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-13T16:54:01Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-13T16:54:01Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-13T16:54:01Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-13T16:54:02Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-13T16:54:02Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T16:54:02Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T16:54:02Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T16:54:02Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-13T16:54:02Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-13T16:54:02Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-13T17:54:06Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T17:54:06Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T18:54:08Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T18:54:08Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T19:54:09Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T19:54:09Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T19:54:10Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T19:54:10Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T19:54:10Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T19:54:10Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-13T19:54:10Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-13T19:54:10Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-13T19:54:10Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-13T19:54:10Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-13T19:54:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-13T19:54:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-13T19:54:11Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-13T19:54:12Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-13T19:54:12Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T19:54:12Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T19:54:12Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T19:54:12Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-13T19:54:12Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-13T19:54:12Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-13T20:54:16Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T20:54:16Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T21:54:17Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T21:54:17Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T22:54:18Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T22:54:18Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T22:54:19Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T22:54:19Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T22:54:19Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T22:54:19Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-13T22:54:19Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-13T22:54:20Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-13T22:54:20Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-13T22:54:20Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-13T22:54:20Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-13T22:54:21Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-13T22:54:21Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-13T22:54:21Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-13T22:54:21Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T22:54:21Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T22:54:21Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T22:54:21Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-13T22:54:22Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-13T22:54:22Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc
+2021-02-13T23:42:06Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T23:42:06Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T23:42:08Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T23:42:08Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T23:42:08Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T23:42:29Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T23:42:29Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T23:42:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T23:42:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T23:42:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-13T23:54:25Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-13T23:54:25Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T00:54:26Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T00:54:26Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T01:54:28Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T01:54:28Z INFO Librepo version: 1.12.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+2021-02-14T01:54:28Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T01:54:28Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T01:54:28Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T01:54:28Z INFO Downloading: https://download.docker.com/linux/centos/8/x86_64/stable/repodata/repomd.xml
+2021-02-14T01:54:28Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-modular-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T01:54:29Z INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-8&arch=x86_64&infra=$infra&content=$contentdir
+2021-02-14T01:54:30Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml
+2021-02-14T01:54:30Z INFO Downloading: https://packages.grafana.com/oss/rpm/repodata/repomd.xml.asc
+2021-02-14T01:54:30Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/developer/EPEL/x86_64/repodata/repomd.xml
+2021-02-14T01:54:30Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/repodata/repomd.xml
+2021-02-14T01:54:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/repodata/repomd.xml
+2021-02-14T01:54:31Z INFO Downloading: https://downloads.plex.tv/repo/rpm/x86_64/repodata/repomd.xml
+2021-02-14T01:54:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T01:54:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T01:54:31Z WARNING WARNING: Repomd xml parser: Unknown element "revision"
+2021-02-14T01:54:31Z INFO Downloading: https://yum.oracle.com/repo/OracleLinux/OL8/UEKR6/x86_64/repodata/repomd.xml
+2021-02-14T01:54:31Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml
+2021-02-14T01:54:31Z INFO Downloading: http://download.virtualbox.org/virtualbox/rpm/el/8/x86_64/repodata/repomd.xml.asc

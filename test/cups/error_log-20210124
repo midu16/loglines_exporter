@@ -1,0 +1,1 @@
+This CUPS log has been moved into journal by default unless changes have been made in /etc/cups/cups-files.conf. Log messages can be got by "$ journalctl -u cups -e"

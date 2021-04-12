@@ -1,0 +1,596 @@
+2021-01-21 10:27:40 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-21 10:49:17 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-21 10:52:32 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-21 16:59:56 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-21 17:17:45 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-21 17:18:21 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-21 18:26:46 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-21 18:26:48 ERROR: 'python-nftables' failed: internal:0:0-0: Error: Could not process rule: No such file or directory
+
+internal:0:0-0: Error: Could not process rule: No such file or directory
+
+internal:0:0-0: Error: Could not process rule: No such file or directory
+
+
+JSON blob:
+{"nftables": [{"metainfo": {"json_schema_version": 1}}, {"delete": {"table": {"family": "inet", "name": "firewalld"}}}, {"delete": {"table": {"family": "ip", "name": "firewalld"}}}, {"delete": {"table": {"family": "ip6", "name": "firewalld"}}}]}
+2021-01-21 18:26:48 ERROR: COMMAND_FAILED: 'python-nftables' failed: internal:0:0-0: Error: Could not process rule: No such file or directory
+
+internal:0:0-0: Error: Could not process rule: No such file or directory
+
+internal:0:0-0: Error: Could not process rule: No such file or directory
+
+
+JSON blob:
+{"nftables": [{"metainfo": {"json_schema_version": 1}}, {"delete": {"table": {"family": "inet", "name": "firewalld"}}}, {"delete": {"table": {"family": "ip", "name": "firewalld"}}}, {"delete": {"table": {"family": "ip6", "name": "firewalld"}}}]}
+2021-01-21 18:27:33 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-21 18:53:52 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-21 20:06:33 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-21 20:09:52 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-22 07:27:41 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-23 13:39:51 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-23 19:24:35 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-23 19:42:45 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-24 12:55:41 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-25 00:36:37 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-25 09:04:56 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-25 21:57:16 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-26 12:41:45 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-27 18:51:25 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-27 22:16:39 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-27 22:27:56 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-27 22:33:26 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-27 22:41:58 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-27 22:52:43 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table mangle --delete LIBVIRT_PRT --out-interface virbr0 --protocol udp --destination-port 68 --jump CHECKSUM --checksum-fill' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t nat -D PREROUTING -m addrtype --dst-type LOCAL -j DOCKER' failed: iptables v1.8.4 (nf_tables): Chain 'DOCKER' does not exist
+Try `iptables -h' or 'iptables --help' for more information.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t nat -D OUTPUT -m addrtype --dst-type LOCAL ! --dst 127.0.0.0/8 -j DOCKER' failed: iptables v1.8.4 (nf_tables): Chain 'DOCKER' does not exist
+Try `iptables -h' or 'iptables --help' for more information.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t nat -D OUTPUT -m addrtype --dst-type LOCAL -j DOCKER' failed: iptables v1.8.4 (nf_tables): Chain 'DOCKER' does not exist
+Try `iptables -h' or 'iptables --help' for more information.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t nat -D PREROUTING' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t nat -D OUTPUT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t nat -F DOCKER' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t nat -X DOCKER' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t filter -F DOCKER' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t filter -X DOCKER' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t filter -F DOCKER-ISOLATION-STAGE-1' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t filter -X DOCKER-ISOLATION-STAGE-1' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t filter -F DOCKER-ISOLATION-STAGE-2' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t filter -X DOCKER-ISOLATION-STAGE-2' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t filter -F DOCKER-ISOLATION' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -t filter -X DOCKER-ISOLATION' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:43 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --insert LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: No chain/target/match by that name.
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-27 22:52:44 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -D FORWARD -i docker0 -o docker0 -j DROP' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-01-28 18:56:23 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-29 18:33:50 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-30 14:45:04 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-30 20:18:36 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-01-31 12:59:11 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-02-01 21:05:36 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-02-05 17:40:13 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-02-12 19:27:02 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-02-12 19:46:13 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-02-12 19:53:20 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-02-12 20:54:10 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table mangle --delete LIBVIRT_PRT --out-interface virbr0 --protocol udp --destination-port 68 --jump CHECKSUM --checksum-fill' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:10 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --insert LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: No chain/target/match by that name.
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-12 20:54:11 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-02-13 13:25:38 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-02-13 14:43:24 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-02-14 09:14:03 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-02-15 20:02:47 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-04-10 22:16:36 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-04-10 22:25:58 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table mangle --delete LIBVIRT_PRT --out-interface virbr0 --protocol udp --destination-port 68 --jump CHECKSUM --checksum-fill' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --insert LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: No chain/target/match by that name.
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:25:59 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:03 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table mangle --delete LIBVIRT_PRT --out-interface virbr0 --protocol udp --destination-port 68 --jump CHECKSUM --checksum-fill' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --insert LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: No chain/target/match by that name.
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:26:04 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table mangle --delete LIBVIRT_PRT --out-interface virbr0 --protocol udp --destination-port 68 --jump CHECKSUM --checksum-fill' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --insert LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: No chain/target/match by that name.
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:12 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:13 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:13 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:13 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:13 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:13 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:13 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:13 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:13 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table mangle --delete LIBVIRT_PRT --out-interface virbr0 --protocol udp --destination-port 68 --jump CHECKSUM --checksum-fill' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:38 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --insert LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: No chain/target/match by that name.
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete LIBVIRT_PRT --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWX --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWI --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_FWO --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_OUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:39 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete LIBVIRT_INP --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table mangle --delete POSTROUTING --out-interface virbr0 --protocol udp --destination-port 68 --jump CHECKSUM --checksum-fill' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete POSTROUTING --source 192.168.122.0/24 --destination 224.0.0.0/24 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete POSTROUTING --source 192.168.122.0/24 --destination 255.255.255.255/32 --jump RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete POSTROUTING --source 192.168.122.0/24 -p tcp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete POSTROUTING --source 192.168.122.0/24 -p udp ! --destination 192.168.122.0/24 --jump MASQUERADE --to-ports 1024-65535' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table nat --delete POSTROUTING --source 192.168.122.0/24 ! --destination 192.168.122.0/24 --jump MASQUERADE' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete FORWARD --destination 192.168.122.0/24 --out-interface virbr0 --match conntrack --ctstate ESTABLISHED,RELATED --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete FORWARD --source 192.168.122.0/24 --in-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete FORWARD --in-interface virbr0 --out-interface virbr0 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete FORWARD --out-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete FORWARD --in-interface virbr0 --jump REJECT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete INPUT --in-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete INPUT --in-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete OUTPUT --out-interface virbr0 --protocol udp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete OUTPUT --out-interface virbr0 --protocol tcp --destination-port 53 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete OUTPUT --out-interface virbr0 --protocol udp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete OUTPUT --out-interface virbr0 --protocol tcp --destination-port 68 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete INPUT --in-interface virbr0 --protocol udp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-10 22:30:50 WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w10 -w --table filter --delete INPUT --in-interface virbr0 --protocol tcp --destination-port 67 --jump ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+
+2021-04-11 07:26:19 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-04-11 13:27:17 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.
+2021-04-12 17:53:07 WARNING: AllowZoneDrifting is enabled. This is considered an insecure configuration option. It will be removed in a future release. Please consider disabling it now.

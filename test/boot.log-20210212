@@ -1,0 +1,653 @@
+------------ Fri Feb 12 19:26:58 CET 2021 ------------
+[[0;32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[0;32m  OK  [0m] Found device /dev/mapper/ol-root.
+[[0;32m  OK  [0m] Reached target Initrd Root Device.
+[[0;32m  OK  [0m] Found device /dev/mapper/ol-swap.
+         Starting Resume from hibernation using device /dev/mapper/ol-swap...
+[[0;32m  OK  [0m] Started Resume from hibernation using device /dev/mapper/ol-swap.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started dracut initqueue hook.
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+         Starting File System Check on /dev/mapper/ol-root...
+[[0;32m  OK  [0m] Started File System Check on /dev/mapper/ol-root.
+         Mounting /sysroot...
+[[0;32m  OK  [0m] Mounted /sysroot.
+[[0;32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[0;32m  OK  [0m] Started Reload Configuration from the Real Root.
+[[0;32m  OK  [0m] Reached target Initrd File Systems.
+[[0;32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[0;32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+[[0;32m  OK  [0m] Stopped target Timers.
+[[0;32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[0;32m  OK  [0m] Stopped target Initrd Default Target.
+[[0;32m  OK  [0m] Stopped target Initrd Root Device.
+[[0;32m  OK  [0m] Stopped target Basic System.
+[[0;32m  OK  [0m] Stopped target System Initialization.
+[[0;32m  OK  [0m] Stopped Create Volatile Files and Directories.
+         Stopping udev Kernel Device Manager...
+[[0;32m  OK  [0m] Stopped target Paths.
+[[0;32m  OK  [0m] Stopped target Local File Systems.
+[[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Stopped target Slices.
+         Starting Plymouth switch root service...
+[[0;32m  OK  [0m] Stopped Apply Kernel Variables.
+[[0;32m  OK  [0m] Stopped Load Kernel Modules.
+[[0;32m  OK  [0m] Stopped target Sockets.
+[[0;32m  OK  [0m] Stopped target Remote File Systems.
+[[0;32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Stopped target Swap.
+[[0;32m  OK  [0m] Stopped dracut initqueue hook.
+[[0;32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[0;32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[0;32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[0;32m  OK  [0m] Stopped Create list of required sta…vice nodes for the current kernel.
+         Stopping Hardware RNG Entropy Gatherer Daemon...
+[[0;32m  OK  [0m] Stopped dracut pre-udev hook.
+[[0;32m  OK  [0m] Stopped dracut cmdline hook.
+[[0;32m  OK  [0m] Closed udev Control Socket.
+[[0;32m  OK  [0m] Closed udev Kernel Socket.
+         Starting Cleanup udevd DB...
+[[0;32m  OK  [0m] Stopped Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Cleaning Up and Shutting Down Daemons.
+[[0;32m  OK  [0m] Started Cleanup udevd DB.
+[[0;32m  OK  [0m] Started Plymouth switch root service.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Started Import network configuration from initramfs.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting RPC Bind...
+         Mounting RPC Pipe File System...
+         Starting Security Auditing Service...
+[[0;32m  OK  [0m] Started RPC Bind.
+[[0;32m  OK  [0m] Mounted RPC Pipe File System.
+[[0;32m  OK  [0m] Reached target rpc_pipefs.target.
+[[0;32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Listening on Virtual machine lock manager socket.
+[[0;32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+         Starting OSBuild Composer API sockets.
+[[0;32m  OK  [0m] Listening on Podman Remote API Socket.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsiuio Socket.
+[[0;32m  OK  [0m] Listening on Virtual machine log manager socket.
+[[0;32m  OK  [0m] Started dnf makecache --timer.
+[[0;32m  OK  [0m] Listening on SSSD Kerberos Cache Manager responder socket.
+         Starting Cockpit Web Service Socket.
+[[0;32m  OK  [0m] Started daily update of the root trust anchor for DNSSEC.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Reached target Timers.
+[[0;32m  OK  [0m] Started CUPS Scheduler.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Listening on CUPS Scheduler.
+[[0;32m  OK  [0m] Listening on Libvirt local socket.
+[[0;32m  OK  [0m] Listening on Libvirt local read-only socket.
+[[0;32m  OK  [0m] Listening on Libvirt admin socket.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsid Socket.
+[[0;32m  OK  [0m] Listening on OSBuild Composer API sockets.
+[[0;32m  OK  [0m] Listening on Cockpit Web Service Socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+         Starting Hardware RNG Entropy Gatherer Wake threshold service...
+[[0;32m  OK  [0m] Started irqbalance daemon.
+         Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+         Starting ABRT Automated Bug Reporting Tool...
+         Starting VDO volume services...
+         Starting NTP client/server...
+         Starting VirtualBox Linux kernel module...
+         Starting Disk Manager...
+[[0;32m  OK  [0m] Started Manage Sound Card State (restore and store).
+         Starting Modem Manager...
+[[0;32m  OK  [0m] Reached target Sound Card.
+[[0;32m  OK  [0m] Started libstoragemgmt plug-in server daemon.
+[[0;32m  OK  [0m] Reached target sshd-keygen.target.
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting update of the root trust a…or DNSSEC validation in unbound...
+         Starting Kernel Samepage Merging...
+[[0;32m  OK  [0m] Started Machine Check Exception Logging Daemon.
+         Starting RealtimeKit Scheduling Policy Service...
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting System Security Services Daemon...
+         Starting Authorization Manager...
+         Starting Virtual Machine and Container Registration Service...
+         Starting Load CPU microcode update...
+         Starting Bluetooth service...
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Wake threshold service.
+[[0;32m  OK  [0m] Started Kernel Samepage Merging.
+         Starting Kernel Samepage Merging (KSM) Tuning Daemon...
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Kernel Samepage Merging (KSM) Tuning Daemon.
+[[0;32m  OK  [0m] Started NTP client/server.
+[[0;32m  OK  [0m] Started RealtimeKit Scheduling Policy Service.
+[[0;32m  OK  [0m] Started Bluetooth service.
+[[0;32m  OK  [0m] Reached target Bluetooth.
+[[0;32m  OK  [0m] Started ABRT Automated Bug Reporting Tool.
+[[0;32m  OK  [0m] Started Creates ABRT problems from coredumpctl messages.
+[[0;32m  OK  [0m] Started ABRT kernel log watcher.
+[[0;32m  OK  [0m] Started ABRT Xorg log watcher.
+[[0;32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+         Starting Hostname Service...
+[[0;32m  OK  [0m] Started Load CPU microcode update.
+[[0;32m  OK  [0m] Started Modem Manager.
+[[0;32m  OK  [0m] Started update of the root trust an… for DNSSEC validation in unbound.
+[[0;32m  OK  [0m] Started Authorization Manager.
+         Starting firewalld - dynamic firewall daemon...
+[[0;32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+[[0;32m  OK  [0m] Started Virtual Machine and Container Registration Service.
+[[0;32m  OK  [0m] Started VDO volume services.
+[[0;32m  OK  [0m] Started System Security Services Daemon.
+[[0;32m  OK  [0m] Reached target User and Group Name Lookups.
+         Starting Login Service...
+         Starting Accounts Service...
+[[0;32m  OK  [0m] Started Accounts Service.
+[[0;1;31mFAILED[0m] Failed to start VirtualBox Linux kernel module.
+See 'systemctl status vboxdrv.service' for details.
+         Starting vboxballoonctrl-service.service...
+         Starting vboxautostart-service.service...
+[[0;32m  OK  [0m] Started Hostname Service.
+[[0;32m  OK  [0m] Started vboxballoonctrl-service.service.
+[[0;32m  OK  [0m] Started vboxautostart-service.service.
+[[0;32m  OK  [0m] Started Disk Manager.
+[[0;32m  OK  [0m] Started firewalld - dynamic firewall daemon.
+[[0;32m  OK  [0m] Reached target Network (Pre).
+         Starting Network Manager...
+[[0;32m  OK  [0m] Started Network Manager.
+[[0;32m  OK  [0m] Reached target Network.
+         Starting GSSAPI Proxy Daemon...
+         Starting Remote desktop service (VNC)...
+         Starting OpenSSH server daemon...
+         Starting Dynamic System Tuning Daemon...
+         Starting CUPS Scheduler...
+         Starting Open-iSCSI...
+         Starting Network Manager Wait Online...
+[[0;32m  OK  [0m] Started GSSAPI Proxy Daemon.
+[[0;32m  OK  [0m] Reached target NFS client services.
+[[0;32m  OK  [0m] Started OpenSSH server daemon.
+         Starting Network Manager Script Dispatcher Service...
+[[0;32m  OK  [0m] Started Open-iSCSI.
+         Starting Logout off all iSCSI sessions on shutdown...
+[[0;32m  OK  [0m] Started Logout off all iSCSI sessions on shutdown.
+[[0;32m  OK  [0m] Started CUPS Scheduler.
+[[0;32m  OK  [0m] Started Network Manager Script Dispatcher Service.
+         Starting WPA supplicant...
+[[0;32m  OK  [0m] Started WPA supplicant.
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Created slice system-user\x2druntime\x2ddir.slice.
+[[0;32m  OK  [0m] Started /run/user/1000 mount wrapper.
+[[0;32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[0;32m  OK  [0m] Started Network Manager Wait Online.
+[[0;32m  OK  [0m] Reached target Network is Online.
+         Starting Cockpit motd updater service...
+[[0;32m  OK  [0m] Started Prometheus.
+         Starting vboxweb-service.service...
+         Starting System Logging Service...
+         Starting Grafana instance...
+         Starting Notify NFS peers of a restart...
+         Starting Plex Media Server...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+         Starting Virtualization daemon...
+         Starting Permit User Sessions...
+         Starting Crash recovery kernel arming...
+[[0;32m  OK  [0m] Started vboxweb-service.service.
+[[0;32m  OK  [0m] Started Notify NFS peers of a restart.
+[[0;32m  OK  [0m] Started Permit User Sessions.
+[[0;32m  OK  [0m] Started Job spooling tools.
+[[0;32m  OK  [0m] Created slice User Slice of UID 1000.
+         Starting User Manager for UID 1000...
+[[0;32m  OK  [0m] Started Session 1 of user midu.
+         Starting Hold until boot process finishes up...
+[[0;32m  OK  [0m] Started Command Scheduler.
+         Starting GNOME Display Manager...
+[[0;32m  OK  [0m] Started Plex Media Server.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started GNOME Display Manager.
+------------ Fri Feb 12 19:46:10 CET 2021 ------------
+[[0;32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[0;32m  OK  [0m] Found device /dev/mapper/ol-root.
+[[0;32m  OK  [0m] Reached target Initrd Root Device.
+[[0;32m  OK  [0m] Found device /dev/mapper/ol-swap.
+         Starting Resume from hibernation using device /dev/mapper/ol-swap...
+[[0;32m  OK  [0m] Started Resume from hibernation using device /dev/mapper/ol-swap.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started dracut initqueue hook.
+         Starting File System Check on /dev/mapper/ol-root...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started File System Check on /dev/mapper/ol-root.
+         Mounting /sysroot...
+[[0;32m  OK  [0m] Mounted /sysroot.
+[[0;32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[0;32m  OK  [0m] Started Reload Configuration from the Real Root.
+[[0;32m  OK  [0m] Reached target Initrd File Systems.
+[[0;32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[0;32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+[[0;32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[0;32m  OK  [0m] Stopped target Timers.
+         Starting Plymouth switch root service...
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Stopped target Remote File Systems.
+[[0;32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Stopped dracut initqueue hook.
+[[0;32m  OK  [0m] Stopped target Initrd Default Target.
+[[0;32m  OK  [0m] Stopped target Initrd Root Device.
+[[0;32m  OK  [0m] Stopped target Basic System.
+[[0;32m  OK  [0m] Stopped target Slices.
+[[0;32m  OK  [0m] Stopped target Paths.
+[[0;32m  OK  [0m] Stopped target System Initialization.
+[[0;32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[0;32m  OK  [0m] Stopped Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Stopped target Local File Systems.
+[[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
+[[0;32m  OK  [0m] Stopped target Swap.
+         Stopping udev Kernel Device Manager...
+[[0;32m  OK  [0m] Stopped Apply Kernel Variables.
+[[0;32m  OK  [0m] Stopped Load Kernel Modules.
+[[0;32m  OK  [0m] Stopped target Sockets.
+[[0;32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[0;32m  OK  [0m] Started Cleaning Up and Shutting Down Daemons.
+         Stopping Hardware RNG Entropy Gatherer Daemon...
+[[0;32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[0;32m  OK  [0m] Stopped Create list of required sta…vice nodes for the current kernel.
+[[0;32m  OK  [0m] Stopped dracut pre-udev hook.
+[[0;32m  OK  [0m] Stopped dracut cmdline hook.
+[[0;32m  OK  [0m] Closed udev Kernel Socket.
+[[0;32m  OK  [0m] Closed udev Control Socket.
+         Starting Cleanup udevd DB...
+[[0;32m  OK  [0m] Stopped Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Cleanup udevd DB.
+[[0;32m  OK  [0m] Started Plymouth switch root service.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Started Import network configuration from initramfs.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Mounting RPC Pipe File System...
+         Starting RPC Bind...
+         Starting Security Auditing Service...
+[[0;32m  OK  [0m] Started RPC Bind.
+[[0;32m  OK  [0m] Mounted RPC Pipe File System.
+[[0;32m  OK  [0m] Reached target rpc_pipefs.target.
+[[0;32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Started dnf makecache --timer.
+[[0;32m  OK  [0m] Listening on Virtual machine log manager socket.
+[[0;32m  OK  [0m] Listening on Virtual machine lock manager socket.
+         Starting Cockpit Web Service Socket.
+         Starting OSBuild Composer API sockets.
+[[0;32m  OK  [0m] Listening on Libvirt local socket.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsiuio Socket.
+[[0;32m  OK  [0m] Listening on Libvirt local read-only socket.
+[[0;32m  OK  [0m] Listening on Libvirt admin socket.
+[[0;32m  OK  [0m] Started daily update of the root trust anchor for DNSSEC.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsid Socket.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Reached target Timers.
+[[0;32m  OK  [0m] Started CUPS Scheduler.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Listening on CUPS Scheduler.
+[[0;32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[0;32m  OK  [0m] Listening on SSSD Kerberos Cache Manager responder socket.
+[[0;32m  OK  [0m] Listening on Podman Remote API Socket.
+[[0;32m  OK  [0m] Listening on OSBuild Composer API sockets.
+[[0;32m  OK  [0m] Listening on Cockpit Web Service Socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+         Starting NTP client/server...
+         Starting Virtual Machine and Container Registration Service...
+[[0;32m  OK  [0m] Started Machine Check Exception Logging Daemon.
+         Starting Hardware RNG Entropy Gatherer Wake threshold service...
+         Starting ABRT Automated Bug Reporting Tool...
+         Starting RealtimeKit Scheduling Policy Service...
+[[0;32m  OK  [0m] Started libstoragemgmt plug-in server daemon.
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting Bluetooth service...
+[[0;32m  OK  [0m] Started Manage Sound Card State (restore and store).
+         Starting System Security Services Daemon...
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting Load CPU microcode update...
+         Starting VirtualBox Linux kernel module...
+[[0;32m  OK  [0m] Reached target Sound Card.
+         Starting Modem Manager...
+         Starting VDO volume services...
+         Starting Disk Manager...
+[[0;32m  OK  [0m] Reached target sshd-keygen.target.
+         Starting Kernel Samepage Merging...
+         Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+         Starting Authorization Manager...
+[[0;32m  OK  [0m] Started irqbalance daemon.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Wake threshold service.
+[[0;32m  OK  [0m] Started Kernel Samepage Merging.
+         Starting Kernel Samepage Merging (KSM) Tuning Daemon...
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Load CPU microcode update.
+[[0;32m  OK  [0m] Started Kernel Samepage Merging (KSM) Tuning Daemon.
+[[0;32m  OK  [0m] Started RealtimeKit Scheduling Policy Service.
+[[0;32m  OK  [0m] Started Bluetooth service.
+[[0;32m  OK  [0m] Reached target Bluetooth.
+[[0;32m  OK  [0m] Started NTP client/server.
+[[0;32m  OK  [0m] Started ABRT Automated Bug Reporting Tool.
+[[0;32m  OK  [0m] Started ABRT Xorg log watcher.
+[[0;32m  OK  [0m] Started ABRT kernel log watcher.
+[[0;32m  OK  [0m] Started Creates ABRT problems from coredumpctl messages.
+[[0;32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+[[0;32m  OK  [0m] Started Modem Manager.
+         Starting Hostname Service...
+[[0;32m  OK  [0m] Started Authorization Manager.
+         Starting firewalld - dynamic firewall daemon...
+[[0;32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+[[0;32m  OK  [0m] Started Virtual Machine and Container Registration Service.
+[[0;32m  OK  [0m] Started VDO volume services.
+[[0;32m  OK  [0m] Started System Security Services Daemon.
+[[0;32m  OK  [0m] Reached target User and Group Name Lookups.
+         Starting Accounts Service...
+         Starting Login Service...
+[[0;32m  OK  [0m] Started Accounts Service.
+[[0;1;31mFAILED[0m] Failed to start VirtualBox Linux kernel module.
+See 'systemctl status vboxdrv.service' for details.
+         Starting vboxautostart-service.service...
+         Starting vboxballoonctrl-service.service...
+[[0;32m  OK  [0m] Started vboxballoonctrl-service.service.
+[[0;32m  OK  [0m] Started vboxautostart-service.service.
+[[0;32m  OK  [0m] Started Hostname Service.
+[[0;32m  OK  [0m] Started firewalld - dynamic firewall daemon.
+[[0;32m  OK  [0m] Reached target Network (Pre).
+         Starting Network Manager...
+[[0;32m  OK  [0m] Started Network Manager.
+         Starting Network Manager Wait Online...
+[[0;32m  OK  [0m] Reached target Network.
+         Starting Open-iSCSI...
+         Starting Dynamic System Tuning Daemon...
+         Starting CUPS Scheduler...
+         Starting GSSAPI Proxy Daemon...
+         Starting Remote desktop service (VNC)...
+         Starting OpenSSH server daemon...
+[[0;32m  OK  [0m] Started Disk Manager.
+         Starting Network Manager Script Dispatcher Service...
+[[0;32m  OK  [0m] Started GSSAPI Proxy Daemon.
+[[0;32m  OK  [0m] Reached target NFS client services.
+[[0;32m  OK  [0m] Started Open-iSCSI.
+         Starting Logout off all iSCSI sessions on shutdown...
+[[0;32m  OK  [0m] Started Network Manager Script Dispatcher Service.
+[[0;32m  OK  [0m] Started CUPS Scheduler.
+[[0;32m  OK  [0m] Started Logout off all iSCSI sessions on shutdown.
+[[0;32m  OK  [0m] Started OpenSSH server daemon.
+         Starting WPA supplicant...
+[[0;32m  OK  [0m] Started WPA supplicant.
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Created slice system-user\x2druntime\x2ddir.slice.
+[[0;32m  OK  [0m] Started /run/user/1000 mount wrapper.
+[[0;32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[0;32m  OK  [0m] Started Network Manager Wait Online.
+[[0;32m  OK  [0m] Reached target Network is Online.
+[[0;32m  OK  [0m] Started Prometheus.
+         Starting Cockpit motd updater service...
+         Starting System Logging Service...
+         Starting Plex Media Server...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+         Starting Permit User Sessions...
+         Starting Virtualization daemon...
+         Starting Crash recovery kernel arming...
+         Starting Grafana instance...
+         Starting vboxweb-service.service...
+         Starting Notify NFS peers of a restart...
+[[0;32m  OK  [0m] Started Permit User Sessions.
+         Starting Hold until boot process finishes up...
+[[0;32m  OK  [0m] Created slice User Slice of UID 1000.
+         Starting GNOME Display Manager...
+[[0;32m  OK  [0m] Started Command Scheduler.
+[[0;32m  OK  [0m] Started Session 1 of user midu.
+         Starting User Manager for UID 1000...
+[[0;32m  OK  [0m] Started Job spooling tools.
+[[0;32m  OK  [0m] Started vboxweb-service.service.
+[[0;32m  OK  [0m] Started Notify NFS peers of a restart.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started Plex Media Server.
+[[0;32m  OK  [0m] Started GNOME Display Manager.
+------------ Fri Feb 12 19:53:17 CET 2021 ------------
+[[0;32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[0;32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Found device /dev/mapper/ol-root.
+[[0;32m  OK  [0m] Reached target Initrd Root Device.
+[[0;32m  OK  [0m] Found device /dev/mapper/ol-swap.
+         Starting Resume from hibernation using device /dev/mapper/ol-swap...
+[[0;32m  OK  [0m] Started Resume from hibernation using device /dev/mapper/ol-swap.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started dracut initqueue hook.
+         Starting File System Check on /dev/mapper/ol-root...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+[[0;32m  OK  [0m] Started File System Check on /dev/mapper/ol-root.
+         Mounting /sysroot...
+[[0;32m  OK  [0m] Mounted /sysroot.
+[[0;32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[0;32m  OK  [0m] Started Reload Configuration from the Real Root.
+[[0;32m  OK  [0m] Reached target Initrd File Systems.
+[[0;32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[0;32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+[[0;32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Stopped target Timers.
+[[0;32m  OK  [0m] Stopped target Initrd Default Target.
+[[0;32m  OK  [0m] Stopped target Initrd Root Device.
+[[0;32m  OK  [0m] Stopped target Basic System.
+[[0;32m  OK  [0m] Stopped target System Initialization.
+[[0;32m  OK  [0m] Stopped Apply Kernel Variables.
+[[0;32m  OK  [0m] Stopped Load Kernel Modules.
+[[0;32m  OK  [0m] Stopped target Swap.
+[[0;32m  OK  [0m] Stopped Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Stopped target Local File Systems.
+[[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
+         Stopping udev Kernel Device Manager...
+[[0;32m  OK  [0m] Stopped target Slices.
+[[0;32m  OK  [0m] Stopped target Paths.
+[[0;32m  OK  [0m] Stopped target Sockets.
+         Starting Plymouth switch root service...
+[[0;32m  OK  [0m] Stopped target Remote File Systems.
+[[0;32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Stopped dracut initqueue hook.
+[[0;32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[0;32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[0;32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[0;32m  OK  [0m] Stopped Create list of required sta…vice nodes for the current kernel.
+         Stopping Hardware RNG Entropy Gatherer Daemon...
+[[0;32m  OK  [0m] Stopped dracut pre-udev hook.
+[[0;32m  OK  [0m] Stopped dracut cmdline hook.
+[[0;32m  OK  [0m] Closed udev Kernel Socket.
+[[0;32m  OK  [0m] Closed udev Control Socket.
+         Starting Cleanup udevd DB...
+[[0;32m  OK  [0m] Stopped Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Cleaning Up and Shutting Down Daemons.
+[[0;32m  OK  [0m] Started Cleanup udevd DB.
+[[0;32m  OK  [0m] Started Plymouth switch root service.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Started Import network configuration from initramfs.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting RPC Bind...
+         Starting Security Auditing Service...
+         Mounting RPC Pipe File System...
+[[0;32m  OK  [0m] Started RPC Bind.
+[[0;32m  OK  [0m] Mounted RPC Pipe File System.
+[[0;32m  OK  [0m] Reached target rpc_pipefs.target.
+[[0;32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Started CUPS Scheduler.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Listening on SSSD Kerberos Cache Manager responder socket.
+[[0;32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[0;32m  OK  [0m] Listening on Virtual machine lock manager socket.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsiuio Socket.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsid Socket.
+[[0;32m  OK  [0m] Started daily update of the root trust anchor for DNSSEC.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Started dnf makecache --timer.
+[[0;32m  OK  [0m] Reached target Timers.
+[[0;32m  OK  [0m] Listening on Virtual machine log manager socket.
+         Starting Cockpit Web Service Socket.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Listening on Podman Remote API Socket.
+         Starting OSBuild Composer API sockets.
+[[0;32m  OK  [0m] Listening on Libvirt local socket.
+[[0;32m  OK  [0m] Listening on Libvirt admin socket.
+[[0;32m  OK  [0m] Listening on Libvirt local read-only socket.
+[[0;32m  OK  [0m] Listening on CUPS Scheduler.
+[[0;32m  OK  [0m] Listening on OSBuild Composer API sockets.
+[[0;32m  OK  [0m] Listening on Cockpit Web Service Socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+         Starting vboxautostart-service.service...
+         Starting Hardware RNG Entropy Gatherer Wake threshold service...
+[[0;32m  OK  [0m] Started Machine Check Exception Logging Daemon.
+         Starting VDO volume services...
+         Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+[[0;32m  OK  [0m] Started irqbalance daemon.
+         Starting Disk Manager...
+         Starting System Security Services Daemon...
+         Starting vboxballoonctrl-service.service...
+         Starting Bluetooth service...
+[[0;32m  OK  [0m] Started libstoragemgmt plug-in server daemon.
+         Starting ABRT Automated Bug Reporting Tool...
+         Starting NTP client/server...
+         Starting Virtual Machine and Container Registration Service...
+[[0;32m  OK  [0m] Started Manage Sound Card State (restore and store).
+[[0;32m  OK  [0m] Reached target Sound Card.
+         Starting Load CPU microcode update...
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting Kernel Samepage Merging...
+         Starting Authorization Manager...
+         Starting Modem Manager...
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+[[0;32m  OK  [0m] Reached target sshd-keygen.target.
+         Starting RealtimeKit Scheduling Policy Service...
+[[0;32m  OK  [0m] Started vboxautostart-service.service.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Wake threshold service.
+[[0;32m  OK  [0m] Started vboxballoonctrl-service.service.
+[[0;32m  OK  [0m] Started Kernel Samepage Merging.
+         Starting Kernel Samepage Merging (KSM) Tuning Daemon...
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Load CPU microcode update.
+[[0;32m  OK  [0m] Started Kernel Samepage Merging (KSM) Tuning Daemon.
+[[0;32m  OK  [0m] Started RealtimeKit Scheduling Policy Service.
+[[0;32m  OK  [0m] Started Bluetooth service.
+[[0;32m  OK  [0m] Reached target Bluetooth.
+[[0;32m  OK  [0m] Started NTP client/server.
+[[0;32m  OK  [0m] Started ABRT Automated Bug Reporting Tool.
+[[0;32m  OK  [0m] Started Creates ABRT problems from coredumpctl messages.
+[[0;32m  OK  [0m] Started ABRT kernel log watcher.
+[[0;32m  OK  [0m] Started ABRT Xorg log watcher.
+[[0;32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+         Starting Hostname Service...
+[[0;32m  OK  [0m] Started Modem Manager.
+[[0;32m  OK  [0m] Started Authorization Manager.
+         Starting firewalld - dynamic firewall daemon...
+[[0;32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+[[0;32m  OK  [0m] Started Virtual Machine and Container Registration Service.
+[[0;32m  OK  [0m] Started VDO volume services.
+[[0;32m  OK  [0m] Started System Security Services Daemon.
+[[0;32m  OK  [0m] Reached target User and Group Name Lookups.
+         Starting Login Service...
+         Starting Accounts Service...
+[[0;32m  OK  [0m] Started Accounts Service.
+[[0;32m  OK  [0m] Started Hostname Service.
+[[0;32m  OK  [0m] Started firewalld - dynamic firewall daemon.
+[[0;32m  OK  [0m] Reached target Network (Pre).
+         Starting Network Manager...
+[[0;32m  OK  [0m] Started Network Manager.
+[[0;32m  OK  [0m] Reached target Network.
+         Starting Remote desktop service (VNC)...
+         Starting Dynamic System Tuning Daemon...
+         Starting OpenSSH server daemon...
+         Starting Open-iSCSI...
+         Starting GSSAPI Proxy Daemon...
+         Starting CUPS Scheduler...
+         Starting Network Manager Wait Online...
+[[0;32m  OK  [0m] Started Disk Manager.
+         Starting Network Manager Script Dispatcher Service...
+[[0;32m  OK  [0m] Started GSSAPI Proxy Daemon.
+[[0;32m  OK  [0m] Reached target NFS client services.
+[[0;32m  OK  [0m] Started OpenSSH server daemon.
+[[0;32m  OK  [0m] Started Open-iSCSI.
+         Starting Logout off all iSCSI sessions on shutdown...
+[[0;32m  OK  [0m] Started Logout off all iSCSI sessions on shutdown.
+[[0;32m  OK  [0m] Started CUPS Scheduler.
+[[0;32m  OK  [0m] Started Network Manager Script Dispatcher Service.
+         Starting WPA supplicant...
+[[0;32m  OK  [0m] Started WPA supplicant.
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Created slice system-user\x2druntime\x2ddir.slice.
+[[0;32m  OK  [0m] Started /run/user/1000 mount wrapper.
+[[0;32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[0;32m  OK  [0m] Started Network Manager Wait Online.
+[[0;32m  OK  [0m] Reached target Network is Online.
+         Starting vboxweb-service.service...
+         Starting Cockpit motd updater service...
+         Starting Notify NFS peers of a restart...
+         Starting System Logging Service...
+         Starting Plex Media Server...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+         Starting Crash recovery kernel arming...
+         Starting Virtualization daemon...
+         Starting Permit User Sessions...
+[[0;32m  OK  [0m] Started Prometheus.
+         Starting Grafana instance...
+[[0;32m  OK  [0m] Started vboxweb-service.service.
+[[0;32m  OK  [0m] Started Notify NFS peers of a restart.
+[[0;32m  OK  [0m] Started Permit User Sessions.
+[[0;32m  OK  [0m] Started Command Scheduler.
+         Starting Hold until boot process finishes up...
+         Starting GNOME Display Manager...
+[[0;32m  OK  [0m] Created slice User Slice of UID 1000.
+         Starting User Manager for UID 1000...
+[[0;32m  OK  [0m] Started Session 1 of user midu.
+[[0;32m  OK  [0m] Started Job spooling tools.
+[[0;32m  OK  [0m] Started Plex Media Server.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started GNOME Display Manager.

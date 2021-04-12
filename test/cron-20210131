@@ -1,0 +1,353 @@
+Jan 24 13:32:01 wien-ostechnix-lan anacron[2786]: Job `cron.daily' started
+Jan 24 13:32:01 wien-ostechnix-lan run-parts[3097]: (/etc/cron.daily) starting logrotate
+Jan 24 13:32:01 wien-ostechnix-lan run-parts[3097]: (/etc/cron.daily) finished logrotate
+Jan 24 13:32:01 wien-ostechnix-lan anacron[2786]: Job `cron.daily' terminated
+Jan 24 13:32:01 wien-ostechnix-lan anacron[2786]: Normal exit (1 job run)
+Jan 24 14:01:01 wien-ostechnix-lan CROND[3361]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 24 14:01:01 wien-ostechnix-lan run-parts[3361]: (/etc/cron.hourly) starting 0anacron
+Jan 24 14:01:01 wien-ostechnix-lan run-parts[3361]: (/etc/cron.hourly) finished 0anacron
+Jan 24 15:00:02 wien-ostechnix-lan CROND[4487]: (root) CMD (w >> /root/connections)
+Jan 24 15:01:01 wien-ostechnix-lan CROND[4525]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 24 15:01:01 wien-ostechnix-lan run-parts[4525]: (/etc/cron.hourly) starting 0anacron
+Jan 24 15:01:01 wien-ostechnix-lan run-parts[4525]: (/etc/cron.hourly) finished 0anacron
+Jan 24 16:01:01 wien-ostechnix-lan CROND[6960]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 24 16:01:01 wien-ostechnix-lan run-parts[6960]: (/etc/cron.hourly) starting 0anacron
+Jan 24 16:01:01 wien-ostechnix-lan run-parts[6960]: (/etc/cron.hourly) finished 0anacron
+Jan 24 17:01:01 wien-ostechnix-lan CROND[7966]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 24 17:01:01 wien-ostechnix-lan run-parts[7966]: (/etc/cron.hourly) starting 0anacron
+Jan 24 17:01:01 wien-ostechnix-lan run-parts[7966]: (/etc/cron.hourly) finished 0anacron
+Jan 24 18:00:01 wien-ostechnix-lan CROND[12654]: (root) CMD (w >> /root/connections)
+Jan 24 18:01:01 wien-ostechnix-lan CROND[12695]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 24 18:01:01 wien-ostechnix-lan run-parts[12695]: (/etc/cron.hourly) starting 0anacron
+Jan 24 18:01:01 wien-ostechnix-lan run-parts[12695]: (/etc/cron.hourly) finished 0anacron
+Jan 24 19:01:01 wien-ostechnix-lan CROND[13267]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 24 19:01:01 wien-ostechnix-lan run-parts[13267]: (/etc/cron.hourly) starting 0anacron
+Jan 24 19:01:01 wien-ostechnix-lan run-parts[13267]: (/etc/cron.hourly) finished 0anacron
+Jan 24 20:01:01 wien-ostechnix-lan CROND[13902]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 24 20:01:01 wien-ostechnix-lan run-parts[13902]: (/etc/cron.hourly) starting 0anacron
+Jan 24 20:01:01 wien-ostechnix-lan run-parts[13902]: (/etc/cron.hourly) finished 0anacron
+Jan 24 21:00:02 wien-ostechnix-lan CROND[14612]: (root) CMD (w >> /root/connections)
+Jan 24 21:01:01 wien-ostechnix-lan CROND[14666]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 24 21:01:01 wien-ostechnix-lan run-parts[14666]: (/etc/cron.hourly) starting 0anacron
+Jan 24 21:01:01 wien-ostechnix-lan run-parts[14666]: (/etc/cron.hourly) finished 0anacron
+Jan 24 22:01:01 wien-ostechnix-lan CROND[15262]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 24 22:01:01 wien-ostechnix-lan run-parts[15262]: (/etc/cron.hourly) starting 0anacron
+Jan 24 22:01:01 wien-ostechnix-lan run-parts[15262]: (/etc/cron.hourly) finished 0anacron
+Jan 24 23:01:01 wien-ostechnix-lan CROND[19217]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 24 23:01:01 wien-ostechnix-lan run-parts[19217]: (/etc/cron.hourly) starting 0anacron
+Jan 24 23:01:01 wien-ostechnix-lan run-parts[19217]: (/etc/cron.hourly) finished 0anacron
+Jan 25 00:00:01 wien-ostechnix-lan CROND[20366]: (root) CMD (w >> /root/connections)
+Jan 25 00:01:01 wien-ostechnix-lan CROND[20402]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 00:01:01 wien-ostechnix-lan run-parts[20402]: (/etc/cron.hourly) starting 0anacron
+Jan 25 00:01:01 wien-ostechnix-lan anacron[20411]: Anacron started on 2021-01-25
+Jan 25 00:01:01 wien-ostechnix-lan anacron[20411]: Normal exit (0 jobs run)
+Jan 25 00:01:01 wien-ostechnix-lan run-parts[20402]: (/etc/cron.hourly) finished 0anacron
+Jan 25 00:36:43 wien-ostechnix-lan crond[1697]: (CRON) STARTUP (1.5.2)
+Jan 25 00:36:43 wien-ostechnix-lan crond[1697]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 25 00:36:43 wien-ostechnix-lan crond[1697]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 69% if used.)
+Jan 25 00:36:44 wien-ostechnix-lan crond[1697]: (CRON) INFO (running with inotify support)
+Jan 25 01:01:01 wien-ostechnix-lan CROND[2962]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 01:01:01 wien-ostechnix-lan run-parts[2962]: (/etc/cron.hourly) starting 0anacron
+Jan 25 01:01:01 wien-ostechnix-lan anacron[2971]: Anacron started on 2021-01-25
+Jan 25 01:01:01 wien-ostechnix-lan anacron[2971]: Normal exit (0 jobs run)
+Jan 25 01:01:01 wien-ostechnix-lan run-parts[2962]: (/etc/cron.hourly) finished 0anacron
+Jan 25 09:05:02 wien-ostechnix-lan crond[1684]: (CRON) STARTUP (1.5.2)
+Jan 25 09:05:02 wien-ostechnix-lan crond[1684]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 25 09:05:02 wien-ostechnix-lan crond[1684]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 68% if used.)
+Jan 25 09:05:03 wien-ostechnix-lan crond[1684]: (CRON) INFO (running with inotify support)
+Jan 25 10:01:01 wien-ostechnix-lan CROND[3538]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 10:01:01 wien-ostechnix-lan run-parts[3538]: (/etc/cron.hourly) starting 0anacron
+Jan 25 10:01:01 wien-ostechnix-lan anacron[3547]: Anacron started on 2021-01-25
+Jan 25 10:01:01 wien-ostechnix-lan anacron[3547]: Will run job `cron.daily' in 46 min.
+Jan 25 10:01:01 wien-ostechnix-lan anacron[3547]: Jobs will be executed sequentially
+Jan 25 10:01:01 wien-ostechnix-lan run-parts[3538]: (/etc/cron.hourly) finished 0anacron
+Jan 25 10:47:01 wien-ostechnix-lan anacron[3547]: Job `cron.daily' started
+Jan 25 10:47:01 wien-ostechnix-lan run-parts[3943]: (/etc/cron.daily) starting logrotate
+Jan 25 10:47:01 wien-ostechnix-lan run-parts[3943]: (/etc/cron.daily) finished logrotate
+Jan 25 10:47:01 wien-ostechnix-lan anacron[3547]: Job `cron.daily' terminated
+Jan 25 10:47:01 wien-ostechnix-lan anacron[3547]: Normal exit (1 job run)
+Jan 25 11:01:01 wien-ostechnix-lan CROND[4068]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 11:01:01 wien-ostechnix-lan run-parts[4068]: (/etc/cron.hourly) starting 0anacron
+Jan 25 11:01:01 wien-ostechnix-lan run-parts[4068]: (/etc/cron.hourly) finished 0anacron
+Jan 25 12:00:01 wien-ostechnix-lan CROND[4629]: (root) CMD (w >> /root/connections)
+Jan 25 12:01:01 wien-ostechnix-lan CROND[4663]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 12:01:01 wien-ostechnix-lan run-parts[4663]: (/etc/cron.hourly) starting 0anacron
+Jan 25 12:01:01 wien-ostechnix-lan run-parts[4663]: (/etc/cron.hourly) finished 0anacron
+Jan 25 13:01:01 wien-ostechnix-lan CROND[5212]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 13:01:01 wien-ostechnix-lan run-parts[5212]: (/etc/cron.hourly) starting 0anacron
+Jan 25 13:01:01 wien-ostechnix-lan run-parts[5212]: (/etc/cron.hourly) finished 0anacron
+Jan 25 14:01:01 wien-ostechnix-lan CROND[7991]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 14:01:01 wien-ostechnix-lan run-parts[7991]: (/etc/cron.hourly) starting 0anacron
+Jan 25 14:01:01 wien-ostechnix-lan run-parts[7991]: (/etc/cron.hourly) finished 0anacron
+Jan 25 15:00:02 wien-ostechnix-lan CROND[21936]: (root) CMD (w >> /root/connections)
+Jan 25 15:01:01 wien-ostechnix-lan CROND[22328]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 15:01:01 wien-ostechnix-lan run-parts[22328]: (/etc/cron.hourly) starting 0anacron
+Jan 25 15:01:01 wien-ostechnix-lan run-parts[22328]: (/etc/cron.hourly) finished 0anacron
+Jan 25 16:01:01 wien-ostechnix-lan CROND[42090]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 16:01:01 wien-ostechnix-lan run-parts[42090]: (/etc/cron.hourly) starting 0anacron
+Jan 25 16:01:01 wien-ostechnix-lan run-parts[42090]: (/etc/cron.hourly) finished 0anacron
+Jan 25 17:01:01 wien-ostechnix-lan CROND[63997]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 17:01:01 wien-ostechnix-lan run-parts[63997]: (/etc/cron.hourly) starting 0anacron
+Jan 25 17:01:01 wien-ostechnix-lan run-parts[63997]: (/etc/cron.hourly) finished 0anacron
+Jan 25 18:00:01 wien-ostechnix-lan CROND[85963]: (root) CMD (w >> /root/connections)
+Jan 25 18:01:01 wien-ostechnix-lan CROND[86356]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 18:01:01 wien-ostechnix-lan run-parts[86356]: (/etc/cron.hourly) starting 0anacron
+Jan 25 18:01:01 wien-ostechnix-lan run-parts[86356]: (/etc/cron.hourly) finished 0anacron
+Jan 25 19:01:01 wien-ostechnix-lan CROND[99124]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 19:01:01 wien-ostechnix-lan run-parts[99124]: (/etc/cron.hourly) starting 0anacron
+Jan 25 19:01:01 wien-ostechnix-lan run-parts[99124]: (/etc/cron.hourly) finished 0anacron
+Jan 25 20:01:01 wien-ostechnix-lan CROND[116694]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 20:01:01 wien-ostechnix-lan run-parts[116694]: (/etc/cron.hourly) starting 0anacron
+Jan 25 20:01:01 wien-ostechnix-lan run-parts[116694]: (/etc/cron.hourly) finished 0anacron
+Jan 25 21:00:02 wien-ostechnix-lan CROND[131416]: (root) CMD (w >> /root/connections)
+Jan 25 21:01:01 wien-ostechnix-lan CROND[131449]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 21:01:01 wien-ostechnix-lan run-parts[131449]: (/etc/cron.hourly) starting 0anacron
+Jan 25 21:01:01 wien-ostechnix-lan run-parts[131449]: (/etc/cron.hourly) finished 0anacron
+Jan 25 21:57:22 wien-ostechnix-lan crond[1699]: (CRON) STARTUP (1.5.2)
+Jan 25 21:57:22 wien-ostechnix-lan crond[1699]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 25 21:57:22 wien-ostechnix-lan crond[1699]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 93% if used.)
+Jan 25 21:57:22 wien-ostechnix-lan crond[1699]: (CRON) INFO (running with inotify support)
+Jan 25 22:01:01 wien-ostechnix-lan CROND[2780]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 22:01:01 wien-ostechnix-lan run-parts[2780]: (/etc/cron.hourly) starting 0anacron
+Jan 25 22:01:01 wien-ostechnix-lan run-parts[2780]: (/etc/cron.hourly) finished 0anacron
+Jan 25 23:01:01 wien-ostechnix-lan CROND[3331]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 25 23:01:01 wien-ostechnix-lan run-parts[3331]: (/etc/cron.hourly) starting 0anacron
+Jan 25 23:01:01 wien-ostechnix-lan run-parts[3331]: (/etc/cron.hourly) finished 0anacron
+Jan 26 12:41:51 wien-ostechnix-lan crond[1698]: (CRON) STARTUP (1.5.2)
+Jan 26 12:41:51 wien-ostechnix-lan crond[1698]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 26 12:41:51 wien-ostechnix-lan crond[1698]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 49% if used.)
+Jan 26 12:41:51 wien-ostechnix-lan crond[1698]: (CRON) INFO (running with inotify support)
+Jan 26 13:01:01 wien-ostechnix-lan CROND[2996]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 13:01:01 wien-ostechnix-lan run-parts[2996]: (/etc/cron.hourly) starting 0anacron
+Jan 26 13:01:01 wien-ostechnix-lan anacron[3005]: Anacron started on 2021-01-26
+Jan 26 13:01:01 wien-ostechnix-lan anacron[3005]: Will run job `cron.daily' in 21 min.
+Jan 26 13:01:01 wien-ostechnix-lan anacron[3005]: Jobs will be executed sequentially
+Jan 26 13:01:01 wien-ostechnix-lan run-parts[2996]: (/etc/cron.hourly) finished 0anacron
+Jan 26 13:22:01 wien-ostechnix-lan anacron[3005]: Job `cron.daily' started
+Jan 26 13:22:01 wien-ostechnix-lan run-parts[7148]: (/etc/cron.daily) starting logrotate
+Jan 26 13:22:01 wien-ostechnix-lan run-parts[7148]: (/etc/cron.daily) finished logrotate
+Jan 26 13:22:01 wien-ostechnix-lan anacron[3005]: Job `cron.daily' terminated
+Jan 26 13:22:01 wien-ostechnix-lan anacron[3005]: Normal exit (1 job run)
+Jan 26 14:01:01 wien-ostechnix-lan CROND[10161]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 14:01:01 wien-ostechnix-lan run-parts[10161]: (/etc/cron.hourly) starting 0anacron
+Jan 26 14:01:01 wien-ostechnix-lan run-parts[10161]: (/etc/cron.hourly) finished 0anacron
+Jan 26 15:00:01 wien-ostechnix-lan CROND[10715]: (root) CMD (w >> /root/connections)
+Jan 26 15:01:01 wien-ostechnix-lan CROND[10757]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 15:01:01 wien-ostechnix-lan run-parts[10757]: (/etc/cron.hourly) starting 0anacron
+Jan 26 15:01:01 wien-ostechnix-lan run-parts[10757]: (/etc/cron.hourly) finished 0anacron
+Jan 26 16:01:01 wien-ostechnix-lan CROND[11309]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 16:01:01 wien-ostechnix-lan run-parts[11309]: (/etc/cron.hourly) starting 0anacron
+Jan 26 16:01:01 wien-ostechnix-lan run-parts[11309]: (/etc/cron.hourly) finished 0anacron
+Jan 26 17:01:01 wien-ostechnix-lan CROND[11826]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 17:01:01 wien-ostechnix-lan run-parts[11826]: (/etc/cron.hourly) starting 0anacron
+Jan 26 17:01:01 wien-ostechnix-lan run-parts[11826]: (/etc/cron.hourly) finished 0anacron
+Jan 26 18:00:01 wien-ostechnix-lan CROND[12776]: (root) CMD (w >> /root/connections)
+Jan 26 18:01:01 wien-ostechnix-lan CROND[12818]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 18:01:01 wien-ostechnix-lan run-parts[12818]: (/etc/cron.hourly) starting 0anacron
+Jan 26 18:01:01 wien-ostechnix-lan run-parts[12818]: (/etc/cron.hourly) finished 0anacron
+Jan 26 19:01:01 wien-ostechnix-lan CROND[13413]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 19:01:01 wien-ostechnix-lan run-parts[13413]: (/etc/cron.hourly) starting 0anacron
+Jan 26 19:01:01 wien-ostechnix-lan run-parts[13413]: (/etc/cron.hourly) finished 0anacron
+Jan 26 20:01:01 wien-ostechnix-lan CROND[13983]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 20:01:01 wien-ostechnix-lan run-parts[13983]: (/etc/cron.hourly) starting 0anacron
+Jan 26 20:01:01 wien-ostechnix-lan run-parts[13983]: (/etc/cron.hourly) finished 0anacron
+Jan 26 21:00:01 wien-ostechnix-lan CROND[18102]: (root) CMD (w >> /root/connections)
+Jan 26 21:01:01 wien-ostechnix-lan CROND[18140]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 21:01:01 wien-ostechnix-lan run-parts[18140]: (/etc/cron.hourly) starting 0anacron
+Jan 26 21:01:01 wien-ostechnix-lan run-parts[18140]: (/etc/cron.hourly) finished 0anacron
+Jan 26 22:01:01 wien-ostechnix-lan CROND[21874]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 22:01:01 wien-ostechnix-lan run-parts[21874]: (/etc/cron.hourly) starting 0anacron
+Jan 26 22:01:01 wien-ostechnix-lan run-parts[21874]: (/etc/cron.hourly) finished 0anacron
+Jan 26 23:01:01 wien-ostechnix-lan CROND[22439]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 26 23:01:01 wien-ostechnix-lan run-parts[22439]: (/etc/cron.hourly) starting 0anacron
+Jan 26 23:01:01 wien-ostechnix-lan run-parts[22439]: (/etc/cron.hourly) finished 0anacron
+Jan 27 00:00:01 wien-ostechnix-lan CROND[22972]: (root) CMD (w >> /root/connections)
+Jan 27 00:01:01 wien-ostechnix-lan CROND[23011]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 27 00:01:01 wien-ostechnix-lan run-parts[23011]: (/etc/cron.hourly) starting 0anacron
+Jan 27 00:01:01 wien-ostechnix-lan anacron[23020]: Anacron started on 2021-01-27
+Jan 27 00:01:01 wien-ostechnix-lan anacron[23020]: Normal exit (0 jobs run)
+Jan 27 00:01:01 wien-ostechnix-lan run-parts[23011]: (/etc/cron.hourly) finished 0anacron
+Jan 27 01:01:01 wien-ostechnix-lan CROND[23556]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 27 01:01:01 wien-ostechnix-lan run-parts[23556]: (/etc/cron.hourly) starting 0anacron
+Jan 27 01:01:01 wien-ostechnix-lan anacron[23565]: Anacron started on 2021-01-27
+Jan 27 01:01:01 wien-ostechnix-lan anacron[23565]: Normal exit (0 jobs run)
+Jan 27 01:01:01 wien-ostechnix-lan run-parts[23556]: (/etc/cron.hourly) finished 0anacron
+Jan 27 18:51:31 wien-ostechnix-lan crond[1699]: (CRON) STARTUP (1.5.2)
+Jan 27 18:51:31 wien-ostechnix-lan crond[1699]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 27 18:51:31 wien-ostechnix-lan crond[1699]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 37% if used.)
+Jan 27 18:51:31 wien-ostechnix-lan crond[1699]: (CRON) INFO (running with inotify support)
+Jan 27 19:01:01 wien-ostechnix-lan CROND[2830]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 27 19:01:01 wien-ostechnix-lan run-parts[2830]: (/etc/cron.hourly) starting 0anacron
+Jan 27 19:01:01 wien-ostechnix-lan anacron[2839]: Anacron started on 2021-01-27
+Jan 27 19:01:01 wien-ostechnix-lan anacron[2839]: Will run job `cron.daily' in 11 min.
+Jan 27 19:01:01 wien-ostechnix-lan anacron[2839]: Jobs will be executed sequentially
+Jan 27 19:01:01 wien-ostechnix-lan run-parts[2830]: (/etc/cron.hourly) finished 0anacron
+Jan 27 19:12:01 wien-ostechnix-lan anacron[2839]: Job `cron.daily' started
+Jan 27 19:12:01 wien-ostechnix-lan run-parts[3030]: (/etc/cron.daily) starting logrotate
+Jan 27 19:12:01 wien-ostechnix-lan run-parts[3030]: (/etc/cron.daily) finished logrotate
+Jan 27 19:12:01 wien-ostechnix-lan anacron[2839]: Job `cron.daily' terminated
+Jan 27 19:12:01 wien-ostechnix-lan anacron[2839]: Normal exit (1 job run)
+Jan 27 20:01:01 wien-ostechnix-lan CROND[3457]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 27 20:01:01 wien-ostechnix-lan run-parts[3457]: (/etc/cron.hourly) starting 0anacron
+Jan 27 20:01:01 wien-ostechnix-lan run-parts[3457]: (/etc/cron.hourly) finished 0anacron
+Jan 27 21:00:02 wien-ostechnix-lan CROND[4087]: (root) CMD (w >> /root/connections)
+Jan 27 21:01:01 wien-ostechnix-lan CROND[4128]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 27 21:01:01 wien-ostechnix-lan run-parts[4128]: (/etc/cron.hourly) starting 0anacron
+Jan 27 21:01:01 wien-ostechnix-lan run-parts[4128]: (/etc/cron.hourly) finished 0anacron
+Jan 27 22:01:01 wien-ostechnix-lan CROND[4808]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 27 22:01:01 wien-ostechnix-lan run-parts[4808]: (/etc/cron.hourly) starting 0anacron
+Jan 27 22:01:01 wien-ostechnix-lan run-parts[4808]: (/etc/cron.hourly) finished 0anacron
+Jan 27 22:16:45 wien-ostechnix-lan crond[1877]: (CRON) STARTUP (1.5.2)
+Jan 27 22:16:45 wien-ostechnix-lan crond[1877]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 27 22:16:45 wien-ostechnix-lan crond[1877]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 88% if used.)
+Jan 27 22:16:46 wien-ostechnix-lan crond[1877]: (CRON) INFO (running with inotify support)
+Jan 27 22:28:02 wien-ostechnix-lan crond[1912]: (CRON) STARTUP (1.5.2)
+Jan 27 22:28:02 wien-ostechnix-lan crond[1912]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 27 22:28:02 wien-ostechnix-lan crond[1912]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 69% if used.)
+Jan 27 22:28:03 wien-ostechnix-lan crond[1912]: (CRON) INFO (running with inotify support)
+Jan 27 22:33:33 wien-ostechnix-lan crond[1883]: (CRON) STARTUP (1.5.2)
+Jan 27 22:33:33 wien-ostechnix-lan crond[1883]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 27 22:33:33 wien-ostechnix-lan crond[1883]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 47% if used.)
+Jan 27 22:33:33 wien-ostechnix-lan crond[1883]: (CRON) INFO (running with inotify support)
+Jan 27 22:42:05 wien-ostechnix-lan crond[1868]: (CRON) STARTUP (1.5.2)
+Jan 27 22:42:05 wien-ostechnix-lan crond[1868]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 27 22:42:05 wien-ostechnix-lan crond[1868]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 21% if used.)
+Jan 27 22:42:05 wien-ostechnix-lan crond[1868]: (CRON) INFO (running with inotify support)
+Jan 27 23:01:01 wien-ostechnix-lan CROND[9183]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 27 23:01:01 wien-ostechnix-lan run-parts[9183]: (/etc/cron.hourly) starting 0anacron
+Jan 27 23:01:01 wien-ostechnix-lan run-parts[9183]: (/etc/cron.hourly) finished 0anacron
+Jan 28 00:00:01 wien-ostechnix-lan CROND[34698]: (root) CMD (w >> /root/connections)
+Jan 28 00:01:01 wien-ostechnix-lan CROND[36566]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 28 00:01:01 wien-ostechnix-lan run-parts[36566]: (/etc/cron.hourly) starting 0anacron
+Jan 28 00:01:01 wien-ostechnix-lan anacron[36577]: Anacron started on 2021-01-28
+Jan 28 00:01:01 wien-ostechnix-lan anacron[36577]: Normal exit (0 jobs run)
+Jan 28 00:01:01 wien-ostechnix-lan run-parts[36566]: (/etc/cron.hourly) finished 0anacron
+Jan 28 18:56:29 wien-ostechnix-lan crond[1812]: (CRON) STARTUP (1.5.2)
+Jan 28 18:56:29 wien-ostechnix-lan crond[1812]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 28 18:56:29 wien-ostechnix-lan crond[1812]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 64% if used.)
+Jan 28 18:56:29 wien-ostechnix-lan crond[1812]: (CRON) INFO (running with inotify support)
+Jan 28 19:01:01 wien-ostechnix-lan CROND[2893]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 28 19:01:01 wien-ostechnix-lan run-parts[2893]: (/etc/cron.hourly) starting 0anacron
+Jan 28 19:01:01 wien-ostechnix-lan anacron[2902]: Anacron started on 2021-01-28
+Jan 28 19:01:01 wien-ostechnix-lan anacron[2902]: Will run job `cron.daily' in 16 min.
+Jan 28 19:01:01 wien-ostechnix-lan anacron[2902]: Will run job `cron.weekly' in 36 min.
+Jan 28 19:01:01 wien-ostechnix-lan anacron[2902]: Jobs will be executed sequentially
+Jan 28 19:01:01 wien-ostechnix-lan run-parts[2893]: (/etc/cron.hourly) finished 0anacron
+Jan 28 19:17:01 wien-ostechnix-lan anacron[2902]: Job `cron.daily' started
+Jan 28 19:17:01 wien-ostechnix-lan run-parts[3767]: (/etc/cron.daily) starting logrotate
+Jan 28 19:17:01 wien-ostechnix-lan run-parts[3767]: (/etc/cron.daily) finished logrotate
+Jan 28 19:17:01 wien-ostechnix-lan anacron[2902]: Job `cron.daily' terminated
+Jan 28 19:37:01 wien-ostechnix-lan anacron[2902]: Job `cron.weekly' started
+Jan 28 19:37:01 wien-ostechnix-lan anacron[2902]: Job `cron.weekly' terminated
+Jan 28 19:37:01 wien-ostechnix-lan anacron[2902]: Normal exit (2 jobs run)
+Jan 28 20:01:01 wien-ostechnix-lan CROND[7903]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 28 20:01:01 wien-ostechnix-lan run-parts[7903]: (/etc/cron.hourly) starting 0anacron
+Jan 28 20:01:01 wien-ostechnix-lan run-parts[7903]: (/etc/cron.hourly) finished 0anacron
+Jan 28 21:00:01 wien-ostechnix-lan CROND[9026]: (root) CMD (w >> /root/connections)
+Jan 28 21:01:01 wien-ostechnix-lan CROND[9072]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 28 21:01:01 wien-ostechnix-lan run-parts[9072]: (/etc/cron.hourly) starting 0anacron
+Jan 28 21:01:01 wien-ostechnix-lan run-parts[9072]: (/etc/cron.hourly) finished 0anacron
+Jan 28 22:01:01 wien-ostechnix-lan CROND[9583]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 28 22:01:01 wien-ostechnix-lan run-parts[9583]: (/etc/cron.hourly) starting 0anacron
+Jan 28 22:01:01 wien-ostechnix-lan run-parts[9583]: (/etc/cron.hourly) finished 0anacron
+Jan 28 23:01:01 wien-ostechnix-lan CROND[10539]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 28 23:01:01 wien-ostechnix-lan run-parts[10539]: (/etc/cron.hourly) starting 0anacron
+Jan 28 23:01:01 wien-ostechnix-lan run-parts[10539]: (/etc/cron.hourly) finished 0anacron
+Jan 29 00:00:01 wien-ostechnix-lan CROND[17236]: (root) CMD (w >> /root/connections)
+Jan 29 00:01:01 wien-ostechnix-lan CROND[17272]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 29 00:01:01 wien-ostechnix-lan run-parts[17272]: (/etc/cron.hourly) starting 0anacron
+Jan 29 00:01:01 wien-ostechnix-lan anacron[17281]: Anacron started on 2021-01-29
+Jan 29 00:01:01 wien-ostechnix-lan anacron[17281]: Normal exit (0 jobs run)
+Jan 29 00:01:01 wien-ostechnix-lan run-parts[17272]: (/etc/cron.hourly) finished 0anacron
+Jan 29 01:01:01 wien-ostechnix-lan CROND[62409]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 29 01:01:01 wien-ostechnix-lan run-parts[62409]: (/etc/cron.hourly) starting 0anacron
+Jan 29 01:01:01 wien-ostechnix-lan anacron[62418]: Anacron started on 2021-01-29
+Jan 29 01:01:01 wien-ostechnix-lan anacron[62418]: Normal exit (0 jobs run)
+Jan 29 01:01:01 wien-ostechnix-lan run-parts[62409]: (/etc/cron.hourly) finished 0anacron
+Jan 29 18:33:56 wien-ostechnix-lan crond[1794]: (CRON) STARTUP (1.5.2)
+Jan 29 18:33:56 wien-ostechnix-lan crond[1794]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 29 18:33:56 wien-ostechnix-lan crond[1794]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 32% if used.)
+Jan 29 18:33:56 wien-ostechnix-lan crond[1794]: (CRON) INFO (running with inotify support)
+Jan 29 19:01:01 wien-ostechnix-lan CROND[3173]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 29 19:01:01 wien-ostechnix-lan run-parts[3173]: (/etc/cron.hourly) starting 0anacron
+Jan 29 19:01:01 wien-ostechnix-lan anacron[3182]: Anacron started on 2021-01-29
+Jan 29 19:01:01 wien-ostechnix-lan anacron[3182]: Will run job `cron.daily' in 29 min.
+Jan 29 19:01:01 wien-ostechnix-lan anacron[3182]: Jobs will be executed sequentially
+Jan 29 19:01:01 wien-ostechnix-lan run-parts[3173]: (/etc/cron.hourly) finished 0anacron
+Jan 29 19:30:01 wien-ostechnix-lan anacron[3182]: Job `cron.daily' started
+Jan 29 19:30:01 wien-ostechnix-lan run-parts[6301]: (/etc/cron.daily) starting logrotate
+Jan 29 19:30:01 wien-ostechnix-lan run-parts[6301]: (/etc/cron.daily) finished logrotate
+Jan 29 19:30:01 wien-ostechnix-lan anacron[3182]: Job `cron.daily' terminated
+Jan 29 19:30:01 wien-ostechnix-lan anacron[3182]: Normal exit (1 job run)
+Jan 29 20:01:01 wien-ostechnix-lan CROND[6572]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 29 20:01:01 wien-ostechnix-lan run-parts[6572]: (/etc/cron.hourly) starting 0anacron
+Jan 29 20:01:01 wien-ostechnix-lan run-parts[6572]: (/etc/cron.hourly) finished 0anacron
+Jan 29 21:00:01 wien-ostechnix-lan CROND[7101]: (root) CMD (w >> /root/connections)
+Jan 29 21:01:01 wien-ostechnix-lan CROND[7136]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 29 21:01:01 wien-ostechnix-lan run-parts[7136]: (/etc/cron.hourly) starting 0anacron
+Jan 29 21:01:01 wien-ostechnix-lan run-parts[7136]: (/etc/cron.hourly) finished 0anacron
+Jan 29 22:01:01 wien-ostechnix-lan CROND[16066]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 29 22:01:01 wien-ostechnix-lan run-parts[16066]: (/etc/cron.hourly) starting 0anacron
+Jan 29 22:01:01 wien-ostechnix-lan run-parts[16066]: (/etc/cron.hourly) finished 0anacron
+Jan 29 23:01:01 wien-ostechnix-lan CROND[16579]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 29 23:01:01 wien-ostechnix-lan run-parts[16579]: (/etc/cron.hourly) starting 0anacron
+Jan 29 23:01:01 wien-ostechnix-lan run-parts[16579]: (/etc/cron.hourly) finished 0anacron
+Jan 30 14:45:11 wien-plex crond[1794]: (CRON) STARTUP (1.5.2)
+Jan 30 14:45:11 wien-plex crond[1794]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 30 14:45:11 wien-plex crond[1794]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 84% if used.)
+Jan 30 14:45:11 wien-plex crond[1794]: (CRON) INFO (running with inotify support)
+Jan 30 15:00:01 wien-plex CROND[3051]: (root) CMD (w >> /root/connections)
+Jan 30 15:01:01 wien-plex CROND[3094]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 30 15:01:01 wien-plex run-parts[3094]: (/etc/cron.hourly) starting 0anacron
+Jan 30 15:01:01 wien-plex anacron[3103]: Anacron started on 2021-01-30
+Jan 30 15:01:01 wien-plex anacron[3103]: Will run job `cron.daily' in 17 min.
+Jan 30 15:01:01 wien-plex anacron[3103]: Jobs will be executed sequentially
+Jan 30 15:01:01 wien-plex run-parts[3094]: (/etc/cron.hourly) finished 0anacron
+Jan 30 15:18:01 wien-plex anacron[3103]: Job `cron.daily' started
+Jan 30 15:18:01 wien-plex run-parts[3268]: (/etc/cron.daily) starting logrotate
+Jan 30 15:18:01 wien-plex run-parts[3268]: (/etc/cron.daily) finished logrotate
+Jan 30 15:18:01 wien-plex anacron[3103]: Job `cron.daily' terminated
+Jan 30 15:18:01 wien-plex anacron[3103]: Normal exit (1 job run)
+Jan 30 20:18:43 wien-plex crond[1810]: (CRON) STARTUP (1.5.2)
+Jan 30 20:18:43 wien-plex crond[1810]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 30 20:18:43 wien-plex crond[1810]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 74% if used.)
+Jan 30 20:18:43 wien-plex crond[1810]: (CRON) INFO (running with inotify support)
+Jan 30 21:00:01 wien-plex CROND[3279]: (root) CMD (w >> /root/connections)
+Jan 30 21:01:01 wien-plex CROND[3322]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 30 21:01:01 wien-plex run-parts[3322]: (/etc/cron.hourly) starting 0anacron
+Jan 30 21:01:01 wien-plex run-parts[3322]: (/etc/cron.hourly) finished 0anacron
+Jan 30 22:01:01 wien-plex CROND[3833]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 30 22:01:01 wien-plex run-parts[3833]: (/etc/cron.hourly) starting 0anacron
+Jan 30 22:01:01 wien-plex run-parts[3833]: (/etc/cron.hourly) finished 0anacron
+Jan 30 23:01:01 wien-plex CROND[4348]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 30 23:01:01 wien-plex run-parts[4348]: (/etc/cron.hourly) starting 0anacron
+Jan 30 23:01:01 wien-plex run-parts[4348]: (/etc/cron.hourly) finished 0anacron
+Jan 31 00:00:01 wien-plex CROND[5260]: (root) CMD (w >> /root/connections)
+Jan 31 00:01:01 wien-plex CROND[5297]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 00:01:01 wien-plex run-parts[5297]: (/etc/cron.hourly) starting 0anacron
+Jan 31 00:01:01 wien-plex anacron[5306]: Anacron started on 2021-01-31
+Jan 31 00:01:01 wien-plex anacron[5306]: Normal exit (0 jobs run)
+Jan 31 00:01:01 wien-plex run-parts[5297]: (/etc/cron.hourly) finished 0anacron
+Jan 31 01:00:01 wien-plex CROND[14700]: (root) CMD (/usr/sbin/raid-check)
+Jan 31 01:01:01 wien-plex CROND[14714]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 01:01:01 wien-plex run-parts[14714]: (/etc/cron.hourly) starting 0anacron
+Jan 31 01:01:01 wien-plex anacron[14723]: Anacron started on 2021-01-31
+Jan 31 01:01:01 wien-plex anacron[14723]: Normal exit (0 jobs run)
+Jan 31 01:01:01 wien-plex run-parts[14714]: (/etc/cron.hourly) finished 0anacron
+Jan 31 02:01:01 wien-plex CROND[15269]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 02:01:01 wien-plex run-parts[15269]: (/etc/cron.hourly) starting 0anacron
+Jan 31 02:01:01 wien-plex anacron[15278]: Anacron started on 2021-01-31
+Jan 31 02:01:01 wien-plex anacron[15278]: Normal exit (0 jobs run)
+Jan 31 02:01:01 wien-plex run-parts[15269]: (/etc/cron.hourly) finished 0anacron
+Jan 31 12:59:18 wien-plex crond[1804]: (CRON) STARTUP (1.5.2)
+Jan 31 12:59:18 wien-plex crond[1804]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jan 31 12:59:18 wien-plex crond[1804]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 41% if used.)
+Jan 31 12:59:18 wien-plex crond[1804]: (CRON) INFO (running with inotify support)
+Jan 31 13:01:01 wien-plex CROND[2868]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 13:01:01 wien-plex run-parts[2868]: (/etc/cron.hourly) starting 0anacron
+Jan 31 13:01:01 wien-plex anacron[2877]: Anacron started on 2021-01-31
+Jan 31 13:01:01 wien-plex anacron[2877]: Will run job `cron.daily' in 32 min.
+Jan 31 13:01:01 wien-plex anacron[2877]: Jobs will be executed sequentially
+Jan 31 13:01:01 wien-plex run-parts[2868]: (/etc/cron.hourly) finished 0anacron
+Jan 31 13:33:01 wien-plex anacron[2877]: Job `cron.daily' started
+Jan 31 13:33:01 wien-plex run-parts[3242]: (/etc/cron.daily) starting logrotate

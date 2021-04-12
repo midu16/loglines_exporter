@@ -1,0 +1,1051 @@
+2021-01-21T15:38:07Z INFO --- logging initialized ---
+2021-01-21T15:47:53Z INFO --- logging initialized ---
+2021-01-21T15:49:05Z SUBDEBUG Upgrade: xorg-x11-server-common-1.20.8-6.1.el8_3.x86_64
+2021-01-21T15:49:05Z SUBDEBUG Upgrade: tigervnc-license-1.10.1-9.el8_3.noarch
+2021-01-21T15:49:05Z SUBDEBUG Upgrade: mariadb-connector-c-config-3.1.11-2.el8_3.noarch
+2021-01-21T15:49:05Z SUBDEBUG Upgrade: tigervnc-icons-1.10.1-9.el8_3.noarch
+2021-01-21T15:49:05Z SUBDEBUG Upgrade: tzdata-2020f-1.el8.noarch
+2021-01-21T15:49:07Z SUBDEBUG Upgrade: glibc-langpack-en-2.28-127.0.3.el8.x86_64
+2021-01-21T15:49:08Z SUBDEBUG Upgrade: glibc-2.28-127.0.3.el8.x86_64
+2021-01-21T15:49:09Z SUBDEBUG Upgrade: libselinux-2.9-4.el8_3.x86_64
+2021-01-21T15:49:10Z SUBDEBUG Upgrade: glibc-common-2.28-127.0.3.el8.x86_64
+2021-01-21T15:49:10Z SUBDEBUG Upgrade: gnutls-3.6.14-7.el8_3.x86_64
+2021-01-21T15:49:11Z SUBDEBUG Upgrade: systemd-libs-239-41.0.1.el8_3.1.x86_64
+2021-01-21T15:49:11Z SUBDEBUG Upgrade: openssl-libs-1:1.1.1g-12.el8_3.x86_64
+2021-01-21T15:49:11Z SUBDEBUG Upgrade: libcurl-7.61.1-14.el8_3.1.x86_64
+2021-01-21T15:49:11Z SUBDEBUG Upgrade: net-snmp-libs-1:5.8-18.el8_3.1.x86_64
+2021-01-21T15:49:12Z SUBDEBUG Upgrade: NetworkManager-libnm-1:1.26.0-12.0.1.el8_3.x86_64
+2021-01-21T15:49:12Z SUBDEBUG Upgrade: iptables-libs-1.8.4-15.0.1.el8_3.3.x86_64
+2021-01-21T15:49:13Z SUBDEBUG Upgrade: systemd-pam-239-41.0.1.el8_3.1.x86_64
+2021-01-21T15:49:13Z SUBDEBUG Upgrade: systemd-239-41.0.1.el8_3.1.x86_64
+2021-01-21T15:49:15Z SUBDEBUG Upgrade: NetworkManager-1:1.26.0-12.0.1.el8_3.x86_64
+2021-01-21T15:49:18Z SUBDEBUG Upgrade: qemu-kvm-common-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-01-21T15:49:18Z SUBDEBUG Upgrade: systemd-udev-239-41.0.1.el8_3.1.x86_64
+2021-01-21T15:49:19Z SUBDEBUG Installed: kernel-core-4.18.0-240.10.1.el8_3.x86_64
+2021-01-21T15:49:28Z SUBDEBUG Upgrade: mariadb-connector-c-3.1.11-2.el8_3.x86_64
+2021-01-21T15:49:28Z SUBDEBUG Upgrade: libdnf-0.48.0-5.0.2.el8.x86_64
+2021-01-21T15:49:28Z SUBDEBUG Upgrade: iproute-5.4.0-1.0.1.el8.x86_64
+2021-01-21T15:49:28Z SUBDEBUG Upgrade: freetype-2.9.1-4.el8_3.1.x86_64
+2021-01-21T15:49:28Z SUBDEBUG Upgrade: daxctl-libs-69-1.0.2.el8.x86_64
+2021-01-21T15:49:29Z SUBDEBUG Upgrade: ndctl-libs-69-1.0.2.el8.x86_64
+2021-01-21T15:49:29Z SUBDEBUG Upgrade: python3-libdnf-0.48.0-5.0.2.el8.x86_64
+2021-01-21T15:49:29Z SUBDEBUG Upgrade: net-snmp-agent-libs-1:5.8-18.el8_3.1.x86_64
+2021-01-21T15:49:29Z SUBDEBUG Installed: kernel-modules-4.18.0-240.10.1.el8_3.x86_64
+2021-01-21T15:49:37Z SUBDEBUG Upgrade: qemu-kvm-block-iscsi-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-01-21T15:49:37Z SUBDEBUG Upgrade: qemu-kvm-block-curl-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-01-21T15:49:37Z SUBDEBUG Upgrade: qemu-kvm-block-ssh-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-01-21T15:49:37Z SUBDEBUG Upgrade: qemu-kvm-block-rbd-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-01-21T15:49:37Z SUBDEBUG Upgrade: qemu-kvm-block-gluster-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-01-21T15:49:37Z SUBDEBUG Upgrade: NetworkManager-team-1:1.26.0-12.0.1.el8_3.x86_64
+2021-01-21T15:49:37Z SUBDEBUG Upgrade: NetworkManager-wifi-1:1.26.0-12.0.1.el8_3.x86_64
+2021-01-21T15:49:37Z SUBDEBUG Upgrade: NetworkManager-wwan-1:1.26.0-12.0.1.el8_3.x86_64
+2021-01-21T15:49:37Z SUBDEBUG Upgrade: iptables-1.8.4-15.0.1.el8_3.3.x86_64
+2021-01-21T15:49:38Z SUBDEBUG Upgrade: curl-7.61.1-14.el8_3.1.x86_64
+2021-01-21T15:49:38Z SUBDEBUG Upgrade: tigervnc-server-minimal-1.10.1-9.el8_3.x86_64
+2021-01-21T15:49:38Z SUBDEBUG Upgrade: gnutls-dane-3.6.14-7.el8_3.x86_64
+2021-01-21T15:49:38Z SUBDEBUG Upgrade: qemu-img-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-01-21T15:49:39Z SUBDEBUG Upgrade: qemu-kvm-core-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-01-21T15:49:40Z SUBDEBUG Upgrade: python3-libselinux-2.9-4.el8_3.x86_64
+2021-01-21T15:49:40Z SUBDEBUG Upgrade: anaconda-tui-33.16.3.26-2.0.1.el8_3.x86_64
+2021-01-21T15:49:40Z SUBDEBUG Upgrade: anaconda-core-33.16.3.26-2.0.1.el8_3.x86_64
+2021-01-21T15:49:43Z SUBDEBUG Upgrade: kernel-tools-libs-4.18.0-240.10.1.el8_3.x86_64
+2021-01-21T15:49:43Z SUBDEBUG Upgrade: kernel-tools-4.18.0-240.10.1.el8_3.x86_64
+2021-01-21T15:49:43Z SUBDEBUG Upgrade: python3-perf-4.18.0-240.10.1.el8_3.x86_64
+2021-01-21T15:49:43Z SUBDEBUG Upgrade: anaconda-widgets-33.16.3.26-2.0.1.el8_3.x86_64
+2021-01-21T15:49:43Z SUBDEBUG Upgrade: kernel-headers-4.18.0-240.10.1.el8_3.x86_64
+2021-01-21T15:49:45Z SUBDEBUG Upgrade: glibc-headers-2.28-127.0.3.el8.x86_64
+2021-01-21T15:49:46Z SUBDEBUG Upgrade: selinux-policy-3.14.3-54.0.3.el8.noarch
+2021-01-21T15:50:29Z SUBDEBUG Upgrade: selinux-policy-targeted-3.14.3-54.0.3.el8.noarch
+2021-01-21T15:51:19Z SUBDEBUG Upgrade: glibc-devel-2.28-127.0.3.el8.x86_64
+2021-01-21T15:51:19Z SUBDEBUG Upgrade: mcelog-3:169-0.0.1.el8.x86_64
+2021-01-21T15:51:19Z SUBDEBUG Upgrade: anaconda-gui-33.16.3.26-2.0.1.el8_3.x86_64
+2021-01-21T15:51:20Z SUBDEBUG Upgrade: tuned-2.14.0-3.0.1.el8_3.1.noarch
+2021-01-21T15:51:21Z SUBDEBUG Upgrade: qemu-kvm-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-01-21T15:51:21Z SUBDEBUG Upgrade: gnutls-utils-3.6.14-7.el8_3.x86_64
+2021-01-21T15:51:21Z SUBDEBUG Upgrade: oraclelinux-release-el8-1.0-15.el8.x86_64
+2021-01-21T15:51:21Z SUBDEBUG Upgrade: iptables-ebtables-1.8.4-15.0.1.el8_3.3.x86_64
+2021-01-21T15:51:21Z SUBDEBUG Upgrade: NetworkManager-bluetooth-1:1.26.0-12.0.1.el8_3.x86_64
+2021-01-21T15:51:21Z SUBDEBUG Installed: kernel-4.18.0-240.10.1.el8_3.x86_64
+2021-01-21T15:51:21Z SUBDEBUG Upgrade: net-snmp-1:5.8-18.el8_3.1.x86_64
+2021-01-21T15:51:21Z SUBDEBUG Upgrade: python3-hawkey-0.48.0-5.0.2.el8.x86_64
+2021-01-21T15:51:21Z SUBDEBUG Upgrade: ndctl-69-1.0.2.el8.x86_64
+2021-01-21T15:51:22Z SUBDEBUG Upgrade: xdg-desktop-portal-1.6.0-3.el8_3.x86_64
+2021-01-21T15:51:22Z SUBDEBUG Upgrade: firefox-78.6.1-1.0.1.el8_3.x86_64
+2021-01-21T15:51:35Z SUBDEBUG Upgrade: libreswan-3.32-7.0.1.el8_3.x86_64
+2021-01-21T15:51:36Z SUBDEBUG Upgrade: iproute-tc-5.4.0-1.0.1.el8.x86_64
+2021-01-21T15:51:36Z SUBDEBUG Installed: kernel-uek-5.4.17-2036.102.0.2.el8uek.x86_64
+2021-01-21T15:51:45Z SUBDEBUG Upgrade: NetworkManager-tui-1:1.26.0-12.0.1.el8_3.x86_64
+2021-01-21T15:51:45Z SUBDEBUG Upgrade: NetworkManager-adsl-1:1.26.0-12.0.1.el8_3.x86_64
+2021-01-21T15:51:45Z SUBDEBUG Upgrade: systemd-container-239-41.0.1.el8_3.1.x86_64
+2021-01-21T15:51:45Z SUBDEBUG Upgrade: microcode_ctl-4:20200609-2.20201112.1.0.1.el8_3.x86_64
+2021-01-21T15:51:58Z SUBDEBUG Upgrade: rhnsd-5.0.35-3.0.1.module+el8+5192+3173336a.x86_64
+2021-01-21T15:51:59Z SUBDEBUG Upgrade: xorg-x11-server-Xorg-1.20.8-6.1.el8_3.x86_64
+2021-01-21T15:51:59Z SUBDEBUG Upgrade: qemu-guest-agent-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-01-21T15:51:59Z SUBDEBUG Upgrade: dnsmasq-2.79-13.el8_3.1.x86_64
+2021-01-21T15:51:59Z SUBDEBUG Upgrade: nvmetcli-0.7-1.el8.noarch
+2021-01-21T15:51:59Z SUBDEBUG Upgrade: kexec-tools-2.0.20-34.0.4.el8_3.x86_64
+2021-01-21T15:52:00Z SUBDEBUG Upgrade: net-snmp-utils-1:5.8-18.el8_3.1.x86_64
+2021-01-21T15:52:00Z SUBDEBUG Upgrade: openssl-1:1.1.1g-12.el8_3.x86_64
+2021-01-21T15:52:00Z SUBDEBUG Upgrade: xorg-x11-server-Xwayland-1.20.8-6.1.el8_3.x86_64
+2021-01-21T15:52:01Z SUBDEBUG Upgrade: tigervnc-1.10.1-9.el8_3.x86_64
+2021-01-21T15:52:01Z SUBDEBUG Upgrade: libselinux-utils-2.9-4.el8_3.x86_64
+2021-01-21T15:52:01Z SUBDEBUG Upgrade: libzstd-1.4.4-1.0.1.el8.x86_64
+2021-01-21T15:52:02Z SUBDEBUG Upgrade: bpftool-4.18.0-240.10.1.el8_3.x86_64
+2021-01-21T15:52:02Z SUBDEBUG Upgrade: zstd-1.4.4-1.0.1.el8.x86_64
+2021-01-21T15:52:02Z SUBDEBUG Upgrade: crash-7.2.8-7.0.2.el8.x86_64
+2021-01-21T15:52:02Z SUBDEBUG Upgrade: libexif-0.6.22-5.el8_3.x86_64
+2021-01-21T15:52:03Z SUBDEBUG Upgrade: xfsprogs-5.4.0-1.0.1.el8.x86_64
+2021-01-21T15:52:03Z SUBDEBUG Upgrade: NetworkManager-config-server-1:1.26.0-12.0.1.el8_3.noarch
+2021-01-21T15:52:03Z SUBDEBUG Upgraded: systemd-container-239-40.0.1.el8.x86_64
+2021-01-21T15:52:03Z SUBDEBUG Upgraded: firefox-78.3.0-1.0.1.el8.x86_64
+2021-01-21T15:52:03Z SUBDEBUG Upgraded: ndctl-67-2.el8.x86_64
+2021-01-21T15:52:03Z SUBDEBUG Upgraded: NetworkManager-tui-1:1.26.0-8.0.1.el8.x86_64
+2021-01-21T15:52:03Z SUBDEBUG Upgraded: gnutls-utils-3.6.14-6.el8.x86_64
+2021-01-21T15:52:03Z SUBDEBUG Upgraded: xorg-x11-server-Xorg-1.20.8-6.el8.x86_64
+2021-01-21T15:52:04Z SUBDEBUG Upgraded: xorg-x11-server-Xwayland-1.20.8-6.el8.x86_64
+2021-01-21T15:52:04Z SUBDEBUG Upgraded: systemd-udev-239-40.0.1.el8.x86_64
+2021-01-21T15:52:04Z SUBDEBUG Upgraded: qemu-guest-agent-15:4.2.0-34.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-21T15:52:04Z SUBDEBUG Upgraded: net-snmp-1:5.8-17.el8.x86_64
+2021-01-21T15:52:05Z SUBDEBUG Upgraded: libreswan-3.32-6.0.1.el8.x86_64
+2021-01-21T15:52:05Z SUBDEBUG Upgraded: net-snmp-agent-libs-1:5.8-17.el8.x86_64
+2021-01-21T15:52:05Z SUBDEBUG Upgraded: mariadb-connector-c-3.0.7-1.el8.x86_64
+2021-01-21T15:52:05Z SUBDEBUG Upgraded: xfsprogs-5.0.0-4.el8.x86_64
+2021-01-21T15:52:05Z SUBDEBUG Upgraded: openssl-1:1.1.1g-11.el8.x86_64
+2021-01-21T15:52:05Z SUBDEBUG Upgraded: glibc-devel-2.28-127.0.1.el8.x86_64
+2021-01-21T15:52:05Z SUBDEBUG Upgraded: bpftool-4.18.0-240.el8.x86_64
+2021-01-21T15:52:05Z SUBDEBUG Upgraded: ndctl-libs-67-2.el8.x86_64
+2021-01-21T15:52:05Z SUBDEBUG Upgraded: kexec-tools-2.0.20-34.0.2.el8.x86_64
+2021-01-21T15:52:23Z SUBDEBUG Upgraded: iproute-tc-5.3.0-5.el8.x86_64
+2021-01-21T15:52:23Z SUBDEBUG Upgraded: iproute-5.3.0-5.el8.x86_64
+2021-01-21T15:52:23Z SUBDEBUG Upgraded: tigervnc-1.10.1-7.el8.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: crash-7.2.8-7.0.1.el8.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: xdg-desktop-portal-1.6.0-2.el8.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: net-snmp-utils-1:5.8-17.el8.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: net-snmp-libs-1:5.8-17.el8.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: mcelog-3:166-0.0.1.el8.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: dnsmasq-2.79-13.el8.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: rhnsd-5.0.35-3.0.1.module+el8.3.0+7814+aac1f1cb.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: gnutls-dane-3.6.14-6.el8.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: zstd-1.4.4-1.el8.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: NetworkManager-bluetooth-1:1.26.0-8.0.1.el8.x86_64
+2021-01-21T15:52:24Z SUBDEBUG Upgraded: python3-hawkey-0.48.0-5.0.1.el8.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: python3-libdnf-0.48.0-5.0.1.el8.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: libdnf-0.48.0-5.0.1.el8.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: NetworkManager-wwan-1:1.26.0-8.0.1.el8.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: daxctl-libs-67-2.el8.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: libselinux-utils-2.9-3.el8.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: libexif-0.6.22-4.el8.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: NetworkManager-adsl-1:1.26.0-8.0.1.el8.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: qemu-kvm-15:4.2.0-34.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: qemu-kvm-core-15:4.2.0-34.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: qemu-img-15:4.2.0-34.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: qemu-kvm-block-curl-15:4.2.0-34.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: qemu-kvm-block-ssh-15:4.2.0-34.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: qemu-kvm-block-iscsi-15:4.2.0-34.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: qemu-kvm-block-gluster-15:4.2.0-34.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: qemu-kvm-block-rbd-15:4.2.0-34.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-21T15:52:25Z SUBDEBUG Upgraded: qemu-kvm-common-15:4.2.0-34.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-21T15:52:26Z SUBDEBUG Upgraded: freetype-2.9.1-4.el8.x86_64
+2021-01-21T15:52:26Z SUBDEBUG Upgraded: libzstd-1.4.4-1.el8.x86_64
+2021-01-21T15:52:26Z SUBDEBUG Upgraded: tuned-2.14.0-3.0.1.el8.noarch
+2021-01-21T15:52:27Z SUBDEBUG Upgraded: anaconda-gui-33.16.3.26-1.0.1.el8.x86_64
+2021-01-21T15:52:27Z SUBDEBUG Upgraded: glibc-headers-2.28-127.0.1.el8.x86_64
+2021-01-21T15:52:27Z SUBDEBUG Upgraded: nvmetcli-0.6-2.el8.noarch
+2021-01-21T15:52:27Z SUBDEBUG Upgraded: microcode_ctl-4:20200609-2.0.1.el8.x86_64
+2021-01-21T15:52:29Z SUBDEBUG Upgraded: selinux-policy-targeted-3.14.3-54.0.1.el8.noarch
+2021-01-21T15:52:29Z SUBDEBUG Upgraded: anaconda-tui-33.16.3.26-1.0.1.el8.x86_64
+2021-01-21T15:52:29Z SUBDEBUG Upgraded: oraclelinux-release-el8-1.0-14.el8.x86_64
+2021-01-21T15:52:29Z SUBDEBUG Upgraded: iptables-ebtables-1.8.4-15.0.1.el8.x86_64
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: selinux-policy-3.14.3-54.0.1.el8.noarch
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: kernel-headers-4.18.0-240.el8.x86_64
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: tigervnc-icons-1.10.1-7.el8.noarch
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: mariadb-connector-c-config-3.0.7-1.el8.noarch
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: xorg-x11-server-common-1.20.8-6.el8.x86_64
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: NetworkManager-config-server-1:1.26.0-8.0.1.el8.noarch
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: tigervnc-server-minimal-1.10.1-7.el8.x86_64
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: iptables-1.8.4-15.0.1.el8.x86_64
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: kernel-tools-4.18.0-240.el8.x86_64
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: curl-7.61.1-14.el8.x86_64
+2021-01-21T15:52:30Z SUBDEBUG Upgraded: python3-perf-4.18.0-240.el8.x86_64
+2021-01-21T15:52:31Z SUBDEBUG Upgraded: anaconda-core-33.16.3.26-1.0.1.el8.x86_64
+2021-01-21T15:52:31Z SUBDEBUG Upgraded: python3-libselinux-2.9-3.el8.x86_64
+2021-01-21T15:52:31Z SUBDEBUG Upgraded: NetworkManager-wifi-1:1.26.0-8.0.1.el8.x86_64
+2021-01-21T15:52:31Z SUBDEBUG Upgraded: NetworkManager-team-1:1.26.0-8.0.1.el8.x86_64
+2021-01-21T15:52:31Z SUBDEBUG Upgraded: NetworkManager-1:1.26.0-8.0.1.el8.x86_64
+2021-01-21T15:52:32Z SUBDEBUG Upgraded: systemd-pam-239-40.0.1.el8.x86_64
+2021-01-21T15:52:32Z SUBDEBUG Upgraded: systemd-239-40.0.1.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: NetworkManager-libnm-1:1.26.0-8.0.1.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: systemd-libs-239-40.0.1.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: libcurl-7.61.1-14.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: openssl-libs-1:1.1.1g-11.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: gnutls-3.6.14-6.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: iptables-libs-1.8.4-15.0.1.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: anaconda-widgets-33.16.3.26-1.0.1.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: tigervnc-license-1.10.1-7.el8.noarch
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: kernel-tools-libs-4.18.0-240.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: libselinux-2.9-3.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: glibc-common-2.28-127.0.1.el8.x86_64
+2021-01-21T15:52:33Z SUBDEBUG Upgraded: glibc-langpack-en-2.28-127.0.1.el8.x86_64
+2021-01-21T15:52:34Z SUBDEBUG Upgraded: glibc-2.28-127.0.1.el8.x86_64
+2021-01-21T15:52:34Z SUBDEBUG Upgraded: tzdata-2020a-1.el8.noarch
+2021-01-21T16:03:54Z INFO --- logging initialized ---
+2021-01-21T16:09:46Z INFO --- logging initialized ---
+2021-01-21T16:15:09Z INFO --- logging initialized ---
+2021-01-21T16:15:15Z INFO --- logging initialized ---
+2021-01-21T16:15:28Z SUBDEBUG Installed: plexmediaserver-1.21.1.3876-3c3adfcb4.x86_64
+2021-01-21T16:15:38Z INFO warning: /etc/yum.repos.d/plex.repo created as /etc/yum.repos.d/plex.repo.rpmnew
+
+2021-01-21T16:16:23Z INFO Created symlink /etc/systemd/system/multi-user.target.wants/plexmediaserver.service → /usr/lib/systemd/system/plexmediaserver.service.
+
+2021-01-21T17:10:46Z INFO --- logging initialized ---
+2021-01-21T17:33:36Z INFO --- logging initialized ---
+2021-01-21T17:37:45Z INFO --- logging initialized ---
+2021-01-21T17:37:50Z INFO --- logging initialized ---
+2021-01-21T17:37:59Z INFO --- logging initialized ---
+2021-01-21T17:44:40Z INFO --- logging initialized ---
+2021-01-21T17:44:53Z SUBDEBUG Installed: xcb-util-wm-0.4.1-12.el8.x86_64
+2021-01-21T17:44:53Z SUBDEBUG Installed: xcb-util-renderutil-0.3.9-10.el8.x86_64
+2021-01-21T17:44:54Z SUBDEBUG Installed: xcb-util-keysyms-0.4.0-7.el8.x86_64
+2021-01-21T17:44:54Z SUBDEBUG Installed: xcb-util-image-0.4.0-9.el8.x86_64
+2021-01-21T17:44:54Z SUBDEBUG Installed: openal-soft-1.18.2-7.el8.x86_64
+2021-01-21T17:44:54Z SUBDEBUG Installed: libsmi-0.4.8-22.el8.x86_64
+2021-01-21T17:44:56Z SUBDEBUG Installed: wireshark-cli-1:2.6.2-12.el8.x86_64
+2021-01-21T17:45:02Z SUBDEBUG Installed: pcre2-utf16-10.32-2.el8.x86_64
+2021-01-21T17:45:02Z SUBDEBUG Installed: qt5-qtbase-common-5.12.5-6.el8.noarch
+2021-01-21T17:45:02Z SUBDEBUG Installed: qt5-qtbase-5.12.5-6.el8.x86_64
+2021-01-21T17:45:04Z SUBDEBUG Installed: qt5-qtbase-gui-5.12.5-6.el8.x86_64
+2021-01-21T17:45:05Z SUBDEBUG Installed: qt5-qtdeclarative-5.12.5-1.el8.x86_64
+2021-01-21T17:45:06Z SUBDEBUG Installed: qt5-qtmultimedia-5.12.5-1.el8.x86_64
+2021-01-21T17:45:06Z SUBDEBUG Installed: wireshark-1:2.6.2-12.el8.x86_64
+2021-01-21T18:03:35Z INFO --- logging initialized ---
+2021-01-21T18:55:24Z INFO --- logging initialized ---
+2021-01-21T18:55:38Z INFO --- logging initialized ---
+2021-01-21T18:56:36Z INFO --- logging initialized ---
+2021-01-21T18:57:01Z INFO --- logging initialized ---
+2021-01-21T18:57:14Z INFO --- logging initialized ---
+2021-01-21T18:57:20Z INFO --- logging initialized ---
+2021-01-21T18:57:25Z INFO --- logging initialized ---
+2021-01-21T18:57:35Z SUBDEBUG Installed: neofetch-7.1.0-1.el8.noarch
+2021-01-21T19:00:47Z INFO --- logging initialized ---
+2021-01-21T19:01:06Z INFO --- logging initialized ---
+2021-01-21T19:01:52Z INFO --- logging initialized ---
+2021-01-21T19:02:53Z INFO --- logging initialized ---
+2021-01-21T19:03:02Z SUBDEBUG Installed: tigervnc-selinux-1.10.1-9.el8_3.noarch
+2021-01-21T19:03:36Z INFO --- logging initialized ---
+2021-01-21T19:03:45Z SUBDEBUG Installed: tigervnc-server-1.10.1-9.el8_3.x86_64
+2021-01-21T19:03:45Z SUBDEBUG Installed: tigervnc-server-module-1.10.1-9.el8_3.x86_64
+2021-01-21T19:07:07Z INFO --- logging initialized ---
+2021-01-21T19:19:35Z INFO --- logging initialized ---
+2021-01-21T20:19:36Z INFO --- logging initialized ---
+2021-01-21T21:06:14Z INFO --- logging initialized ---
+2021-01-21T21:19:37Z INFO --- logging initialized ---
+2021-01-21T22:19:38Z INFO --- logging initialized ---
+2021-01-22T06:37:24Z INFO --- logging initialized ---
+2021-01-22T07:37:56Z INFO --- logging initialized ---
+2021-01-22T08:37:57Z INFO --- logging initialized ---
+2021-01-22T09:37:58Z INFO --- logging initialized ---
+2021-01-22T10:38:02Z INFO --- logging initialized ---
+2021-01-22T11:38:03Z INFO --- logging initialized ---
+2021-01-22T12:38:03Z INFO --- logging initialized ---
+2021-01-22T13:38:07Z INFO --- logging initialized ---
+2021-01-22T14:38:08Z INFO --- logging initialized ---
+2021-01-22T15:38:09Z INFO --- logging initialized ---
+2021-01-22T16:38:18Z INFO --- logging initialized ---
+2021-01-22T17:38:19Z INFO --- logging initialized ---
+2021-01-22T18:38:19Z INFO --- logging initialized ---
+2021-01-22T19:38:24Z INFO --- logging initialized ---
+2021-01-22T20:38:24Z INFO --- logging initialized ---
+2021-01-22T21:38:25Z INFO --- logging initialized ---
+2021-01-23T12:49:33Z INFO --- logging initialized ---
+2021-01-23T13:49:37Z INFO --- logging initialized ---
+2021-01-23T14:49:38Z INFO --- logging initialized ---
+2021-01-23T15:49:39Z INFO --- logging initialized ---
+2021-01-23T16:49:43Z INFO --- logging initialized ---
+2021-01-23T17:49:44Z INFO --- logging initialized ---
+2021-01-23T18:41:37Z INFO --- logging initialized ---
+2021-01-23T18:41:54Z SUBDEBUG Installed: grafana-6.7.4-3.el8.x86_64
+2021-01-23T18:45:55Z INFO --- logging initialized ---
+2021-01-23T18:49:44Z INFO --- logging initialized ---
+2021-01-23T18:55:23Z INFO --- logging initialized ---
+2021-01-23T18:55:46Z SUBDEBUG Upgrade: grafana-7.3.7-1.x86_64
+2021-01-23T18:55:54Z SUBDEBUG Upgraded: grafana-6.7.4-3.el8.x86_64
+2021-01-23T18:55:54Z INFO POSTTRANS: Running script
+POSTTRANS: Config file not found
+
+2021-01-23T19:49:48Z INFO --- logging initialized ---
+2021-01-23T19:51:51Z INFO --- logging initialized ---
+2021-01-23T19:52:31Z INFO --- logging initialized ---
+2021-01-23T19:54:11Z INFO --- logging initialized ---
+2021-01-23T19:54:24Z SUBDEBUG Installed: libstdc++-devel-8.3.1-5.1.0.1.el8.x86_64
+2021-01-23T19:54:26Z SUBDEBUG Installed: perl-Thread-Queue-3.13-1.el8.noarch
+2021-01-23T19:54:26Z SUBDEBUG Installed: libcom_err-devel-1.45.6-1.el8.x86_64
+2021-01-23T19:54:26Z SUBDEBUG Installed: libkadm5-1.18.2-5.el8.x86_64
+2021-01-23T19:54:26Z SUBDEBUG Installed: pcre2-utf32-10.32-2.el8.x86_64
+2021-01-23T19:54:26Z SUBDEBUG Installed: pcre2-devel-10.32-2.el8.x86_64
+2021-01-23T19:54:26Z SUBDEBUG Installed: zlib-devel-1.2.11-16.el8_2.x86_64
+2021-01-23T19:54:26Z SUBDEBUG Installed: m4-1.4.18-7.el8.x86_64
+2021-01-23T19:54:26Z SUBDEBUG Installed: autoconf-2.69-27.el8.noarch
+2021-01-23T19:54:27Z SUBDEBUG Installed: automake-1.16.1-6.el8.noarch
+2021-01-23T19:54:27Z SUBDEBUG Installed: libverto-devel-0.3.0-5.el8.x86_64
+2021-01-23T19:54:27Z SUBDEBUG Installed: libsepol-devel-2.9-1.el8.x86_64
+2021-01-23T19:54:27Z SUBDEBUG Installed: libselinux-devel-2.9-4.el8_3.x86_64
+2021-01-23T19:54:27Z SUBDEBUG Installed: keyutils-libs-devel-1.5.10-6.el8.x86_64
+2021-01-23T19:54:27Z SUBDEBUG Installed: krb5-devel-1.18.2-5.el8.x86_64
+2021-01-23T19:54:28Z SUBDEBUG Installed: openssl-devel-1:1.1.1g-12.el8_3.x86_64
+2021-01-23T19:54:30Z SUBDEBUG Installed: libtool-2.4.6-25.el8.x86_64
+2021-01-23T19:54:30Z SUBDEBUG Installed: gcc-c++-8.3.1-5.1.0.1.el8.x86_64
+2021-01-23T19:54:32Z SUBDEBUG Installed: make-1:4.2.1-10.el8.x86_64
+2021-01-23T19:56:58Z INFO --- logging initialized ---
+2021-01-23T19:57:12Z SUBDEBUG Installed: cmake-rpm-macros-3.11.4-7.el8.noarch
+2021-01-23T19:57:12Z SUBDEBUG Installed: cmake-filesystem-3.11.4-7.el8.x86_64
+2021-01-23T19:57:12Z SUBDEBUG Installed: libuv-1:1.38.0-2.el8.x86_64
+2021-01-23T19:57:12Z SUBDEBUG Installed: cmake-data-3.11.4-7.el8.noarch
+2021-01-23T19:57:15Z SUBDEBUG Installed: cmake-3.11.4-7.el8.x86_64
+2021-01-23T19:57:37Z INFO --- logging initialized ---
+2021-01-23T20:49:49Z INFO --- logging initialized ---
+2021-01-23T21:49:50Z INFO --- logging initialized ---
+2021-01-23T22:49:54Z INFO --- logging initialized ---
+2021-01-23T23:49:55Z INFO --- logging initialized ---
+2021-01-24T00:49:56Z INFO --- logging initialized ---
+2021-01-24T12:05:24Z INFO --- logging initialized ---
+2021-01-24T13:05:29Z INFO --- logging initialized ---
+2021-01-24T14:05:29Z INFO --- logging initialized ---
+2021-01-24T15:05:30Z INFO --- logging initialized ---
+2021-01-24T16:05:34Z INFO --- logging initialized ---
+2021-01-24T16:27:04Z INFO --- logging initialized ---
+2021-01-24T16:27:49Z INFO --- logging initialized ---
+2021-01-24T16:29:16Z INFO --- logging initialized ---
+2021-01-24T16:29:37Z INFO --- logging initialized ---
+2021-01-24T16:30:13Z INFO --- logging initialized ---
+2021-01-24T16:30:25Z INFO --- logging initialized ---
+2021-01-24T16:30:30Z SUBDEBUG Installed: policycoreutils-devel-2.9-9.0.1.el8.x86_64
+2021-01-24T16:30:30Z SUBDEBUG Installed: selinux-policy-devel-3.14.3-54.0.3.el8.noarch
+2021-01-24T16:31:07Z INFO --- logging initialized ---
+2021-01-24T16:31:13Z SUBDEBUG Installed: xorg-x11-fonts-ISO8859-1-100dpi-7.5-19.el8.noarch
+2021-01-24T16:31:14Z SUBDEBUG Installed: libXaw-1.0.13-10.el8.x86_64
+2021-01-24T16:31:14Z SUBDEBUG Installed: graphviz-2.40.1-40.el8.x86_64
+2021-01-24T16:32:06Z INFO --- logging initialized ---
+2021-01-24T17:05:35Z INFO --- logging initialized ---
+2021-01-24T18:05:36Z INFO --- logging initialized ---
+2021-01-24T19:05:41Z INFO --- logging initialized ---
+2021-01-24T20:05:41Z INFO --- logging initialized ---
+2021-01-24T21:05:42Z INFO --- logging initialized ---
+2021-01-24T22:05:48Z INFO --- logging initialized ---
+2021-01-24T23:05:49Z INFO --- logging initialized ---
+2021-01-24T23:46:20Z INFO --- logging initialized ---
+2021-01-25T08:14:39Z INFO --- logging initialized ---
+2021-01-25T09:14:44Z INFO --- logging initialized ---
+2021-01-25T10:14:45Z INFO --- logging initialized ---
+2021-01-25T11:14:45Z INFO --- logging initialized ---
+2021-01-25T12:14:50Z INFO --- logging initialized ---
+2021-01-25T12:59:34Z INFO --- logging initialized ---
+2021-01-25T13:14:51Z INFO --- logging initialized ---
+2021-01-25T14:14:51Z INFO --- logging initialized ---
+2021-01-25T15:14:56Z INFO --- logging initialized ---
+2021-01-25T16:14:56Z INFO --- logging initialized ---
+2021-01-25T16:20:41Z INFO --- logging initialized ---
+2021-01-25T17:14:57Z INFO --- logging initialized ---
+2021-01-25T18:15:30Z INFO --- logging initialized ---
+2021-01-25T19:15:31Z INFO --- logging initialized ---
+2021-01-25T20:15:31Z INFO --- logging initialized ---
+2021-01-25T21:06:59Z INFO --- logging initialized ---
+2021-01-25T22:07:00Z INFO --- logging initialized ---
+2021-01-26T11:51:28Z INFO --- logging initialized ---
+2021-01-26T12:51:59Z INFO --- logging initialized ---
+2021-01-26T13:52:00Z INFO --- logging initialized ---
+2021-01-26T14:52:01Z INFO --- logging initialized ---
+2021-01-26T15:52:05Z INFO --- logging initialized ---
+2021-01-26T16:52:06Z INFO --- logging initialized ---
+2021-01-26T17:52:07Z INFO --- logging initialized ---
+2021-01-26T18:52:13Z INFO --- logging initialized ---
+2021-01-26T19:52:14Z INFO --- logging initialized ---
+2021-01-26T20:52:15Z INFO --- logging initialized ---
+2021-01-26T21:52:20Z INFO --- logging initialized ---
+2021-01-26T22:52:21Z INFO --- logging initialized ---
+2021-01-26T23:52:22Z INFO --- logging initialized ---
+2021-01-27T18:01:07Z INFO --- logging initialized ---
+2021-01-27T19:01:42Z INFO --- logging initialized ---
+2021-01-27T20:01:42Z INFO --- logging initialized ---
+2021-01-27T21:00:53Z INFO --- logging initialized ---
+2021-01-27T21:01:01Z SUBDEBUG Installed: epel-release-8-10.el8.noarch
+2021-01-27T21:01:03Z INFO --- logging initialized ---
+2021-01-27T21:01:41Z SUBDEBUG Installed: ruby-libs-2.5.5-106.module+el8.3.0+7756+e45777e9.x86_64
+2021-01-27T21:01:42Z SUBDEBUG Installed: rubygem-openssl-2.1.2-106.module+el8.3.0+7756+e45777e9.x86_64
+2021-01-27T21:01:42Z SUBDEBUG Installed: rubygem-psych-3.0.2-106.module+el8.3.0+7756+e45777e9.x86_64
+2021-01-27T21:01:42Z SUBDEBUG Installed: rubygems-2.7.6.2-106.module+el8.3.0+7756+e45777e9.noarch
+2021-01-27T21:01:42Z SUBDEBUG Installed: ruby-2.5.5-106.module+el8.3.0+7756+e45777e9.x86_64
+2021-01-27T21:01:42Z SUBDEBUG Installed: libgpg-error-devel-1.31-1.el8.x86_64
+2021-01-27T21:01:42Z SUBDEBUG Installed: libgcrypt-devel-1.8.5-4.el8.x86_64
+2021-01-27T21:01:43Z SUBDEBUG Installed: git-core-doc-2.27.0-1.el8.noarch
+2021-01-27T21:01:43Z INFO --- logging initialized ---
+2021-01-27T21:01:45Z SUBDEBUG Installed: perl-TermReadKey-2.37-7.el8.x86_64
+2021-01-27T21:01:45Z SUBDEBUG Installed: perl-Error-1:0.17025-2.el8.noarch
+2021-01-27T21:01:45Z SUBDEBUG Installed: git-2.27.0-1.el8.x86_64
+2021-01-27T21:01:45Z SUBDEBUG Installed: perl-Git-2.27.0-1.el8.noarch
+2021-01-27T21:01:45Z SUBDEBUG Installed: hexedit-1.2.13-12.el8.x86_64
+2021-01-27T21:01:45Z SUBDEBUG Installed: kernel-devel-4.18.0-240.10.1.el8_3.x86_64
+2021-01-27T21:02:31Z SUBDEBUG Installed: elfutils-libelf-devel-0.180-1.el8.x86_64
+2021-01-27T21:02:31Z SUBDEBUG Installed: xz-devel-5.2.4-3.el8.x86_64
+2021-01-27T21:02:31Z SUBDEBUG Installed: libxml2-devel-2.9.7-8.0.1.el8.x86_64
+2021-01-27T21:02:32Z SUBDEBUG Installed: libxslt-devel-1.1.32-5.0.1.el8.x86_64
+2021-01-27T21:02:32Z SUBDEBUG Installed: dkms-2.8.4-1.el8.noarch
+2021-01-27T21:02:32Z SUBDEBUG Installed: libguestfs-tools-c-1:1.40.2-25.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-27T21:02:34Z SUBDEBUG Installed: ruby-devel-2.5.5-106.module+el8.3.0+7756+e45777e9.x86_64
+2021-01-27T21:02:34Z SUBDEBUG Installed: libvirt-devel-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-01-27T21:02:42Z INFO --- logging initialized ---
+2021-01-27T21:02:49Z SUBDEBUG Installed: vagrant-1:2.2.6-1.x86_64
+2021-01-27T21:03:24Z INFO --- logging initialized ---
+2021-01-27T21:04:23Z SUBDEBUG Installed: SDL-1.2.15-38.el8.x86_64
+2021-01-27T21:04:24Z SUBDEBUG Installed: qt5-qtx11extras-5.12.5-1.el8.x86_64
+2021-01-27T21:04:24Z SUBDEBUG Installed: VirtualBox-6.0-6.0.24_139119_el8-1.x86_64
+2021-01-27T21:04:44Z INFO 
+Creating group 'vboxusers'. VM users must be member of that group!
+
+This system is currently not set up to build kernel modules.
+Please install the Linux kernel "header" files matching the current kernel
+for adding new hardware support to the system.
+The distribution packages containing the headers are probably:
+    kernel-uek-devel kernel-uek-devel-5.4.17-2036.102.0.2.el8uek.x86_64
+This system is currently not set up to build kernel modules.
+Please install the Linux kernel "header" files matching the current kernel
+for adding new hardware support to the system.
+The distribution packages containing the headers are probably:
+    kernel-uek-devel kernel-uek-devel-5.4.17-2036.102.0.2.el8uek.x86_64
+
+There were problems setting up VirtualBox.  To re-start the set-up process, run
+  /sbin/vboxconfig
+as root.  If your system is using EFI Secure Boot you may need to sign the
+kernel modules (vboxdrv, vboxnetflt, vboxnetadp, vboxpci) before you can load
+them. Please see your Linux system's documentation for more information.
+
+2021-01-27T21:05:44Z INFO --- logging initialized ---
+2021-01-27T21:05:45Z INFO --- logging initialized ---
+2021-01-27T21:05:56Z INFO --- logging initialized ---
+2021-01-27T21:06:17Z INFO --- logging initialized ---
+2021-01-27T21:15:18Z INFO --- logging initialized ---
+2021-01-27T21:15:31Z INFO --- logging initialized ---
+2021-01-27T21:47:39Z INFO --- logging initialized ---
+2021-01-27T21:47:57Z INFO --- logging initialized ---
+2021-01-27T21:48:10Z INFO --- logging initialized ---
+2021-01-27T21:48:20Z SUBDEBUG Installed: podman-docker-2.0.5-5.0.1.module+el8.3.0+7866+f387f528.noarch
+2021-01-27T21:48:20Z SUBDEBUG Installed: podman-compose-0.1.7-2.git20201120.el8.noarch
+2021-01-27T21:49:33Z INFO --- logging initialized ---
+2021-01-27T21:49:37Z SUBDEBUG Erase: podman-docker-2.0.5-5.0.1.module+el8.3.0+7866+f387f528.noarch
+2021-01-27T21:49:37Z SUBDEBUG Erase: podman-compose-0.1.7-2.git20201120.el8.noarch
+2021-01-27T21:49:37Z SUBDEBUG Erase: cockpit-podman-18.1-2.module+el8.3.0+7866+f387f528.noarch
+2021-01-27T21:49:37Z SUBDEBUG Erase: podman-2.0.5-5.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T21:49:38Z SUBDEBUG Erase: podman-catatonit-2.0.5-5.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T21:49:38Z SUBDEBUG Erase: conmon-2:2.0.20-2.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T21:49:38Z SUBDEBUG Erase: libvarlink-18-3.el8.x86_64
+2021-01-27T21:50:17Z INFO --- logging initialized ---
+2021-01-27T21:50:23Z INFO --- logging initialized ---
+2021-01-27T21:50:49Z INFO --- logging initialized ---
+2021-01-27T21:50:54Z INFO --- logging initialized ---
+2021-01-27T21:51:01Z INFO --- logging initialized ---
+2021-01-27T21:51:19Z INFO --- logging initialized ---
+2021-01-27T21:51:47Z INFO --- logging initialized ---
+2021-01-27T21:52:01Z SUBDEBUG Installed: docker-ce-cli-1:20.10.2-3.el8.x86_64
+2021-01-27T21:52:08Z SUBDEBUG Installed: containerd.io-1.4.3-3.1.el8.x86_64
+2021-01-27T21:52:13Z SUBDEBUG Installed: docker-ce-rootless-extras-20.10.2-3.el8.x86_64
+2021-01-27T21:52:14Z SUBDEBUG Installed: docker-ce-3:20.10.2-3.el8.x86_64
+2021-01-27T21:52:18Z SUBDEBUG Erase: buildah-1.15.1-2.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T21:52:18Z SUBDEBUG Obsoleted: runc-1.0.0-68.rc92.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T22:09:06Z INFO --- logging initialized ---
+2021-01-27T22:09:28Z INFO --- logging initialized ---
+2021-01-27T22:09:49Z INFO --- logging initialized ---
+2021-01-27T22:09:53Z SUBDEBUG Erase: docker-ce-3:20.10.2-3.el8.x86_64
+2021-01-27T22:09:54Z SUBDEBUG Erase: containerd.io-1.4.3-3.1.el8.x86_64
+2021-01-27T22:09:54Z SUBDEBUG Erase: container-selinux-2:2.144.0-1.module+el8.3.0+7866+f387f528.noarch
+2021-01-27T22:10:33Z SUBDEBUG Erase: docker-ce-cli-1:20.10.2-3.el8.x86_64
+2021-01-27T22:10:33Z SUBDEBUG Erase: docker-ce-rootless-extras-20.10.2-3.el8.x86_64
+2021-01-27T22:15:02Z INFO --- logging initialized ---
+2021-01-27T22:15:24Z SUBDEBUG Installed: runc-1.0.0-68.rc92.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T22:15:25Z SUBDEBUG Installed: conmon-2:2.0.20-2.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T22:15:25Z SUBDEBUG Installed: libvarlink-18-3.el8.x86_64
+2021-01-27T22:15:25Z SUBDEBUG Installed: podman-catatonit-2.0.5-5.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T22:15:25Z SUBDEBUG Installed: podman-2.0.5-5.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T22:15:27Z SUBDEBUG Installed: podman-compose-0.1.7-2.git20201120.el8.noarch
+2021-01-27T22:15:27Z SUBDEBUG Installed: buildah-1.15.1-2.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T22:15:29Z SUBDEBUG Installed: skopeo-1:1.1.1-3.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-01-27T22:52:05Z INFO --- logging initialized ---
+2021-01-28T18:06:05Z INFO --- logging initialized ---
+2021-01-28T19:06:19Z INFO --- logging initialized ---
+2021-01-28T20:06:20Z INFO --- logging initialized ---
+2021-01-28T21:06:20Z INFO --- logging initialized ---
+2021-01-28T22:06:27Z INFO --- logging initialized ---
+2021-01-28T23:06:28Z INFO --- logging initialized ---
+2021-01-29T17:43:32Z INFO --- logging initialized ---
+2021-01-29T18:44:22Z INFO --- logging initialized ---
+2021-01-29T19:44:23Z INFO --- logging initialized ---
+2021-01-29T20:03:29Z INFO --- logging initialized ---
+2021-01-29T20:03:59Z INFO --- logging initialized ---
+2021-01-29T20:44:24Z INFO --- logging initialized ---
+2021-01-29T21:44:56Z INFO --- logging initialized ---
+2021-01-30T13:54:47Z INFO --- logging initialized ---
+2021-01-30T19:28:19Z INFO --- logging initialized ---
+2021-01-30T20:28:27Z INFO --- logging initialized ---
+2021-01-30T21:28:28Z INFO --- logging initialized ---
+2021-01-30T22:28:29Z INFO --- logging initialized ---
+2021-01-30T23:28:35Z INFO --- logging initialized ---
+2021-01-31T00:28:36Z INFO --- logging initialized ---
+2021-01-31T01:28:37Z INFO --- logging initialized ---
+2021-01-31T12:08:54Z INFO --- logging initialized ---
+2021-01-31T13:09:07Z INFO --- logging initialized ---
+2021-01-31T14:09:08Z INFO --- logging initialized ---
+2021-01-31T15:09:09Z INFO --- logging initialized ---
+2021-01-31T16:09:14Z INFO --- logging initialized ---
+2021-01-31T17:09:15Z INFO --- logging initialized ---
+2021-01-31T18:09:16Z INFO --- logging initialized ---
+2021-01-31T19:09:21Z INFO --- logging initialized ---
+2021-01-31T20:09:22Z INFO --- logging initialized ---
+2021-01-31T21:09:23Z INFO --- logging initialized ---
+2021-01-31T22:09:29Z INFO --- logging initialized ---
+2021-01-31T23:09:30Z INFO --- logging initialized ---
+2021-02-01T00:09:30Z INFO --- logging initialized ---
+2021-02-01T20:15:19Z INFO --- logging initialized ---
+2021-02-01T21:15:41Z INFO --- logging initialized ---
+2021-02-01T22:15:42Z INFO --- logging initialized ---
+2021-02-05T16:49:52Z INFO --- logging initialized ---
+2021-02-12T18:36:35Z INFO --- logging initialized ---
+2021-02-12T18:48:26Z INFO --- logging initialized ---
+2021-02-12T18:49:11Z INFO --- logging initialized ---
+2021-02-12T18:49:20Z SUBDEBUG Installed: virt-install-2.2.1-3.0.1.el8.noarch
+2021-02-12T19:02:54Z INFO --- logging initialized ---
+2021-02-12T19:45:00Z INFO --- logging initialized ---
+2021-02-12T19:47:20Z INFO --- logging initialized ---
+2021-02-12T19:48:22Z INFO --- logging initialized ---
+2021-02-12T19:49:48Z INFO --- logging initialized ---
+2021-02-12T19:50:14Z INFO --- logging initialized ---
+2021-02-12T19:50:34Z SUBDEBUG Installed: iwl4965-firmware-999:228.61.2.24-999.5.el8.noarch
+2021-02-12T19:50:34Z SUBDEBUG Installed: iwl3945-firmware-999:15.32.2.9-999.5.el8.noarch
+2021-02-12T19:51:23Z INFO --- logging initialized ---
+2021-02-12T19:51:38Z INFO --- logging initialized ---
+2021-02-12T19:51:41Z SUBDEBUG Erase: virt-install-2.2.1-3.0.1.el8.noarch
+2021-02-12T19:57:04Z INFO --- logging initialized ---
+2021-02-12T19:57:16Z SUBDEBUG Installed: libgovirt-0.3.7-3.el8.x86_64
+2021-02-12T19:57:16Z SUBDEBUG Installed: virt-viewer-9.0-4.el8.x86_64
+2021-02-12T20:02:55Z INFO --- logging initialized ---
+2021-02-12T20:37:36Z INFO --- logging initialized ---
+2021-02-12T20:37:48Z INFO --- logging initialized ---
+2021-02-12T20:37:56Z SUBDEBUG Installed: virt-install-2.2.1-3.0.1.el8.noarch
+2021-02-12T20:39:45Z INFO --- logging initialized ---
+2021-02-12T21:02:56Z INFO --- logging initialized ---
+2021-02-13T13:53:06Z INFO --- logging initialized ---
+2021-02-13T14:49:30Z INFO --- logging initialized ---
+2021-02-13T14:49:48Z INFO --- logging initialized ---
+2021-02-13T14:50:17Z SUBDEBUG Installed: libdbusmenu-16.04.0-12.el8.x86_64
+2021-02-13T14:50:17Z SUBDEBUG Installed: libnatpmp-20150609-11.el8.x86_64
+2021-02-13T14:50:17Z SUBDEBUG Installed: transmission-common-3.00-1.el8.x86_64
+2021-02-13T14:50:18Z SUBDEBUG Installed: libdbusmenu-gtk3-16.04.0-12.el8.x86_64
+2021-02-13T14:50:18Z SUBDEBUG Installed: libindicator-gtk3-12.10.1-14.el8.x86_64
+2021-02-13T14:50:18Z SUBDEBUG Installed: libappindicator-gtk3-12.10.0-19.el8.x86_64
+2021-02-13T14:50:18Z SUBDEBUG Installed: transmission-gtk-3.00-1.el8.x86_64
+2021-02-13T14:50:19Z SUBDEBUG Installed: transmission-3.00-1.el8.x86_64
+2021-02-13T14:53:27Z INFO --- logging initialized ---
+2021-02-13T15:53:29Z INFO --- logging initialized ---
+2021-02-13T16:53:30Z INFO --- logging initialized ---
+2021-02-13T17:54:06Z INFO --- logging initialized ---
+2021-02-13T18:54:08Z INFO --- logging initialized ---
+2021-02-13T19:54:09Z INFO --- logging initialized ---
+2021-02-13T20:54:16Z INFO --- logging initialized ---
+2021-02-13T21:54:17Z INFO --- logging initialized ---
+2021-02-13T22:54:18Z INFO --- logging initialized ---
+2021-02-13T23:42:06Z INFO --- logging initialized ---
+2021-02-13T23:42:29Z INFO --- logging initialized ---
+2021-02-13T23:54:25Z INFO --- logging initialized ---
+2021-02-14T00:54:26Z INFO --- logging initialized ---
+2021-02-14T01:54:28Z INFO --- logging initialized ---
+2021-02-14T02:54:35Z INFO --- logging initialized ---
+2021-02-14T08:23:45Z INFO --- logging initialized ---
+2021-02-14T09:23:59Z INFO --- logging initialized ---
+2021-02-14T10:24:01Z INFO --- logging initialized ---
+2021-02-14T11:24:01Z INFO --- logging initialized ---
+2021-02-14T12:24:09Z INFO --- logging initialized ---
+2021-02-14T13:24:10Z INFO --- logging initialized ---
+2021-02-14T14:24:11Z INFO --- logging initialized ---
+2021-02-14T15:24:16Z INFO --- logging initialized ---
+2021-02-14T16:24:17Z INFO --- logging initialized ---
+2021-02-14T17:24:18Z INFO --- logging initialized ---
+2021-02-14T18:24:24Z INFO --- logging initialized ---
+2021-02-14T19:24:25Z INFO --- logging initialized ---
+2021-02-14T20:24:27Z INFO --- logging initialized ---
+2021-02-14T21:24:34Z INFO --- logging initialized ---
+2021-02-14T22:24:35Z INFO --- logging initialized ---
+2021-02-15T19:12:30Z INFO --- logging initialized ---
+2021-02-15T20:12:45Z INFO --- logging initialized ---
+2021-02-15T21:12:46Z INFO --- logging initialized ---
+2021-02-15T22:12:47Z INFO --- logging initialized ---
+2021-02-15T23:12:53Z INFO --- logging initialized ---
+2021-02-16T00:12:54Z INFO --- logging initialized ---
+2021-04-10T20:18:36Z INFO --- logging initialized ---
+2021-04-10T20:20:12Z INFO --- logging initialized ---
+2021-04-10T20:22:10Z SUBDEBUG Upgrade: libgcc-8.3.1-5.1.0.2.el8.x86_64
+2021-04-10T20:22:10Z SUBDEBUG Upgrade: grub2-common-1:2.02-90.0.4.el8_3.1.noarch
+2021-04-10T20:22:11Z SUBDEBUG Upgrade: selinux-policy-3.14.3-54.0.9.el8_3.3.noarch
+2021-04-10T20:22:52Z SUBDEBUG Upgrade: bind-license-32:9.11.20-5.el8_3.1.noarch
+2021-04-10T20:22:52Z SUBDEBUG Upgrade: selinux-policy-targeted-3.14.3-54.0.9.el8_3.3.noarch
+2021-04-10T20:23:40Z SUBDEBUG Installed: container-selinux-2:2.155.0-1.module+el8.3.1+9659+c1901784.noarch
+2021-04-10T20:24:21Z SUBDEBUG Upgrade: linux-firmware-999:20201217-999.7.git7455a360.el8.noarch
+2021-04-10T20:24:43Z SUBDEBUG Upgrade: fuse-common-3.2.1-12.0.3.el8.x86_64
+2021-04-10T20:24:43Z SUBDEBUG Upgrade: flatpak-selinux-1.6.2-6.el8_3.noarch
+2021-04-10T20:25:21Z SUBDEBUG Upgrade: glibc-common-2.28-127.0.3.el8_3.2.x86_64
+2021-04-10T20:25:22Z SUBDEBUG Upgrade: glibc-2.28-127.0.3.el8_3.2.x86_64
+2021-04-10T20:25:24Z SUBDEBUG Upgrade: glibc-langpack-en-2.28-127.0.3.el8_3.2.x86_64
+2021-04-10T20:25:24Z SUBDEBUG Upgrade: systemd-libs-239-41.0.1.el8_3.2.x86_64
+2021-04-10T20:25:25Z SUBDEBUG Upgrade: zlib-1.2.11-16.2.el8_3.x86_64
+2021-04-10T20:25:25Z SUBDEBUG Upgrade: dbus-libs-1:1.12.8-12.0.1.el8_3.x86_64
+2021-04-10T20:25:25Z SUBDEBUG Upgrade: libstdc++-8.3.1-5.1.0.2.el8.x86_64
+2021-04-10T20:25:25Z SUBDEBUG Upgrade: nss-util-3.53.1-17.el8_3.x86_64
+2021-04-10T20:25:25Z SUBDEBUG Upgrade: perl-libs-4:5.26.3-417.el8_3.x86_64
+2021-04-10T20:25:26Z SUBDEBUG Upgrade: qemu-img-15:4.2.0-34.module+el8.3.0+20008+729ca284.5.x86_64
+2021-04-10T20:25:26Z SUBDEBUG Upgrade: crypto-policies-20210209-1.gitbfb6bed.el8_3.noarch
+2021-04-10T20:25:26Z SUBDEBUG Upgrade: openssl-libs-1:1.1.1g-15.el8_3.x86_64
+2021-04-10T20:25:27Z SUBDEBUG Upgrade: crypto-policies-scripts-20210209-1.gitbfb6bed.el8_3.noarch
+2021-04-10T20:25:27Z SUBDEBUG Upgrade: platform-python-3.6.8-31.0.3.el8.x86_64
+2021-04-10T20:25:27Z SUBDEBUG Upgrade: python3-libs-3.6.8-31.0.3.el8.x86_64
+2021-04-10T20:25:32Z SUBDEBUG Upgrade: kmod-libs-25-16.0.1.el8_3.1.x86_64
+2021-04-10T20:25:32Z SUBDEBUG Upgrade: libblockdev-utils-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:25:32Z SUBDEBUG Upgrade: kmod-25-16.0.1.el8_3.1.x86_64
+2021-04-10T20:25:32Z SUBDEBUG Upgrade: ostree-libs-2020.7-1.el8_3.x86_64
+2021-04-10T20:25:32Z SUBDEBUG Upgrade: bind-libs-lite-32:9.11.20-5.el8_3.1.x86_64
+2021-04-10T20:25:32Z SUBDEBUG Upgrade: NetworkManager-libnm-1:1.26.0-14.0.1.el8_3.x86_64
+2021-04-10T20:25:33Z SUBDEBUG Upgrade: fuse-libs-2.9.7-12.0.3.el8.x86_64
+2021-04-10T20:25:33Z SUBDEBUG Upgrade: bind-libs-32:9.11.20-5.el8_3.1.x86_64
+2021-04-10T20:25:33Z SUBDEBUG Upgrade: rpm-ostree-libs-2020.7-1.el8_3.x86_64
+2021-04-10T20:25:33Z SUBDEBUG Upgrade: libblockdev-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:25:33Z SUBDEBUG Upgrade: python3-perf-4.18.0-240.22.1.el8_3.x86_64
+2021-04-10T20:25:33Z SUBDEBUG Upgrade: python3-bind-32:9.11.20-5.el8_3.1.noarch
+2021-04-10T20:25:33Z SUBDEBUG Upgrade: mokutil-1:0.3.0-10.0.1.el8.x86_64
+2021-04-10T20:25:33Z SUBDEBUG Upgrade: perl-macros-4:5.26.3-417.el8_3.x86_64
+2021-04-10T20:25:34Z SUBDEBUG Upgrade: perl-interpreter-4:5.26.3-417.el8_3.x86_64
+2021-04-10T20:25:36Z SUBDEBUG Upgrade: perl-Errno-1.28-417.el8_3.x86_64
+2021-04-10T20:25:36Z SUBDEBUG Upgrade: perl-IO-1.38-417.el8_3.x86_64
+2021-04-10T20:25:36Z SUBDEBUG Upgrade: nss-softokn-freebl-3.53.1-17.el8_3.x86_64
+2021-04-10T20:25:36Z SUBDEBUG Upgrade: nss-softokn-3.53.1-17.el8_3.x86_64
+2021-04-10T20:25:36Z SUBDEBUG Upgrade: nss-sysinit-3.53.1-17.el8_3.x86_64
+2021-04-10T20:25:36Z SUBDEBUG Upgrade: nss-3.53.1-17.el8_3.x86_64
+2021-04-10T20:25:36Z SUBDEBUG Upgrade: libstdc++-devel-8.3.1-5.1.0.2.el8.x86_64
+2021-04-10T20:25:38Z SUBDEBUG Upgrade: dbus-tools-1:1.12.8-12.0.1.el8_3.x86_64
+2021-04-10T20:25:38Z SUBDEBUG Upgrade: file-libs-5.33-16.el8_3.1.x86_64
+2021-04-10T20:25:38Z SUBDEBUG Upgrade: file-5.33-16.el8_3.1.x86_64
+2021-04-10T20:25:38Z SUBDEBUG Upgrade: zlib-devel-1.2.11-16.2.el8_3.x86_64
+2021-04-10T20:25:38Z SUBDEBUG Upgrade: cpp-8.3.1-5.1.0.2.el8.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Upgrade: conmon-2:2.0.22-3.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Installed: fuse3-3.2.1-12.0.3.el8.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Upgrade: fuse-2.9.7-12.0.3.el8.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Upgrade: fuse3-libs-3.2.1-12.0.3.el8.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Upgrade: fuse-overlayfs-1.3.0-2.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Upgrade: libgomp-8.3.1-5.1.0.2.el8.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Upgrade: kernel-tools-libs-4.18.0-240.22.1.el8_3.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Upgrade: kernel-tools-4.18.0-240.22.1.el8_3.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Upgrade: libslirp-4.3.1-1.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Upgrade: slirp4netns-1.1.8-1.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:25:40Z SUBDEBUG Upgrade: containers-common-1:1.2.0-9.0.1.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:25:41Z SUBDEBUG Upgrade: criu-3.15-1.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:25:41Z SUBDEBUG Upgrade: runc-1.0.0-70.rc92.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:25:41Z SUBDEBUG Upgrade: containernetworking-plugins-0.9.0-1.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:25:45Z SUBDEBUG Upgrade: podman-catatonit-2.2.1-7.0.1.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:25:45Z SUBDEBUG Upgrade: podman-2.2.1-7.0.1.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:25:47Z SUBDEBUG Upgrade: libvirt-bash-completion-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:25:47Z SUBDEBUG Upgrade: kernel-headers-4.18.0-240.22.1.el8_3.x86_64
+2021-04-10T20:25:49Z SUBDEBUG Upgrade: glibc-headers-2.28-127.0.3.el8_3.2.x86_64
+2021-04-10T20:25:49Z SUBDEBUG Upgrade: glibc-devel-2.28-127.0.3.el8_3.2.x86_64
+2021-04-10T20:25:50Z SUBDEBUG Upgrade: gcc-8.3.1-5.1.0.2.el8.x86_64
+2021-04-10T20:25:51Z INFO --- logging initialized ---
+2021-04-10T20:25:53Z SUBDEBUG Upgrade: dbus-common-1:1.12.8-12.0.1.el8_3.noarch
+2021-04-10T20:25:53Z SUBDEBUG Upgrade: dbus-daemon-1:1.12.8-12.0.1.el8_3.x86_64
+2021-04-10T20:25:54Z SUBDEBUG Upgrade: systemd-pam-239-41.0.1.el8_3.2.x86_64
+2021-04-10T20:25:54Z SUBDEBUG Upgrade: systemd-239-41.0.1.el8_3.2.x86_64
+2021-04-10T20:25:56Z SUBDEBUG Upgrade: dbus-1:1.12.8-12.0.1.el8_3.x86_64
+2021-04-10T20:25:57Z SUBDEBUG Upgrade: NetworkManager-1:1.26.0-14.0.1.el8_3.x86_64
+2021-04-10T20:25:59Z SUBDEBUG Upgrade: qemu-kvm-common-15:4.2.0-34.module+el8.3.0+20008+729ca284.5.x86_64
+2021-04-10T20:25:59Z SUBDEBUG Upgrade: device-mapper-libs-8:1.02.171-5.el8_3.2.x86_64
+2021-04-10T20:25:59Z SUBDEBUG Upgrade: device-mapper-8:1.02.171-5.el8_3.2.x86_64
+2021-04-10T20:25:59Z SUBDEBUG Upgrade: libvirt-libs-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:01Z SUBDEBUG Upgrade: libvirt-daemon-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:01Z SUBDEBUG Upgrade: libvirt-daemon-driver-storage-core-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:01Z SUBDEBUG Upgrade: samba-common-4.12.3-14.el8_3.noarch
+2021-04-10T20:26:01Z SUBDEBUG Upgrade: samba-common-libs-4.12.3-14.el8_3.x86_64
+2021-04-10T20:26:01Z SUBDEBUG Upgrade: libwbclient-4.12.3-14.el8_3.x86_64
+2021-04-10T20:26:01Z SUBDEBUG Upgrade: samba-client-libs-4.12.3-14.el8_3.x86_64
+2021-04-10T20:26:03Z SUBDEBUG Upgrade: libvirt-daemon-driver-nwfilter-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:03Z SUBDEBUG Upgrade: libvirt-daemon-driver-network-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:04Z SUBDEBUG Upgrade: device-mapper-event-libs-8:1.02.171-5.el8_3.2.x86_64
+2021-04-10T20:26:04Z SUBDEBUG Upgrade: systemd-udev-239-41.0.1.el8_3.2.x86_64
+2021-04-10T20:26:05Z SUBDEBUG Upgrade: dracut-049-95.git20200804.0.4.el8_3.4.x86_64
+2021-04-10T20:26:05Z SUBDEBUG Installed: kernel-core-4.18.0-240.22.1.el8_3.x86_64
+2021-04-10T20:26:18Z SUBDEBUG Upgrade: ostree-2020.7-1.el8_3.x86_64
+2021-04-10T20:26:18Z SUBDEBUG Upgrade: libvirt-daemon-driver-interface-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:18Z SUBDEBUG Upgrade: libvirt-daemon-driver-secret-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:18Z SUBDEBUG Upgrade: libvirt-daemon-driver-nodedev-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:18Z SUBDEBUG Upgrade: grub2-tools-minimal-1:2.02-90.0.4.el8_3.1.x86_64
+2021-04-10T20:26:18Z SUBDEBUG Upgrade: grub2-tools-extra-1:2.02-90.0.4.el8_3.1.x86_64
+2021-04-10T20:26:19Z SUBDEBUG Installed: kernel-modules-4.18.0-240.22.1.el8_3.x86_64
+2021-04-10T20:26:27Z SUBDEBUG Installed: kernel-uek-5.4.17-2102.200.13.el8uek.x86_64
+2021-04-10T20:26:38Z SUBDEBUG Upgrade: dracut-network-049-95.git20200804.0.4.el8_3.4.x86_64
+2021-04-10T20:26:38Z SUBDEBUG Upgrade: dracut-squash-049-95.git20200804.0.4.el8_3.4.x86_64
+2021-04-10T20:26:38Z SUBDEBUG Upgrade: grub2-tools-1:2.02-90.0.4.el8_3.1.x86_64
+2021-04-10T20:26:39Z SUBDEBUG Upgrade: grub2-efi-x64-1:2.02-90.0.4.el8_3.1.x86_64
+2021-04-10T20:26:39Z SUBDEBUG Upgrade: device-mapper-event-8:1.02.171-5.el8_3.2.x86_64
+2021-04-10T20:26:39Z SUBDEBUG Upgrade: lvm2-libs-8:2.03.09-5.el8_3.2.x86_64
+2021-04-10T20:26:40Z SUBDEBUG Upgrade: lvm2-8:2.03.09-5.el8_3.2.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-driver-storage-logical-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-config-network-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-config-nwfilter-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libsmbclient-4.12.3-14.el8_3.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-driver-storage-disk-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-driver-storage-iscsi-direct-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-driver-storage-gluster-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-driver-storage-rbd-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-driver-storage-mpath-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-driver-storage-iscsi-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-driver-storage-scsi-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-daemon-driver-storage-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:41Z SUBDEBUG Upgrade: libvirt-client-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:42Z SUBDEBUG Upgrade: qemu-kvm-block-gluster-15:4.2.0-34.module+el8.3.0+20008+729ca284.5.x86_64
+2021-04-10T20:26:42Z SUBDEBUG Upgrade: qemu-kvm-block-curl-15:4.2.0-34.module+el8.3.0+20008+729ca284.5.x86_64
+2021-04-10T20:26:42Z SUBDEBUG Upgrade: qemu-kvm-block-rbd-15:4.2.0-34.module+el8.3.0+20008+729ca284.5.x86_64
+2021-04-10T20:26:42Z SUBDEBUG Upgrade: qemu-kvm-block-ssh-15:4.2.0-34.module+el8.3.0+20008+729ca284.5.x86_64
+2021-04-10T20:26:42Z SUBDEBUG Upgrade: qemu-kvm-core-15:4.2.0-34.module+el8.3.0+20008+729ca284.5.x86_64
+2021-04-10T20:26:43Z SUBDEBUG Upgrade: qemu-kvm-block-iscsi-15:4.2.0-34.module+el8.3.0+20008+729ca284.5.x86_64
+2021-04-10T20:26:43Z SUBDEBUG Upgrade: qemu-kvm-15:4.2.0-34.module+el8.3.0+20008+729ca284.5.x86_64
+2021-04-10T20:26:43Z SUBDEBUG Upgrade: NetworkManager-wwan-1:1.26.0-14.0.1.el8_3.x86_64
+2021-04-10T20:26:43Z SUBDEBUG Upgrade: dbxtool-8-5.0.1.el8_3.2.x86_64
+2021-04-10T20:26:43Z SUBDEBUG Upgrade: wpa_supplicant-1:2.9-2.el8_3.1.x86_64
+2021-04-10T20:26:43Z SUBDEBUG Upgrade: systemd-container-239-41.0.1.el8_3.2.x86_64
+2021-04-10T20:26:44Z SUBDEBUG Upgrade: libvirt-daemon-driver-qemu-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:44Z SUBDEBUG Upgrade: flatpak-session-helper-1.6.2-6.el8_3.x86_64
+2021-04-10T20:26:44Z SUBDEBUG Upgrade: flatpak-1.6.2-6.el8_3.x86_64
+2021-04-10T20:26:45Z SUBDEBUG Upgrade: libvirt-daemon-kvm-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:45Z SUBDEBUG Upgrade: libvirt-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:45Z SUBDEBUG Upgrade: NetworkManager-wifi-1:1.26.0-14.0.1.el8_3.x86_64
+2021-04-10T20:26:45Z SUBDEBUG Upgrade: shim-x64-15.3-1.0.2.x86_64
+2021-04-10T20:26:45Z SUBDEBUG Upgrade: NetworkManager-bluetooth-1:1.26.0-14.0.1.el8_3.x86_64
+2021-04-10T20:26:46Z SUBDEBUG Upgrade: samba-client-4.12.3-14.el8_3.x86_64
+2021-04-10T20:26:46Z SUBDEBUG Upgrade: libblockdev-lvm-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:26:46Z SUBDEBUG Upgrade: kexec-tools-2.0.20-34.0.5.el8_3.2.x86_64
+2021-04-10T20:26:46Z SUBDEBUG Installed: kernel-4.18.0-240.22.1.el8_3.x86_64
+2021-04-10T20:26:46Z SUBDEBUG Upgrade: rpm-ostree-2020.7-1.el8_3.x86_64
+2021-04-10T20:26:47Z SUBDEBUG Upgrade: flatpak-libs-1.6.2-6.el8_3.x86_64
+2021-04-10T20:26:47Z SUBDEBUG Upgrade: dracut-config-rescue-049-95.git20200804.0.4.el8_3.4.x86_64
+2021-04-10T20:26:47Z SUBDEBUG Upgrade: libvirt-devel-6.0.0-28.1.0.1.module+el8.3.0+20008+729ca284.x86_64
+2021-04-10T20:26:47Z SUBDEBUG Upgrade: libblockdev-dm-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:26:47Z SUBDEBUG Installed: grub2-tools-efi-1:2.02-90.0.4.el8_3.1.x86_64
+2021-04-10T20:26:47Z SUBDEBUG Upgrade: libblockdev-mpath-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:26:47Z SUBDEBUG Upgrade: skopeo-1:1.2.0-9.0.1.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:26:48Z SUBDEBUG Upgrade: buildah-1.16.7-4.0.1.module+el8.3.1+9659+c1901784.x86_64
+2021-04-10T20:26:50Z SUBDEBUG Upgrade: NetworkManager-team-1:1.26.0-14.0.1.el8_3.x86_64
+2021-04-10T20:26:50Z SUBDEBUG Upgrade: NetworkManager-tui-1:1.26.0-14.0.1.el8_3.x86_64
+2021-04-10T20:26:50Z SUBDEBUG Upgrade: NetworkManager-adsl-1:1.26.0-14.0.1.el8_3.x86_64
+2021-04-10T20:26:50Z SUBDEBUG Upgrade: tuned-2.14.0-3.0.2.el8_3.2.noarch
+2021-04-10T20:26:50Z SUBDEBUG Upgrade: microcode_ctl-4:20200609-2.20210216.1.0.1.el8_3.x86_64
+2021-04-10T20:27:07Z SUBDEBUG Upgrade: qemu-guest-agent-15:4.2.0-34.module+el8.3.0+20008+729ca284.5.x86_64
+2021-04-10T20:27:07Z SUBDEBUG Upgrade: mcelog-3:175-0.0.1.el8.x86_64
+2021-04-10T20:27:07Z SUBDEBUG Upgrade: dbus-x11-1:1.12.8-12.0.1.el8_3.x86_64
+2021-04-10T20:27:07Z SUBDEBUG Upgrade: gcc-c++-8.3.1-5.1.0.2.el8.x86_64
+2021-04-10T20:27:09Z SUBDEBUG Upgrade: gcc-gdb-plugin-8.3.1-5.1.0.2.el8.x86_64
+2021-04-10T20:27:09Z SUBDEBUG Upgrade: openssl-devel-1:1.1.1g-15.el8_3.x86_64
+2021-04-10T20:27:21Z SUBDEBUG Upgrade: nss-tools-3.53.1-17.el8_3.x86_64
+2021-04-10T20:27:21Z SUBDEBUG Upgrade: libblockdev-crypto-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:27:22Z SUBDEBUG Upgrade: firefox-78.9.0-1.0.1.el8_3.x86_64
+2021-04-10T20:27:34Z SUBDEBUG Installed: kernel-devel-4.18.0-240.22.1.el8_3.x86_64
+2021-04-10T20:28:29Z SUBDEBUG Upgrade: perl-Math-Complex-1.59-417.el8_3.noarch
+2021-04-10T20:28:29Z SUBDEBUG Upgrade: bind-utils-32:9.11.20-5.el8_3.1.x86_64
+2021-04-10T20:28:29Z SUBDEBUG Upgrade: python3-blockdev-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:28:29Z SUBDEBUG Upgrade: libblockdev-mdraid-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:28:29Z SUBDEBUG Upgrade: libblockdev-btrfs-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:28:29Z SUBDEBUG Upgrade: libblockdev-swap-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:28:29Z SUBDEBUG Upgrade: libblockdev-kbd-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:28:30Z SUBDEBUG Upgrade: libblockdev-loop-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:28:30Z SUBDEBUG Upgrade: libblockdev-part-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:28:30Z SUBDEBUG Upgrade: libblockdev-nvdimm-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:28:30Z SUBDEBUG Upgrade: libblockdev-fs-2.24-2.0.1.el8_3.x86_64
+2021-04-10T20:28:30Z SUBDEBUG Upgrade: sos-3.9.1-7.0.1.el8_3.noarch
+2021-04-10T20:28:31Z SUBDEBUG Upgrade: python36-3.6.8-2.0.1.module+el8.3.0+el8+9688+bb1990d3.x86_64
+2021-04-10T20:28:32Z SUBDEBUG Upgrade: bind-export-libs-32:9.11.20-5.el8_3.1.x86_64
+2021-04-10T20:28:32Z SUBDEBUG Upgrade: openssl-1:1.1.1g-15.el8_3.x86_64
+2021-04-10T20:28:32Z SUBDEBUG Upgrade: bpftool-4.18.0-240.22.1.el8_3.x86_64
+2021-04-10T20:28:33Z SUBDEBUG Upgrade: libuv-1:1.40.0-1.el8.x86_64
+2021-04-10T20:28:33Z SUBDEBUG Upgrade: selinux-policy-devel-3.14.3-54.0.9.el8_3.3.noarch
+2021-04-10T20:28:49Z SUBDEBUG Upgrade: plexmediaserver-1.22.2.4282-a97b03fad.x86_64
+2021-04-10T20:29:40Z SUBDEBUG Upgrade: NetworkManager-config-server-1:1.26.0-14.0.1.el8_3.noarch
+2021-04-10T20:29:40Z SUBDEBUG Upgrade: iwl100-firmware-999:39.31.5.1-999.7.el8.noarch
+2021-04-10T20:29:40Z SUBDEBUG Upgrade: iwl105-firmware-999:18.168.6.1-999.7.el8.noarch
+2021-04-10T20:29:40Z SUBDEBUG Upgrade: iwl2030-firmware-999:18.168.6.1-999.7.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: iwl6000-firmware-999:9.221.4.1-999.7.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: libertas-usb8388-firmware-999:20201217-999.7.git7455a360.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: iwl4965-firmware-999:228.61.2.24-999.7.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: iwl6050-firmware-999:41.28.5.1-999.7.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: iwl2000-firmware-999:18.168.6.1-999.7.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: iwl5000-firmware-999:8.83.5.1_1-999.7.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: iwl5150-firmware-999:8.24.2.2-999.7.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: iwl6000g2a-firmware-999:18.168.6.1-999.7.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: iwl3160-firmware-999:25.30.13.0-999.7.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: iwl135-firmware-999:18.168.6.1-999.7.el8.noarch
+2021-04-10T20:29:41Z SUBDEBUG Upgrade: iwl1000-firmware-999:39.31.5.1-999.7.el8.noarch
+2021-04-10T20:29:42Z SUBDEBUG Upgrade: iwl3945-firmware-999:15.32.2.9-999.7.el8.noarch
+2021-04-10T20:29:42Z SUBDEBUG Upgrade: iwl7260-firmware-999:25.30.13.0-999.7.el8.noarch
+2021-04-10T20:29:46Z SUBDEBUG Upgrade: iwl6000g2b-firmware-999:18.168.6.1-999.7.el8.noarch
+2021-04-10T20:29:46Z SUBDEBUG Upgrade: oraclelinux-release-el8-1.0-16.0.1.el8.x86_64
+2021-04-10T20:29:48Z SUBDEBUG Upgrade: hwdata-0.314-8.6.0.1.el8.noarch
+2021-04-10T20:29:48Z SUBDEBUG Upgrade: grafana-7.5.3-1.x86_64
+2021-04-10T20:30:01Z SUBDEBUG Upgraded: firefox-78.7.0-2.0.1.el8_3.x86_64
+2021-04-10T20:30:01Z SUBDEBUG Upgraded: libvirt-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:01Z SUBDEBUG Upgraded: libvirt-daemon-kvm-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:01Z SUBDEBUG Upgraded: libvirt-daemon-driver-storage-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:01Z SUBDEBUG Upgraded: tuned-2.14.0-3.0.1.el8_3.1.noarch
+2021-04-10T20:30:02Z SUBDEBUG Upgraded: qemu-kvm-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-04-10T20:30:02Z SUBDEBUG Upgraded: libvirt-devel-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:02Z SUBDEBUG Upgraded: perl-Math-Complex-1.59-416.el8.noarch
+2021-04-10T20:30:02Z SUBDEBUG Upgraded: openssl-devel-1:1.1.1g-12.el8_3.x86_64
+2021-04-10T20:30:03Z SUBDEBUG Upgraded: shim-x64-15-11.0.5.x86_64
+2021-04-10T20:30:03Z SUBDEBUG Upgraded: grub2-efi-x64-1:2.02-90.0.1.el8.x86_64
+2021-04-10T20:30:03Z SUBDEBUG Upgraded: microcode_ctl-4:20200609-2.20201112.1.0.1.el8_3.x86_64
+2021-04-10T20:30:05Z SUBDEBUG Upgraded: zlib-devel-1.2.11-16.el8_2.x86_64
+2021-04-10T20:30:05Z SUBDEBUG Upgraded: libvirt-daemon-config-network-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:05Z SUBDEBUG Upgraded: libvirt-daemon-config-nwfilter-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:05Z SUBDEBUG Upgraded: python3-blockdev-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:05Z SUBDEBUG Upgraded: selinux-policy-devel-3.14.3-54.0.5.el8_3.2.noarch
+2021-04-10T20:30:06Z SUBDEBUG Upgraded: sos-3.9.1-6.0.2.el8.noarch
+2021-04-10T20:30:06Z SUBDEBUG Upgraded: python36-3.6.8-2.module+el8.3.0+7694+550a8252.x86_64
+2021-04-10T20:30:06Z SUBDEBUG Upgraded: dracut-config-rescue-049-95.git20200804.0.2.el8.x86_64
+2021-04-10T20:30:06Z SUBDEBUG Upgraded: plexmediaserver-1.21.3.4021-5a0a3e4b2.x86_64
+2021-04-10T20:30:08Z SUBDEBUG Upgraded: NetworkManager-config-server-1:1.26.0-12.0.1.el8_3.noarch
+2021-04-10T20:30:08Z SUBDEBUG Upgraded: iwl100-firmware-999:39.31.5.1-999.5.el8.noarch
+2021-04-10T20:30:08Z SUBDEBUG Upgraded: iwl105-firmware-999:18.168.6.1-999.5.el8.noarch
+2021-04-10T20:30:08Z SUBDEBUG Upgraded: iwl2030-firmware-999:18.168.6.1-999.5.el8.noarch
+2021-04-10T20:30:08Z SUBDEBUG Upgraded: iwl6000-firmware-999:9.221.4.1-999.5.el8.noarch
+2021-04-10T20:30:08Z SUBDEBUG Upgraded: libertas-usb8388-firmware-999:20200902-999.5.gitd5f9eea5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl4965-firmware-999:228.61.2.24-999.5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl6050-firmware-999:41.28.5.1-999.5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl2000-firmware-999:18.168.6.1-999.5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: linux-firmware-999:20200902-999.5.gitd5f9eea5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl5000-firmware-999:8.83.5.1_1-999.5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl5150-firmware-999:8.24.2.2-999.5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl6000g2a-firmware-999:18.168.6.1-999.5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl3160-firmware-999:25.30.13.0-999.5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl135-firmware-999:18.168.6.1-999.5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl1000-firmware-999:39.31.5.1-999.5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl3945-firmware-999:15.32.2.9-999.5.el8.noarch
+2021-04-10T20:30:09Z SUBDEBUG Upgraded: iwl7260-firmware-999:25.30.13.0-999.5.el8.noarch
+2021-04-10T20:30:10Z SUBDEBUG Upgraded: iwl6000g2b-firmware-999:18.168.6.1-999.5.el8.noarch
+2021-04-10T20:30:10Z SUBDEBUG Upgraded: oraclelinux-release-el8-1.0-15.el8.x86_64
+2021-04-10T20:30:10Z SUBDEBUG Upgraded: hwdata-0.314-8.6.el8.noarch
+2021-04-10T20:30:10Z SUBDEBUG Upgraded: grafana-7.4.1-1.x86_64
+2021-04-10T20:30:11Z SUBDEBUG Upgraded: samba-client-4.12.3-12.el8.3.x86_64
+2021-04-10T20:30:11Z SUBDEBUG Upgraded: libvirt-daemon-driver-qemu-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:11Z SUBDEBUG Upgraded: libvirt-daemon-driver-nodedev-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:11Z SUBDEBUG Upgraded: libvirt-daemon-driver-interface-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:11Z SUBDEBUG Upgraded: libvirt-daemon-driver-nwfilter-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:11Z SUBDEBUG Upgraded: libvirt-daemon-driver-network-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:12Z SUBDEBUG Upgraded: libvirt-daemon-driver-secret-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:12Z SUBDEBUG Upgraded: libvirt-client-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:12Z SUBDEBUG Upgraded: nss-tools-3.53.1-11.el8_2.x86_64
+2021-04-10T20:30:13Z SUBDEBUG Upgraded: rpm-ostree-2020.4-1.el8.x86_64
+2021-04-10T20:30:13Z SUBDEBUG Upgraded: libsmbclient-4.12.3-12.el8.3.x86_64
+2021-04-10T20:30:13Z SUBDEBUG Upgraded: flatpak-1.6.2-5.el8_3.x86_64
+2021-04-10T20:30:13Z SUBDEBUG Upgraded: rpm-ostree-libs-2020.4-1.el8.x86_64
+2021-04-10T20:30:13Z SUBDEBUG Upgraded: systemd-container-239-41.0.1.el8_3.1.x86_64
+2021-04-10T20:30:13Z SUBDEBUG Upgraded: qemu-kvm-core-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-04-10T20:30:13Z SUBDEBUG Upgraded: flatpak-libs-1.6.2-5.el8_3.x86_64
+2021-04-10T20:30:13Z SUBDEBUG Upgraded: ostree-2020.5-4.el8.x86_64
+2021-04-10T20:30:13Z SUBDEBUG Upgraded: NetworkManager-tui-1:1.26.0-12.0.1.el8_3.x86_64
+2021-04-10T20:30:13Z SUBDEBUG Upgraded: samba-client-libs-4.12.3-12.el8.3.x86_64
+2021-04-10T20:30:14Z SUBDEBUG Upgraded: samba-common-libs-4.12.3-12.el8.3.x86_64
+2021-04-10T20:30:14Z SUBDEBUG Upgraded: qemu-guest-agent-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-04-10T20:30:14Z SUBDEBUG Upgraded: kexec-tools-2.0.20-34.0.4.el8_3.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: libvirt-daemon-driver-storage-mpath-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: podman-2.0.5-5.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: bind-utils-32:9.11.20-5.el8.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: ostree-libs-2020.5-4.el8.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: libvirt-daemon-driver-storage-disk-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: libvirt-daemon-driver-storage-logical-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: libvirt-daemon-driver-storage-scsi-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: libblockdev-crypto-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: libvirt-daemon-driver-storage-gluster-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: libvirt-daemon-driver-storage-iscsi-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: libvirt-daemon-driver-storage-iscsi-direct-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: libvirt-daemon-driver-storage-rbd-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:32Z SUBDEBUG Upgraded: libvirt-daemon-driver-storage-core-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:33Z SUBDEBUG Upgraded: libvirt-daemon-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:33Z SUBDEBUG Upgraded: qemu-img-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-04-10T20:30:33Z SUBDEBUG Upgraded: libvirt-libs-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: bpftool-4.18.0-240.10.1.el8_3.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: perl-IO-1.38-416.el8.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: gcc-gdb-plugin-8.3.1-5.1.0.1.el8.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: openssl-1:1.1.1g-12.el8_3.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: bind-libs-32:9.11.20-5.el8.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: bind-libs-lite-32:9.11.20-5.el8.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: buildah-1.15.1-2.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: libuv-1:1.38.0-2.el8.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: flatpak-session-helper-1.6.2-5.el8_3.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: kernel-tools-4.18.0-240.10.1.el8_3.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: gcc-c++-8.3.1-5.1.0.1.el8.x86_64
+2021-04-10T20:30:34Z SUBDEBUG Upgraded: gcc-8.3.1-5.1.0.1.el8.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: libblockdev-lvm-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: lvm2-8:2.03.09-5.el8.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: lvm2-libs-8:2.03.09-5.el8.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: device-mapper-event-8:1.02.171-5.el8.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: skopeo-1:1.1.1-3.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: fuse-libs-2.9.7-12.0.2.el8.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: qemu-kvm-block-ssh-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: libgomp-8.3.1-5.1.0.1.el8.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: runc-1.0.0-68.rc92.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: criu-3.14-2.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: conmon-2:2.0.20-2.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: qemu-kvm-block-curl-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: qemu-kvm-block-iscsi-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: libblockdev-fs-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:35Z SUBDEBUG Upgraded: NetworkManager-bluetooth-1:1.26.0-12.0.1.el8_3.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: device-mapper-event-libs-8:1.02.171-5.el8.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: cpp-8.3.1-5.1.0.1.el8.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: libblockdev-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: qemu-kvm-block-gluster-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: python3-perf-4.18.0-240.10.1.el8_3.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: dbus-x11-1:1.12.8-11.0.2.el8.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: bind-export-libs-32:9.11.20-5.el8.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: glibc-devel-2.28-127.0.3.el8.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: NetworkManager-wwan-1:1.26.0-12.0.1.el8_3.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: qemu-kvm-block-rbd-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: qemu-kvm-common-15:4.2.0-34.module+el8.3.0+9609+1cf8b031.1.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: mcelog-3:169-0.0.1.el8.x86_64
+2021-04-10T20:30:36Z SUBDEBUG Upgraded: libblockdev-dm-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: grub2-tools-1:2.02-90.0.1.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: libblockdev-part-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: libblockdev-mpath-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: libblockdev-kbd-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: NetworkManager-wifi-1:1.26.0-12.0.1.el8_3.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: wpa_supplicant-1:2.9-2.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: fuse-2.9.7-12.0.2.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: grub2-tools-extra-1:2.02-90.0.1.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: mokutil-1:0.3.0-10.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: libblockdev-loop-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: nss-sysinit-3.53.1-11.el8_2.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: nss-3.53.1-11.el8_2.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: nss-softokn-3.53.1-11.el8_2.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: nss-softokn-freebl-3.53.1-11.el8_2.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: NetworkManager-adsl-1:1.26.0-12.0.1.el8_3.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: nss-util-3.53.1-11.el8_2.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: libblockdev-mdraid-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: NetworkManager-team-1:1.26.0-12.0.1.el8_3.x86_64
+2021-04-10T20:30:37Z SUBDEBUG Upgraded: NetworkManager-1:1.26.0-12.0.1.el8_3.x86_64
+2021-04-10T20:30:38Z SUBDEBUG Upgraded: NetworkManager-libnm-1:1.26.0-12.0.1.el8_3.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: grub2-tools-minimal-1:2.02-90.0.1.el8.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: device-mapper-libs-8:1.02.171-5.el8.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: device-mapper-8:1.02.171-5.el8.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: dbxtool-8-5.0.1.el8.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: libblockdev-nvdimm-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: libblockdev-swap-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: libblockdev-btrfs-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: perl-Errno-1.28-416.el8.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: glibc-headers-2.28-127.0.3.el8.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: python3-bind-32:9.11.20-5.el8.noarch
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: crypto-policies-scripts-20200713-1.git51d1222.el8.noarch
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: containers-common-1:1.1.1-3.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: flatpak-selinux-1.6.2-5.el8_3.noarch
+2021-04-10T20:30:39Z SUBDEBUG Upgraded: selinux-policy-targeted-3.14.3-54.0.5.el8_3.2.noarch
+2021-04-10T20:30:40Z SUBDEBUG Upgraded: libstdc++-devel-8.3.1-5.1.0.1.el8.x86_64
+2021-04-10T20:30:40Z SUBDEBUG Upgraded: dracut-network-049-95.git20200804.0.2.el8.x86_64
+2021-04-10T20:30:40Z SUBDEBUG Upgraded: dracut-squash-049-95.git20200804.0.2.el8.x86_64
+2021-04-10T20:30:40Z SUBDEBUG Upgraded: samba-common-4.12.3-12.el8.3.noarch
+2021-04-10T20:30:40Z SUBDEBUG Upgraded: selinux-policy-3.14.3-54.0.5.el8_3.2.noarch
+2021-04-10T20:30:40Z SUBDEBUG Upgraded: bind-license-32:9.11.20-5.el8.noarch
+2021-04-10T20:30:40Z SUBDEBUG Upgraded: kernel-headers-4.18.0-240.10.1.el8_3.x86_64
+2021-04-10T20:30:41Z SUBDEBUG Upgraded: grub2-common-1:2.02-90.0.1.el8.noarch
+2021-04-10T20:30:41Z SUBDEBUG Upgraded: fuse-common-3.2.1-12.0.2.el8.x86_64
+2021-04-10T20:30:41Z SUBDEBUG Upgraded: podman-catatonit-2.0.5-5.0.1.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:41Z SUBDEBUG Upgraded: libvirt-bash-completion-6.0.0-28.0.1.module+el8.3.0+7860+a7792d29.x86_64
+2021-04-10T20:30:41Z SUBDEBUG Upgraded: perl-interpreter-4:5.26.3-416.el8.x86_64
+2021-04-10T20:30:41Z SUBDEBUG Upgraded: libstdc++-8.3.1-5.1.0.1.el8.x86_64
+2021-04-10T20:30:42Z SUBDEBUG Upgraded: fuse-overlayfs-1.1.2-3.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:42Z SUBDEBUG Upgraded: fuse3-libs-3.2.1-12.0.2.el8.x86_64
+2021-04-10T20:30:42Z SUBDEBUG Upgraded: dracut-049-95.git20200804.0.2.el8.x86_64
+2021-04-10T20:30:42Z SUBDEBUG Upgraded: systemd-udev-239-41.0.1.el8_3.1.x86_64
+2021-04-10T20:30:43Z SUBDEBUG Upgraded: dbus-1:1.12.8-11.0.2.el8.x86_64
+2021-04-10T20:30:43Z SUBDEBUG Upgraded: systemd-pam-239-41.0.1.el8_3.1.x86_64
+2021-04-10T20:30:43Z SUBDEBUG Upgraded: systemd-239-41.0.1.el8_3.1.x86_64
+2021-04-10T20:30:43Z SUBDEBUG Upgraded: dbus-daemon-1:1.12.8-11.0.2.el8.x86_64
+2021-04-10T20:30:43Z SUBDEBUG Upgraded: kmod-25-16.0.1.el8.x86_64
+2021-04-10T20:30:43Z SUBDEBUG Upgraded: dbus-tools-1:1.12.8-11.0.2.el8.x86_64
+2021-04-10T20:30:43Z SUBDEBUG Upgraded: dbus-libs-1:1.12.8-11.0.2.el8.x86_64
+2021-04-10T20:30:44Z SUBDEBUG Upgraded: slirp4netns-1.1.4-2.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:44Z SUBDEBUG Upgraded: libblockdev-utils-2.24-1.0.1.el8.x86_64
+2021-04-10T20:30:44Z SUBDEBUG Upgraded: systemd-libs-239-41.0.1.el8_3.1.x86_64
+2021-04-10T20:30:44Z SUBDEBUG Upgraded: kmod-libs-25-16.0.1.el8.x86_64
+2021-04-10T20:30:44Z SUBDEBUG Upgraded: platform-python-3.6.8-31.0.1.el8.x86_64
+2021-04-10T20:30:44Z SUBDEBUG Upgraded: python3-libs-3.6.8-31.0.1.el8.x86_64
+2021-04-10T20:30:45Z SUBDEBUG Upgraded: openssl-libs-1:1.1.1g-12.el8_3.x86_64
+2021-04-10T20:30:45Z SUBDEBUG Upgraded: libslirp-4.3.1-1.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:45Z SUBDEBUG Upgraded: file-5.33-16.el8.x86_64
+2021-04-10T20:30:45Z SUBDEBUG Upgraded: file-libs-5.33-16.el8.x86_64
+2021-04-10T20:30:45Z SUBDEBUG Upgraded: containernetworking-plugins-0.8.6-2.module+el8.3.0+7866+f387f528.x86_64
+2021-04-10T20:30:45Z SUBDEBUG Upgraded: zlib-1.2.11-16.el8_2.x86_64
+2021-04-10T20:30:45Z SUBDEBUG Upgraded: libwbclient-4.12.3-12.el8.3.x86_64
+2021-04-10T20:30:45Z SUBDEBUG Upgraded: kernel-tools-libs-4.18.0-240.10.1.el8_3.x86_64
+2021-04-10T20:30:46Z SUBDEBUG Upgraded: perl-macros-4:5.26.3-416.el8.x86_64
+2021-04-10T20:30:46Z SUBDEBUG Upgraded: crypto-policies-20200713-1.git51d1222.el8.noarch
+2021-04-10T20:30:46Z SUBDEBUG Upgraded: dbus-common-1:1.12.8-11.0.2.el8.noarch
+2021-04-10T20:30:46Z SUBDEBUG Upgraded: perl-libs-4:5.26.3-416.el8.x86_64
+2021-04-10T20:30:46Z SUBDEBUG Upgraded: glibc-common-2.28-127.0.3.el8.x86_64
+2021-04-10T20:30:46Z SUBDEBUG Upgraded: glibc-langpack-en-2.28-127.0.3.el8.x86_64
+2021-04-10T20:30:46Z SUBDEBUG Upgraded: glibc-2.28-127.0.3.el8.x86_64
+2021-04-10T20:30:47Z SUBDEBUG Upgraded: libgcc-8.3.1-5.1.0.1.el8.x86_64
+2021-04-10T20:31:35Z INFO dkms: running auto installation service for kernel 4.18.0-240.22.1.el8_3.x86_64
+ Done. 
+
+2021-04-10T20:32:20Z INFO dkms: running auto installation service for kernel 5.4.17-2102.200.13.el8uek.x86_64
+ Done. 
+
+2021-04-10T20:33:38Z INFO POSTTRANS: Running script
+POSTTRANS: Config file not found
+
+2021-04-10T20:39:29Z INFO --- logging initialized ---
+2021-04-10T20:39:43Z INFO --- logging initialized ---
+2021-04-10T20:40:01Z INFO --- logging initialized ---
+2021-04-10T20:40:18Z SUBDEBUG Installed: python3-jmespath-0.9.0-11.el8.noarch
+2021-04-10T20:40:18Z SUBDEBUG Installed: python3-pyasn1-0.3.7-6.el8.noarch
+2021-04-10T20:40:18Z SUBDEBUG Installed: python3-markupsafe-0.23-19.el8.x86_64
+2021-04-10T20:40:18Z SUBDEBUG Installed: python3-babel-2.5.1-5.el8.noarch
+2021-04-10T20:40:21Z SUBDEBUG Installed: python3-jinja2-2.10.1-2.el8_0.noarch
+2021-04-10T20:40:21Z SUBDEBUG Installed: sshpass-1.06-9.el8.x86_64
+2021-04-10T20:40:21Z SUBDEBUG Installed: python3-bcrypt-3.1.6-2.el8.1.x86_64
+2021-04-10T20:40:21Z SUBDEBUG Installed: libsodium-1.0.18-2.el8.x86_64
+2021-04-10T20:40:21Z SUBDEBUG Installed: python3-pynacl-1.3.0-5.el8.x86_64
+2021-04-10T20:40:21Z SUBDEBUG Installed: python3-paramiko-2.4.3-1.el8.noarch
+2021-04-10T20:40:22Z SUBDEBUG Installed: ansible-2.9.18-2.el8.noarch
+2021-04-10T20:40:47Z SUBDEBUG Installed: ansible-doc-2.9.18-2.el8.noarch
+2021-04-10T20:54:13Z INFO --- logging initialized ---
+2021-04-10T20:54:21Z SUBDEBUG Installed: rsyslog-doc-8.1911.0-6.el8.noarch
+2021-04-10T20:54:33Z INFO --- logging initialized ---
+2021-04-10T21:26:22Z INFO --- logging initialized ---
+2021-04-11T05:36:00Z INFO --- logging initialized ---
+2021-04-11T06:37:00Z INFO --- logging initialized ---
+2021-04-11T11:37:01Z INFO --- logging initialized ---
+2021-04-11T12:37:20Z INFO --- logging initialized ---
+2021-04-11T13:38:07Z INFO --- logging initialized ---
+2021-04-11T14:38:20Z INFO --- logging initialized ---
+2021-04-11T15:39:20Z INFO --- logging initialized ---
+2021-04-11T16:39:37Z INFO --- logging initialized ---
+2021-04-11T17:40:20Z INFO --- logging initialized ---
+2021-04-11T18:34:41Z INFO --- logging initialized ---
+2021-04-11T18:35:35Z INFO --- logging initialized ---
+2021-04-11T18:36:02Z INFO --- logging initialized ---
+2021-04-11T18:36:28Z INFO --- logging initialized ---
+2021-04-11T18:36:38Z SUBDEBUG Installed: rpmfusion-free-release-8-0.1.noarch
+2021-04-11T18:36:50Z INFO --- logging initialized ---
+2021-04-11T18:37:02Z INFO --- logging initialized ---
+2021-04-11T18:37:25Z INFO --- logging initialized ---
+2021-04-11T18:37:38Z INFO --- logging initialized ---
+2021-04-11T18:41:07Z INFO --- logging initialized ---
+2021-04-11T19:41:20Z INFO --- logging initialized ---
+2021-04-11T20:42:20Z INFO --- logging initialized ---
+2021-04-11T21:42:37Z INFO --- logging initialized ---
+2021-04-11T21:42:57Z INFO --- logging initialized ---
+2021-04-11T21:44:02Z INFO --- logging initialized ---
+2021-04-11T21:46:25Z INFO --- logging initialized ---
+2021-04-11T21:46:30Z INFO --- logging initialized ---
+2021-04-11T21:46:45Z INFO --- logging initialized ---
+2021-04-11T21:47:09Z INFO --- logging initialized ---
+2021-04-12T16:02:52Z INFO --- logging initialized ---
+2021-04-12T17:03:32Z INFO --- logging initialized ---
+2021-04-12T18:03:52Z INFO --- logging initialized ---

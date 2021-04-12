@@ -1,0 +1,96 @@
+Jan 31 13:33:01 wien-plex run-parts[3242]: (/etc/cron.daily) finished logrotate
+Jan 31 13:33:01 wien-plex anacron[2877]: Job `cron.daily' terminated
+Jan 31 13:33:01 wien-plex anacron[2877]: Normal exit (1 job run)
+Jan 31 14:01:01 wien-plex CROND[3497]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 14:01:01 wien-plex run-parts[3497]: (/etc/cron.hourly) starting 0anacron
+Jan 31 14:01:01 wien-plex run-parts[3497]: (/etc/cron.hourly) finished 0anacron
+Jan 31 15:00:01 wien-plex CROND[4945]: (root) CMD (w >> /root/connections)
+Jan 31 15:01:01 wien-plex CROND[4983]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 15:01:02 wien-plex run-parts[4983]: (/etc/cron.hourly) starting 0anacron
+Jan 31 15:01:02 wien-plex run-parts[4983]: (/etc/cron.hourly) finished 0anacron
+Jan 31 16:01:01 wien-plex CROND[5500]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 16:01:01 wien-plex run-parts[5500]: (/etc/cron.hourly) starting 0anacron
+Jan 31 16:01:01 wien-plex run-parts[5500]: (/etc/cron.hourly) finished 0anacron
+Jan 31 17:01:01 wien-plex CROND[6055]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 17:01:01 wien-plex run-parts[6055]: (/etc/cron.hourly) starting 0anacron
+Jan 31 17:01:01 wien-plex run-parts[6055]: (/etc/cron.hourly) finished 0anacron
+Jan 31 18:00:01 wien-plex CROND[6610]: (root) CMD (w >> /root/connections)
+Jan 31 18:01:01 wien-plex CROND[6648]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 18:01:01 wien-plex run-parts[6648]: (/etc/cron.hourly) starting 0anacron
+Jan 31 18:01:01 wien-plex run-parts[6648]: (/etc/cron.hourly) finished 0anacron
+Jan 31 19:01:01 wien-plex CROND[7194]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 19:01:01 wien-plex run-parts[7194]: (/etc/cron.hourly) starting 0anacron
+Jan 31 19:01:01 wien-plex run-parts[7194]: (/etc/cron.hourly) finished 0anacron
+Jan 31 20:01:01 wien-plex CROND[8496]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 20:01:01 wien-plex run-parts[8496]: (/etc/cron.hourly) starting 0anacron
+Jan 31 20:01:01 wien-plex run-parts[8496]: (/etc/cron.hourly) finished 0anacron
+Jan 31 21:00:01 wien-plex CROND[10342]: (root) CMD (w >> /root/connections)
+Jan 31 21:01:01 wien-plex CROND[10380]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 21:01:02 wien-plex run-parts[10380]: (/etc/cron.hourly) starting 0anacron
+Jan 31 21:01:02 wien-plex run-parts[10380]: (/etc/cron.hourly) finished 0anacron
+Jan 31 22:01:01 wien-plex CROND[13539]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 22:01:01 wien-plex run-parts[13539]: (/etc/cron.hourly) starting 0anacron
+Jan 31 22:01:01 wien-plex run-parts[13539]: (/etc/cron.hourly) finished 0anacron
+Jan 31 23:01:01 wien-plex CROND[14206]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 31 23:01:01 wien-plex run-parts[14206]: (/etc/cron.hourly) starting 0anacron
+Jan 31 23:01:01 wien-plex run-parts[14206]: (/etc/cron.hourly) finished 0anacron
+Feb  1 00:00:01 wien-plex CROND[15586]: (root) CMD (w >> /root/connections)
+Feb  1 00:01:01 wien-plex CROND[15622]: (root) CMD (run-parts /etc/cron.hourly)
+Feb  1 00:01:01 wien-plex run-parts[15622]: (/etc/cron.hourly) starting 0anacron
+Feb  1 00:01:01 wien-plex anacron[15631]: Anacron started on 2021-02-01
+Feb  1 00:01:01 wien-plex anacron[15631]: Normal exit (0 jobs run)
+Feb  1 00:01:01 wien-plex run-parts[15622]: (/etc/cron.hourly) finished 0anacron
+Feb  1 01:01:01 wien-plex CROND[16179]: (root) CMD (run-parts /etc/cron.hourly)
+Feb  1 01:01:01 wien-plex run-parts[16179]: (/etc/cron.hourly) starting 0anacron
+Feb  1 01:01:01 wien-plex anacron[16188]: Anacron started on 2021-02-01
+Feb  1 01:01:01 wien-plex anacron[16188]: Normal exit (0 jobs run)
+Feb  1 01:01:01 wien-plex run-parts[16179]: (/etc/cron.hourly) finished 0anacron
+Feb  1 21:05:43 wien-plex crond[1802]: (CRON) STARTUP (1.5.2)
+Feb  1 21:05:43 wien-plex crond[1802]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Feb  1 21:05:43 wien-plex crond[1802]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 78% if used.)
+Feb  1 21:05:43 wien-plex crond[1802]: (CRON) INFO (running with inotify support)
+Feb  1 22:01:01 wien-plex CROND[8974]: (root) CMD (run-parts /etc/cron.hourly)
+Feb  1 22:01:01 wien-plex run-parts[8974]: (/etc/cron.hourly) starting 0anacron
+Feb  1 22:01:01 wien-plex anacron[8983]: Anacron started on 2021-02-01
+Feb  1 22:01:01 wien-plex anacron[8983]: Normal exit (0 jobs run)
+Feb  1 22:01:01 wien-plex run-parts[8974]: (/etc/cron.hourly) finished 0anacron
+Feb  1 23:01:01 wien-plex CROND[9564]: (root) CMD (run-parts /etc/cron.hourly)
+Feb  1 23:01:01 wien-plex run-parts[9564]: (/etc/cron.hourly) starting 0anacron
+Feb  1 23:01:01 wien-plex anacron[9573]: Anacron started on 2021-02-01
+Feb  1 23:01:01 wien-plex anacron[9573]: Normal exit (0 jobs run)
+Feb  1 23:01:01 wien-plex run-parts[9564]: (/etc/cron.hourly) finished 0anacron
+Feb  5 17:40:20 wien-plex crond[1790]: (CRON) STARTUP (1.5.2)
+Feb  5 17:40:20 wien-plex crond[1790]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Feb  5 17:40:20 wien-plex crond[1790]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 31% if used.)
+Feb  5 17:40:20 wien-plex crond[1790]: (CRON) INFO (running with inotify support)
+Feb  5 18:00:01 wien-plex CROND[3118]: (root) CMD (w >> /root/connections)
+Feb  5 18:01:01 wien-plex CROND[3162]: (root) CMD (run-parts /etc/cron.hourly)
+Feb  5 18:01:01 wien-plex run-parts[3162]: (/etc/cron.hourly) starting 0anacron
+Feb  5 18:01:01 wien-plex anacron[3171]: Anacron started on 2021-02-05
+Feb  5 18:01:01 wien-plex anacron[3171]: Will run job `cron.daily' in 14 min.
+Feb  5 18:01:01 wien-plex anacron[3171]: Will run job `cron.weekly' in 34 min.
+Feb  5 18:01:01 wien-plex anacron[3171]: Jobs will be executed sequentially
+Feb  5 18:01:01 wien-plex run-parts[3162]: (/etc/cron.hourly) finished 0anacron
+Feb  5 18:15:01 wien-plex anacron[3171]: Job `cron.daily' started
+Feb  5 18:15:01 wien-plex run-parts[3288]: (/etc/cron.daily) starting logrotate
+Feb  5 18:15:01 wien-plex run-parts[3288]: (/etc/cron.daily) finished logrotate
+Feb  5 18:15:01 wien-plex anacron[3171]: Job `cron.daily' terminated
+Feb 12 19:27:08 wien-plex crond[1822]: (CRON) STARTUP (1.5.2)
+Feb 12 19:27:08 wien-plex crond[1822]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Feb 12 19:27:08 wien-plex crond[1822]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 64% if used.)
+Feb 12 19:27:08 wien-plex crond[1822]: (CRON) INFO (running with inotify support)
+Feb 12 19:46:19 wien-plex crond[1798]: (CRON) STARTUP (1.5.2)
+Feb 12 19:46:19 wien-plex crond[1798]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Feb 12 19:46:19 wien-plex crond[1798]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 6% if used.)
+Feb 12 19:46:20 wien-plex crond[1798]: (CRON) INFO (running with inotify support)
+Feb 12 19:53:26 wien-plex crond[1748]: (CRON) STARTUP (1.5.2)
+Feb 12 19:53:26 wien-plex crond[1748]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Feb 12 19:53:26 wien-plex crond[1748]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 13% if used.)
+Feb 12 19:53:26 wien-plex crond[1748]: (CRON) INFO (running with inotify support)
+Feb 12 20:01:01 wien-plex CROND[7149]: (root) CMD (run-parts /etc/cron.hourly)
+Feb 12 20:01:01 wien-plex run-parts[7149]: (/etc/cron.hourly) starting 0anacron
+Feb 12 20:01:01 wien-plex anacron[7158]: Anacron started on 2021-02-12
+Feb 12 20:01:01 wien-plex anacron[7158]: Will run job `cron.daily' in 31 min.
+Feb 12 20:01:01 wien-plex anacron[7158]: Will run job `cron.weekly' in 51 min.
+Feb 12 20:01:01 wien-plex anacron[7158]: Jobs will be executed sequentially
+Feb 12 20:01:01 wien-plex run-parts[7149]: (/etc/cron.hourly) finished 0anacron

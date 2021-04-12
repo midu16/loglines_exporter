@@ -1,0 +1,297 @@
+Feb 14 09:14:01 wien-plex polkitd[1145]: Loading rules from directory /etc/polkit-1/rules.d
+Feb 14 09:14:01 wien-plex polkitd[1145]: Loading rules from directory /usr/share/polkit-1/rules.d
+Feb 14 09:14:01 wien-plex polkitd[1145]: Finished loading, compiling and executing 11 rules
+Feb 14 09:14:01 wien-plex polkitd[1145]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Feb 14 09:14:03 wien-plex sshd[1393]: Server listening on 0.0.0.0 port 22.
+Feb 14 09:14:03 wien-plex sshd[1393]: Server listening on :: port 22.
+Feb 14 09:14:09 wien-plex systemd[1735]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 14 09:14:10 wien-plex systemd[1943]: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Feb 14 09:14:10 wien-plex gdm-launch-environment][1887]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Feb 14 09:14:10 wien-plex vncsession[1406]: pam_unix(tigervnc:session): session opened for user midu by (uid=0)
+Feb 14 09:14:10 wien-plex vncsession[1406]: pam_unix(tigervnc:session): session closed for user midu
+Feb 14 09:14:11 wien-plex systemd[1849]: pam_unix(systemd-user:session): session closed for user midu
+Feb 14 09:14:16 wien-plex polkitd[1145]: Registered Authentication Agent for unix-session:c1 (system bus name :1.111 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 14 09:15:03 wien-plex systemd[2836]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 14 09:15:03 wien-plex cockpit-session[2827]: pam_unix(cockpit:session): session opened for user midu by (uid=0)
+Feb 14 09:15:04 wien-plex polkitd[1145]: Registered Authentication Agent for unix-session:4 (system bus name :1.207 [cockpit-bridge], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 14 09:15:04 wien-plex sudo[2897]:    midu : TTY=unknown ; PWD=/run/user/1000 ; USER=root ; COMMAND=/bin/cockpit-bridge --privileged
+Feb 14 09:15:04 wien-plex sudo[2897]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Feb 14 09:15:04 wien-plex sudo[2897]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 14 09:15:06 wien-plex sudo[2963]:    midu : TTY=unknown ; PWD=/run/user/1000 ; USER=root ; COMMAND=validate
+Feb 14 09:16:38 wien-plex sshd[4741]: Accepted password for midu from 192.168.111.143 port 65176 ssh2
+Feb 14 09:16:38 wien-plex sshd[4741]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 14 09:16:49 wien-plex sshd[4741]: pam_unix(sshd:session): session closed for user midu
+Feb 14 09:28:16 wien-plex sshd[5416]: Accepted password for root from 192.168.111.138 port 63616 ssh2
+Feb 14 09:28:16 wien-plex systemd[5421]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 14 09:28:16 wien-plex sshd[5416]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 09:28:16 wien-plex sshd[5425]: Accepted password for root from 192.168.111.138 port 63618 ssh2
+Feb 14 09:28:16 wien-plex sshd[5425]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 10:05:12 wien-plex sshd[5862]: Accepted password for midu from 192.168.111.138 port 63936 ssh2
+Feb 14 10:05:12 wien-plex sshd[5862]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 14 11:12:41 wien-plex polkitd[1145]: Unregistered Authentication Agent for unix-session:4 (system bus name :1.207, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 14 11:12:41 wien-plex sudo[2897]: pam_unix(sudo:session): session closed for user root
+Feb 14 11:12:41 wien-plex cockpit-session[2827]: pam_unix(cockpit:session): session closed for user midu
+Feb 14 11:13:59 wien-plex sshd[6559]: Accepted password for root from 192.168.111.138 port 63882 ssh2
+Feb 14 11:13:59 wien-plex sshd[6559]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 11:13:59 wien-plex sshd[6563]: Accepted password for root from 192.168.111.138 port 63884 ssh2
+Feb 14 11:13:59 wien-plex sshd[6563]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 11:41:29 wien-plex sshd[5425]: pam_unix(sshd:session): session closed for user root
+Feb 14 13:13:14 wien-plex sshd[5416]: pam_unix(sshd:session): session closed for user root
+Feb 14 13:17:36 wien-plex sshd[5862]: pam_unix(sshd:session): session closed for user midu
+Feb 14 13:26:21 wien-plex sshd[6563]: pam_unix(sshd:session): session closed for user root
+Feb 14 13:36:10 wien-plex sshd[6559]: pam_unix(sshd:session): session closed for user root
+Feb 14 14:32:55 wien-plex sshd[8704]: Accepted password for root from 192.168.111.138 port 50853 ssh2
+Feb 14 14:32:55 wien-plex systemd[8710]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 14 14:32:55 wien-plex sshd[8704]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 14:32:57 wien-plex sshd[8728]: Accepted password for root from 192.168.111.138 port 50855 ssh2
+Feb 14 14:32:57 wien-plex sshd[8728]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 15:52:08 wien-plex sshd[8732]: Received disconnect from 192.168.111.138 port 50853:11: disconnected by user
+Feb 14 15:52:08 wien-plex sshd[8732]: Disconnected from user root 192.168.111.138 port 50853
+Feb 14 15:52:08 wien-plex sshd[8704]: pam_unix(sshd:session): session closed for user root
+Feb 14 15:52:09 wien-plex sshd[8728]: pam_unix(sshd:session): session closed for user root
+Feb 14 16:52:10 wien-plex systemd[10280]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 14 16:52:10 wien-plex cockpit-session[10272]: pam_unix(cockpit:session): session opened for user midu by (uid=0)
+Feb 14 16:52:10 wien-plex polkitd[1145]: Registered Authentication Agent for unix-session:18 (system bus name :1.647 [cockpit-bridge], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 14 16:52:11 wien-plex sudo[10342]:    midu : TTY=unknown ; PWD=/run/user/1000 ; USER=root ; COMMAND=/bin/cockpit-bridge --privileged
+Feb 14 16:52:11 wien-plex sudo[10342]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Feb 14 16:52:11 wien-plex sudo[10342]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 14 16:52:15 wien-plex sudo[10413]:    midu : TTY=unknown ; PWD=/run/user/1000 ; USER=root ; COMMAND=validate
+Feb 14 16:55:11 wien-plex sshd[12109]: Accepted password for root from 192.168.111.138 port 61948 ssh2
+Feb 14 16:55:11 wien-plex systemd[12115]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 14 16:55:11 wien-plex sshd[12109]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 16:55:12 wien-plex sshd[12120]: Accepted password for root from 192.168.111.138 port 61950 ssh2
+Feb 14 16:55:12 wien-plex sshd[12120]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 17:44:06 wien-plex sshd[12137]: Received disconnect from 192.168.111.138 port 61948:11: disconnected by user
+Feb 14 17:44:06 wien-plex sshd[12137]: Disconnected from user root 192.168.111.138 port 61948
+Feb 14 17:44:06 wien-plex sshd[12109]: pam_unix(sshd:session): session closed for user root
+Feb 14 17:44:06 wien-plex sshd[12120]: pam_unix(sshd:session): session closed for user root
+Feb 14 17:44:11 wien-plex sshd[12910]: Accepted password for root from 192.168.111.138 port 62801 ssh2
+Feb 14 17:44:11 wien-plex systemd[12916]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 14 17:44:11 wien-plex sshd[12910]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 17:44:11 wien-plex sshd[12920]: Accepted password for root from 192.168.111.138 port 62803 ssh2
+Feb 14 17:44:11 wien-plex sshd[12920]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 17:45:57 wien-plex sshd[13018]: Accepted password for root from 192.168.111.138 port 62839 ssh2
+Feb 14 17:45:57 wien-plex sshd[13018]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 18:36:39 wien-plex sshd[13541]: Accepted password for root from 192.168.111.138 port 49741 ssh2
+Feb 14 18:36:39 wien-plex sshd[13541]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 18:36:40 wien-plex sshd[13545]: Accepted password for root from 192.168.111.138 port 49743 ssh2
+Feb 14 18:36:40 wien-plex sshd[13545]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 18:37:17 wien-plex sudo[13637]:    midu : a password is required ; TTY=unknown ; PWD=/run/user/1000 ; USER=root ; COMMAND=validate
+Feb 14 18:37:51 wien-plex sshd[15275]: Accepted password for root from 192.168.111.138 port 50282 ssh2
+Feb 14 18:37:51 wien-plex sshd[15275]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 14 18:37:52 wien-plex sudo[15309]:    midu : a password is required ; TTY=unknown ; PWD=/run/user/1000 ; USER=root ; COMMAND=validate
+Feb 14 18:50:53 wien-plex sshd[13018]: pam_unix(sshd:session): session closed for user root
+Feb 14 19:59:34 wien-plex sshd[12920]: pam_unix(sshd:session): session closed for user root
+Feb 14 19:59:34 wien-plex sshd[12910]: pam_unix(sshd:session): session closed for user root
+Feb 14 21:02:23 wien-plex sshd[18195]: Accepted password for midu from 192.168.111.143 port 49562 ssh2
+Feb 14 21:02:23 wien-plex sshd[18195]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 14 21:20:04 wien-plex sshd[19185]: Accepted password for midu from 192.168.111.157 port 49585 ssh2
+Feb 14 21:20:04 wien-plex sshd[19185]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 14 21:21:43 wien-plex sshd[19185]: pam_unix(sshd:session): session closed for user midu
+Feb 14 21:36:41 wien-plex polkitd[1145]: Unregistered Authentication Agent for unix-session:18 (system bus name :1.647, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 14 21:36:41 wien-plex cockpit-session[10272]: pam_unix(cockpit:session): session closed for user midu
+Feb 14 21:36:41 wien-plex sudo[10342]: pam_unix(sudo:session): session closed for user root
+Feb 14 22:17:33 wien-plex sshd[13546]: Received disconnect from 192.168.111.138 port 49741:11: disconnected by user
+Feb 14 22:17:33 wien-plex sshd[13546]: Disconnected from user root 192.168.111.138 port 49741
+Feb 14 22:17:33 wien-plex sshd[13541]: pam_unix(sshd:session): session closed for user root
+Feb 14 22:17:34 wien-plex sshd[13545]: pam_unix(sshd:session): session closed for user root
+Feb 14 22:23:12 wien-plex sshd[15275]: pam_unix(sshd:session): session closed for user root
+Feb 14 23:04:30 wien-plex sshd[18195]: pam_unix(sshd:session): session closed for user midu
+Feb 14 23:27:09 wien-plex sshd[23380]: Accepted password for midu from 192.168.111.143 port 49706 ssh2
+Feb 14 23:27:09 wien-plex systemd[23385]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 14 23:27:09 wien-plex sshd[23380]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 14 23:27:42 wien-plex sshd[23380]: pam_unix(sshd:session): session closed for user midu
+Feb 14 23:27:43 wien-plex systemd[23391]: pam_unix(systemd-user:session): session closed for user midu
+Feb 15 00:00:01 wien-plex systemd[24401]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 15 00:00:01 wien-plex systemd[24404]: pam_unix(systemd-user:session): session closed for user root
+Feb 15 20:02:45 wien-plex polkitd[1150]: Loading rules from directory /etc/polkit-1/rules.d
+Feb 15 20:02:45 wien-plex polkitd[1150]: Loading rules from directory /usr/share/polkit-1/rules.d
+Feb 15 20:02:46 wien-plex polkitd[1150]: Finished loading, compiling and executing 11 rules
+Feb 15 20:02:46 wien-plex polkitd[1150]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Feb 15 20:02:47 wien-plex sshd[1372]: Server listening on 0.0.0.0 port 22.
+Feb 15 20:02:47 wien-plex sshd[1372]: Server listening on :: port 22.
+Feb 15 20:02:54 wien-plex systemd[1741]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 20:02:54 wien-plex systemd[1951]: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Feb 15 20:02:55 wien-plex gdm-launch-environment][1879]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Feb 15 20:02:55 wien-plex vncsession[1390]: pam_unix(tigervnc:session): session opened for user midu by (uid=0)
+Feb 15 20:02:55 wien-plex vncsession[1390]: pam_unix(tigervnc:session): session closed for user midu
+Feb 15 20:02:55 wien-plex systemd[1851]: pam_unix(systemd-user:session): session closed for user midu
+Feb 15 20:03:00 wien-plex polkitd[1150]: Registered Authentication Agent for unix-session:c1 (system bus name :1.111 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 15 20:43:00 wien-plex sshd[3192]: Accepted password for midu from 192.168.111.157 port 50360 ssh2
+Feb 15 20:43:00 wien-plex systemd[3197]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 20:43:00 wien-plex sshd[3192]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 20:43:13 wien-plex sshd[3192]: pam_unix(sshd:session): session closed for user midu
+Feb 15 20:43:13 wien-plex systemd[3203]: pam_unix(systemd-user:session): session closed for user midu
+Feb 15 20:58:17 wien-plex sshd[4063]: Accepted password for midu from 192.168.111.157 port 50370 ssh2
+Feb 15 20:58:17 wien-plex systemd[4069]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 20:58:17 wien-plex sshd[4063]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 20:58:24 wien-plex sshd[4063]: pam_unix(sshd:session): session closed for user midu
+Feb 15 20:58:24 wien-plex systemd[4074]: pam_unix(systemd-user:session): session closed for user midu
+Feb 15 21:00:01 wien-plex systemd[4459]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 15 22:23:15 wien-plex sshd[5237]: Accepted password for midu from 192.168.111.157 port 50407 ssh2
+Feb 15 22:23:15 wien-plex systemd[5242]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 22:23:15 wien-plex sshd[5237]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 22:23:58 wien-plex sshd[5237]: pam_unix(sshd:session): session closed for user midu
+Feb 15 22:24:00 wien-plex sshd[7127]: Accepted password for midu from 192.168.111.157 port 50418 ssh2
+Feb 15 22:24:00 wien-plex systemd[7133]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 22:24:01 wien-plex sshd[7127]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 22:24:57 wien-plex sshd[7127]: pam_unix(sshd:session): session closed for user midu
+Feb 15 22:29:09 wien-plex sshd[9701]: Accepted password for midu from 192.168.111.157 port 50435 ssh2
+Feb 15 22:29:09 wien-plex systemd[9707]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 22:29:10 wien-plex sshd[9701]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 22:29:27 wien-plex sshd[9701]: pam_unix(sshd:session): session closed for user midu
+Feb 15 22:38:15 wien-plex sshd[10716]: Accepted password for midu from 192.168.111.157 port 50444 ssh2
+Feb 15 22:38:15 wien-plex systemd[10722]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 22:38:15 wien-plex sshd[10716]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 22:46:34 wien-plex sshd[10716]: pam_unix(sshd:session): session closed for user midu
+Feb 15 22:46:34 wien-plex systemd[10729]: pam_unix(systemd-user:session): session closed for user midu
+Feb 15 22:49:44 wien-plex sshd[12003]: Accepted password for midu from 192.168.111.157 port 50451 ssh2
+Feb 15 22:49:44 wien-plex systemd[12009]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 22:49:44 wien-plex sshd[12003]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 22:49:51 wien-plex sshd[12003]: pam_unix(sshd:session): session closed for user midu
+Feb 15 22:49:54 wien-plex sshd[12428]: Accepted password for midu from 192.168.111.157 port 50456 ssh2
+Feb 15 22:49:54 wien-plex systemd[12434]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 22:49:54 wien-plex sshd[12428]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 22:51:12 wien-plex sshd[12428]: pam_unix(sshd:session): session closed for user midu
+Feb 15 22:56:07 wien-plex sshd[15659]: Accepted password for midu from 192.168.111.157 port 50462 ssh2
+Feb 15 22:56:07 wien-plex systemd[15665]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 22:56:07 wien-plex sshd[15659]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 22:56:21 wien-plex sshd[15659]: pam_unix(sshd:session): session closed for user midu
+Feb 15 23:07:14 wien-plex sshd[16353]: Accepted password for midu from 192.168.111.157 port 50481 ssh2
+Feb 15 23:07:14 wien-plex systemd[16359]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 23:07:14 wien-plex sshd[16353]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 23:07:25 wien-plex sshd[16353]: pam_unix(sshd:session): session closed for user midu
+Feb 15 23:07:25 wien-plex systemd[16365]: pam_unix(systemd-user:session): session closed for user midu
+Feb 15 23:39:08 wien-plex sshd[17401]: Accepted password for midu from 192.168.111.157 port 50491 ssh2
+Feb 15 23:39:08 wien-plex systemd[17407]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 23:39:08 wien-plex sshd[17401]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 23:53:26 wien-plex sshd[17433]: Received disconnect from 192.168.111.157 port 50491:11: NMSSH: Disconnect
+Feb 15 23:53:26 wien-plex sshd[17433]: Disconnected from user midu 192.168.111.157 port 50491
+Feb 15 23:53:26 wien-plex sshd[17401]: pam_unix(sshd:session): session closed for user midu
+Feb 15 23:53:26 wien-plex sshd[21170]: Accepted password for midu from 192.168.111.157 port 50502 ssh2
+Feb 15 23:53:26 wien-plex systemd[21201]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 15 23:53:26 wien-plex sshd[21170]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 15 23:57:10 wien-plex sshd[21170]: pam_unix(sshd:session): session closed for user midu
+Feb 15 23:57:10 wien-plex systemd[21206]: pam_unix(systemd-user:session): session closed for user midu
+Feb 16 00:00:02 wien-plex systemd[22650]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Feb 16 00:07:40 wien-plex sshd[22768]: Accepted password for midu from 192.168.111.157 port 50519 ssh2
+Feb 16 00:07:40 wien-plex systemd[22774]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Feb 16 00:07:40 wien-plex sshd[22768]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Feb 16 00:09:31 wien-plex sshd[22768]: pam_unix(sshd:session): session closed for user midu
+Feb 16 00:09:31 wien-plex systemd[22781]: pam_unix(systemd-user:session): session closed for user midu
+Apr 10 22:16:34 wien-plex polkitd[1229]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 10 22:16:34 wien-plex polkitd[1229]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 10 22:16:34 wien-plex polkitd[1229]: Finished loading, compiling and executing 11 rules
+Apr 10 22:16:34 wien-plex polkitd[1229]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Apr 10 22:16:36 wien-plex sshd[1451]: Server listening on 0.0.0.0 port 22.
+Apr 10 22:16:36 wien-plex sshd[1451]: Server listening on :: port 22.
+Apr 10 22:16:20 wien-plex vncsession[1467]: pam_systemd(tigervnc:session): Failed to create session: Connection timed out
+Apr 10 22:16:20 wien-plex vncsession[1467]: pam_unix(tigervnc:session): session opened for user midu by (uid=0)
+Apr 10 22:16:20 wien-plex vncsession[1467]: pam_unix(tigervnc:session): session closed for user midu
+Apr 10 22:17:18 wien-plex systemd[2005]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Apr 10 22:17:18 wien-plex systemd[2130]: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Apr 10 22:17:18 wien-plex gdm-launch-environment][2084]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Apr 10 22:17:18 wien-plex systemd[2061]: pam_unix(systemd-user:session): session closed for user midu
+Apr 10 22:17:22 wien-plex polkitd[1229]: Registered Authentication Agent for unix-session:c1 (system bus name :1.113 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 10 22:18:05 wien-plex systemd[2921]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Apr 10 22:18:05 wien-plex gdm-password][2907]: pam_unix(gdm-password:session): session opened for user midu by (uid=0)
+Apr 10 22:18:09 wien-plex polkitd[1229]: Registered Authentication Agent for unix-session:4 (system bus name :1.247 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 10 22:18:31 wien-plex sudo[3973]:    midu : TTY=pts/0 ; PWD=/home/midu ; USER=root ; COMMAND=/bin/bash
+Apr 10 22:18:31 wien-plex sudo[3973]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Apr 10 22:18:31 wien-plex sudo[3973]: pam_unix(sudo-i:session): session opened for user root by (uid=0)
+Apr 10 22:24:12 wien-plex cockpit-session[5657]: pam_unix(cockpit:session): session opened for user midu by (uid=0)
+Apr 10 22:24:13 wien-plex polkitd[1229]: Registered Authentication Agent for unix-session:6 (system bus name :1.579 [cockpit-bridge], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 10 22:24:13 wien-plex sudo[5712]:    midu : TTY=unknown ; PWD=/run/user/1000 ; USER=root ; COMMAND=/bin/cockpit-bridge --privileged
+Apr 10 22:24:13 wien-plex sudo[5712]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Apr 10 22:24:13 wien-plex sudo[5712]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 10 22:24:15 wien-plex sudo[5749]:    midu : TTY=unknown ; PWD=/run/user/1000 ; USER=root ; COMMAND=validate
+Apr 10 22:25:53 wien-plex useradd[7763]: failed adding user 'dbus', exit code: 9
+Apr 10 22:26:01 wien-plex polkitd[1229]: Reloading rules
+Apr 10 22:26:01 wien-plex polkitd[1229]: Collecting garbage unconditionally...
+Apr 10 22:26:01 wien-plex polkitd[1229]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 10 22:26:01 wien-plex polkitd[1229]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 10 22:26:01 wien-plex polkitd[1229]: Finished loading, compiling and executing 11 rules
+Apr 10 22:26:01 wien-plex polkitd[1229]: Reloading rules
+Apr 10 22:26:01 wien-plex polkitd[1229]: Collecting garbage unconditionally...
+Apr 10 22:26:01 wien-plex polkitd[1229]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 10 22:26:01 wien-plex polkitd[1229]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 10 22:26:01 wien-plex polkitd[1229]: Finished loading, compiling and executing 11 rules
+Apr 10 22:26:45 wien-plex polkitd[1229]: Reloading rules
+Apr 10 22:26:45 wien-plex polkitd[1229]: Collecting garbage unconditionally...
+Apr 10 22:26:45 wien-plex polkitd[1229]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 10 22:26:45 wien-plex polkitd[1229]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 10 22:26:45 wien-plex polkitd[1229]: Finished loading, compiling and executing 11 rules
+Apr 10 22:26:45 wien-plex polkitd[1229]: Reloading rules
+Apr 10 22:26:45 wien-plex polkitd[1229]: Collecting garbage unconditionally...
+Apr 10 22:26:45 wien-plex polkitd[1229]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 10 22:26:45 wien-plex polkitd[1229]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 10 22:26:45 wien-plex polkitd[1229]: Finished loading, compiling and executing 11 rules
+Apr 10 22:26:45 wien-plex polkitd[1229]: Registered Authentication Agent for unix-process:13627:66867 (system bus name :1.909 [flatpak remote-list --system], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 10 22:26:45 wien-plex polkitd[1229]: Unregistered Authentication Agent for unix-process:13627:66867 (system bus name :1.909, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 10 22:30:49 wien-plex sshd[1451]: Received signal 15; terminating.
+Apr 10 22:30:49 wien-plex sshd[45495]: Server listening on 0.0.0.0 port 22.
+Apr 10 22:30:49 wien-plex sshd[45495]: Server listening on :: port 22.
+Apr 10 22:33:10 wien-plex sshd[79983]: Accepted password for midu from 192.168.111.158 port 56709 ssh2
+Apr 10 22:33:10 wien-plex sshd[79983]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Apr 10 22:35:09 wien-plex sshd[122255]: Accepted password for midu from 192.168.111.158 port 56723 ssh2
+Apr 10 22:35:09 wien-plex sshd[122255]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Apr 10 22:35:10 wien-plex sshd[122300]: Accepted password for midu from 192.168.111.158 port 56724 ssh2
+Apr 10 22:35:10 wien-plex sshd[122300]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Apr 10 22:36:11 wien-plex sshd[122255]: pam_unix(sshd:session): session closed for user midu
+Apr 10 22:36:12 wien-plex sshd[122300]: pam_unix(sshd:session): session closed for user midu
+Apr 10 22:37:59 wien-plex polkitd[1229]: Unregistered Authentication Agent for unix-session:6 (system bus name :1.579, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 10 22:37:59 wien-plex sudo[5712]: pam_unix(sudo:session): session closed for user root
+Apr 10 22:37:59 wien-plex cockpit-session[5657]: pam_unix(cockpit:session): session closed for user midu
+Apr 10 22:44:15 wien-plex sshd[123324]: Accepted password for midu from 192.168.111.143 port 58228 ssh2
+Apr 10 22:44:15 wien-plex sshd[123324]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Apr 10 22:45:16 wien-plex sshd[123324]: pam_unix(sshd:session): session closed for user midu
+Apr 10 22:56:18 wien-plex groupadd[124575]: group added to /etc/group: name=opensource, GID=1005
+Apr 10 22:56:18 wien-plex groupadd[124575]: group added to /etc/gshadow: name=opensource
+Apr 10 22:56:19 wien-plex groupadd[124575]: new group: name=opensource, GID=1005
+Apr 10 22:56:23 wien-plex groupadd[124585]: group added to /etc/group: name=operations, GID=1006
+Apr 10 22:56:23 wien-plex groupadd[124585]: group added to /etc/gshadow: name=operations
+Apr 10 22:56:23 wien-plex groupadd[124585]: new group: name=operations, GID=1006
+Apr 10 23:07:38 wien-plex useradd[125534]: new group: name=alex, GID=2000
+Apr 10 23:07:38 wien-plex useradd[125534]: new user: name=alex, UID=2000, GID=2000, home=/home/alex, shell=/bin/bash
+Apr 10 23:07:38 wien-plex useradd[125534]: add 'alex' to group 'opensource'
+Apr 10 23:07:38 wien-plex useradd[125534]: add 'alex' to shadow group 'opensource'
+Apr 10 23:07:46 wien-plex useradd[125541]: new group: name=alice, GID=2001
+Apr 10 23:07:46 wien-plex useradd[125541]: new user: name=alice, UID=2001, GID=2001, home=/home/alice, shell=/bin/bash
+Apr 10 23:07:46 wien-plex useradd[125541]: add 'alice' to group 'operations'
+Apr 10 23:07:46 wien-plex useradd[125541]: add 'alice' to shadow group 'operations'
+Apr 10 23:08:14 wien-plex useradd[125549]: new group: name=geroge, GID=2002
+Apr 10 23:08:14 wien-plex useradd[125549]: new user: name=geroge, UID=2002, GID=2002, home=/home/geroge, shell=/bin/bash
+Apr 10 23:08:14 wien-plex useradd[125549]: add 'geroge' to group 'opensource'
+Apr 10 23:08:14 wien-plex useradd[125549]: add 'geroge' to shadow group 'opensource'
+Apr 10 23:08:24 wien-plex useradd[125560]: new group: name=lili, GID=2003
+Apr 10 23:08:24 wien-plex useradd[125560]: new user: name=lili, UID=2003, GID=2003, home=/home/lili, shell=/bin/bash
+Apr 10 23:08:24 wien-plex useradd[125560]: add 'lili' to group 'operations'
+Apr 10 23:08:24 wien-plex useradd[125560]: add 'lili' to shadow group 'operations'
+Apr 10 23:09:13 wien-plex su[125644]: pam_systemd(su-l:session): Cannot create session: Already running in a session or user slice
+Apr 10 23:09:13 wien-plex su[125644]: pam_unix(su-l:session): session opened for user alex by (uid=0)
+Apr 10 23:09:42 wien-plex su[125644]: pam_unix(su-l:session): session closed for user alex
+Apr 10 23:09:54 wien-plex su[125736]: pam_systemd(su-l:session): Cannot create session: Already running in a session or user slice
+Apr 10 23:09:54 wien-plex su[125736]: pam_unix(su-l:session): session opened for user geroge by (uid=0)
+Apr 10 23:11:27 wien-plex su[125736]: pam_unix(su-l:session): session closed for user geroge
+Apr 10 23:15:51 wien-plex sudo[3973]: pam_unix(sudo-i:session): session closed for user root
+Apr 11 07:26:17 wien-plex polkitd[1216]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 11 07:26:17 wien-plex polkitd[1216]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 11 07:26:17 wien-plex polkitd[1216]: Finished loading, compiling and executing 11 rules
+Apr 11 07:26:17 wien-plex polkitd[1216]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Apr 11 07:26:19 wien-plex sshd[1435]: Server listening on 0.0.0.0 port 22.
+Apr 11 07:26:19 wien-plex sshd[1435]: Server listening on :: port 22.
+Apr 11 07:26:03 wien-plex vncsession[1447]: pam_systemd(tigervnc:session): Failed to create session: Connection timed out
+Apr 11 07:26:03 wien-plex vncsession[1447]: pam_unix(tigervnc:session): session opened for user midu by (uid=0)
+Apr 11 07:26:03 wien-plex vncsession[1447]: pam_unix(tigervnc:session): session closed for user midu
+Apr 11 07:27:01 wien-plex systemd[1971]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Apr 11 07:27:01 wien-plex systemd[2069]: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Apr 11 07:27:01 wien-plex gdm-launch-environment][2037]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Apr 11 07:27:01 wien-plex systemd[2000]: pam_unix(systemd-user:session): session closed for user midu
+Apr 11 07:27:07 wien-plex polkitd[1216]: Registered Authentication Agent for unix-session:c1 (system bus name :1.114 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 11 07:27:25 wien-plex systemd[6618]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Apr 11 07:27:25 wien-plex gdm-password][6488]: pam_unix(gdm-password:session): session opened for user midu by (uid=0)
+Apr 11 07:27:29 wien-plex polkitd[1216]: Registered Authentication Agent for unix-session:4 (system bus name :1.234 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 11 07:50:12 wien-plex gdm-password][7579]: gkr-pam: unlocked login keyring
+Apr 11 07:50:47 wien-plex sudo[7742]:    midu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/bash
+Apr 11 07:50:47 wien-plex sudo[7742]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Apr 11 07:50:47 wien-plex sudo[7742]: pam_unix(sudo-i:session): session opened for user root by (uid=0)

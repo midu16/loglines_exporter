@@ -1,0 +1,78 @@
+Apr 11 08:41:01 wien-plex anacron[8302]: Job `cron.daily' started
+Apr 11 08:41:01 wien-plex run-parts[8689]: (/etc/cron.daily) starting logrotate
+Apr 11 08:41:01 wien-plex run-parts[8689]: (/etc/cron.daily) finished logrotate
+Apr 11 08:41:01 wien-plex anacron[8302]: Job `cron.daily' terminated
+Apr 11 09:00:01 wien-plex CROND[9600]: (root) CMD (w >> /root/connections)
+Apr 11 09:01:01 wien-plex anacron[8302]: Job `cron.weekly' started
+Apr 11 09:01:01 wien-plex anacron[8302]: Job `cron.weekly' terminated
+Apr 11 09:01:01 wien-plex CROND[9642]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 09:01:01 wien-plex run-parts[9642]: (/etc/cron.hourly) starting 0anacron
+Apr 11 09:01:01 wien-plex run-parts[9642]: (/etc/cron.hourly) finished 0anacron
+Apr 11 09:21:01 wien-plex anacron[8302]: Job `cron.monthly' started
+Apr 11 09:21:01 wien-plex anacron[8302]: Job `cron.monthly' terminated
+Apr 11 09:21:01 wien-plex anacron[8302]: Normal exit (3 jobs run)
+Apr 11 13:28:41 wien-plex crond[1973]: (CRON) STARTUP (1.5.2)
+Apr 11 13:28:41 wien-plex crond[1973]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Apr 11 13:28:41 wien-plex crond[1973]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 4% if used.)
+Apr 11 13:28:41 wien-plex crond[1973]: (CRON) INFO (running with inotify support)
+Apr 11 14:01:01 wien-plex CROND[4849]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 14:01:01 wien-plex run-parts[4849]: (/etc/cron.hourly) starting 0anacron
+Apr 11 14:01:01 wien-plex run-parts[4849]: (/etc/cron.hourly) finished 0anacron
+Apr 11 15:00:01 wien-plex CROND[5757]: (root) CMD (w >> /root/connections)
+Apr 11 15:01:01 wien-plex CROND[5796]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 15:01:01 wien-plex run-parts[5796]: (/etc/cron.hourly) starting 0anacron
+Apr 11 15:01:01 wien-plex run-parts[5796]: (/etc/cron.hourly) finished 0anacron
+Apr 11 16:01:01 wien-plex CROND[6648]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 16:01:02 wien-plex run-parts[6648]: (/etc/cron.hourly) starting 0anacron
+Apr 11 16:01:02 wien-plex run-parts[6648]: (/etc/cron.hourly) finished 0anacron
+Apr 11 17:01:01 wien-plex CROND[7388]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 17:01:01 wien-plex run-parts[7388]: (/etc/cron.hourly) starting 0anacron
+Apr 11 17:01:01 wien-plex run-parts[7388]: (/etc/cron.hourly) finished 0anacron
+Apr 11 18:00:01 wien-plex CROND[8276]: (root) CMD (w >> /root/connections)
+Apr 11 18:01:01 wien-plex CROND[8332]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 18:01:01 wien-plex run-parts[8332]: (/etc/cron.hourly) starting 0anacron
+Apr 11 18:01:01 wien-plex run-parts[8332]: (/etc/cron.hourly) finished 0anacron
+Apr 11 19:01:01 wien-plex CROND[9028]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 19:01:01 wien-plex run-parts[9028]: (/etc/cron.hourly) starting 0anacron
+Apr 11 19:01:01 wien-plex run-parts[9028]: (/etc/cron.hourly) finished 0anacron
+Apr 11 20:01:01 wien-plex CROND[9901]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 20:01:01 wien-plex run-parts[9901]: (/etc/cron.hourly) starting 0anacron
+Apr 11 20:01:01 wien-plex run-parts[9901]: (/etc/cron.hourly) finished 0anacron
+Apr 11 21:00:02 wien-plex CROND[12564]: (root) CMD (w >> /root/connections)
+Apr 11 21:01:01 wien-plex CROND[12610]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 21:01:01 wien-plex run-parts[12610]: (/etc/cron.hourly) starting 0anacron
+Apr 11 21:01:01 wien-plex run-parts[12610]: (/etc/cron.hourly) finished 0anacron
+Apr 11 22:01:01 wien-plex CROND[13389]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 22:01:01 wien-plex run-parts[13389]: (/etc/cron.hourly) starting 0anacron
+Apr 11 22:01:01 wien-plex run-parts[13389]: (/etc/cron.hourly) finished 0anacron
+Apr 11 23:01:01 wien-plex CROND[15400]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 11 23:01:01 wien-plex run-parts[15400]: (/etc/cron.hourly) starting 0anacron
+Apr 11 23:01:01 wien-plex run-parts[15400]: (/etc/cron.hourly) finished 0anacron
+Apr 12 00:00:01 wien-plex CROND[17219]: (root) CMD (w >> /root/connections)
+Apr 12 00:01:01 wien-plex CROND[17258]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 12 00:01:01 wien-plex run-parts[17258]: (/etc/cron.hourly) starting 0anacron
+Apr 12 00:01:01 wien-plex anacron[17267]: Anacron started on 2021-04-12
+Apr 12 00:01:01 wien-plex anacron[17267]: Normal exit (0 jobs run)
+Apr 12 00:01:01 wien-plex run-parts[17258]: (/etc/cron.hourly) finished 0anacron
+Apr 12 17:54:31 wien-plex crond[1964]: (CRON) STARTUP (1.5.2)
+Apr 12 17:54:31 wien-plex crond[1964]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Apr 12 17:54:31 wien-plex crond[1964]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 3% if used.)
+Apr 12 17:54:31 wien-plex crond[1964]: (CRON) INFO (running with inotify support)
+Apr 12 18:00:02 wien-plex CROND[4692]: (root) CMD (w >> /root/connections)
+Apr 12 18:01:01 wien-plex CROND[4808]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 12 18:01:01 wien-plex run-parts[4808]: (/etc/cron.hourly) starting 0anacron
+Apr 12 18:01:01 wien-plex anacron[4817]: Anacron started on 2021-04-12
+Apr 12 18:01:01 wien-plex anacron[4817]: Will run job `cron.daily' in 9 min.
+Apr 12 18:01:01 wien-plex anacron[4817]: Jobs will be executed sequentially
+Apr 12 18:01:01 wien-plex run-parts[4808]: (/etc/cron.hourly) finished 0anacron
+Apr 12 18:10:01 wien-plex anacron[4817]: Job `cron.daily' started
+Apr 12 18:10:01 wien-plex run-parts[5220]: (/etc/cron.daily) starting logrotate
+Apr 12 18:10:01 wien-plex run-parts[5220]: (/etc/cron.daily) finished logrotate
+Apr 12 18:10:01 wien-plex anacron[4817]: Job `cron.daily' terminated
+Apr 12 18:10:01 wien-plex anacron[4817]: Normal exit (1 job run)
+Apr 12 19:01:01 wien-plex CROND[6147]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 12 19:01:01 wien-plex run-parts[6147]: (/etc/cron.hourly) starting 0anacron
+Apr 12 19:01:01 wien-plex run-parts[6147]: (/etc/cron.hourly) finished 0anacron
+Apr 12 20:01:01 wien-plex CROND[7579]: (root) CMD (run-parts /etc/cron.hourly)
+Apr 12 20:01:01 wien-plex run-parts[7579]: (/etc/cron.hourly) starting 0anacron
+Apr 12 20:01:01 wien-plex run-parts[7579]: (/etc/cron.hourly) finished 0anacron

@@ -1,0 +1,146 @@
+Apr 11 08:42:19 wien-plex gdm-password][8751]: gkr-pam: unlocked login keyring
+Apr 11 09:00:01 wien-plex systemd[9574]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Apr 11 09:00:01 wien-plex systemd[9578]: pam_unix(systemd-user:session): session closed for user root
+Apr 11 09:21:13 wien-plex gdm-password][9881]: gkr-pam: unlocked login keyring
+Apr 11 13:27:15 wien-plex polkitd[1190]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 11 13:27:15 wien-plex polkitd[1190]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 11 13:27:15 wien-plex polkitd[1190]: Finished loading, compiling and executing 11 rules
+Apr 11 13:27:15 wien-plex polkitd[1190]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Apr 11 13:27:17 wien-plex sshd[1419]: Server listening on 0.0.0.0 port 22.
+Apr 11 13:27:17 wien-plex sshd[1419]: Server listening on :: port 22.
+Apr 11 13:27:42 wien-plex vncsession[1438]: pam_systemd(tigervnc:session): Failed to create session: Connection timed out
+Apr 11 13:27:42 wien-plex vncsession[1438]: pam_unix(tigervnc:session): session opened for user midu by (uid=0)
+Apr 11 13:27:42 wien-plex vncsession[1438]: pam_unix(tigervnc:session): session closed for user midu
+Apr 11 13:28:41 wien-plex systemd[1978]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Apr 11 13:28:41 wien-plex systemd[2087]: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Apr 11 13:28:41 wien-plex gdm-launch-environment][2045]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Apr 11 13:28:46 wien-plex polkitd[1190]: Registered Authentication Agent for unix-session:c1 (system bus name :1.112 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 11 13:30:47 wien-plex systemd[2900]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Apr 11 13:30:47 wien-plex gdm-password][2887]: pam_unix(gdm-password:session): session opened for user midu by (uid=0)
+Apr 11 13:30:51 wien-plex polkitd[1190]: Registered Authentication Agent for unix-session:4 (system bus name :1.228 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 11 13:31:57 wien-plex sudo[3651]:    midu : TTY=pts/0 ; PWD=/home/midu ; USER=root ; COMMAND=/bin/bash
+Apr 11 13:31:57 wien-plex sudo[3651]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Apr 11 13:31:57 wien-plex sudo[3651]: pam_unix(sudo-i:session): session opened for user root by (uid=0)
+Apr 11 14:19:40 wien-plex gdm-password][5099]: gkr-pam: unlocked login keyring
+Apr 11 14:46:56 wien-plex gdm-password][5472]: gkr-pam: unlocked login keyring
+Apr 11 14:55:22 wien-plex su[5642]: pam_systemd(su-l:session): Cannot create session: Already running in a session or user slice
+Apr 11 14:55:22 wien-plex su[5642]: pam_unix(su-l:session): session opened for user alex by (uid=0)
+Apr 11 14:56:48 wien-plex su[5642]: pam_unix(su-l:session): session closed for user alex
+Apr 11 15:00:01 wien-plex systemd[5728]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Apr 11 15:05:33 wien-plex gdm-password][5868]: gkr-pam: unlocked login keyring
+Apr 11 15:13:31 wien-plex sudo[3651]: pam_unix(sudo-i:session): session closed for user root
+Apr 11 16:55:19 wien-plex gdm-password][7239]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=midu
+Apr 11 16:55:19 wien-plex gdm-password][7239]: gkr-pam: the password for the login keyring was invalid.
+Apr 11 17:00:08 wien-plex unix_chkpwd[7346]: password check failed for user (midu)
+Apr 11 17:00:08 wien-plex gdm-password][7341]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=midu
+Apr 11 17:00:08 wien-plex gdm-password][7341]: gkr-pam: the password for the login keyring was invalid.
+Apr 11 17:00:19 wien-plex gdm-password][7349]: gkr-pam: unlocked login keyring
+Apr 11 17:13:46 wien-plex gdm-password][7563]: gkr-pam: unlocked login keyring
+Apr 11 17:35:31 wien-plex gdm-password][7868]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=midu
+Apr 11 17:35:45 wien-plex gdm-password][7868]: gkr-pam: unlocked login keyring
+Apr 11 17:36:09 wien-plex gdm-password][7926]: gkr-pam: unlocked login keyring
+Apr 11 18:00:01 wien-plex systemd[8250]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Apr 11 18:01:08 wien-plex gdm-password][8326]: gkr-pam: unlocked login keyring
+Apr 11 19:58:52 wien-plex gdm-password][9843]: pam_unix(gdm-password:auth): conversation failed
+Apr 11 19:58:52 wien-plex gdm-password][9843]: pam_unix(gdm-password:auth): auth could not identify password for [midu]
+Apr 11 19:59:06 wien-plex gdm-password][9849]: gkr-pam: unlocked login keyring
+Apr 11 20:07:42 wien-plex sudo[10548]:    midu : TTY=pts/0 ; PWD=/home/midu ; USER=root ; COMMAND=/bin/bash
+Apr 11 20:07:42 wien-plex sudo[10548]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Apr 11 20:07:42 wien-plex sudo[10548]: pam_unix(sudo-i:session): session opened for user root by (uid=0)
+Apr 11 20:10:10 wien-plex useradd[10678]: new group: name=pushgateway, GID=2004
+Apr 11 20:10:10 wien-plex useradd[10678]: new user: name=pushgateway, UID=2004, GID=2004, home=/home/pushgateway, shell=/sbin/nologin
+Apr 11 20:21:47 wien-plex sudo[11365]:    midu : TTY=pts/3 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/bash
+Apr 11 20:21:47 wien-plex sudo[11365]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Apr 11 20:21:47 wien-plex sudo[11365]: pam_unix(sudo-i:session): session opened for user root by (uid=0)
+Apr 11 20:34:40 wien-plex sudo[11829]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/dnf install compat-ffmpeg28 ffmpeg-libs
+Apr 11 20:34:40 wien-plex sudo[11829]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Apr 11 20:34:40 wien-plex sudo[11829]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 20:34:47 wien-plex sudo[11829]: pam_unix(sudo:session): session closed for user root
+Apr 11 20:35:35 wien-plex sudo[11920]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/dnf -y install https://download.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+Apr 11 20:35:35 wien-plex sudo[11920]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Apr 11 20:35:35 wien-plex sudo[11920]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 20:35:44 wien-plex sudo[11920]: pam_unix(sudo:session): session closed for user root
+Apr 11 20:36:01 wien-plex sudo[11958]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/dnf install compat-ffmpeg28 ffmpeg-libs
+Apr 11 20:36:01 wien-plex sudo[11958]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Apr 11 20:36:01 wien-plex sudo[11958]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 20:36:07 wien-plex sudo[11958]: pam_unix(sudo:session): session closed for user root
+Apr 11 20:36:27 wien-plex sudo[11990]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/dnf localinstall --nogpgcheck https://download1.rpmfusion.org/free/el/rpmfusion-free-release-8.noarch.rpm
+Apr 11 20:36:27 wien-plex sudo[11990]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Apr 11 20:36:27 wien-plex sudo[11990]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 20:36:41 wien-plex sudo[11990]: pam_unix(sudo:session): session closed for user root
+Apr 11 20:36:49 wien-plex sudo[12048]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/dnf install http://rpmfind.net/linux/epel/7/x86_64/Packages/s/SDL2-2.0.10-1.el7.x86_64.rpm
+Apr 11 20:36:49 wien-plex sudo[12048]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Apr 11 20:36:49 wien-plex sudo[12048]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 20:37:01 wien-plex sudo[12048]: pam_unix(sudo:session): session closed for user root
+Apr 11 20:37:01 wien-plex sudo[12077]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/dnf install ffmpeg
+Apr 11 20:37:01 wien-plex sudo[12077]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Apr 11 20:37:01 wien-plex sudo[12077]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 20:37:08 wien-plex sudo[12077]: pam_unix(sudo:session): session closed for user root
+Apr 11 20:37:25 wien-plex sudo[12101]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/dnf install ffmpeg --skip-broken --nobest
+Apr 11 20:37:25 wien-plex sudo[12101]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Apr 11 20:37:25 wien-plex sudo[12101]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 20:37:31 wien-plex sudo[12101]: pam_unix(sudo:session): session closed for user root
+Apr 11 20:37:38 wien-plex sudo[12132]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/dnf -y install ffmpeg-devel
+Apr 11 20:37:38 wien-plex sudo[12132]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Apr 11 20:37:38 wien-plex sudo[12132]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 11 20:37:44 wien-plex sudo[12132]: pam_unix(sudo:session): session closed for user root
+Apr 11 21:00:01 wien-plex systemd[12539]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Apr 11 21:00:02 wien-plex systemd[12545]: pam_unix(systemd-user:session): session closed for user root
+Apr 11 21:23:53 wien-plex gdm-password][12949]: gkr-pam: unlocked login keyring
+Apr 11 22:06:41 wien-plex gdm-password][13444]: pam_unix(gdm-password:auth): conversation failed
+Apr 11 22:06:41 wien-plex gdm-password][13444]: pam_unix(gdm-password:auth): auth could not identify password for [midu]
+Apr 11 22:06:41 wien-plex gdm-password][13444]: gkr-pam: no password is available for user
+Apr 11 22:08:51 wien-plex gdm-password][13541]: gkr-pam: unlocked login keyring
+Apr 11 22:09:52 wien-plex sudo[10548]: pam_unix(sudo-i:session): session closed for user root
+Apr 11 22:34:36 wien-plex unix_chkpwd[14001]: password check failed for user (midu)
+Apr 11 22:34:36 wien-plex gdm-password][13988]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=midu
+Apr 11 22:34:36 wien-plex gdm-password][13988]: gkr-pam: the password for the login keyring was invalid.
+Apr 11 22:34:43 wien-plex gdm-password][14003]: gkr-pam: unlocked login keyring
+Apr 11 22:35:23 wien-plex su[14093]: pam_systemd(su:session): Cannot create session: Already running in a session or user slice
+Apr 11 22:35:23 wien-plex su[14093]: pam_unix(su:session): session opened for user root by (uid=1000)
+Apr 11 22:49:39 wien-plex sshd[14429]: Accepted password for midu from 192.168.111.143 port 60647 ssh2
+Apr 11 22:49:39 wien-plex sshd[14429]: pam_unix(sshd:session): session opened for user midu by (uid=0)
+Apr 11 22:50:24 wien-plex sshd[14429]: pam_unix(sshd:session): session closed for user midu
+Apr 11 22:50:47 wien-plex gdm-password][15148]: gkr-pam: unlocked login keyring
+Apr 11 23:18:56 wien-plex gdm-password][15607]: gkr-pam: unlocked login keyring
+Apr 11 23:19:36 wien-plex su[14093]: pam_unix(su:session): session closed for user root
+Apr 11 23:36:50 wien-plex sudo[16507]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/bash
+Apr 11 23:36:50 wien-plex sudo[16507]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Apr 11 23:36:50 wien-plex sudo[16507]: pam_unix(sudo-i:session): session opened for user root by (uid=0)
+Apr 12 00:00:01 wien-plex systemd[17192]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Apr 12 17:53:05 wien-plex polkitd[1182]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 12 17:53:05 wien-plex polkitd[1182]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 12 17:53:05 wien-plex polkitd[1182]: Finished loading, compiling and executing 11 rules
+Apr 12 17:53:05 wien-plex polkitd[1182]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Apr 12 17:53:07 wien-plex sshd[1402]: Server listening on 0.0.0.0 port 22.
+Apr 12 17:53:07 wien-plex sshd[1402]: Server listening on :: port 22.
+Apr 12 17:53:32 wien-plex vncsession[1415]: pam_systemd(tigervnc:session): Failed to create session: Connection timed out
+Apr 12 17:53:32 wien-plex vncsession[1415]: pam_unix(tigervnc:session): session opened for user midu by (uid=0)
+Apr 12 17:53:32 wien-plex vncsession[1415]: pam_unix(tigervnc:session): session closed for user midu
+Apr 12 17:54:31 wien-plex systemd[1968]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Apr 12 17:54:31 wien-plex systemd[2087]: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Apr 12 17:54:32 wien-plex gdm-launch-environment][2045]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Apr 12 17:54:32 wien-plex systemd[2001]: pam_unix(systemd-user:session): session closed for user midu
+Apr 12 17:54:36 wien-plex polkitd[1182]: Registered Authentication Agent for unix-session:c1 (system bus name :1.120 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 12 17:54:51 wien-plex systemd[2859]: pam_unix(systemd-user:session): session opened for user midu by (uid=0)
+Apr 12 17:54:51 wien-plex gdm-password][2849]: pam_unix(gdm-password:session): session opened for user midu by (uid=0)
+Apr 12 17:54:55 wien-plex polkitd[1182]: Registered Authentication Agent for unix-session:4 (system bus name :1.235 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 12 17:56:41 wien-plex sudo[3842]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter ; USER=root ; COMMAND=/bin/bash
+Apr 12 17:56:41 wien-plex sudo[3842]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Apr 12 17:56:41 wien-plex sudo[3842]: pam_unix(sudo-i:session): session opened for user root by (uid=0)
+Apr 12 17:57:10 wien-plex sudo[3842]: pam_unix(sudo-i:session): session closed for user root
+Apr 12 18:00:01 wien-plex systemd[4667]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Apr 12 18:27:02 wien-plex gdm-password][5444]: gkr-pam: unlocked login keyring
+Apr 12 18:29:44 wien-plex sudo[5522]:    midu : TTY=pts/0 ; PWD=/home/midu/loglines_exporter/dist ; USER=root ; COMMAND=/bin/bash
+Apr 12 18:29:44 wien-plex sudo[5522]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Apr 12 18:29:44 wien-plex sudo[5522]: pam_unix(sudo-i:session): session opened for user root by (uid=0)
+Apr 12 18:41:36 wien-plex gdm-password][5737]: gkr-pam: unlocked login keyring
+Apr 12 18:46:14 wien-plex sudo[5522]: pam_unix(sudo-i:session): session closed for user root
+Apr 12 19:17:00 wien-plex gdm-password][6488]: gkr-pam: unlocked login keyring
+Apr 12 19:29:11 wien-plex gdm-password][6689]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=midu
+Apr 12 19:29:13 wien-plex gdm-password][6689]: gkr-pam: the password for the login keyring was invalid.
+Apr 12 19:29:21 wien-plex gdm-password][6707]: gkr-pam: unlocked login keyring
+Apr 12 19:45:34 wien-plex sudo[7313]:    midu : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/bin/bash
+Apr 12 19:45:34 wien-plex sudo[7313]: pam_systemd(sudo-i:session): Cannot create session: Already running in a session or user slice
+Apr 12 19:45:34 wien-plex sudo[7313]: pam_unix(sudo-i:session): session opened for user root by (uid=0)
+Apr 12 20:06:37 wien-plex gdm-password][7656]: gkr-pam: unlocked login keyring

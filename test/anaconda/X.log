@@ -1,0 +1,610 @@
+[    51.122] (WW) Failed to open protocol names file /usr/lib64/xorg/protocol.txt
+[    51.123] 
+X.Org X Server 1.20.8
+X Protocol Version 11, Revision 0
+[    51.123] Build Operating System:  4.18.0-80.el8.x86_64 
+[    51.123] Current Operating System: Linux localhost 4.18.0-240.el8.x86_64 #1 SMP Thu Nov 5 18:14:47 PST 2020 x86_64
+[    51.123] Kernel command line: BOOT_IMAGE=/images/pxeboot/vmlinuz inst.stage2=hd:LABEL=OL-8-3-0-BaseOS-x86_64 quiet
+[    51.123] Build Date: 05 November 2020  10:14:42AM
+[    51.123] Build ID: xorg-x11-server 1.20.8-6.el8 
+[    51.123] Current version of pixman: 0.38.4
+[    51.123] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    51.123] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    51.123] (++) Log file: "/tmp/X.log", Time: Thu Jan 21 14:59:35 2021
+[    51.130] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    51.130] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    51.136] (==) No Layout section.  Using the first Screen section.
+[    51.136] (==) No screen section available. Using defaults.
+[    51.136] (**) |-->Screen "Default Screen Section" (0)
+[    51.136] (**) |   |-->Monitor "<default monitor>"
+[    51.136] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    51.137] (==) Automatically adding devices
+[    51.137] (==) Automatically enabling devices
+[    51.137] (==) Automatically adding GPU devices
+[    51.137] (==) Automatically binding GPU devices
+[    51.137] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    51.137] (==) FontPath set to:
+	catalogue:/etc/X11/fontpath.d,
+	built-ins
+[    51.137] (==) ModulePath set to "/usr/lib64/xorg/modules"
+[    51.137] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    51.137] (II) Loader magic: 0x5610ff385020
+[    51.137] (II) Module ABI versions:
+[    51.137] 	X.Org ANSI C Emulation: 0.4
+[    51.137] 	X.Org Video Driver: 24.1
+[    51.137] 	X.Org XInput driver : 24.1
+[    51.137] 	X.Org Server Extension : 10.0
+[    51.138] (++) using VT number 6
+
+[    51.138] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    51.139] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    51.139] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card0
+[    51.152] (--) PCI:*(0@0:2:0) 8086:3185:1458:1000 rev 3, Mem @ 0xa0000000/16777216, 0x90000000/268435456, I/O @ 0x0000f000/64, BIOS @ 0x????????/131072
+[    51.152] (II) LoadModule: "glx"
+[    51.152] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[    51.180] (II) Module glx: vendor="X.Org Foundation"
+[    51.180] 	compiled for 1.20.8, module version = 1.0.0
+[    51.180] 	ABI class: X.Org Server Extension, version 10.0
+[    51.180] (==) Matched modesetting as autoconfigured driver 0
+[    51.180] (==) Matched fbdev as autoconfigured driver 1
+[    51.180] (==) Matched vesa as autoconfigured driver 2
+[    51.180] (==) Assigned the driver to the xf86ConfigLayout
+[    51.180] (II) LoadModule: "modesetting"
+[    51.186] (II) Loading /usr/lib64/xorg/modules/drivers/modesetting_drv.so
+[    51.196] (II) Module modesetting: vendor="X.Org Foundation"
+[    51.196] 	compiled for 1.20.8, module version = 1.20.8
+[    51.196] 	Module class: X.Org Video Driver
+[    51.196] 	ABI class: X.Org Video Driver, version 24.1
+[    51.196] (II) LoadModule: "fbdev"
+[    51.196] (II) Loading /usr/lib64/xorg/modules/drivers/fbdev_drv.so
+[    51.197] (II) Module fbdev: vendor="X.Org Foundation"
+[    51.197] 	compiled for 1.20.2, module version = 0.5.0
+[    51.197] 	Module class: X.Org Video Driver
+[    51.197] 	ABI class: X.Org Video Driver, version 24.0
+[    51.197] (II) LoadModule: "vesa"
+[    51.197] (II) Loading /usr/lib64/xorg/modules/drivers/vesa_drv.so
+[    51.197] (II) Module vesa: vendor="X.Org Foundation"
+[    51.197] 	compiled for 1.20.2, module version = 2.4.0
+[    51.197] 	Module class: X.Org Video Driver
+[    51.197] 	ABI class: X.Org Video Driver, version 24.0
+[    51.197] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    51.197] (II) FBDEV: driver for framebuffer: fbdev
+[    51.197] (II) VESA: driver for VESA chipsets: vesa
+[    51.231] (II) modeset(0): using drv /dev/dri/card0
+[    51.231] (WW) Falling back to old probe method for fbdev
+[    51.231] (II) Loading sub module "fbdevhw"
+[    51.231] (II) LoadModule: "fbdevhw"
+[    51.232] (II) Loading /usr/lib64/xorg/modules/libfbdevhw.so
+[    51.244] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    51.244] 	compiled for 1.20.8, module version = 0.0.2
+[    51.244] 	ABI class: X.Org Video Driver, version 24.1
+[    51.245] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    51.245] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[    51.245] (==) modeset(0): RGB weight 888
+[    51.245] (==) modeset(0): Default visual is TrueColor
+[    51.245] (II) Loading sub module "glamoregl"
+[    51.245] (II) LoadModule: "glamoregl"
+[    51.245] (II) Loading /usr/lib64/xorg/modules/libglamoregl.so
+[    51.261] (II) Module glamoregl: vendor="X.Org Foundation"
+[    51.261] 	compiled for 1.20.8, module version = 1.0.1
+[    51.261] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    53.100] (II) modeset(0): glamor X acceleration enabled on Mesa Intel(R) UHD Graphics 600 (GLK 2)
+[    53.100] (II) modeset(0): glamor initialized
+[    53.131] (II) modeset(0): Output HDMI-1 has no monitor section
+[    53.131] (II) modeset(0): Output DP-1 has no monitor section
+[    53.133] (II) modeset(0): Output HDMI-2 has no monitor section
+[    53.164] (II) modeset(0): EDID for output HDMI-1
+[    53.164] (II) modeset(0): Manufacturer: DEL  Model: 4185  Serial#: 1110915138
+[    53.164] (II) modeset(0): Year: 2020  Week: 21
+[    53.164] (II) modeset(0): EDID Version: 1.3
+[    53.164] (II) modeset(0): Digital Display Input
+[    53.164] (II) modeset(0): Max Image Size [cm]: horiz.: 60  vert.: 34
+[    53.164] (II) modeset(0): Gamma: 2.20
+[    53.164] (II) modeset(0): DPMS capabilities: StandBy Suspend Off
+[    53.164] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[    53.164] (II) modeset(0): First detailed timing is preferred mode
+[    53.164] (II) modeset(0): redX: 0.653 redY: 0.336   greenX: 0.322 greenY: 0.609
+[    53.164] (II) modeset(0): blueX: 0.152 blueY: 0.060   whiteX: 0.313 whiteY: 0.329
+[    53.164] (II) modeset(0): Supported established timings:
+[    53.164] (II) modeset(0): 720x400@70Hz
+[    53.164] (II) modeset(0): 640x480@60Hz
+[    53.164] (II) modeset(0): 640x480@75Hz
+[    53.164] (II) modeset(0): 800x600@60Hz
+[    53.164] (II) modeset(0): 800x600@75Hz
+[    53.164] (II) modeset(0): 1024x768@60Hz
+[    53.164] (II) modeset(0): 1024x768@75Hz
+[    53.164] (II) modeset(0): 1280x1024@75Hz
+[    53.164] (II) modeset(0): Manufacturer's mask: 0
+[    53.164] (II) modeset(0): Supported standard timings:
+[    53.164] (II) modeset(0): #0: hsize: 1152  vsize 864  refresh: 75  vid: 20337
+[    53.164] (II) modeset(0): #1: hsize: 1280  vsize 1024  refresh: 60  vid: 32897
+[    53.164] (II) modeset(0): #2: hsize: 1600  vsize 900  refresh: 60  vid: 49321
+[    53.164] (II) modeset(0): #3: hsize: 1920  vsize 1080  refresh: 60  vid: 49361
+[    53.164] (II) modeset(0): Supported detailed timing:
+[    53.164] (II) modeset(0): clock: 148.5 MHz   Image Size:  598 x 336 mm
+[    53.164] (II) modeset(0): h_active: 1920  h_sync: 2008  h_sync_end 2052 h_blank_end 2200 h_border: 0
+[    53.164] (II) modeset(0): v_active: 1080  v_sync: 1084  v_sync_end 1089 v_blanking: 1125 v_border: 0
+[    53.164] (II) modeset(0): Serial No: D8LQX13
+[    53.164] (II) modeset(0): Monitor name: DELL P2719H
+[    53.164] (II) modeset(0): Ranges: V min: 56 V max: 76 Hz, H min: 30 H max: 83 kHz, PixClock max 175 MHz
+[    53.164] (II) modeset(0): Supported detailed timing:
+[    53.164] (II) modeset(0): clock: 148.5 MHz   Image Size:  598 x 336 mm
+[    53.164] (II) modeset(0): h_active: 1920  h_sync: 2008  h_sync_end 2052 h_blank_end 2200 h_border: 0
+[    53.164] (II) modeset(0): v_active: 1080  v_sync: 1084  v_sync_end 1089 v_blanking: 1125 v_border: 0
+[    53.164] (II) modeset(0): Supported detailed timing:
+[    53.164] (II) modeset(0): clock: 74.2 MHz   Image Size:  598 x 336 mm
+[    53.164] (II) modeset(0): h_active: 1920  h_sync: 2008  h_sync_end 2052 h_blank_end 2200 h_border: 0
+[    53.164] (II) modeset(0): v_active: 540  v_sync: 542  v_sync_end 547 v_blanking: 562 v_border: 0
+[    53.164] (II) modeset(0): Supported detailed timing:
+[    53.164] (II) modeset(0): clock: 74.2 MHz   Image Size:  598 x 336 mm
+[    53.164] (II) modeset(0): h_active: 1280  h_sync: 1390  h_sync_end 1430 h_blank_end 1650 h_border: 0
+[    53.164] (II) modeset(0): v_active: 720  v_sync: 725  v_sync_end 730 v_blanking: 750 v_border: 0
+[    53.164] (II) modeset(0): Supported detailed timing:
+[    53.164] (II) modeset(0): clock: 27.0 MHz   Image Size:  598 x 336 mm
+[    53.164] (II) modeset(0): h_active: 720  h_sync: 736  h_sync_end 798 h_blank_end 858 h_border: 0
+[    53.164] (II) modeset(0): v_active: 480  v_sync: 489  v_sync_end 495 v_blanking: 525 v_border: 0
+[    53.164] (II) modeset(0): Number of EDID sections to follow: 1
+[    53.164] (II) modeset(0): EDID (in hex):
+[    53.164] (II) modeset(0): 	00ffffffffffff0010ac854142383742
+[    53.164] (II) modeset(0): 	151e0103803c2278ea4815a756529c27
+[    53.164] (II) modeset(0): 	0f5054a54b00714f8180a9c0d1c00101
+[    53.164] (II) modeset(0): 	010101010101023a801871382d40582c
+[    53.164] (II) modeset(0): 	450056502100001e000000ff0044384c
+[    53.164] (II) modeset(0): 	515831330a2020202020000000fc0044
+[    53.164] (II) modeset(0): 	454c4c205032373139480a20000000fd
+[    53.164] (II) modeset(0): 	00384c1e5311000a202020202020018f
+[    53.164] (II) modeset(0): 	020317b14c9005040302071601141f12
+[    53.164] (II) modeset(0): 	1365030c001000023a801871382d4058
+[    53.164] (II) modeset(0): 	2c450056502100001e011d8018711c16
+[    53.164] (II) modeset(0): 	20582c250056502100009e011d007251
+[    53.164] (II) modeset(0): 	d01e206e28550056502100001e8c0ad0
+[    53.164] (II) modeset(0): 	8a20e02d10103e960056502100001800
+[    53.164] (II) modeset(0): 	00000000000000000000000000000000
+[    53.164] (II) modeset(0): 	00000000000000000000000000000081
+[    53.165] (II) modeset(0): Printing probed modes for output HDMI-1
+[    53.165] (II) modeset(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[    53.165] (II) modeset(0): Modeline "1920x1080"x50.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[    53.165] (II) modeset(0): Modeline "1920x1080"x59.9  148.35  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.4 kHz e)
+[    53.165] (II) modeset(0): Modeline "1920x1080i"x60.0   74.25  1920 2008 2052 2200  1080 1084 1094 1125 interlace +hsync +vsync (33.8 kHz e)
+[    53.165] (II) modeset(0): Modeline "1920x1080i"x50.0   74.25  1920 2448 2492 2640  1080 1084 1094 1125 interlace +hsync +vsync (28.1 kHz e)
+[    53.165] (II) modeset(0): Modeline "1920x1080i"x59.9   74.18  1920 2008 2052 2200  1080 1084 1094 1125 interlace +hsync +vsync (33.7 kHz e)
+[    53.165] (II) modeset(0): Modeline "1600x900"x60.0  108.00  1600 1624 1704 1800  900 901 904 1000 +hsync +vsync (60.0 kHz e)
+[    53.165] (II) modeset(0): Modeline "1280x1024"x75.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    53.165] (II) modeset(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    53.165] (II) modeset(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    53.165] (II) modeset(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    53.165] (II) modeset(0): Modeline "1280x720"x50.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[    53.165] (II) modeset(0): Modeline "1280x720"x59.9   74.18  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    53.165] (II) modeset(0): Modeline "1024x768"x75.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    53.165] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    53.165] (II) modeset(0): Modeline "800x600"x75.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    53.165] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    53.165] (II) modeset(0): Modeline "720x576"x50.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[    53.165] (II) modeset(0): Modeline "720x576i"x50.0   13.50  720 732 795 864  576 580 586 625 interlace -hsync -vsync (15.6 kHz e)
+[    53.165] (II) modeset(0): Modeline "720x480"x60.0   27.03  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    53.165] (II) modeset(0): Modeline "720x480"x59.9   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    53.165] (II) modeset(0): Modeline "720x480i"x60.0   13.51  720 739 801 858  480 488 494 525 interlace -hsync -vsync (15.8 kHz e)
+[    53.165] (II) modeset(0): Modeline "720x480i"x59.9   13.50  720 739 801 858  480 488 494 525 interlace -hsync -vsync (15.7 kHz e)
+[    53.165] (II) modeset(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    53.165] (II) modeset(0): Modeline "640x480"x60.0   25.20  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    53.165] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    53.165] (II) modeset(0): Modeline "720x400"x70.1   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    53.165] (II) modeset(0): EDID for output DP-1
+[    53.166] (II) modeset(0): EDID for output HDMI-2
+[    53.166] (II) modeset(0): Output HDMI-1 connected
+[    53.166] (II) modeset(0): Output DP-1 disconnected
+[    53.166] (II) modeset(0): Output HDMI-2 disconnected
+[    53.166] (II) modeset(0): Using exact sizes for initial modes
+[    53.166] (II) modeset(0): Output HDMI-1 using initial mode 1920x1080 +0+0
+[    53.166] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[    53.166] (++) modeset(0): DPI set to (96, 96)
+[    53.166] (II) Loading sub module "fb"
+[    53.166] (II) LoadModule: "fb"
+[    53.167] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[    53.168] (II) Module fb: vendor="X.Org Foundation"
+[    53.168] 	compiled for 1.20.8, module version = 1.0.0
+[    53.168] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    53.168] (II) UnloadModule: "fbdev"
+[    53.168] (II) Unloading fbdev
+[    53.168] (II) UnloadSubModule: "fbdevhw"
+[    53.168] (II) Unloading fbdevhw
+[    53.168] (II) UnloadModule: "vesa"
+[    53.168] (II) Unloading vesa
+[    53.295] (==) modeset(0): Backing store enabled
+[    53.295] (==) modeset(0): Silken mouse enabled
+[    53.415] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[    53.415] (==) modeset(0): DPMS enabled
+[    53.416] (II) modeset(0): [DRI2] Setup complete
+[    53.416] (II) modeset(0): [DRI2]   DRI driver: i965
+[    53.416] (II) modeset(0): [DRI2]   VDPAU driver: va_gl
+[    53.416] (II) Initializing extension Generic Event Extension
+[    53.416] (II) Initializing extension SHAPE
+[    53.416] (II) Initializing extension MIT-SHM
+[    53.416] (II) Initializing extension XInputExtension
+[    53.417] (II) Initializing extension XTEST
+[    53.417] (II) Initializing extension BIG-REQUESTS
+[    53.417] (II) Initializing extension SYNC
+[    53.417] (II) Initializing extension XKEYBOARD
+[    53.417] (II) Initializing extension XC-MISC
+[    53.417] (II) Initializing extension XFIXES
+[    53.417] (II) Initializing extension RENDER
+[    53.417] (II) Initializing extension RANDR
+[    53.417] (II) Initializing extension COMPOSITE
+[    53.417] (II) Initializing extension DAMAGE
+[    53.417] (II) Initializing extension MIT-SCREEN-SAVER
+[    53.417] (II) Initializing extension DOUBLE-BUFFER
+[    53.417] (II) Initializing extension RECORD
+[    53.417] (II) Initializing extension DPMS
+[    53.417] (II) Initializing extension Present
+[    53.417] (II) Initializing extension DRI3
+[    53.417] (II) Initializing extension X-Resource
+[    53.417] (II) Initializing extension XVideo
+[    53.417] (II) Initializing extension XVideo-MotionCompensation
+[    53.417] (II) Initializing extension SELinux
+[    53.418] (II) SELinux: Disabled by boolean
+[    53.418] (II) Initializing extension GLX
+[    53.643] (II) AIGLX: Loaded and initialized i965
+[    53.643] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    53.643] (II) Initializing extension XFree86-VidModeExtension
+[    53.643] (II) Initializing extension XFree86-DGA
+[    53.643] (II) Initializing extension XFree86-DRI
+[    53.643] (II) Initializing extension DRI2
+[    53.646] (II) modeset(0): Damage tracking initialized
+[    53.646] (II) modeset(0): Setting screen physical size to 508 x 285
+[    53.804] (II) config/udev: Adding input device Video Bus (/dev/input/event4)
+[    53.804] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[    53.804] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    53.804] (II) LoadModule: "libinput"
+[    53.805] (II) Loading /usr/lib64/xorg/modules/input/libinput_drv.so
+[    53.823] (II) Module libinput: vendor="X.Org Foundation"
+[    53.823] 	compiled for 1.20.6, module version = 0.29.0
+[    53.823] 	Module class: X.Org XInput Driver
+[    53.823] 	ABI class: X.Org XInput driver, version 24.1
+[    53.823] (II) Using input driver 'libinput' for 'Video Bus'
+[    53.823] (**) Video Bus: always reports core events
+[    53.823] (**) Option "Device" "/dev/input/event4"
+[    53.823] (**) Option "_source" "server/udev"
+[    53.834] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[    53.834] (II) event4  - Video Bus: device is a keyboard
+[    53.834] (II) event4  - Video Bus: device removed
+[    53.853] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input4/event4"
+[    53.853] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[    53.855] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[    53.855] (II) event4  - Video Bus: device is a keyboard
+[    53.857] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    53.857] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    53.857] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    53.857] (II) Using input driver 'libinput' for 'Power Button'
+[    53.857] (**) Power Button: always reports core events
+[    53.857] (**) Option "Device" "/dev/input/event0"
+[    53.857] (**) Option "_source" "server/udev"
+[    53.858] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    53.858] (II) event0  - Power Button: device is a keyboard
+[    53.859] (II) event0  - Power Button: device removed
+[    53.869] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[    53.869] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[    53.871] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    53.871] (II) event0  - Power Button: device is a keyboard
+[    53.874] (II) config/udev: Adding input device LITE-ON Technology USB NetVista Full Width Keyboard. (/dev/input/event1)
+[    53.874] (**) LITE-ON Technology USB NetVista Full Width Keyboard.: Applying InputClass "evdev keyboard catchall"
+[    53.874] (**) LITE-ON Technology USB NetVista Full Width Keyboard.: Applying InputClass "libinput keyboard catchall"
+[    53.874] (II) Using input driver 'libinput' for 'LITE-ON Technology USB NetVista Full Width Keyboard.'
+[    53.874] (**) LITE-ON Technology USB NetVista Full Width Keyboard.: always reports core events
+[    53.874] (**) Option "Device" "/dev/input/event1"
+[    53.874] (**) Option "_source" "server/udev"
+[    53.877] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: is tagged by udev as: Keyboard
+[    53.877] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device is a keyboard
+[    53.877] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device removed
+[    53.885] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.0/usb1/1-1/1-1.2/1-1.2:1.0/0003:04B3:3025.0001/input/input1/event1"
+[    53.885] (II) XINPUT: Adding extended input device "LITE-ON Technology USB NetVista Full Width Keyboard." (type: KEYBOARD, id 8)
+[    53.888] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: is tagged by udev as: Keyboard
+[    53.888] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device is a keyboard
+[    53.890] (II) config/udev: Adding input device SteelSeries SteelSeries Rival 110 Gaming Mouse (/dev/input/event2)
+[    53.890] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: Applying InputClass "evdev pointer catchall"
+[    53.890] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: Applying InputClass "libinput pointer catchall"
+[    53.890] (II) Using input driver 'libinput' for 'SteelSeries SteelSeries Rival 110 Gaming Mouse'
+[    53.891] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: always reports core events
+[    53.891] (**) Option "Device" "/dev/input/event2"
+[    53.891] (**) Option "_source" "server/udev"
+[    53.946] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: is tagged by udev as: Mouse
+[    53.946] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device is a pointer
+[    53.946] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device removed
+[    53.966] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.0/usb1/1-1/1-1.3/1-1.3:1.1/0003:1038:1729.0003/input/input2/event2"
+[    53.966] (II) XINPUT: Adding extended input device "SteelSeries SteelSeries Rival 110 Gaming Mouse" (type: MOUSE, id 9)
+[    53.966] (**) Option "AccelerationScheme" "none"
+[    53.966] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: (accel) selected scheme none/0
+[    53.966] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: (accel) acceleration factor: 2.000
+[    53.966] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: (accel) acceleration threshold: 4
+[    54.022] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: is tagged by udev as: Mouse
+[    54.022] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device is a pointer
+[    54.023] (II) config/udev: Adding input device SteelSeries SteelSeries Rival 110 Gaming Mouse (/dev/input/mouse0)
+[    54.023] (II) No input driver specified, ignoring this device.
+[    54.024] (II) This device may have been added with another device file.
+[    54.025] (II) config/udev: Adding input device Plantronics Plantronics Blackwire 3220 Series (/dev/input/event3)
+[    54.025] (**) Plantronics Plantronics Blackwire 3220 Series: Applying InputClass "evdev keyboard catchall"
+[    54.025] (**) Plantronics Plantronics Blackwire 3220 Series: Applying InputClass "libinput keyboard catchall"
+[    54.025] (II) Using input driver 'libinput' for 'Plantronics Plantronics Blackwire 3220 Series'
+[    54.025] (**) Plantronics Plantronics Blackwire 3220 Series: always reports core events
+[    54.025] (**) Option "Device" "/dev/input/event3"
+[    54.025] (**) Option "_source" "server/udev"
+[    54.028] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: is tagged by udev as: Keyboard
+[    54.028] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device is a keyboard
+[    54.028] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device removed
+[    54.042] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.0/usb1/1-1/1-1.4/1-1.4:1.3/0003:047F:C056.0004/input/input3/event3"
+[    54.042] (II) XINPUT: Adding extended input device "Plantronics Plantronics Blackwire 3220 Series" (type: KEYBOARD, id 10)
+[    54.045] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: is tagged by udev as: Keyboard
+[    54.045] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device is a keyboard
+[    54.047] (II) config/udev: Adding input device PC Speaker (/dev/input/event5)
+[    54.047] (II) No input driver specified, ignoring this device.
+[    54.047] (II) This device may have been added with another device file.
+[   892.116] (II) config/udev: removing device Video Bus
+[   892.116] (II) event4  - Video Bus: device removed
+[   892.123] (II) UnloadModule: "libinput"
+[   892.124] (II) config/udev: Adding input device Video Bus (/dev/input/event4)
+[   892.124] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[   892.124] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[   892.124] (II) Using input driver 'libinput' for 'Video Bus'
+[   892.124] (**) Video Bus: always reports core events
+[   892.124] (**) Option "Device" "/dev/input/event4"
+[   892.124] (**) Option "_source" "server/udev"
+[   892.131] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[   892.131] (II) event4  - Video Bus: device is a keyboard
+[   892.131] (II) event4  - Video Bus: device removed
+[   892.144] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input4/event4"
+[   892.144] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[   892.146] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[   892.146] (II) event4  - Video Bus: device is a keyboard
+[   892.164] (II) config/udev: removing device Power Button
+[   892.164] (II) event0  - Power Button: device removed
+[   892.171] (II) UnloadModule: "libinput"
+[   892.172] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[   892.172] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[   892.172] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   892.172] (II) Using input driver 'libinput' for 'Power Button'
+[   892.172] (**) Power Button: always reports core events
+[   892.172] (**) Option "Device" "/dev/input/event0"
+[   892.172] (**) Option "_source" "server/udev"
+[   892.186] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[   892.186] (II) event0  - Power Button: device is a keyboard
+[   892.186] (II) event0  - Power Button: device removed
+[   892.197] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[   892.197] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[   892.206] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[   892.206] (II) event0  - Power Button: device is a keyboard
+[   892.329] (II) modeset(0): EDID vendor "DEL", prod id 16773
+[   892.329] (II) modeset(0): Using EDID range info for horizontal sync
+[   892.329] (II) modeset(0): Using EDID range info for vertical refresh
+[   892.329] (II) modeset(0): Printing DDC gathered Modelines:
+[   892.329] (II) modeset(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[   892.329] (II) modeset(0): Modeline "1920x1080i"x0.0   74.25  1920 2008 2052 2200  1080 1084 1094 1125 interlace +hsync +vsync (33.8 kHz e)
+[   892.329] (II) modeset(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[   892.329] (II) modeset(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[   892.329] (II) modeset(0): Modeline "1440x480i"x0.0   27.00  1440 1478 1602 1716  480 488 494 525 interlace -hsync -vsync (15.7 kHz e)
+[   892.329] (II) modeset(0): Modeline "1440x576i"x0.0   27.00  1440 1464 1590 1728  576 580 586 625 interlace -hsync -vsync (15.6 kHz e)
+[   892.329] (II) modeset(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   892.329] (II) modeset(0): Modeline "1920x1080i"x0.0   74.25  1920 2448 2492 2640  1080 1084 1094 1125 interlace +hsync +vsync (28.1 kHz e)
+[   892.329] (II) modeset(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[   892.329] (II) modeset(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[   892.329] (II) modeset(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[   892.329] (II) modeset(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   892.329] (II) modeset(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[   892.329] (II) modeset(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   892.329] (II) modeset(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[   892.329] (II) modeset(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[   892.329] (II) modeset(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   892.329] (II) modeset(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[   892.329] (II) modeset(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[   892.329] (II) modeset(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[   892.329] (II) modeset(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[   892.333] (II) config/udev: removing device LITE-ON Technology USB NetVista Full Width Keyboard.
+[   892.333] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device removed
+[   892.340] (II) UnloadModule: "libinput"
+[   892.342] (II) config/udev: Adding input device LITE-ON Technology USB NetVista Full Width Keyboard. (/dev/input/event1)
+[   892.342] (**) LITE-ON Technology USB NetVista Full Width Keyboard.: Applying InputClass "evdev keyboard catchall"
+[   892.342] (**) LITE-ON Technology USB NetVista Full Width Keyboard.: Applying InputClass "libinput keyboard catchall"
+[   892.342] (II) Using input driver 'libinput' for 'LITE-ON Technology USB NetVista Full Width Keyboard.'
+[   892.342] (**) LITE-ON Technology USB NetVista Full Width Keyboard.: always reports core events
+[   892.342] (**) Option "Device" "/dev/input/event1"
+[   892.342] (**) Option "_source" "server/udev"
+[   892.345] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: is tagged by udev as: Keyboard
+[   892.345] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device is a keyboard
+[   892.346] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device removed
+[   892.353] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.0/usb1/1-1/1-1.2/1-1.2:1.0/0003:04B3:3025.0001/input/input1/event1"
+[   892.353] (II) XINPUT: Adding extended input device "LITE-ON Technology USB NetVista Full Width Keyboard." (type: KEYBOARD, id 8)
+[   892.357] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: is tagged by udev as: Keyboard
+[   892.357] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device is a keyboard
+[   892.359] (II) config/udev: Adding input device SteelSeries SteelSeries Rival 110 Gaming Mouse (/dev/input/mouse0)
+[   892.359] (II) No input driver specified, ignoring this device.
+[   892.359] (II) This device may have been added with another device file.
+[   892.359] (II) config/udev: removing device SteelSeries SteelSeries Rival 110 Gaming Mouse
+[   892.359] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device removed
+[   892.379] (II) UnloadModule: "libinput"
+[   892.381] (II) config/udev: Adding input device SteelSeries SteelSeries Rival 110 Gaming Mouse (/dev/input/event2)
+[   892.381] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: Applying InputClass "evdev pointer catchall"
+[   892.381] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: Applying InputClass "libinput pointer catchall"
+[   892.381] (II) Using input driver 'libinput' for 'SteelSeries SteelSeries Rival 110 Gaming Mouse'
+[   892.381] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: always reports core events
+[   892.381] (**) Option "Device" "/dev/input/event2"
+[   892.381] (**) Option "_source" "server/udev"
+[   892.435] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: is tagged by udev as: Mouse
+[   892.436] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device is a pointer
+[   892.436] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device removed
+[   892.456] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.0/usb1/1-1/1-1.3/1-1.3:1.1/0003:1038:1729.0003/input/input2/event2"
+[   892.456] (II) XINPUT: Adding extended input device "SteelSeries SteelSeries Rival 110 Gaming Mouse" (type: MOUSE, id 9)
+[   892.456] (**) Option "AccelerationScheme" "none"
+[   892.456] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: (accel) selected scheme none/0
+[   892.456] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: (accel) acceleration factor: 2.000
+[   892.456] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: (accel) acceleration threshold: 4
+[   892.512] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: is tagged by udev as: Mouse
+[   892.512] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device is a pointer
+[   892.513] (II) config/udev: removing device Plantronics Plantronics Blackwire 3220 Series
+[   892.513] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device removed
+[   892.528] (II) UnloadModule: "libinput"
+[   892.529] (II) config/udev: Adding input device Plantronics Plantronics Blackwire 3220 Series (/dev/input/event3)
+[   892.529] (**) Plantronics Plantronics Blackwire 3220 Series: Applying InputClass "evdev keyboard catchall"
+[   892.529] (**) Plantronics Plantronics Blackwire 3220 Series: Applying InputClass "libinput keyboard catchall"
+[   892.529] (II) Using input driver 'libinput' for 'Plantronics Plantronics Blackwire 3220 Series'
+[   892.530] (**) Plantronics Plantronics Blackwire 3220 Series: always reports core events
+[   892.530] (**) Option "Device" "/dev/input/event3"
+[   892.530] (**) Option "_source" "server/udev"
+[   892.532] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: is tagged by udev as: Keyboard
+[   892.533] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device is a keyboard
+[   892.533] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device removed
+[   892.551] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.0/usb1/1-1/1-1.4/1-1.4:1.3/0003:047F:C056.0004/input/input3/event3"
+[   892.551] (II) XINPUT: Adding extended input device "Plantronics Plantronics Blackwire 3220 Series" (type: KEYBOARD, id 10)
+[   892.554] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: is tagged by udev as: Keyboard
+[   892.554] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device is a keyboard
+[   892.555] (II) config/udev: Adding input device PC Speaker (/dev/input/event5)
+[   892.555] (II) No input driver specified, ignoring this device.
+[   892.555] (II) This device may have been added with another device file.
+[   963.427] (II) modeset(0): EDID vendor "DEL", prod id 16773
+[   963.427] (II) modeset(0): Using hsync ranges from config file
+[   963.427] (II) modeset(0): Using vrefresh ranges from config file
+[   963.427] (II) modeset(0): Printing DDC gathered Modelines:
+[   963.427] (II) modeset(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[   963.427] (II) modeset(0): Modeline "1920x1080i"x0.0   74.25  1920 2008 2052 2200  1080 1084 1094 1125 interlace +hsync +vsync (33.8 kHz e)
+[   963.427] (II) modeset(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[   963.427] (II) modeset(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[   963.427] (II) modeset(0): Modeline "1440x480i"x0.0   27.00  1440 1478 1602 1716  480 488 494 525 interlace -hsync -vsync (15.7 kHz e)
+[   963.427] (II) modeset(0): Modeline "1440x576i"x0.0   27.00  1440 1464 1590 1728  576 580 586 625 interlace -hsync -vsync (15.6 kHz e)
+[   963.427] (II) modeset(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   963.427] (II) modeset(0): Modeline "1920x1080i"x0.0   74.25  1920 2448 2492 2640  1080 1084 1094 1125 interlace +hsync +vsync (28.1 kHz e)
+[   963.427] (II) modeset(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[   963.427] (II) modeset(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[   963.427] (II) modeset(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[   963.427] (II) modeset(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   963.427] (II) modeset(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[   963.427] (II) modeset(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   963.427] (II) modeset(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[   963.427] (II) modeset(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[   963.427] (II) modeset(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   963.427] (II) modeset(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[   963.427] (II) modeset(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[   963.427] (II) modeset(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[   963.427] (II) modeset(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[   963.504] (II) modeset(0): EDID vendor "DEL", prod id 16773
+[   963.504] (II) modeset(0): Using hsync ranges from config file
+[   963.504] (II) modeset(0): Using vrefresh ranges from config file
+[   963.504] (II) modeset(0): Printing DDC gathered Modelines:
+[   963.504] (II) modeset(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[   963.504] (II) modeset(0): Modeline "1920x1080i"x0.0   74.25  1920 2008 2052 2200  1080 1084 1094 1125 interlace +hsync +vsync (33.8 kHz e)
+[   963.504] (II) modeset(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[   963.504] (II) modeset(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[   963.504] (II) modeset(0): Modeline "1440x480i"x0.0   27.00  1440 1478 1602 1716  480 488 494 525 interlace -hsync -vsync (15.7 kHz e)
+[   963.504] (II) modeset(0): Modeline "1440x576i"x0.0   27.00  1440 1464 1590 1728  576 580 586 625 interlace -hsync -vsync (15.6 kHz e)
+[   963.504] (II) modeset(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   963.504] (II) modeset(0): Modeline "1920x1080i"x0.0   74.25  1920 2448 2492 2640  1080 1084 1094 1125 interlace +hsync +vsync (28.1 kHz e)
+[   963.504] (II) modeset(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[   963.504] (II) modeset(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[   963.504] (II) modeset(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[   963.504] (II) modeset(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   963.504] (II) modeset(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[   963.504] (II) modeset(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   963.504] (II) modeset(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[   963.504] (II) modeset(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[   963.504] (II) modeset(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   963.504] (II) modeset(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[   963.504] (II) modeset(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[   963.504] (II) modeset(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[   963.504] (II) modeset(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[   963.512] (II) config/udev: removing device Power Button
+[   963.512] (II) event0  - Power Button: device removed
+[   963.520] (II) UnloadModule: "libinput"
+[   963.521] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[   963.521] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[   963.521] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   963.521] (II) Using input driver 'libinput' for 'Power Button'
+[   963.521] (**) Power Button: always reports core events
+[   963.521] (**) Option "Device" "/dev/input/event0"
+[   963.521] (**) Option "_source" "server/udev"
+[   963.523] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[   963.523] (II) event0  - Power Button: device is a keyboard
+[   963.524] (II) event0  - Power Button: device removed
+[   963.530] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[   963.530] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[   963.532] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[   963.532] (II) event0  - Power Button: device is a keyboard
+[   963.533] (II) config/udev: removing device Video Bus
+[   963.533] (II) event4  - Video Bus: device removed
+[   963.560] (II) UnloadModule: "libinput"
+[   963.561] (II) config/udev: Adding input device Video Bus (/dev/input/event4)
+[   963.561] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[   963.561] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[   963.561] (II) Using input driver 'libinput' for 'Video Bus'
+[   963.561] (**) Video Bus: always reports core events
+[   963.561] (**) Option "Device" "/dev/input/event4"
+[   963.561] (**) Option "_source" "server/udev"
+[   963.565] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[   963.565] (II) event4  - Video Bus: device is a keyboard
+[   963.565] (II) event4  - Video Bus: device removed
+[   963.587] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input4/event4"
+[   963.587] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[   963.590] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[   963.590] (II) event4  - Video Bus: device is a keyboard
+[   963.604] (II) config/udev: Adding input device SteelSeries SteelSeries Rival 110 Gaming Mouse (/dev/input/mouse0)
+[   963.604] (II) No input driver specified, ignoring this device.
+[   963.604] (II) This device may have been added with another device file.
+[   963.604] (II) config/udev: removing device SteelSeries SteelSeries Rival 110 Gaming Mouse
+[   963.604] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device removed
+[   963.636] (II) UnloadModule: "libinput"
+[   963.638] (II) config/udev: Adding input device SteelSeries SteelSeries Rival 110 Gaming Mouse (/dev/input/event2)
+[   963.638] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: Applying InputClass "evdev pointer catchall"
+[   963.638] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: Applying InputClass "libinput pointer catchall"
+[   963.638] (II) Using input driver 'libinput' for 'SteelSeries SteelSeries Rival 110 Gaming Mouse'
+[   963.638] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: always reports core events
+[   963.638] (**) Option "Device" "/dev/input/event2"
+[   963.638] (**) Option "_source" "server/udev"
+[   963.694] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: is tagged by udev as: Mouse
+[   963.694] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device is a pointer
+[   963.694] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device removed
+[   963.708] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.0/usb1/1-1/1-1.3/1-1.3:1.1/0003:1038:1729.0003/input/input2/event2"
+[   963.708] (II) XINPUT: Adding extended input device "SteelSeries SteelSeries Rival 110 Gaming Mouse" (type: MOUSE, id 9)
+[   963.708] (**) Option "AccelerationScheme" "none"
+[   963.709] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: (accel) selected scheme none/0
+[   963.709] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: (accel) acceleration factor: 2.000
+[   963.709] (**) SteelSeries SteelSeries Rival 110 Gaming Mouse: (accel) acceleration threshold: 4
+[   963.764] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: is tagged by udev as: Mouse
+[   963.764] (II) event2  - SteelSeries SteelSeries Rival 110 Gaming Mouse: device is a pointer
+[   963.765] (II) config/udev: Adding input device PC Speaker (/dev/input/event5)
+[   963.765] (II) No input driver specified, ignoring this device.
+[   963.765] (II) This device may have been added with another device file.
+[   963.765] (II) config/udev: removing device LITE-ON Technology USB NetVista Full Width Keyboard.
+[   963.765] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device removed
+[   963.770] (II) UnloadModule: "libinput"
+[   963.771] (II) config/udev: Adding input device LITE-ON Technology USB NetVista Full Width Keyboard. (/dev/input/event1)
+[   963.771] (**) LITE-ON Technology USB NetVista Full Width Keyboard.: Applying InputClass "evdev keyboard catchall"
+[   963.772] (**) LITE-ON Technology USB NetVista Full Width Keyboard.: Applying InputClass "libinput keyboard catchall"
+[   963.772] (II) Using input driver 'libinput' for 'LITE-ON Technology USB NetVista Full Width Keyboard.'
+[   963.772] (**) LITE-ON Technology USB NetVista Full Width Keyboard.: always reports core events
+[   963.772] (**) Option "Device" "/dev/input/event1"
+[   963.772] (**) Option "_source" "server/udev"
+[   963.775] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: is tagged by udev as: Keyboard
+[   963.775] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device is a keyboard
+[   963.775] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device removed
+[   963.782] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.0/usb1/1-1/1-1.2/1-1.2:1.0/0003:04B3:3025.0001/input/input1/event1"
+[   963.782] (II) XINPUT: Adding extended input device "LITE-ON Technology USB NetVista Full Width Keyboard." (type: KEYBOARD, id 8)
+[   963.785] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: is tagged by udev as: Keyboard
+[   963.785] (II) event1  - LITE-ON Technology USB NetVista Full Width Keyboard.: device is a keyboard
+[   963.787] (II) config/udev: removing device Plantronics Plantronics Blackwire 3220 Series
+[   963.788] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device removed
+[   963.801] (II) UnloadModule: "libinput"
+[   963.802] (II) config/udev: Adding input device Plantronics Plantronics Blackwire 3220 Series (/dev/input/event3)
+[   963.802] (**) Plantronics Plantronics Blackwire 3220 Series: Applying InputClass "evdev keyboard catchall"
+[   963.802] (**) Plantronics Plantronics Blackwire 3220 Series: Applying InputClass "libinput keyboard catchall"
+[   963.803] (II) Using input driver 'libinput' for 'Plantronics Plantronics Blackwire 3220 Series'
+[   963.803] (**) Plantronics Plantronics Blackwire 3220 Series: always reports core events
+[   963.803] (**) Option "Device" "/dev/input/event3"
+[   963.803] (**) Option "_source" "server/udev"
+[   963.806] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: is tagged by udev as: Keyboard
+[   963.806] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device is a keyboard
+[   963.806] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device removed
+[   963.821] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.0/usb1/1-1/1-1.4/1-1.4:1.3/0003:047F:C056.0004/input/input3/event3"
+[   963.821] (II) XINPUT: Adding extended input device "Plantronics Plantronics Blackwire 3220 Series" (type: KEYBOARD, id 10)
+[   963.824] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: is tagged by udev as: Keyboard
+[   963.824] (II) event3  - Plantronics Plantronics Blackwire 3220 Series: device is a keyboard
