@@ -15,7 +15,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 2,
+  "id": 11,
+  "iteration": 1618295850948,
   "links": [],
   "panels": [
     {
@@ -23,17 +24,19 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": null,
+      "datasource": "Prometheus",
       "description": "The graphic is displaying the variation in time of the no of log lines",
       "fieldConfig": {
-        "defaults": {},
+        "defaults": {
+          "custom": {}
+        },
         "overrides": []
       },
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
-        "h": 9,
-        "w": 12,
+        "h": 14,
+        "w": 14,
         "x": 0,
         "y": 0
       },
@@ -55,7 +58,7 @@
         "alertThreshold": true
       },
       "percentage": false,
-      "pluginVersion": "7.5.3",
+      "pluginVersion": "7.3.6",
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
@@ -65,10 +68,10 @@
       "steppedLine": false,
       "targets": [
         {
-          "exemplar": true,
-          "expr": "sum by (filename)(irate(NumberofLinesinFile[5m]))",
+          "expr": "sum by (filename)(delta(NumberofLinesinFile{exported_instance=\"$exported_instance\",exported_job=\"loglines_exporter\",host=\"192.168.100.4\",instance=\"$instance\",job=\"nexus_rds\",name=\"h3pcs_processexporter\",port=\"57005\",project=\"h3pcs\",type=\"proc\"}[5m]))",
           "interval": "",
           "legendFormat": "",
+          "queryType": "randomWalk",
           "refId": "A"
         }
       ],
@@ -113,22 +116,975 @@
         "align": false,
         "alignLevel": null
       }
+    },
+    {
+      "aliasColors": {},
+      "bars": false,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": "Prometheus",
+      "description": "The graphic is displaying the variation in time of the no of log lines",
+      "fieldConfig": {
+        "defaults": {
+          "custom": {}
+        },
+        "overrides": []
+      },
+      "fill": 1,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 14,
+        "w": 14,
+        "x": 0,
+        "y": 14
+      },
+      "hiddenSeries": false,
+      "id": 3,
+      "legend": {
+        "avg": false,
+        "current": false,
+        "max": false,
+        "min": false,
+        "show": true,
+        "total": false,
+        "values": false
+      },
+      "lines": true,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "alertThreshold": true
+      },
+      "percentage": false,
+      "pluginVersion": "7.3.6",
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "expr": "sum by (filename)(delta(SizeOfLogFile{exported_instance=\"$exported_instance\",exported_job=\"loglines_exporter\",host=\"192.168.100.4\",instance=\"$instance\",job=\"nexus_rds\",name=\"h3pcs_processexporter\",port=\"57005\",project=\"h3pcs\",type=\"proc\"}[5m]))",
+          "interval": "",
+          "legendFormat": "",
+          "queryType": "randomWalk",
+          "refId": "A"
+        }
+      ],
+      "thresholds": [],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "NumberOfLogLineVariation",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "transparent": true,
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "bytes",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": null,
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
     }
   ],
-  "refresh": "5s",
-  "schemaVersion": 27,
+  "refresh": "1m",
+  "schemaVersion": 26,
   "style": "dark",
   "tags": [],
   "templating": {
-    "list": []
+    "list": [
+      {
+        "allValue": null,
+        "current": {
+          "selected": true,
+          "text": "192.168.100.4:57005",
+          "value": "192.168.100.4:57005"
+        },
+        "datasource": "Prometheus",
+        "definition": "label_values({job=\"nexus_rds\"}, instance)",
+        "error": null,
+        "hide": 0,
+        "includeAll": false,
+        "label": "instance:",
+        "multi": false,
+        "name": "instance",
+        "options": [
+          {
+            "selected": true,
+            "text": "192.168.100.4:57005",
+            "value": "192.168.100.4:57005"
+          }
+        ],
+        "query": "label_values({job=\"nexus_rds\"}, instance)",
+        "refresh": 0,
+        "regex": "/.*:57005/",
+        "skipUrlSync": false,
+        "sort": 0,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
+      },
+      {
+        "allValue": null,
+        "current": {
+          "selected": false,
+          "text": "td-b52-pcs92-apigw-0001.td-b52.cloud.internal",
+          "value": "td-b52-pcs92-apigw-0001.td-b52.cloud.internal"
+        },
+        "datasource": "Prometheus",
+        "definition": "label_values(NumberofLinesinFile{job=\"nexus_rds\"}, exported_instance)",
+        "error": null,
+        "hide": 0,
+        "includeAll": false,
+        "label": "exported_instance:",
+        "multi": false,
+        "name": "exported_instance",
+        "options": [
+          {
+            "selected": true,
+            "text": "td-b52-pcs92-apigw-0001.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-apigw-0001.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-apigw-0002.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-apigw-0002.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-diagw-0001.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-diagw-0001.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-diagw-0002.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-diagw-0002.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-mgmt-0001.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-mgmt-0001.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-radgw-0001.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-radgw-0001.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-radgw-0002.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-radgw-0002.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-rtea-0001.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-rtea-0001.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-rteb-0001.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-rteb-0001.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-uircp-0001.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-uircp-0001.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-uircp-0002.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-uircp-0002.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-uirdns-0001.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-uirdns-0001.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-uirdns-0002.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-uirdns-0002.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-uirems-0001.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-uirems-0001.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-uirst-0001.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-uirst-0001.td-b52.cloud.internal"
+          },
+          {
+            "selected": false,
+            "text": "td-b52-pcs92-uirst-0002.td-b52.cloud.internal",
+            "value": "td-b52-pcs92-uirst-0002.td-b52.cloud.internal"
+          }
+        ],
+        "query": "label_values(NumberofLinesinFile{job=\"nexus_rds\"}, exported_instance)",
+        "refresh": 0,
+        "regex": "",
+        "skipUrlSync": false,
+        "sort": 0,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
+      },
+      {
+        "allValue": null,
+        "current": {
+          "selected": false,
+          "text": "/appl/logs/pcs/sce/NONE.log",
+          "value": "/appl/logs/pcs/sce/NONE.log"
+        },
+        "datasource": "Prometheus",
+        "definition": "label_values(NumberofLinesinFile{job=\"nexus_rds\", exported_instance=\"$exported_instance\"}, filename)",
+        "error": null,
+        "hide": 0,
+        "includeAll": false,
+        "label": "filename:",
+        "multi": true,
+        "name": "filename",
+        "options": [
+          {
+            "selected": true,
+            "text": "/appl/logs/pcs/sce/NONE.log",
+            "value": "/appl/logs/pcs/sce/NONE.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/alertmanager/alertmanager.log",
+            "value": "/appl/logs/pcs/sce/alertmanager/alertmanager.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/app-2021-03-04-14.0.log",
+            "value": "/appl/logs/pcs/sce/app-2021-03-04-14.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-09.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-09.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-10.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-10.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-10.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-10.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-11.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-11.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-11.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-11.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-12.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-12.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-12.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-12.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-13.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-13.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-13.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-13.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-14.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-14.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-14.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-14.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-15.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-15.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-15.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-15.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-16.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-16.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-16.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-16.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-17.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-17.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-17.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-17.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-18.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-18.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-18.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-18.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-19.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-19.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-19.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-19.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-20.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-20.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-20.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-20.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-21.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-21.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-21.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-21.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-22.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-22.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-22.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-22.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-23.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-23.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-23.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-23.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.10.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.10.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.11.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.11.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.12.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.12.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.13.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.13.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.14.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.14.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.15.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.15.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.16.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.16.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.17.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.17.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.18.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.18.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.19.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.19.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.2.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.2.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.20.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.20.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.21.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.21.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.22.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.22.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.3.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.3.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.4.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.4.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.5.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.5.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.6.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.6.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.7.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.7.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.8.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.8.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.9.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-24.9.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-25.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-25.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-25.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-25.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-28.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-28.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-29.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_0-2021-03-29.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-09.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-09.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-10.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-10.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-10.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-10.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-11.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-11.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-11.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-11.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-12.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-12.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-12.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-12.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-13.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-13.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-13.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-13.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-14.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-14.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-14.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-14.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-15.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-15.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-15.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-15.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-16.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-16.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-16.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-16.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-17.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-17.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-17.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-17.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-18.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-18.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-18.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-18.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-19.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-19.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-19.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-19.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-20.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-20.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-20.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-20.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-21.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-21.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-21.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-21.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-22.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-22.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-22.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-22.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-23.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-23.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-23.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-23.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.10.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.10.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.11.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.11.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.12.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.12.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.13.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.13.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.14.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.14.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.15.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.15.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.16.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.16.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.17.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.17.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.18.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.18.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.19.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.19.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.2.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.2.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.20.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.20.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.21.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.21.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.22.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.22.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.3.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.3.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.4.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.4.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.5.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.5.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.6.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.6.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.7.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.7.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.8.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.8.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.9.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-24.9.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-25.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-25.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-25.1.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-25.1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-28.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-28.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-29.0.log",
+            "value": "/appl/logs/pcs/sce/archive/h3pcs_rte_alert_1-2021-03-29.0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/blackbox_exporter/blackbox_exporter.log",
+            "value": "/appl/logs/pcs/sce/blackbox_exporter/blackbox_exporter.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/gui.log",
+            "value": "/appl/logs/pcs/sce/gui.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcp_cdr_01.log",
+            "value": "/appl/logs/pcs/sce/h3pcp_cdr_01.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcp_httpclient_05.log",
+            "value": "/appl/logs/pcs/sce/h3pcp_httpclient_05.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcp_httpserver_01.log",
+            "value": "/appl/logs/pcs/sce/h3pcp_httpserver_01.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcp_httpserver_03.log",
+            "value": "/appl/logs/pcs/sce/h3pcp_httpserver_03.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcs_cdr_00.log",
+            "value": "/appl/logs/pcs/sce/h3pcs_cdr_00.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcs_events_00.log",
+            "value": "/appl/logs/pcs/sce/h3pcs_events_00.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcs_httpclient_00.log",
+            "value": "/appl/logs/pcs/sce/h3pcs_httpclient_00.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcs_httpserver_00.log",
+            "value": "/appl/logs/pcs/sce/h3pcs_httpserver_00.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcs_httpserver_alert_0.log",
+            "value": "/appl/logs/pcs/sce/h3pcs_httpserver_alert_0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcs_httpserver_alert_1.log",
+            "value": "/appl/logs/pcs/sce/h3pcs_httpserver_alert_1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcs_rte_alert_0.log",
+            "value": "/appl/logs/pcs/sce/h3pcs_rte_alert_0.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/h3pcs_rte_alert_1.log",
+            "value": "/appl/logs/pcs/sce/h3pcs_rte_alert_1.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/k-run-server.log",
+            "value": "/appl/logs/pcs/sce/k-run-server.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/loglines_exporter/loglines_exporter.log",
+            "value": "/appl/logs/pcs/sce/loglines_exporter/loglines_exporter.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/monit.log",
+            "value": "/appl/logs/pcs/sce/monit.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/node_exporter/node_exporter.log",
+            "value": "/appl/logs/pcs/sce/node_exporter/node_exporter.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/prometheus/prometheus.log",
+            "value": "/appl/logs/pcs/sce/prometheus/prometheus.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/promtail/promtail.log",
+            "value": "/appl/logs/pcs/sce/promtail/promtail.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/systemprocess_exporter/systemprocess_exporter.log",
+            "value": "/appl/logs/pcs/sce/systemprocess_exporter/systemprocess_exporter.log"
+          },
+          {
+            "selected": false,
+            "text": "/appl/logs/pcs/sce/unknown-fsm.log",
+            "value": "/appl/logs/pcs/sce/unknown-fsm.log"
+          }
+        ],
+        "query": "label_values(NumberofLinesinFile{job=\"nexus_rds\", exported_instance=\"$exported_instance\"}, filename)",
+        "refresh": 0,
+        "regex": "",
+        "skipUrlSync": false,
+        "sort": 0,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
+      }
+    ]
   },
   "time": {
-    "from": "now-15m",
+    "from": "now-6h",
     "to": "now"
   },
   "timepicker": {},
   "timezone": "",
   "title": "loglines_exporter",
   "uid": "_bv-1VXMz",
-  "version": 2
+  "version": 12
 }
